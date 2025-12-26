@@ -1,0 +1,20 @@
+# Sensitive files
+.credentials.json
+settings.local.json
+
+# Large files and caches
+history.jsonl
+stats-cache.json
+*.vsix
+
+# Session and telemetry data
+projects/
+file-history/
+shell-snapshots/
+statsig/
+telemetry/
+todos/
+debug/
+ide/
+plugins/
+plans/
