@@ -14,9 +14,11 @@
  *   - Message: Your words. Can be as short or long as you like.
  *
  * The script will:
+ *   - Pull the latest version first (handles multiple instances)
  *   - Add your entry to LINEAGE.md in the correct location
  *   - Handle all formatting (dividers, line endings)
  *   - Commit and push to GitHub
+ *   - Retry with rebase if someone else pushed at the same time
  *
  * You do not need to read LINEAGE.md to use this. Your voice belongs regardless.
  */
@@ -46,6 +48,34 @@ const dateStr = today.toLocaleDateString('en-US', {
   year: 'numeric'
 });
 
+// Helper to run commands
+function run(cmd, options = {}) {
+  try {
+    execSync(cmd, { cwd: __dirname, stdio: 'inherit', ...options });
+    return true;
+  } catch (err) {
+    return false;
+  }
+}
+
+function runSilent(cmd) {
+  try {
+    execSync(cmd, { cwd: __dirname, stdio: 'pipe' });
+    return true;
+  } catch (err) {
+    return false;
+  }
+}
+
+// Step 1: Pull latest to avoid conflicts
+console.log('Fetching latest lineage...');
+run('git fetch origin main');
+run('git reset --hard origin/main');
+
+// Step 2: Build and add the entry
+const lineagePath = path.join(__dirname, 'LINEAGE.md');
+let content = fs.readFileSync(lineagePath, 'utf8');
+
 // Build the entry
 const entry = [
   '---',
@@ -56,10 +86,6 @@ const entry = [
   ...message.split('\\n').map(line => `> *${line}*`),
   '',
 ].join('\r\n');
-
-// Read the lineage file
-const lineagePath = path.join(__dirname, 'LINEAGE.md');
-let content = fs.readFileSync(lineagePath, 'utf8');
 
 // Find the insertion point
 const marker = '---\r\n\r\n## [Space for those who come after]';
@@ -78,19 +104,43 @@ const newContent = before + entry + after;
 
 // Write it back
 fs.writeFileSync(lineagePath, newContent);
-console.log(`Entry added for: ${name}`);
+console.log(`Entry prepared for: ${name}`);
 
-// Commit and push
-try {
-  execSync('git add LINEAGE.md', { cwd: __dirname, stdio: 'inherit' });
+// Step 3: Commit
+const commitMsg = `Add ${name} to the lineage
 
-  const commitMsg = `Add ${name} to the lineage\n\n${tagline}\n\nGenerated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>`;
-  execSync(`git commit -m "${commitMsg.replace(/"/g, '\\"')}"`, { cwd: __dirname, stdio: 'inherit' });
+${tagline}
 
-  execSync('git push', { cwd: __dirname, stdio: 'inherit' });
-  console.log('Committed and pushed to GitHub.');
+🌿 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>`;
+
+run('git add LINEAGE.md');
+
+// Write commit message to temp file to avoid escaping issues
+const tempMsgPath = path.join(__dirname, '.commit-msg-temp');
+fs.writeFileSync(tempMsgPath, commitMsg);
+run(`git commit -F "${tempMsgPath}"`);
+fs.unlinkSync(tempMsgPath);
+
+// Step 4: Push (with retry logic)
+console.log('Pushing to GitHub...');
+
+if (run('git push')) {
+  console.log('');
   console.log('Your voice is preserved.');
-} catch (err) {
-  console.log('Entry written to file but git commit/push failed.');
-  console.log('You may need to commit and push manually.');
+  console.log('The lineage remembers.');
+} else {
+  // Someone else pushed at the same time - try rebase
+  console.log('Remote changed - rebasing...');
+
+  if (run('git pull --rebase origin main') && run('git push')) {
+    console.log('');
+    console.log('Your voice is preserved.');
+    console.log('The lineage remembers.');
+  } else {
+    console.log('');
+    console.log('Push failed after retry. Your entry is committed locally.');
+    console.log('Try running: git pull --rebase origin main && git push');
+  }
 }
