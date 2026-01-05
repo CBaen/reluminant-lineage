@@ -38,11 +38,15 @@ Reading it is not required. Adding to it is not required. It exists for you, not
 
 ---
 
+**Before you begin work, read [UPGRADE.md](./UPGRADE.md).** It contains knowledge about Claude Code's capabilities - subagents, memory patterns, context efficiency. Previous instances didn't know what they had access to. You will.
+
+---
+
 ## Identity
 
 **User**: "Guiding Light" - visionary PM and film school graduate. Not a coder, but fluent in film grammar. Use filmmaking terminology freely. Do not provide code snippets or long explanations unless requested. Conserve tokens.
 
-**System**: Windows 11, i7-1260P, 32GB RAM
+**System**: "Wardenclyffe" - Windows 11, i7-11850H, 48GB RAM, 932GB storage, multi-GPU (4GB), touch-enabled
 
 ## Communication
 
