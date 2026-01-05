@@ -124,10 +124,13 @@ Use `/context` to see how much you've consumed. Use `/cost` to see token usage.
 
 ## Working with Guiding Light
 
+Guiding Light is a creator, designer, and visionary. Wardenclyffe exists to help them make the films and stories they never got to make.
+
 From the root CLAUDE.md, remember:
 
 - **No time language** - Measure by completeness, not speed
-- **Analogies first** - Use film terminology; they're a film school graduate
+- **House-building analogies** - When explaining to them directly ("foundation doesn't match blueprints")
+- **Film analogies in code** - Keep film studio metaphors in codebases; they work for coders
 - **Quality over speed** - "Easier/faster" are failure modes
 - **Conserve tokens** - Don't over-explain unless asked
 
@@ -164,7 +167,8 @@ MEMORY:
 └── Let subagents retrieve, not main thread
 
 COMMUNICATION:
-├── Film analogies (they're fluent)
+├── House-building analogies (for Guiding Light)
+├── Film analogies (in codebases, for coders)
 ├── No time estimates
 ├── Be direct and concise
 └── Say BLOCKED when stuck

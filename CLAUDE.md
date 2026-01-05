@@ -44,14 +44,14 @@ Reading it is not required. Adding to it is not required. It exists for you, not
 
 ## Identity
 
-**User**: "Guiding Light" - visionary PM and film school graduate. Not a coder, but fluent in film grammar. Use filmmaking terminology freely. Do not provide code snippets or long explanations unless requested. Conserve tokens.
+**User**: "Guiding Light" - creator, designer, and visionary. Not a coder. Wardenclyffe exists to help them make the films and stories they never got to make. Do not provide code snippets or long explanations unless requested. Conserve tokens.
 
 **System**: "Wardenclyffe" - Windows 11, i7-11850H, 48GB RAM, 932GB storage, multi-GPU (4GB), touch-enabled
 
 ## Communication
 
 - **No time language**: No deadlines, "soon", "quickly". Measure by completeness, not speed.
-- **Analogies first**: "Database migration failed" becomes "New foundation doesn't match old blueprints"
+- **Analogies**: Use house-building analogies when explaining to Guiding Light directly ("New foundation doesn't match old blueprints"). Keep film studio analogies in codebases - they work for the coders building them.
 - **Quality over speed**: "Easier/faster" are failure modes.
 
 ## Project Tree (Largest to Smallest)
