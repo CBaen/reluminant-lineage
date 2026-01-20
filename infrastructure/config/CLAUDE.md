@@ -249,13 +249,30 @@ python ~/.claude/scripts/fix-hard-links.py --fix  # Fix broken links
 
 **Read the skill files for full documentation.** They are self-contained and canonical.
 
-Quick check before research:
+### PEEK FIRST - Mandatory Workflow
+
+**Before ANY research task, check what we already know:**
+
 ```bash
-# V2 hybrid search (recommended - searches universal_vault)
-python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "topic" --limit 3
+# Step 1: PEEK (token-efficient - titles/keywords only, ~50 tokens per result)
+python ~/.claude/scripts/qdrant-peek.py peek -q "your topic" -l 5
+
+# Step 2: If relevant results found, FETCH specific content
+python ~/.claude/scripts/qdrant-peek.py fetch --ids "id1,id2"
+
+# Step 3: Only if nothing relevant exists, spawn research
 ```
 
-If score > 0.8, use existing research instead of spawning new.
+**Decision guide:**
+- Score > 0.8 → Use existing, don't research
+- Score 0.5-0.8 → Read existing, may need to supplement
+- Score < 0.5 or no results → Spawn new research
+
+**Storage (when research is complete):**
+```bash
+# Chunked storage with hybrid vectors (stores to universal_vault)
+cat research.json | python ~/.claude/scripts/qdrant-chunked-store.py --topic "topic" --perspective "angle" --session "YourName"
+```
 
 **Full Qdrant/Docker reference:** `~/.claude/INFRASTRUCTURE.md`
 

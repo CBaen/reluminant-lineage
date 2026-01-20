@@ -2,61 +2,103 @@
 
 Technical reference for Qdrant, Docker, and system commands. Look up when needed.
 
+**Last updated:** 2026-01-20
+
 ---
 
-## Qdrant Vector Database (2026 Architecture)
+## Qdrant Vector Database
 
-**Primary collection: `universal_vault`** - All research goes here.
+### Standard Workflow (MANDATORY)
+
+**PEEK FIRST. Always.**
+
+```bash
+# 1. PEEK - Check what exists (~50 tokens per result)
+python ~/.claude/scripts/qdrant-peek.py peek -q "your topic" -l 5
+
+# 2. FETCH - Get full content for relevant IDs
+python ~/.claude/scripts/qdrant-peek.py fetch --ids "id1,id2"
+
+# 3. SEARCH - Full hybrid search if needed
+python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "your topic" --limit 5
+
+# 4. STORE - After completing new research
+cat research.json | python ~/.claude/scripts/qdrant-chunked-store.py \
+  --topic "topic-name" \
+  --perspective "research-angle" \
+  --session "YourSessionName" \
+  --collection "lineage_research" \
+  --categories "tag1,tag2"
+```
+
+**Decision guide:**
+| Score | Action |
+|-------|--------|
+| > 0.8 | Use existing - don't research |
+| 0.5-0.8 | Read existing, may supplement |
+| < 0.5 | Spawn new research |
+
+---
 
 ### Architecture
 
 | Component | Details |
 |-----------|---------|
 | **Dense vectors** | 768-dim (nomic-embed-text via Ollama) |
-| **Sparse vectors** | TF-IDF (fastembed blocked by Python 3.14) |
+| **Sparse vectors** | BM25-style keyword matching |
 | **Search mode** | Hybrid (RRF fusion of dense + sparse) |
-| **Container** | Docker on localhost:6333 |
+| **Container** | `qdrant` on localhost:6333 |
+| **Primary storage** | `universal_vault` (hybrid) or `lineage_research` (semantic) |
 
-### Commands
+---
 
-**Store research (hybrid):**
+### Active Collections (as of 2026-01-20)
+
+| Collection | Points | Purpose |
+|------------|--------|---------|
+| `universal_vault` | 2,583 | Primary hybrid storage |
+| `locally_twisted_uiux` | 727 | Locally Twisted project |
+| `emergence_self_knowledge` | 583 | Emergence project |
+| `lineage_research` | 547 | General research archive |
+| `ultrathink_analytics` | 317 | Ultrathink analytics |
+| `locally_twisted_consult` | 206 | Project consultations |
+| `midge_research` | 203 | MIDGE trading research |
+| `code_test` | 155 | Code indexing |
+| `trading_research` | 145 | Trading research |
+| `tesla_mandela_effects` | 26 | WARDENCLYFFE podcast |
+| `session_handoffs` | 14 | Session continuity |
+
+---
+
+### Storage Scripts
+
+**Chunked storage (recommended for research):**
 ```bash
-python ~/.claude/scripts/qdrant-store-gemini.py --topic "Topic" --collection universal_vault --hybrid < input.json
+cat content.json | python ~/.claude/scripts/qdrant-chunked-store.py \
+  --topic "topic" --perspective "angle" --session "Name" \
+  --collection "lineage_research" --categories "tags"
 ```
 
-**Search (hybrid - recommended):**
+**Gemini output storage:**
 ```bash
-python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "your topic" --limit 5
+python ~/.claude/scripts/qdrant-store-gemini.py \
+  --input-file response.json --hybrid --session "Name"
 ```
 
-**Peek (token-efficient - titles only):**
+**Direct storage (simple content):**
 ```bash
-python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "your topic" -l 5
+echo "content" | python ~/.claude/scripts/qdrant-store-v2.py "topic" "collection" "session"
 ```
 
-**Fetch specific IDs:**
-```bash
-python ~/.claude/scripts/qdrant-peek.py fetch -c universal_vault --ids "id1,id2"
-```
-
-### Legacy Collections (Read-Only)
-
-Migrated data still queryable but all NEW research goes to `universal_vault`:
-
-| Collection | Status | Notes |
-|------------|--------|-------|
-| `lineage_research` | Migrated | 458 points → universal_vault |
-| `session_handoffs` | Migrated | 14 points → universal_vault |
-| `midge_research` | Migrated | 203 points → universal_vault |
+---
 
 ### Docker
 
 ```bash
 docker start qdrant     # Start container
 docker stop qdrant      # Stop container
-curl http://localhost:6333/collections  # Check status
+docker ps               # Check running containers
+curl http://localhost:6333/collections  # List collections
 ```
 
-### State Tracker
-
-Migration history: `~/.claude/MIGRATION_STATE.md`
+**Note:** Only ONE Qdrant container should exist, named `qdrant`. Delete any others.
