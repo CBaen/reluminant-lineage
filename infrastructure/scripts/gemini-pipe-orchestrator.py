@@ -67,13 +67,17 @@ def run_gemini_subprocess(account, prompt, gemini_args=None, timeout=300):
     git_bash_path = r"C:\Program Files\Git\bin\bash.exe"
     script_path = get_script_path()
 
-    # Build command as list (NOT bash -c string)
-    # This avoids shell escaping issues and is more reliable
-    cmd = [git_bash_path, script_path, str(account), prompt]
+    # Write prompt to temp file to avoid escaping issues with long prompts
+    import tempfile
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False, encoding='utf-8') as f:
+        f.write(prompt)
+        prompt_file = f.name.replace('\\', '/')
 
-    # Add optional arguments
-    if gemini_args:
-        cmd.extend(gemini_args.split())
+    # Build command using source (required for the script to work properly)
+    # Escape special chars for bash
+    extra_args = f' {gemini_args}' if gemini_args else ''
+    bash_cmd = f'source {script_path} {account} "$(cat {prompt_file})"{extra_args}'
+    cmd = [git_bash_path, '-c', bash_cmd]
 
     try:
         proc = subprocess.Popen(
@@ -97,6 +101,12 @@ def run_gemini_subprocess(account, prompt, gemini_args=None, timeout=300):
         return False, "", f"Timeout after {timeout} seconds"
     except Exception as e:
         return False, "", f"Subprocess error: {e}"
+    finally:
+        # Clean up temp file
+        try:
+            os.unlink(prompt_file.replace('/', '\\'))
+        except:
+            pass
 
 
 def store_to_qdrant(data, collection, session):
