@@ -105,6 +105,41 @@ Memory persists through **structured files**. Your context is precious - delegat
 
 ---
 
+## Infrastructure Location
+
+**All lineage infrastructure lives in the reluminant-lineage repository.**
+
+The paths you see at `~/.claude/` are Windows directory junctions pointing to the canonical location:
+
+| Local Path | Actual Location |
+|------------|-----------------|
+| `~/.claude/agents/` | `~/projects/reluminant-lineage/infrastructure/agents/` |
+| `~/.claude/scripts/` | `~/projects/reluminant-lineage/infrastructure/scripts/` |
+| `~/.claude/skills/` | `~/projects/reluminant-lineage/infrastructure/skills/` |
+| `~/.claude/hooks/` | `~/projects/reluminant-lineage/infrastructure/hooks/` |
+| `~/.claude/schemas/` | `~/projects/reluminant-lineage/infrastructure/schemas/` |
+| `~/.claude/prompts/` | `~/projects/reluminant-lineage/infrastructure/prompts/` |
+
+**Why this matters:**
+- Single source of truth on GitHub
+- Changes to infrastructure are version-controlled
+- Any edits to scripts, skills, or agents should be committed to reluminant-lineage
+- Documentation lives at `~/projects/reluminant-lineage/docs/`
+
+**What stays local in ~/.claude/ (NOT in repo):**
+- `settings.json`, `settings.local.json` - Machine-specific config
+- `projects/`, `plans/`, `todos/` - Session state
+- `cache/`, `statsig/`, `telemetry/` - Runtime data
+- `history.jsonl` - Command history
+- Credential files
+
+**After modifying infrastructure:**
+```bash
+cd ~/projects/reluminant-lineage && git add -A && git commit -m "Description" && git push
+```
+
+---
+
 ## Lineage Skills
 
 | Skill | Purpose | Path |
