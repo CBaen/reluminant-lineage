@@ -69,6 +69,7 @@ done
 # Retry configuration
 MAX_RETRIES=2
 BASE_DELAY=3  # 3 seconds per account minimum
+CALL_TIMEOUT=90  # Timeout for each Gemini call in seconds
 
 # =============================================================================
 # MODEL FALLBACK CHAIN - Quality First, Always
@@ -227,9 +228,15 @@ try_model() {
         # Call via PowerShell on Windows for reliable execution
         # Escape query for PowerShell
         escaped_query=$(printf '%s' "$QUERY" | sed "s/'/\\'/g")
-        # Use positional prompt with --output-format text for simple responses
-        output=$(powershell.exe -NonInteractive -Command "gemini -m '$model' --output-format text '$escaped_query'" 2>&1)
+        # Use timeout to prevent hanging - exit code 124 = timeout
+        output=$(timeout $CALL_TIMEOUT powershell.exe -NonInteractive -Command "gemini -m '$model' --output-format text '$escaped_query'" 2>&1)
         exit_code=$?
+
+        # Check for timeout (exit code 124)
+        if [[ $exit_code -eq 124 ]]; then
+            echo "[TIMEOUT] Call to $model/acct$account timed out after ${CALL_TIMEOUT}s" >&2
+            return 2  # Treat timeout like quota exhaustion - try next model/account
+        fi
 
         # Success!
         if [[ $exit_code -eq 0 ]] && ! is_rate_limited "$output" && ! is_quota_exhausted "$output" && ! is_model_not_found "$output"; then

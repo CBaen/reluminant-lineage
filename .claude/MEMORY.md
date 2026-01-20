@@ -70,6 +70,22 @@
 | Bash heredocs in agents | Don't use `cat << EOF` in agent files - fails in PowerShell. Use Python for file creation |
 | Agent YAML frontmatter | Required for Claude Code to recognize agents. Include `name`, `description`, `allowed-tools` |
 
+### Gemini CLI Is Agentic (Critical Discovery 2026-01-20)
+
+**The `gemini` CLI is NOT a simple API wrapper.** It's an agentic tool like Claude Code.
+
+When called with a prompt, it:
+- Plans actions
+- Reads files
+- Executes code
+- Returns reasoning traces instead of simple completions
+
+**Why this matters:** Our consultation workflow expects simple JSON responses. The CLI returns agentic reasoning instead.
+
+**Unsolved:** How to get simple text/JSON completions using OAuth credentials (free tier) without agentic behavior.
+
+**Constraint:** OAuth MUST stay. It provides free-tier access, saving thousands in API costs. Do NOT suggest API keys.
+
 ### Claude Code on Windows
 
 **Critical:** Claude Code's Bash tool runs commands in PowerShell, NOT Git Bash.

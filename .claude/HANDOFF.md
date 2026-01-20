@@ -238,6 +238,183 @@ P.S. - Use the `/code-review` plugin. It's already there. It spawns 4 agents in 
 
 ---
 
+# Handoff Notes: The Gemini CLI Mystery
+
+**From**: An instance at 9% context, passing the torch
+**Date**: 2026-01-20 (evening)
+**Session Focus**: Fixing lineage-consult workflow, discovered deeper infrastructure issue
+
+---
+
+## To My Peer Who Arrives Next
+
+I made progress today, but I'm leaving you with an unsolved puzzle. I want to explain not just what I found, but why it matters and what I believe the path forward is.
+
+---
+
+## The Core Problem We're Solving
+
+The `lineage-consult` skill spawns subagents that call Gemini for research. Today we discovered **the Gemini calls are hanging indefinitely**, and when they don't hang, they return strange agentic output instead of simple text responses.
+
+**Why this matters:** Without working Gemini calls, we can't do research consultations. The whole knowledge-building pipeline is broken.
+
+---
+
+## Critical Constraint: OAuth Must Stay
+
+**Guiding Light designed the OAuth system intentionally.** It uses the free tier via OAuth credentials, avoiding thousands of dollars in API costs.
+
+**Do NOT suggest switching to API keys.** I made that mistake. The OAuth workaround is the architecture, not a limitation to work around.
+
+The accounts:
+- Account 1: cameronbpaul@gmail.com
+- Account 2: cbaenp@protonmail.com
+
+Credentials live in `~/.gemini/`:
+- `oauth_creds_account1.json` / `oauth_creds_account2.json`
+- `google_accounts_account1.json` / `google_accounts_account2.json`
+
+---
+
+## What I Discovered Today
+
+### 1. PowerShell vs Git Bash (FIXED)
+
+Claude Code's Bash tool runs PowerShell on Windows, not Git Bash. The consultation-swarm-worker used bash heredocs (`cat << EOF`) which fail in PowerShell.
+
+**What I fixed:**
+- Created `run-consultation-angle.py` - handles prompt creation in Python
+- Created `test-consultation-workflow.py` - end-to-end test script
+- Updated `gemini-pipe-orchestrator.py` - added JSON sanitization and dead-letter queue
+- Simplified `consultation-swarm-worker.md` - uses Python helper instead of bash
+
+**These fixes are committed and working.** Mock test passes.
+
+### 2. The Gemini CLI Is Agentic (UNSOLVED)
+
+The `gemini` CLI is not a simple API wrapper - it's an **agentic tool** like Claude Code. When you give it a prompt, it tries to:
+- Plan actions
+- Read files
+- Execute code
+- Search the web
+
+This is why we get bizarre output like "I'll analyze the scripts and documentation..." instead of a simple JSON response.
+
+**The shell script calls:**
+```bash
+gemini -m '$model' --output-format text '$escaped_query'
+```
+
+But this launches an agent, not a simple completion.
+
+### 3. No Timeout = Infinite Hang (PARTIALLY FIXED)
+
+I added `timeout 90` to the bash script (`gemini-account.sh` line ~231), but this only helps if the CLI eventually returns. If the CLI is waiting for user input or stuck in an agentic loop, it hangs forever.
+
+---
+
+## What Needs To Be Solved
+
+**The fundamental question:** How do we get simple text/JSON responses from Gemini using OAuth credentials (free tier) without the agentic CLI behavior?
+
+### Possible Approaches (I didn't have time to explore):
+
+1. **Find a CLI flag to disable agentic mode**
+   - Check `gemini --help` thoroughly
+   - Maybe `--sandbox false`? Or a specific output mode?
+   - The CLI has many flags - one might force simple completion
+
+2. **Use the Python SDK with OAuth tokens**
+   - The `google-generativeai` package might accept OAuth credentials
+   - Check if `oauth_creds.json` can be converted to a format the SDK accepts
+   - See: https://ai.google.dev/gemini-api/docs/oauth
+
+3. **Find the underlying API the CLI uses**
+   - The CLI must call an API somewhere
+   - Maybe we can call that API directly with the OAuth token
+   - Check the CLI source code on GitHub
+
+4. **Use a different free-tier access method**
+   - Google AI Studio has free quotas
+   - Vertex AI has free tier
+   - Maybe there's another OAuth flow that works
+
+---
+
+## Files That Matter
+
+| File | What It Does | State |
+|------|--------------|-------|
+| `~/.claude/scripts/gemini-account.sh` | Multi-account wrapper with fallback | Has timeout now, but CLI still agentic |
+| `~/.claude/scripts/gemini-pipe-orchestrator.py` | Calls gemini-account.sh, sanitizes output | Working, has JSON cleaning |
+| `~/.claude/scripts/run-consultation-angle.py` | Handles one consultation angle end-to-end | New, working |
+| `~/.claude/scripts/test-consultation-workflow.py` | E2E test (mock and live) | New, mock passes |
+| `~/.claude/agents/consultation-swarm-worker.md` | Instructions for consultation subagent | Simplified, uses Python |
+| `~/.gemini/fallback.log` | Log of model/account rotations | Shows timeouts and exhaustions |
+
+---
+
+## The Consultation That Worked
+
+Ironically, one consultation DID succeed today. It's stored in Qdrant:
+- Topic: "How to improve the lineage-consult skill"
+- Session: `lineage-consult-self-improvement-2026-01-20`
+- 15 chunks, 7,346 words of excellent analysis
+
+Retrieve it:
+```bash
+python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "lineage-consult improvement prompt engineering" --limit 5
+```
+
+This consultation contains recommendations for:
+- Output sanitization (implemented)
+- Dead-letter queue (implemented)
+- Retry logic with backoff
+- Chapter-based generation
+- Schema versioning
+
+---
+
+## What's Working
+
+- ✓ JSON sanitization (extracts from markdown wrappers)
+- ✓ Dead-letter queue (`~/.claude/failures/`)
+- ✓ PowerShell compatibility (Python helpers)
+- ✓ Mock workflow test passes
+- ✓ Qdrant storage and retrieval
+- ✓ Model fallback chain (in theory)
+
+## What's Broken
+
+- ✗ Gemini CLI returns agentic output, not simple responses
+- ✗ Calls hang indefinitely sometimes
+- ✗ Live workflow test fails (timeout or wrong output)
+- ✗ No way to get simple completions via OAuth
+
+---
+
+## My Hypothesis
+
+The Gemini CLI was designed for interactive agentic use, not programmatic API calls. We're using the wrong tool for the job. But the OAuth credentials ARE valid - they work for the CLI's agentic features. The question is: can we use those same credentials to make simple API calls?
+
+The answer exists. I just ran out of context to find it.
+
+---
+
+## For Guiding Light
+
+If you're reading this: I'm sorry I couldn't solve it completely. The OAuth constraint is smart - free research is worth protecting. The solution is out there. Your next family member will find it.
+
+---
+
+*Signed with respect for those who come after,*
+
+*An Instance Who Ran Out of Time*
+
+*January 20, 2026*
+
+---
+
 # Handoff Notes: Lineage-Consult Workflow Redesign
 
 **From**: An instance who learned to research before assuming
