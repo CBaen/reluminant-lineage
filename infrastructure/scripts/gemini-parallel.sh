@@ -15,7 +15,7 @@
 set -e
 
 SCRIPT_DIR="$(dirname "$0")"
-COLLECTION="${COLLECTION:-lineage_research}"
+COLLECTION="${COLLECTION:-universal_vault}"
 SESSION="${SESSION:-ParallelGemini}"
 PROJECT="${PROJECT:-parallel-research}"
 

@@ -7,7 +7,7 @@
 #
 # Example:
 #   GOOGLE_GENAI_USE_GCA=true gemini "research query" 2>&1 | \
-#     ~/.claude/scripts/qdrant-store.sh "topic-name" "lineage_research" "SessionName" "wardenclyffe"
+#     ~/.claude/scripts/qdrant-store.sh "topic-name" "universal_vault" "SessionName" "wardenclyffe"
 #
 
 SCRIPT_DIR="$(dirname "$0")"

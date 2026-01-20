@@ -10,14 +10,13 @@ SCHEMA VERSION: Supports both V1 (legacy) and V2 (2026 hybrid) schemas.
 - V2: Named vectors (dense + sparse), universal_vault collection
 
 Usage:
-  # V1 (legacy) - single collection
-  echo '{"meta": {...}, "chunks": [...]}' | python qdrant-store-gemini.py \
-    --collection "lineage_research" \
-    --session "my-session"
-
-  # V2 (2026) - hybrid vectors to universal_vault
+  # Hybrid storage to universal_vault (recommended)
   echo '{"meta": {...}, "chunks": [...]}' | python qdrant-store-gemini.py \
     --hybrid \
+    --session "my-session"
+
+  # Default collection is now universal_vault
+  echo '{"meta": {...}, "chunks": [...]}' | python qdrant-store-gemini.py \
     --session "my-session"
 
 Input: Gemini's JSON with meta, summary, and chunks array
@@ -307,7 +306,7 @@ def store_points_batch_v2(collection, points):
 
 def main():
     parser = argparse.ArgumentParser(description="Store Gemini's self-chunked research output")
-    parser.add_argument("--collection", default="lineage_research", help="Qdrant collection (ignored if --hybrid)")
+    parser.add_argument("--collection", default="universal_vault", help="Qdrant collection (ignored if --hybrid)")
     parser.add_argument("--session", default="Unknown", help="Session name for attribution")
     parser.add_argument("--input-file", "-i", help="Read input from file instead of stdin (for Windows compatibility)")
     parser.add_argument("--hybrid", action="store_true", help="Use V2 schema with hybrid vectors (stores to universal_vault)")

@@ -9,8 +9,8 @@ Usage:
   echo "LONG_TEXT" | python qdrant-chunked-store.py \
     --topic "topic-name" \
     --perspective "perspective-name" \
-    --session "SessionName" \
-    --collection "lineage_research"
+    --session "SessionName"
+    # Default collection is universal_vault
 
 Output: JSON with parent_id, source_id, chunks_stored, total_words, chunk_ids
 """
@@ -222,7 +222,7 @@ def main():
     parser.add_argument("--topic", required=True, help="Research topic")
     parser.add_argument("--perspective", required=True, help="Perspective/angle of this research")
     parser.add_argument("--session", default="Unknown", help="Session name for attribution")
-    parser.add_argument("--collection", default="lineage_research", help="Qdrant collection")
+    parser.add_argument("--collection", default="universal_vault", help="Qdrant collection")
     parser.add_argument("--categories", default="", help="Comma-separated categories")
 
     args = parser.parse_args()

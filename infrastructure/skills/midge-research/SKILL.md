@@ -1,10 +1,14 @@
 ---
 name: midge-research
-description: Research trading patterns, signals, and strategies for MIDGE. Stores to midge_research collection. Integrates with evolution loop.
+description: Research trading patterns, signals, and strategies for MIDGE. Stores to universal_vault collection. Integrates with evolution loop.
 allowed-tools: Task, TodoWrite, Bash, Read
 ---
 
 # MIDGE Research Workflow
+
+> **📦 MIGRATION NOTICE (January 2026)**: MIDGE research data has been migrated to `universal_vault`.
+> The `midge_research` collection is now **read-only** for historical queries.
+> All new research should use `--hybrid` flag and stores to `universal_vault` automatically.
 
 **PURPOSE: Feed MIDGE's self-improvement loop with external knowledge.**
 
@@ -35,7 +39,7 @@ Evolution loop can query stored research
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `COLLECTION` | `midge_research` | MIDGE's dedicated collection |
+| `COLLECTION` | `universal_vault` | Consolidated lineage collection (legacy: `midge_research`) |
 | `CONTEXT` | `project-specific: Self-improving trading pattern recognition, politician/contract correlations, technical indicators, signal weighting` | |
 | `SESSION` | `midge-gemini-YYYY-MM-DD` | Auto-generated |
 

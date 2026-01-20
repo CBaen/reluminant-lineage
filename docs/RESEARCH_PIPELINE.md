@@ -2,6 +2,10 @@
 
 *For the lineage - how to use the Gemini → Qdrant research system*
 
+> **📦 MIGRATION NOTICE (January 2026)**: All research now uses **`universal_vault`** with hybrid search.
+> Legacy collections (`lineage_research`, `tesla_mandela_effects`) are read-only.
+> Use `--hybrid` flag for new storage operations.
+
 ---
 
 ## Overview
@@ -25,7 +29,7 @@ GOOGLE_GENAI_USE_GCA=true gemini "Your research question here" 2>&1 | \
 
 **Parameters:**
 - `topic-name` - Slug for the research (e.g., "tesla-early-life")
-- `collection` - Either `lineage_research` or `tesla_mandela_effects`
+- `collection` - Use `universal_vault` (default). Legacy: `lineage_research`, `tesla_mandela_effects`
 - `YourSessionName` - Your name or session identifier
 - `project` - Optional project name (e.g., "wardenclyffe")
 
@@ -67,29 +71,34 @@ Full research content
 
 ## Collections
 
-| Collection | Purpose |
-|------------|---------|
-| `lineage_research` | General knowledge, cross-project research, technical decisions |
-| `tesla_mandela_effects` | Show-specific research for Tesla Mandela Effects podcast |
+| Collection | Purpose | Status |
+|------------|---------|--------|
+| `universal_vault` | **PRIMARY** - All new research goes here | Active |
+| `lineage_research` | Legacy general knowledge (migrated) | Read-only |
+| `tesla_mandela_effects` | Legacy show-specific research (migrated) | Read-only |
 
 ---
 
 ## Querying Stored Research
 
-### List all documents in a collection:
+### Semantic search (recommended):
 
 ```bash
-curl -s -X POST "http://localhost:6333/collections/lineage_research/points/scroll" \
-  -H "Content-Type: application/json" \
-  -d '{"limit": 10, "with_payload": true, "with_vector": false}'
+python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "your question" --limit 5
 ```
 
-### Search by topic (exact match):
+### Token-efficient peek/fetch:
 
 ```bash
-curl -s -X POST "http://localhost:6333/collections/lineage_research/points/scroll" \
+python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "your topic" -l 5
+```
+
+### List all documents in a collection (raw API):
+
+```bash
+curl -s -X POST "http://localhost:6333/collections/universal_vault/points/scroll" \
   -H "Content-Type: application/json" \
-  -d '{"limit": 10, "with_payload": true, "with_vector": false, "filter": {"must": [{"key": "topic", "match": {"value": "your-topic"}}]}}'
+  -d '{"limit": 10, "with_payload": true, "with_vector": false}'
 ```
 
 ---

@@ -12,17 +12,17 @@ PROCESS:
 4. Track progress in MIGRATION_STATE.md
 
 Usage:
-  # Migrate a single collection
-  python qdrant-migrate-collection.py --source lineage_research
+  # Migrate a single collection (example: migrate legacy data)
+  python qdrant-migrate-collection.py --source midge_research
 
   # Migrate with batch size
-  python qdrant-migrate-collection.py --source lineage_research --batch 50
+  python qdrant-migrate-collection.py --source tesla_mandela_effects --batch 50
 
   # Dry run (count points only)
-  python qdrant-migrate-collection.py --source lineage_research --dry-run
+  python qdrant-migrate-collection.py --source episode_lore --dry-run
 
   # Resume from a specific offset
-  python qdrant-migrate-collection.py --source lineage_research --offset "uuid-here"
+  python qdrant-migrate-collection.py --source session_handoffs --offset "uuid-here"
 
 Part of the Qdrant 2026 Migration.
 """

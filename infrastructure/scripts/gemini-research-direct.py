@@ -16,7 +16,7 @@ use gemini-research-store.py with qdrant-store-gemini.py --hybrid instead.
 Returns JSON:
     {
         "success": true,
-        "collection": "lineage_research",
+        "collection": "universal_vault",
         "point_ids": ["uuid1", "uuid2", ...],
         "chunk_count": 8,
         "total_words": 2500,

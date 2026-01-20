@@ -158,12 +158,15 @@ Use `gemini-researcher` agent (in `~/.claude/agents/`). It knows the new protoco
 ### Accessing Archived Research
 
 ```bash
-# Find topic in catalog
+# Search universal_vault (recommended - uses hybrid search)
+python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "react hooks" --limit 5
+
+# Token-efficient peek (titles only)
+python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "react hooks" -l 5
+
+# Legacy flat-file lookup (still works)
 ~/.claude/scripts/catalog-lookup.sh "react-hooks"
 # Returns: hot/react-hooks.md  OR  NOT_FOUND
-
-# Then read what you need
-grep "useState" ~/.claude/research/hot/react-hooks.md
 ```
 
 ---
@@ -214,19 +217,19 @@ react-hooks | gemini | hot | hot/react-hooks.md | 2026-01-11 3:45 PM | 7
 | `multi-agent-ai-security` | Secret management, input validation, prompt injection, sandboxing |
 | `agent-testing` | Prompt fixtures, regression testing, validation patterns |
 
-### Scripts
+### Scripts (2026 Architecture)
 
 | Script | Purpose | Usage |
 |--------|---------|-------|
-| `research-pipeline.sh` | **STANDARD** - Full research with dual storage | `research-pipeline.sh "topic" "question" "session" "tags"` |
-| `catalog-lookup.sh` | Find research in flat files | `catalog-lookup.sh "topic"` → returns path or NOT_FOUND |
-| `catalog-search.sh` | Search catalog | `catalog-search.sh --tag "keyword"` or `--all` |
-| `research-store.sh` | Store to flat files only (use pipeline instead) | `echo "content" \| research-store.sh "topic" "category" "name" "tags"` |
-| `research-rotate.sh` | Rotate tiers | `research-rotate.sh` (run periodically) |
-| `setup-project-research.sh` | Init project | `setup-project-research.sh "/path/to/project"` |
-| `qdrant-semantic-search.py` | Semantic search in Qdrant | `qdrant-semantic-search.py --hybrid --query "..."` |
-| `qdrant-peek.py` | Peek/fetch from Qdrant | `qdrant-peek.py peek -c universal_vault -q "..." -l 5` |
-| `qdrant-store-v2.py` | Store to Qdrant (used by pipeline) | `echo "content" \| qdrant-store-v2.py "topic" "collection" "session"` |
+| `qdrant-semantic-search.py` | **PRIMARY** - Hybrid semantic search | `--hybrid --query "..." --limit 5` |
+| `qdrant-peek.py` | Token-efficient peek/fetch | `peek -c universal_vault -q "..." -l 5` |
+| `qdrant-store-gemini.py` | Store Gemini research to Qdrant | `--hybrid --session "Name" < input.json` |
+| `research-pipeline.sh` | Full pipeline with dual storage | `"topic" "question" "session" "tags"` |
+| `catalog-lookup.sh` | Find research in flat files | `"topic"` → returns path or NOT_FOUND |
+| `catalog-search.sh` | Search catalog | `--tag "keyword"` or `--all` |
+| `research-store.sh` | Store to flat files only | `echo "content" \| ... "topic" "category" "name"` |
+
+> **Note**: All Qdrant scripts now default to `universal_vault` collection.
 
 ### Living Topic Files
 
@@ -291,7 +294,7 @@ Location: `~/.claude/agents/`
 
 | Agent | Version | Purpose | Auto-Invoke |
 |-------|---------|---------|-------------|
-| `gemini-researcher` | 1.2.0 | Research via pipeline (Qdrant + flat files) | YES - any research |
+| `gemini-researcher` | 1.2.0 | Research via pipeline (universal_vault + flat files) | YES - any research |
 | `security-reviewer` | 1.0.0 | Code security audits | YES - after code changes |
 | `brand-guardian` | 1.0.0 | Brand consistency checks | YES - UI/visual work |
 | `research-analyst` | 1.0.0 | Meta-analysis of research archive | When cleaning/consolidating |

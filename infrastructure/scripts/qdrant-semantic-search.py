@@ -13,20 +13,20 @@ Usage:
   python qdrant-semantic-search.py --collection <name> --query "your query"
 
 Examples:
-  # Basic search (V1)
-  python qdrant-semantic-search.py --collection lineage_research --query "how does caching work"
-
-  # Hybrid search (V2) - uses universal_vault
+  # Hybrid search (recommended - uses universal_vault)
   python qdrant-semantic-search.py --hybrid --query "how does caching work"
 
+  # Basic search (default collection is universal_vault)
+  python qdrant-semantic-search.py --query "how does caching work"
+
   # Show only core concepts
-  python qdrant-semantic-search.py --collection lineage_research --query "caching" --importance core
+  python qdrant-semantic-search.py --hybrid --query "caching" --importance core
 
   # Filter by keywords
-  python qdrant-semantic-search.py --collection lineage_research --query "caching" --keywords "write-through"
+  python qdrant-semantic-search.py --hybrid --query "caching" --keywords "write-through"
 
   # Show full content and questions answered
-  python qdrant-semantic-search.py --collection lineage_research --query "caching" --full
+  python qdrant-semantic-search.py --hybrid --query "caching" --full
 
 Options:
   --collection   Collection to search (ignored if --hybrid)
@@ -355,7 +355,7 @@ def main():
         description="Semantic search in Qdrant with rich metadata",
         formatter_class=argparse.RawTextHelpFormatter
     )
-    parser.add_argument("--collection", default="lineage_research", help="Collection to search (ignored if --hybrid)")
+    parser.add_argument("--collection", default="universal_vault", help="Collection to search (ignored if --hybrid)")
     parser.add_argument("--query", required=True, help="Natural language query")
     parser.add_argument("--hybrid", action="store_true", help="Use V2 hybrid search (searches universal_vault)")
     parser.add_argument("--limit", type=int, default=5, help="Number of results (default: 5)")

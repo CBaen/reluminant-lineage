@@ -112,10 +112,16 @@ This prevents loading everything "just in case."
 ## Practical Commands
 
 ```bash
-# Check research without reading
+# Search Qdrant (hybrid semantic search - recommended)
+python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "react" --limit 3
+
+# Token-efficient peek (titles only)
+python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "context optimization" -l 5
+
+# Check flat-file catalog without reading
 ~/.claude/scripts/catalog-search.sh --tag "react"
 
-# Get path, not content
+# Get flat-file path, not content
 ~/.claude/scripts/catalog-lookup.sh "context-optimization"
 
 # Read only first 50 lines of a large file

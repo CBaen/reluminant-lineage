@@ -142,16 +142,16 @@ def main():
         epilog="""
 Examples:
     # Simple query (command line)
-    python gemini-pipe-orchestrator.py -a 1 -c lineage_research -s "session" -q "What is WebSocket?"
+    python gemini-pipe-orchestrator.py -a 1 -c universal_vault -s "session" -q "What is WebSocket?"
 
     # Complex prompt from file (RECOMMENDED for JSON prompts)
-    python gemini-pipe-orchestrator.py -a 1 -c lineage_research -s "session" --prompt-file /tmp/prompt.txt
+    python gemini-pipe-orchestrator.py -a 1 -c universal_vault -s "session" --prompt-file /tmp/prompt.txt
 
     # Output to stdout (for custom processing)
     python gemini-pipe-orchestrator.py -a 1 --prompt-file /tmp/prompt.txt --stdout
 
     # With specific Gemini model
-    python gemini-pipe-orchestrator.py -a 1 -c lineage_research -s "session" -p /tmp/prompt.txt --gemini-args "gemini-2.5-pro"
+    python gemini-pipe-orchestrator.py -a 1 -c universal_vault -s "session" -p /tmp/prompt.txt --gemini-args "gemini-2.5-pro"
         """
     )
 

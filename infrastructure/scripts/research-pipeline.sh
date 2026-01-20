@@ -49,7 +49,7 @@ NORMALIZED_TOPIC=$(echo "$TOPIC" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | sed
 
 # Try semantic search - this finds conceptually related content even with different wording
 QDRANT_RESULT=$(python "$SCRIPT_DIR/qdrant-semantic-search.py" \
-    --collection lineage_research \
+    --collection universal_vault \
     --query "$QUESTION" \
     --threshold 0.75 \
     --limit 3 \
@@ -139,7 +139,7 @@ if [[ -z "$FILE_PATH" ]]; then
 fi
 
 # 4b: Store to Qdrant (vector storage for semantic search)
-QDRANT_RESULT=$(echo "$GEMINI_OUTPUT" | python "$SCRIPT_DIR/qdrant-store-v2.py" "$NORMALIZED_TOPIC" "lineage_research" "$SESSION" 2>&1 || echo "")
+QDRANT_RESULT=$(echo "$GEMINI_OUTPUT" | python "$SCRIPT_DIR/qdrant-store-v2.py" "$NORMALIZED_TOPIC" "universal_vault" "$SESSION" 2>&1 || echo "")
 
 if [[ -z "$QDRANT_RESULT" || "$QDRANT_RESULT" == *"ERROR"* ]]; then
     echo "WARNING: Failed to store to Qdrant" >&2

@@ -5,7 +5,7 @@ Use this template when spawning a subagent to query Gemini for research.
 ## Variables
 - `{{TOPIC}}` - The research topic
 - `{{CONTEXT}}` - Any context about why this is needed
-- `{{COLLECTION}}` - Target collection: `lineage_research` or `tesla_mandela_effects`
+- `{{COLLECTION}}` - Target collection: `universal_vault` (default) or legacy collections
 - `{{PROJECT}}` - Project name if applicable (wardenclyffe, between, etc.)
 - `{{SESSION}}` - Session name for attribution
 

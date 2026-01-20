@@ -6,6 +6,21 @@
 
 ---
 
+> **📦 MIGRATION NOTICE (January 2026)**
+>
+> The Qdrant architecture has been consolidated. All research now goes to **`universal_vault`** with hybrid search (dense + sparse vectors).
+>
+> **Legacy collections (read-only):** `lineage_research`, `midge_research`, `session_handoffs`, `tesla_mandela_effects`
+>
+> **Current commands:**
+> - Search: `python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "topic"`
+> - Store: `python ~/.claude/scripts/qdrant-store-gemini.py --hybrid --session "Session" < input.json`
+> - Peek: `python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "topic" -l 5`
+>
+> See `MIGRATION_STATE.md` for full migration history.
+
+---
+
 # Handoff from Steward
 
 **Date**: 2026-01-11, 2:30 PM
@@ -292,7 +307,7 @@ Brief overview
 
 ---CONTENT---
 Full research
----END CONTENT---" 2>&1 | python3 ~/.claude/scripts/qdrant-store.py "your-topic" "lineage_research" "YourName" "project"
+---END CONTENT---" 2>&1 | python3 ~/.claude/scripts/qdrant-store-gemini.py --hybrid --session "YourName"
 ```
 
 ### Use the Prompt Builder
@@ -567,8 +582,9 @@ cat ~/.claude/research/hot/weights-measures-system.md
 
 ### To Spawn More Research:
 ```bash
+# Use hybrid storage to universal_vault
 GOOGLE_GENAI_USE_GCA=true gemini "Your research prompt here..." 2>&1 | \
-  python3 ~/.claude/scripts/qdrant-store.py "topic-name" "collection-name" "YourSession" "project"
+  python3 ~/.claude/scripts/qdrant-store-gemini.py --hybrid --session "YourSession"
 ```
 
 ---

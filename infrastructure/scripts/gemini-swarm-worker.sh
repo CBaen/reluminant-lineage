@@ -27,7 +27,7 @@ DEFAULT_SESSION="research-gemini-$(date +%Y-%m-%d)"
 
 TOPIC="${1:-}"
 PERSPECTIVE="${2:-general}"
-COLLECTION="${3:-lineage_research}"
+COLLECTION="${3:-universal_vault}"
 SESSION="${4:-$DEFAULT_SESSION}"
 DEPTH="${5:-comprehensive}"
 

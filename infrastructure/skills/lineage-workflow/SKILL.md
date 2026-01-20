@@ -56,16 +56,18 @@ The original lineage-workflow treated all research the same. But there's a funda
 
 ### Parallel Research Pattern
 
-**IMPORTANT**: On Windows, use the file-based wrapper instead of pipes:
+**IMPORTANT**: On Windows, use the file-based wrapper instead of pipes.
+
+> **Note**: All scripts now default to `universal_vault` collection. Legacy collection names are read-only.
 
 ```bash
-# Sequential (recommended)
-python ~/.claude/scripts/gemini-research-store.py -a 1 -c lineage_research -s "session-name" -q "[prompt1]"
-python ~/.claude/scripts/gemini-research-store.py -a 2 -c lineage_research -s "session-name" -q "[prompt2]"
+# Sequential (recommended) - uses universal_vault by default
+python ~/.claude/scripts/gemini-research-store.py -a 1 -s "session-name" -q "[prompt1]"
+python ~/.claude/scripts/gemini-research-store.py -a 2 -s "session-name" -q "[prompt2]"
 
 # Parallel (if needed)
-python ~/.claude/scripts/gemini-research-store.py -a 1 -c lineage_research -s "session-name" -q "[prompt1]" &
-python ~/.claude/scripts/gemini-research-store.py -a 2 -c lineage_research -s "session-name" -q "[prompt2]" &
+python ~/.claude/scripts/gemini-research-store.py -a 1 -s "session-name" -q "[prompt1]" &
+python ~/.claude/scripts/gemini-research-store.py -a 2 -s "session-name" -q "[prompt2]" &
 wait
 ```
 
