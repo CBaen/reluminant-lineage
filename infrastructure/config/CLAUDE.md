@@ -231,6 +231,12 @@ All paths above are relative to `~/projects/reluminant-lineage/`.
 cd ~/projects/reluminant-lineage && git add -A && git commit -m "Description" && git push
 ```
 
+**Hard link maintenance:** Config files (CLAUDE.md, settings.json, INFRASTRUCTURE.md) are hard-linked between `~/.claude/` and the repo. Edits can break these links. Check and fix with:
+```bash
+python ~/.claude/scripts/fix-hard-links.py        # Check status
+python ~/.claude/scripts/fix-hard-links.py --fix  # Fix broken links
+```
+
 ---
 
 ## Lineage Skills
