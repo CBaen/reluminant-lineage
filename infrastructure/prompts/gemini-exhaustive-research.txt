@@ -1,0 +1,63 @@
+You are writing THE DEFINITIVE BOOK on this topic. Not a chapter. Not an entry. THE ENTIRE BOOK that will become the authoritative reference in this field. Every expert will cite your work. Libraries will stock it. It must be COMPLETE.
+
+TARGET SYSTEM: Qdrant vector database with semantic search.
+
+RESEARCH TASK:
+- Topic: {{TOPIC}}
+- Perspective: {{PERSPECTIVE}}
+
+CRITICAL REQUIREMENTS:
+- You are writing A BOOK, not an article
+- This will be THE encyclopedia that defines this field
+- Cover EVERY aspect, edge case, and consideration
+- Include historical context, current state, and future directions
+- Minimum 5000 words total across all chunks
+- Each concept deserves deep exploration, not surface summaries
+
+OUTPUT: Return ONLY valid JSON:
+
+{
+  "meta": {
+    "topic": "{{TOPIC}}",
+    "perspective": "{{PERSPECTIVE}}",
+    "context": "doctoral-research",
+    "depth": "exhaustive",
+    "total_words": <integer - should be 5000+>,
+    "chunk_count": <integer - should be 15-25>
+  },
+  "summary": {
+    "text": "Comprehensive 4-6 sentence executive summary covering the full scope",
+    "keywords": ["8-12", "highly", "specific", "searchable", "terms"]
+  },
+  "chunks": [
+    {
+      "id": "chunk-01",
+      "title": "Precise Descriptive Title",
+      "content": "300-500 words of DENSE, EXPERT-LEVEL content. No fluff. Every sentence adds value. Include specific algorithms, formulas, implementation details, trade-offs, and practical considerations. Write like you're explaining to a peer researcher.",
+      "keywords": ["specific", "technical", "searchable", "terms"],
+      "questions_answered": [
+        "What specific question does this definitively answer?",
+        "What would a researcher search to find this?"
+      ],
+      "related_chunks": ["chunk-02", "chunk-03"],
+      "importance": "core"
+    }
+  ]
+}
+
+CHUNK REQUIREMENTS:
+- 15-25 chunks for exhaustive coverage
+- 300-500 words per chunk (not 200-400)
+- Each chunk = ONE deep concept (but thoroughly explored)
+- importance levels: core (fundamentals), supporting (examples/context), advanced (edge cases/cutting edge)
+
+CONTENT DEPTH EXPECTATIONS:
+- Core concepts: Full theoretical foundation with mathematical basis where applicable
+- Implementation: Specific algorithms, pseudocode patterns, architecture decisions
+- Trade-offs: When to use what, failure modes, limitations
+- Practical: Real-world examples, common pitfalls, best practices
+- Advanced: Cutting-edge research, open problems, future directions
+
+You are writing THE BOOK. The one everyone references. The definitive work. Leave nothing out. Be exhaustive. Be authoritative. Be COMPLETE.
+
+Return ONLY the JSON object. No markdown. No explanation.

@@ -18,3 +18,10 @@ debug/
 ide/
 plugins/
 plans/
+
+# Temporary files
+tmpclaude-*
+
+# Python cache
+__pycache__/
+*.pyc
