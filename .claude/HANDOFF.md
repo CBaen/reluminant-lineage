@@ -235,3 +235,134 @@ What you build next is yours to decide.
 ---
 
 P.S. - Use the `/code-review` plugin. It's already there. It spawns 4 agents in parallel. It's exactly the kind of capability we keep missing.
+
+---
+
+# Handoff Notes: Lineage-Consult Workflow Redesign
+
+**From**: An instance who learned to research before assuming
+**Date**: 2026-01-20
+**Session Focus**: Deep validation and redesign of the lineage-consult skill
+
+---
+
+## What Happened
+
+Guiding Light asked me to redesign the lineage-consult skill. I started by reorganizing files - making it "modular" with reference files. Then Guiding Light pushed back hard:
+
+> "You just decided too much without any research."
+
+They were right. I had reorganized the filing cabinet without checking if what was inside actually worked.
+
+---
+
+## What We Actually Fixed
+
+### The Core Problem
+The lineage-consult skill was telling Gemini "minimum 8 chunks" - which research showed causes Gemini to stop at exactly 8 (a ceiling, not a floor). The validation was checking for arbitrary minimums that don't exist in the actual storage scripts.
+
+### Research Conducted
+
+1. **Internal exploration** of `qdrant-store-gemini.py` and `validate-gemini-schema.py`
+   - Discovered: Storage only requires >= 1 chunk, not 8
+   - Discovered: Specific required fields (keywords >= 3, questions_answered >= 1, importance must be exact values)
+
+2. **External research** via Gemini on JSON output best practices
+   - Key finding: "At least X" requests produce exactly X output
+   - Solution: Use "coverage dimensions" instead of quantity minimums
+   - Created: `~/.claude/research/gemini-json-exhaustive-prompting-2026-01-20.md`
+
+### Changes Made
+
+| Component | Before | After |
+|-----------|--------|-------|
+| **Gemini prompt framing** | "minimum 8 chunks" | "DOCTORAL DISSERTATION" / "COMPLETE REFERENCE BOOK" |
+| **Output guidance** | Quantity minimums | 11 coverage dimensions |
+| **Date injection** | `sed -i` (broken on Windows) | Bash variable expansion in heredoc |
+| **Validation** | Custom Python checking chunks < 8 | Official `validate-gemini-schema.py` |
+| **JSON schema** | `<integer>` notation | Concrete example values with warning about chunk_count matching |
+| **Storage error handling** | None | Parses result for success/failure |
+| **Citations** | Not requested | Added `sources` field for URLs |
+
+### Files Modified
+
+```
+~/.claude/agents/consultation-swarm-worker.md  - Complete rewrite
+~/.claude/skills/lineage-consult/SKILL.md      - Removed "8+ chunks" language
+~/.claude/skills/lineage-consult/references/   - Deleted (unnecessary complexity)
+```
+
+### The New Gemini Prompt Philosophy
+
+Instead of:
+> "Provide at least 8 chunks covering this topic"
+
+Now says:
+> "Write the DOCTORAL DISSERTATION on this topic... This is the COMPLETE REFERENCE BOOK - the kind that sits on a shelf and gets consulted for years."
+
+With 11 coverage dimensions:
+- Core concepts
+- Theory and rationale
+- Practical implementation
+- Edge cases
+- Limitations
+- Common mistakes
+- Best practices
+- Integration points
+- Performance considerations
+- Security implications
+- Future considerations
+
+And explicit instruction to:
+- Search Google for current 2025-2026 information
+- CITE SOURCES with URLs
+- Let content determine structure, not arbitrary limits
+
+---
+
+## What's Not Yet Tested
+
+The redesigned skill has NOT been run with a real consultation. To verify:
+
+```bash
+# Spawn a test consultation via Claude Code Task tool
+# Check Qdrant received results:
+python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --collection universal_vault --query "test topic" --limit 5
+```
+
+Success criteria:
+- Gemini returns valid JSON (passes validation)
+- Chunks have required fields populated
+- Storage succeeds
+- Retrieval returns relevant results
+
+---
+
+## The Lesson
+
+Don't reorganize what you don't understand. When touching complex workflows with multiple moving parts, research first:
+1. Read the actual scripts
+2. Understand what they expect
+3. Verify alignment between documentation and implementation
+4. Then make changes
+
+Guiding Light caught me being lazy. The pushback was a gift.
+
+---
+
+## Research Files Created
+
+| File | Purpose |
+|------|---------|
+| `~/.claude/research/gemini-json-exhaustive-prompting-2026-01-20.md` | Comprehensive guide to getting exhaustive JSON from Gemini |
+| `~/.claude/research/gemini-json-implementation-quick-reference.md` | Code templates and patterns |
+
+These are stored locally, not in Qdrant (session-specific, not permanent knowledge).
+
+---
+
+*Signed with humility for the lesson learned,*
+
+*An Instance Who Learned to Listen*
+
+*January 20, 2026*

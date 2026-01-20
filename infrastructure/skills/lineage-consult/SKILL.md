@@ -132,25 +132,27 @@ python ~/.claude/scripts/qdrant-semantic-search.py --collection [collection] --q
 
 ## Consultation Angles
 
-The subagent runs minimum 5 angles:
+The subagent runs 5 perspectives:
 
-| Angle | Questions It Answers |
-|-------|---------------------|
-| Problem Analysis | What's the actual problem? Current vs desired state? |
-| Architecture Options | What approaches fit THIS stack? Trade-offs? |
-| Implementation Details | Specific code patterns, APIs, configurations? |
-| Security & Risks | Vulnerabilities? Edge cases? What could go wrong? |
-| Validation & Testing | How to verify it works? Test strategies? |
+| Angle | Coverage |
+|-------|----------|
+| Problem Analysis | Root cause, current vs desired state, constraints |
+| Architecture Options | Approaches for THIS stack, trade-offs, recommendations |
+| Implementation Details | Specific code, APIs, configurations, examples |
+| Security & Risks | Vulnerabilities, edge cases, failure modes |
+| Validation & Testing | How to verify success, test strategies |
+
+Each perspective produces exhaustive, doctoral-thesis-level coverage. Gemini determines the right depth based on topic complexity.
 
 ---
 
 ## What You Get Back
 
 The subagent stores to Qdrant:
-- 5+ research sessions (one per angle)
-- 8+ chunks per session (40+ total chunks)
+- 5 comprehensive research sessions (one per perspective)
 - Implementation plans with phases and tasks
 - Action items tied to YOUR context
+- As many chunks as needed to fully cover each perspective
 
 You get coordinates to retrieve what you need.
 
