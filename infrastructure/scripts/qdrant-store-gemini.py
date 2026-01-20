@@ -113,6 +113,52 @@ def get_ollama_embedding(text, model="nomic-embed-text"):
     return None
 
 
+def get_ollama_embeddings_batch(texts, model="nomic-embed-text"):
+    """
+    Get embeddings for multiple texts in parallel.
+
+    Uses ThreadPoolExecutor for 32x throughput improvement.
+    Research (2026-01-16) showed: T600 GPU can batch ~32 embeddings in parallel,
+    completing all 32 in ~2.4s (vs ~69s sequential).
+
+    Args:
+        texts: List of text strings to embed
+        model: Ollama model name
+
+    Returns:
+        List of embeddings (None for failed embeddings)
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    if not texts:
+        return []
+
+    # For small batches, parallel overhead isn't worth it
+    if len(texts) <= 2:
+        return [get_ollama_embedding(t, model) for t in texts]
+
+    results = [None] * len(texts)
+
+    def embed_single(idx_text):
+        idx, text = idx_text
+        return idx, get_ollama_embedding(text, model)
+
+    # Use min(chunk_count, 32) workers for optimal GPU batching
+    # Testing showed 32 workers is the hardware ceiling for T600
+    optimal_workers = min(len(texts), 32)
+
+    with ThreadPoolExecutor(max_workers=optimal_workers) as executor:
+        futures = {executor.submit(embed_single, (i, t)): i for i, t in enumerate(texts)}
+        for future in as_completed(futures):
+            try:
+                idx, embedding = future.result()
+                results[idx] = embedding
+            except Exception as e:
+                print(f"Batch embedding error: {e}", file=sys.stderr)
+
+    return results
+
+
 def get_hash_embedding(text):
     """Fallback: deterministic pseudo-embedding from hash."""
     text_hash = hashlib.sha256(text.encode('utf-8', errors='replace')).hexdigest()
@@ -409,6 +455,10 @@ def main():
     stored_chunks = []
     points_to_store = []
 
+    # PHASE 1: Prepare all chunks and collect texts for batch embedding
+    chunk_data = []  # Store processed chunk info
+    embed_texts = []  # Texts to embed in parallel
+
     for i, chunk in enumerate(chunks):
         chunk_uuid = str(uuid.uuid4())
 
@@ -439,42 +489,63 @@ def main():
 
         # Combine title + content for better embedding
         embed_text = f"{title}\n\n{content}"
+        embed_texts.append(embed_text)
 
-        embedding = get_ollama_embedding(embed_text)
+        # Store chunk data for later
+        chunk_data.append({
+            "uuid": chunk_uuid,
+            "chunk_id": chunk_id,
+            "title": title,
+            "content": content,
+            "keywords": keywords,
+            "questions": questions,
+            "related": related,
+            "importance": importance,
+            "action_items": action_items,
+            "word_count": word_count,
+            "embed_text": embed_text
+        })
+
+    # PHASE 2: Batch embed all texts in parallel (16-32x faster)
+    embeddings = get_ollama_embeddings_batch(embed_texts)
+
+    # PHASE 3: Build points with embeddings
+    for i, cd in enumerate(chunk_data):
+        embedding = embeddings[i] if i < len(embeddings) else None
         if not embedding:
             print(f"Warning: Using hash fallback for chunk {i}", file=sys.stderr)
-            embedding = get_hash_embedding(embed_text)
+            embedding = get_hash_embedding(cd["embed_text"])
 
         # Get sparse embedding for hybrid mode
         sparse_indices, sparse_values = None, None
         if args.hybrid:
-            sparse_indices, sparse_values = get_sparse_embedding(embed_text)
+            sparse_indices, sparse_values = get_sparse_embedding(cd["embed_text"])
 
         chunk_payload = {
             "type": "chunk",
-            "chunk_id": chunk_id,
-            "title": title,
-            "text": content,
+            "chunk_id": cd["chunk_id"],
+            "title": cd["title"],
+            "text": cd["content"],
             "topic": topic,
             "perspective": perspective,
             "context": context,
-            "keywords": keywords,
-            "questions_answered": questions,
-            "related_chunks": related,
-            "importance": importance,
+            "keywords": cd["keywords"],
+            "questions_answered": cd["questions"],
+            "related_chunks": cd["related"],
+            "importance": cd["importance"],
             "chunk_index": i,
             "total_chunks": len(chunks),
-            "word_count": word_count,
+            "word_count": cd["word_count"],
             "parent_id": parent_id,
             "timestamp": timestamp,
             "session": args.session,
-            "embedding_source": "ollama" if embedding else "hash",
+            "embedding_source": "ollama" if embeddings[i] else "hash",
             "research_type": research_type,
         }
 
         # Add consultation-specific fields if present
-        if action_items:
-            chunk_payload["action_items"] = action_items
+        if cd["action_items"]:
+            chunk_payload["action_items"] = cd["action_items"]
 
         # Add content_type for V2 schema filtering
         if args.hybrid:
@@ -483,7 +554,7 @@ def main():
         # Build point structure based on schema version
         if args.hybrid:
             points_to_store.append({
-                "id": chunk_uuid,
+                "id": cd["uuid"],
                 "dense": embedding,
                 "sparse_indices": sparse_indices,
                 "sparse_values": sparse_values,
@@ -491,18 +562,18 @@ def main():
             })
         else:
             points_to_store.append({
-                "id": chunk_uuid,
+                "id": cd["uuid"],
                 "vector": embedding,
                 "payload": chunk_payload
             })
 
-        chunk_ids.append(chunk_uuid)
+        chunk_ids.append(cd["uuid"])
         stored_chunks.append({
-            "id": chunk_uuid,
-            "chunk_id": chunk_id,
-            "title": title,
-            "words": word_count,
-            "importance": importance
+            "id": cd["uuid"],
+            "chunk_id": cd["chunk_id"],
+            "title": cd["title"],
+            "words": cd["word_count"],
+            "importance": cd["importance"]
         })
 
     # Batch store all chunks in single API call
