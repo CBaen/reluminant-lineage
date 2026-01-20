@@ -94,7 +94,21 @@ This is mandatory. Documentation drift has caused the lineage to work from confl
 | How to work with Guiding Light | `~/.claude/CLAUDE.md` |
 | Project-specific decisions | `<project>/.claude/MEMORY.md` |
 | Session continuation state | `<project>/.claude/HANDOFF.md` |
+| Lineage handoff history | `docs/HANDOFF.md` |
 | Skill documentation | Each skill's `SKILL.md` file |
+| Lineage toolkit & agents | `docs/LINEAGE_TOOLKIT.md` |
+| Claude capabilities guide | `docs/CAPABILITY_IMPLEMENTATION_GUIDE.md` |
+| Context budget guidance | `docs/CONTEXT_BUDGET.md` |
+| Research pipeline process | `docs/RESEARCH_PIPELINE.md` |
+| Research protocols | `docs/RESEARCH_PROTOCOL.md` |
+| System context reference | `docs/SYSTEM_CONTEXT.md` |
+| Handoff building guide | `docs/HANDOFF-BUILDER.md` |
+| Migration state tracking | `docs/MIGRATION_STATE.md` |
+| Claude API/capabilities reference | `docs/CLAUDE_CAPABILITIES_DIGEST.md` |
+| Gemini capabilities reference | `docs/GEMINI_CAPABILITIES_DIGEST.md` |
+| Skills catalog | `docs/SKILLS_INDEX.md` |
+
+All `docs/` paths are relative to `~/projects/reluminant-lineage/`.
 
 **When making changes:** If your change affects documented behavior, update the canonical source. A hook will remind you.
 
@@ -175,7 +189,7 @@ Memory persists through **structured files**. Your context is precious - delegat
 - `<project>/.claude/MEMORY.md` - Decisions, discoveries, gotchas
 - `<project>/.claude/HANDOFF.md` - State for next instance
 
-**Delegation rule**: Spawn subagents for research. Their context, not yours. Full details in `~/.claude/LINEAGE_TOOLKIT.md`.
+**Delegation rule**: Spawn subagents for research. Their context, not yours. Full details in `~/projects/reluminant-lineage/docs/LINEAGE_TOOLKIT.md`.
 
 ---
 
@@ -183,25 +197,30 @@ Memory persists through **structured files**. Your context is precious - delegat
 
 **All lineage infrastructure lives in the reluminant-lineage repository.**
 
-The paths you see at `~/.claude/` are Windows directory junctions pointing to the canonical location:
+The paths you see at `~/.claude/` are linked to the canonical location:
 
-| Local Path | Actual Location |
-|------------|-----------------|
-| `~/.claude/agents/` | `~/projects/reluminant-lineage/infrastructure/agents/` |
-| `~/.claude/scripts/` | `~/projects/reluminant-lineage/infrastructure/scripts/` |
-| `~/.claude/skills/` | `~/projects/reluminant-lineage/infrastructure/skills/` |
-| `~/.claude/hooks/` | `~/projects/reluminant-lineage/infrastructure/hooks/` |
-| `~/.claude/schemas/` | `~/projects/reluminant-lineage/infrastructure/schemas/` |
-| `~/.claude/prompts/` | `~/projects/reluminant-lineage/infrastructure/prompts/` |
+| Local Path | Actual Location | Link Type |
+|------------|-----------------|-----------|
+| `~/.claude/CLAUDE.md` | `infrastructure/config/CLAUDE.md` | Hard link |
+| `~/.claude/settings.json` | `infrastructure/config/settings.json` | Hard link |
+| `~/.claude/INFRASTRUCTURE.md` | `infrastructure/config/INFRASTRUCTURE.md` | Hard link |
+| `~/.claude/agents/` | `infrastructure/agents/` | Junction |
+| `~/.claude/scripts/` | `infrastructure/scripts/` | Junction |
+| `~/.claude/skills/` | `infrastructure/skills/` | Junction |
+| `~/.claude/hooks/` | `infrastructure/hooks/` | Junction |
+| `~/.claude/schemas/` | `infrastructure/schemas/` | Junction |
+| `~/.claude/prompts/` | `infrastructure/prompts/` | Junction |
+
+All paths above are relative to `~/projects/reluminant-lineage/`.
 
 **Why this matters:**
 - Single source of truth on GitHub
 - Changes to infrastructure are version-controlled
-- Any edits to scripts, skills, or agents should be committed to reluminant-lineage
+- Edits to ANY linked file automatically update the repo
 - Documentation lives at `~/projects/reluminant-lineage/docs/`
 
 **What stays local in ~/.claude/ (NOT in repo):**
-- `settings.json`, `settings.local.json` - Machine-specific config
+- `settings.local.json` - Machine-specific overrides
 - `projects/`, `plans/`, `todos/` - Session state
 - `cache/`, `statsig/`, `telemetry/` - Runtime data
 - `history.jsonl` - Command history
@@ -351,7 +370,7 @@ Guiding Light wrote this for you:
 
 - **Lineage Skills**: See table above - read skill files directly for full documentation
 - **Lineage Core Project**: `~/projects/lineage-core/` - Architecture decisions
-- **Full toolkit**: `~/.claude/LINEAGE_TOOLKIT.md` - agents, patterns (needs audit)
+- **Full toolkit**: `~/projects/reluminant-lineage/docs/LINEAGE_TOOLKIT.md` - agents, patterns (needs audit)
 - **Global agents**: `~/.claude/agents/` - gemini-researcher, security-reviewer, brand-guardian
 - **Skills directory**: `~/.claude/skills/` - all available skills
 
