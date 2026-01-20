@@ -33,7 +33,102 @@ import sys
 import json
 import subprocess
 import argparse
+import re
 from pathlib import Path
+from datetime import datetime
+
+
+# ============================================================================
+# JSON SANITIZATION (addresses output contamination from Gemini)
+# ============================================================================
+
+def extract_json_from_text(text: str) -> str:
+    """
+    Extract valid JSON from potentially contaminated Gemini output.
+
+    Handles:
+    - Markdown code fences: ```json {...} ```
+    - "Loaded cached credentials" prefix
+    - Other text before/after the JSON object
+
+    Args:
+        text: Raw output from Gemini that may contain extra formatting
+
+    Returns:
+        Extracted JSON string, or original text if no JSON found
+    """
+    if not text or not text.strip():
+        return text
+
+    # Strip common prefixes that leak from stderr
+    prefixes_to_strip = [
+        "Loaded cached credentials",
+        "Using cached credentials",
+    ]
+    cleaned = text
+    for prefix in prefixes_to_strip:
+        if cleaned.strip().startswith(prefix):
+            # Find the first newline after the prefix and skip to there
+            idx = cleaned.find('\n')
+            if idx != -1:
+                cleaned = cleaned[idx+1:]
+
+    # Try to extract from markdown code fence first
+    # Pattern: ```json\n{...}\n``` or ```\n{...}\n```
+    fence_pattern = r'```(?:json)?\s*(\{[\s\S]*?\})\s*```'
+    match = re.search(fence_pattern, cleaned)
+    if match:
+        return match.group(1)
+
+    # If not in a fence, find the outermost JSON object
+    # Look for first { and last }
+    first_brace = cleaned.find('{')
+    last_brace = cleaned.rfind('}')
+
+    if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
+        extracted = cleaned[first_brace:last_brace + 1]
+        # Verify it's actually valid JSON
+        try:
+            json.loads(extracted)
+            return extracted
+        except json.JSONDecodeError:
+            # Not valid JSON, return original for downstream error handling
+            pass
+
+    return text
+
+
+def save_to_dead_letter(raw_output: str, error_msg: str, context: dict = None):
+    """
+    Save failed output to a dead-letter directory for debugging.
+
+    Args:
+        raw_output: The raw Gemini output that failed
+        error_msg: The error message explaining why it failed
+        context: Optional dict with additional context (account, prompt snippet, etc.)
+    """
+    dead_letter_dir = os.path.expanduser("~/.claude/failures")
+    os.makedirs(dead_letter_dir, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"gemini_failure_{timestamp}.json"
+    filepath = os.path.join(dead_letter_dir, filename)
+
+    failure_record = {
+        "timestamp": datetime.now().isoformat(),
+        "error": error_msg,
+        "raw_output_length": len(raw_output),
+        "raw_output": raw_output[:50000],  # Truncate very large outputs
+        "context": context or {}
+    }
+
+    try:
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(failure_record, f, indent=2, ensure_ascii=False)
+        return filepath
+    except Exception as e:
+        print(f"[WARNING] Failed to save dead letter: {e}", file=sys.stderr)
+        return None
 
 
 def get_script_path():
@@ -230,6 +325,27 @@ Examples:
             for line in stderr.strip().split('\n'):
                 if line.strip():
                     print(f"[GEMINI] {line}", file=sys.stderr)
+
+    # Step 1.5: Sanitize output (extract JSON from markdown wrappers, strip prefixes)
+    original_data = data
+    data = extract_json_from_text(data)
+    if data != original_data:
+        if not args.quiet:
+            print(f"[SUBPROCESS] Sanitized output: {len(original_data)} -> {len(data)} bytes", file=sys.stderr)
+
+    # Validate JSON if we're storing (not just outputting to stdout)
+    if not args.stdout:
+        try:
+            json.loads(data)
+        except json.JSONDecodeError as e:
+            # Save to dead letter queue
+            dead_letter_path = save_to_dead_letter(
+                original_data,
+                f"JSON parse error: {e}",
+                {"account": args.account, "collection": args.collection, "session": args.session}
+            )
+            print(f"[SUBPROCESS] ERROR: Invalid JSON from Gemini. Saved to: {dead_letter_path}", file=sys.stderr)
+            sys.exit(1)
 
     # Step 2: Either output to stdout or store to Qdrant
     if args.stdout:

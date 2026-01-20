@@ -64,8 +64,25 @@
 |-------|----------|
 | Windows pipe issues | Use `--input-file` instead of stdin |
 | Shell escaping with JSON | Use `--prompt-file`, never `-q` |
-| "Loaded cached credentials" in output | Storage script strips this automatically |
-| Markdown wrappers in Gemini output | Storage script strips these automatically |
+| "Loaded cached credentials" in output | Orchestrator strips this automatically |
+| Markdown wrappers in Gemini output | Orchestrator strips these automatically |
+| **PowerShell vs Git Bash** | Claude Code's Bash tool uses PowerShell on Windows. Use Python scripts or explicitly call Git Bash |
+| Bash heredocs in agents | Don't use `cat << EOF` in agent files - fails in PowerShell. Use Python for file creation |
+| Agent YAML frontmatter | Required for Claude Code to recognize agents. Include `name`, `description`, `allowed-tools` |
+
+### Claude Code on Windows
+
+**Critical:** Claude Code's Bash tool runs commands in PowerShell, NOT Git Bash.
+
+**Symptoms:**
+- Bash heredocs (`cat << EOF`) throw PowerShell syntax errors
+- `$VARIABLE` expansion behaves differently
+- Unix-style pipes may fail
+
+**Solutions:**
+1. Use Python scripts for complex operations (recommended)
+2. Call Git Bash explicitly: `"C:\Program Files\Git\bin\bash.exe" -c "command"`
+3. Use `--prompt-file` and `--input-file` instead of pipes and heredocs
 
 ---
 
