@@ -58,8 +58,9 @@ MOCK_RESPONSE = '''{
 }'''
 
 # Simple prompt that should produce valid JSON
-TEST_PROMPT = '''Return a minimal JSON response for testing. Use EXACTLY this structure:
+TEST_PROMPT = '''Return a JSON object for a workflow test. CRITICAL: the content field MUST have at least 60 words.
 
+Required structure:
 {
   "meta": {
     "topic": "workflow-test",
@@ -67,7 +68,7 @@ TEST_PROMPT = '''Return a minimal JSON response for testing. Use EXACTLY this st
     "context": "test",
     "depth": "minimal",
     "research_type": "test",
-    "total_words": 50,
+    "total_words": 80,
     "chunk_count": 1,
     "generated_at": "2026-01-20T12:00:00Z"
   },
@@ -80,7 +81,7 @@ TEST_PROMPT = '''Return a minimal JSON response for testing. Use EXACTLY this st
     {
       "id": "chunk-01",
       "title": "Test Chunk",
-      "content": "This is a test chunk with enough words to pass validation. It contains the minimum required content to verify the workflow functions correctly from Gemini through validation to Qdrant storage and retrieval.",
+      "content": "WRITE AT LEAST 60 WORDS HERE about testing workflows. Explain that this chunk verifies the consultation pipeline works correctly. It tests the complete flow from Gemini API call through JSON parsing, schema validation, Qdrant vector storage with hybrid embeddings, and semantic retrieval. Each step must complete successfully. The JSON must be valid, the schema must validate, vectors must store, and retrieval must return results.",
       "keywords": ["test", "workflow", "verification"],
       "questions_answered": ["Does the workflow work?"],
       "importance": "core"
@@ -88,7 +89,7 @@ TEST_PROMPT = '''Return a minimal JSON response for testing. Use EXACTLY this st
   ]
 }
 
-Return ONLY that JSON, no markdown wrappers.'''
+Return ONLY valid JSON with no markdown wrappers. The content field MUST be at least 60 words.'''
 
 
 def run_test(use_mock: bool = False, verbose: bool = False):

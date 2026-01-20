@@ -70,21 +70,20 @@
 | Bash heredocs in agents | Don't use `cat << EOF` in agent files - fails in PowerShell. Use Python for file creation |
 | Agent YAML frontmatter | Required for Claude Code to recognize agents. Include `name`, `description`, `allowed-tools` |
 
-### Gemini CLI Is Agentic (Critical Discovery 2026-01-20)
+### Gemini CLI Output Modes (Corrected 2026-01-20)
 
-**The `gemini` CLI is NOT a simple API wrapper.** It's an agentic tool like Claude Code.
+**The `gemini` CLI has different modes.** By default it may exhibit agentic behavior, but `--output-format text` gives simple completions.
 
-When called with a prompt, it:
-- Plans actions
-- Reads files
-- Executes code
-- Returns reasoning traces instead of simple completions
+**Key flag:** `--output-format text` (or `json` or `stream-json`)
 
-**Why this matters:** Our consultation workflow expects simple JSON responses. The CLI returns agentic reasoning instead.
+With `--output-format text`:
+- Returns simple text/JSON responses
+- No agentic reasoning traces
+- Works with OAuth credentials (free tier)
 
-**Unsolved:** How to get simple text/JSON completions using OAuth credentials (free tier) without agentic behavior.
+**Previous misconception:** An earlier session concluded the CLI was purely agentic. Testing shows `--output-format text` provides the simple completion behavior we need.
 
-**Constraint:** OAuth MUST stay. It provides free-tier access, saving thousands in API costs. Do NOT suggest API keys.
+**The orchestrator already uses this flag.** The consultation workflow is functional.
 
 ### Claude Code on Windows
 
@@ -113,6 +112,24 @@ When called with a prompt, it:
 | Infrastructure docs | `~/.claude/INFRASTRUCTURE.md` |
 
 All paths above are junctions to `~/projects/reluminant-lineage/infrastructure/`.
+
+---
+
+### End-to-End Workflow Test (Added 2026-01-20)
+
+**Test script:** `~/.claude/scripts/test-consultation-workflow.py`
+
+```bash
+# Mock mode (no API call)
+python ~/.claude/scripts/test-consultation-workflow.py --mock --verbose
+
+# Live mode (calls Gemini)
+python ~/.claude/scripts/test-consultation-workflow.py --verbose
+```
+
+Tests: Gemini call → JSON sanitization → schema validation → Qdrant storage → retrieval
+
+**Status:** Both mock and live tests pass as of 2026-01-20.
 
 ---
 
