@@ -1,0 +1,61 @@
+{
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "File edited. Does this change affect documented behavior? If yes, update the canonical source (see Single Source of Truth in CLAUDE.md). Output nothing if no doc update needed. If needed, say one line like: 'This affects [topic] - updating [file].'",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "File created. Does this duplicate information that exists elsewhere? If yes, consider linking instead of copying (see Single Source of Truth in CLAUDE.md). Output nothing if fine. If duplicate, say one line like: 'This duplicates [topic] from [file] - should link instead.'",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Context is running low. Check these before wrapping up:\n\n1. **Uncommitted changes?** - Offer to commit\n2. **Documentation sync?** - If you changed behavior, did you update the canonical source? (See Single Source of Truth in CLAUDE.md)\n3. **Handoff needed?** - Update HANDOFF.md if next instance needs context\n\nRespond with ONE brief line. Examples:\n- \"Low context - should I commit changes and update docs?\"\n- \"Context low. Documentation looks synced. Ready to wrap up?\"\n- \"Almost out of context. Want me to update handoff notes?\"\n\nKeep it SHORT. User has ADHD.",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node \"C:/Users/baenb/.claude/plugins/todo-planning/scripts/statusline.js\""
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "serena@claude-plugins-official": false,
+    "security-guidance@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "explanatory-output-style@claude-plugins-official": false,
+    "feature-dev@claude-code-plugins": false,
+    "frontend-design@claude-code-plugins": false,
+    "plugin-dev@claude-code-plugins": false,
+    "security-guidance@claude-code-plugins": false
+  },
+  "alwaysThinkingEnabled": true
+}
