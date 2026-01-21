@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "created": "2026-01-20T18:11:18.250864",
+  "last_updated": "2026-01-20T20:16:59.760144",
+  "statistics": {
+    "total_episodes": 1,
+    "total_extractions": 19,
+    "stored_to_qdrant": 19,
+    "pending_storage": 0,
+    "by_content_type": {
+      "lore_fact": 12,
+      "used_sensory_language": 1,
+      "character_state": 2,
+      "historical_fact": 4
+    }
+  },
+  "episodes": {
+    "2": {
+      "episode_number": 2,
+      "title": "Episode 2",
+      "status": "stored",
+      "total_extractions": 19,
+      "stored_count": 19,
+      "pending_count": 0,
+      "by_content_type": {
+        "lore_fact": 12,
+        "used_sensory_language": 1,
+        "character_state": 2,
+        "historical_fact": 4
+      },
+      "last_updated": "2026-01-20T20:16:16.679289"
+    }
+  }
+}

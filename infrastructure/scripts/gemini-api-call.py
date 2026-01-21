@@ -138,7 +138,7 @@ def call_gemini(prompt: str, model: str, api_key: str, timeout: int = CALL_TIMEO
         return False, "", f"ERROR: {e}"
 
 
-def call_with_fallback(prompt: str, start_account: int, start_model: str = None) -> tuple[bool, str]:
+def call_with_fallback(prompt: str, start_account: int, start_model: str = None, timeout: int = CALL_TIMEOUT) -> tuple[bool, str]:
     """
     Call Gemini with automatic account rotation and model fallback.
 
@@ -167,7 +167,7 @@ def call_with_fallback(prompt: str, start_account: int, start_model: str = None)
                 continue
 
             for attempt in range(1, MAX_RETRIES + 1):
-                success, response, error = call_gemini(prompt, model, api_key)
+                success, response, error = call_gemini(prompt, model, api_key, timeout=timeout)
 
                 if success:
                     if model != (start_model or MODEL_CHAIN[0]) or account != start_account:
@@ -241,12 +241,8 @@ Model fallback chain (quality-first):
         print("ERROR: No prompt provided", file=sys.stderr)
         sys.exit(1)
 
-    # Update global timeout
-    global CALL_TIMEOUT
-    CALL_TIMEOUT = args.timeout
-
-    # Make the call
-    success, result = call_with_fallback(prompt, args.account, args.model)
+    # Make the call (timeout is passed through call_with_fallback to call_gemini)
+    success, result = call_with_fallback(prompt, args.account, args.model, timeout=args.timeout)
 
     if args.json:
         output = {

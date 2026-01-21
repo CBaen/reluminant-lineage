@@ -1,0 +1,30 @@
+{
+  "episode_number": 2,
+  "episode_title": "Episode 2",
+  "created": "2026-01-20T18:11:18.249313",
+  "last_updated": "2026-01-20T20:16:59.759320",
+  "status": "stored",
+  "chunks": {
+    "5": {
+      "file": "chunk-05.json",
+      "extraction_count": 5,
+      "needs_opus": 22,
+      "stored": false
+    },
+    "6": {
+      "file": "chunk-06.json",
+      "extraction_count": 14,
+      "needs_opus": 4,
+      "stored": false
+    }
+  },
+  "total_extractions": 19,
+  "stored_count": 19,
+  "pending_count": 0,
+  "by_content_type": {
+    "lore_fact": 12,
+    "used_sensory_language": 1,
+    "character_state": 2,
+    "historical_fact": 4
+  }
+}
