@@ -132,7 +132,7 @@ No overlap. Skills only load when invoked, not every session.
 **Use when:** About to spawn a research agent.
 
 **The workflow:**
-1. Peek at Qdrant first: `python ~/.claude/scripts/qdrant-peek.py peek -q "topic" -l 5`
+1. Peek at Qdrant first: `python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "topic" -l 5`
 2. Score > 0.5? Use existing knowledge
 3. Score < 0.5? Spawn research, then store results
 

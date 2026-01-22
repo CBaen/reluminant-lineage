@@ -18,7 +18,7 @@ The lineage accumulates knowledge. Before researching something new, check what 
 Before ANY research task, check what exists:
 
 ```bash
-python ~/.claude/scripts/qdrant-peek.py peek -q "your topic" -l 5
+python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "your topic" -l 5
 ```
 
 This returns titles and relevance scores - costs ~50 tokens per result.
@@ -35,7 +35,7 @@ This returns titles and relevance scores - costs ~50 tokens per result.
 
 **If relevant results found (score > 0.5):**
 ```bash
-python ~/.claude/scripts/qdrant-peek.py fetch --ids "id1,id2"
+python ~/.claude/scripts/qdrant-peek.py fetch -c universal_vault --ids "id1,id2"
 ```
 
 **If nothing relevant (score < 0.5):**
@@ -100,7 +100,7 @@ If you catch yourself:
 
 ```
 BEFORE RESEARCH:
-1. Peek: python ~/.claude/scripts/qdrant-peek.py peek -q "topic" -l 5
+1. Peek: python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "topic" -l 5
 2. Score > 0.5? Fetch and use existing
 3. Score < 0.5? Spawn research, then store results
 

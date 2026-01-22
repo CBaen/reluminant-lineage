@@ -58,7 +58,7 @@ def peek(collection: str, query: str, limit: int = 5, threshold: float = 0.5) ->
     response = requests.post(
         f"{QDRANT_URL}/collections/{collection}/points/search",
         json={
-            "vector": embedding,
+            "vector": {"name": "dense", "vector": embedding},
             "limit": limit,
             "score_threshold": threshold,
             "with_payload": {
