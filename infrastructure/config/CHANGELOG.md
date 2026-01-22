@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-01-22
+
+### Added
+
+- settings.json: Added changelog-reminder hook to Edit and Write tool events
+- CLAUDE.md: Added "Changelog Discipline" section requiring changelog updates for infrastructure/ changes
+
 ## [1.0.0] - 2026-01-22
 
 ### Added

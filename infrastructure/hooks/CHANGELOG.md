@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-01-22
+
+### Added
+
+- changelog-reminder.sh: Reminds to update CHANGELOG.md when infrastructure/ files are modified
+
 ## [1.0.0] - 2026-01-22
 
 ### Added

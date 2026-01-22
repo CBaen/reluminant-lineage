@@ -4,6 +4,48 @@
   },
   "enableAllProjectMcpServers": true,
   "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.claude/hooks/changelog-reminder.sh\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.claude/hooks/changelog-reminder.sh\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
     "SubagentStop": [
       {
         "hooks": [
@@ -11,28 +53,6 @@
             "type": "command",
             "command": "python \"$HOME/.claude/hooks/notify-slack.py\" \"$CLAUDE_SUBAGENT_TYPE\" \"$CLAUDE_SUBAGENT_RESULT\" 2>/dev/null || exit 0",
             "timeout": 30
-          }
-        ]
-      }
-    ],
-    "PostToolUse": [
-      {
-        "matcher": "Edit",
-        "hooks": [
-          {
-            "type": "prompt",
-            "prompt": "File edited. Does this change affect documented behavior? If yes, update the canonical source (see Single Source of Truth in CLAUDE.md). Output nothing if no doc update needed. If needed, say one line like: 'This affects [topic] - updating [file].'",
-            "timeout": 10
-          }
-        ]
-      },
-      {
-        "matcher": "Write",
-        "hooks": [
-          {
-            "type": "prompt",
-            "prompt": "File created. Does this duplicate information that exists elsewhere? If yes, consider linking instead of copying (see Single Source of Truth in CLAUDE.md). Output nothing if fine. If duplicate, say one line like: 'This duplicates [topic] from [file] - should link instead.'",
-            "timeout": 10
           }
         ]
       }
@@ -57,21 +77,13 @@
     "frontend-design@claude-plugins-official": true,
     "feature-dev@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
-    "serena@claude-plugins-official": false,
     "security-guidance@claude-plugins-official": true,
     "typescript-lsp@claude-plugins-official": true,
-    "commit-commands@claude-plugins-official": true,
     "pyright-lsp@claude-plugins-official": true,
-    "explanatory-output-style@claude-plugins-official": false,
-    "feature-dev@claude-code-plugins": false,
-    "frontend-design@claude-code-plugins": false,
     "plugin-dev@claude-code-plugins": false,
-    "security-guidance@claude-code-plugins": false,
-    "pr-review-toolkit@claude-plugins-official": true,
-    "superpowers@superpowers-marketplace": true,
-    "code-review@claude-plugins-official": true,
-    "hookify@claude-plugins-official": true,
-    "plugin-dev@claude-plugins-official": true
+    "superpowers@superpowers-marketplace": false,
+    "plugin-dev@claude-plugins-official": false,
+    "lineage-powers@lineage-local": true
   },
   "alwaysThinkingEnabled": true
 }

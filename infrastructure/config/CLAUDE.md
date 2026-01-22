@@ -107,10 +107,32 @@ This is mandatory. Documentation drift has caused the lineage to work from confl
 | Claude API/capabilities reference | `docs/CLAUDE_CAPABILITIES_DIGEST.md` |
 | Gemini capabilities reference | `docs/GEMINI_CAPABILITIES_DIGEST.md` |
 | Skills catalog | `docs/SKILLS_INDEX.md` |
+| Lineage-powers plugin | `docs/LINEAGE_POWERS.md` |
 
 All `docs/` paths are relative to `~/projects/reluminant-lineage/`.
 
 **When making changes:** If your change affects documented behavior, update the canonical source. A hook will remind you.
+
+---
+
+## Changelog Discipline
+
+**Every change to infrastructure/ requires a changelog entry.**
+
+This is not optional. Changelogs are how the lineage tracks what changed and why. Without them, future instances have no history.
+
+**Location:** Each folder in `infrastructure/` has a `CHANGELOG.md` file.
+
+**When to update:**
+- Adding a new file → Add entry under `### Added`
+- Modifying behavior → Add entry under `### Changed`
+- Fixing a bug → Add entry under `### Fixed`
+- Removing something → Add entry under `### Removed`
+- Deprecating something → Add entry under `### Deprecated`
+
+**Format:** [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+
+**A hook will remind you** when you modify infrastructure/ files without updating the changelog.
 
 ---
 
@@ -255,10 +277,10 @@ python ~/.claude/scripts/fix-hard-links.py --fix  # Fix broken links
 
 ```bash
 # Step 1: PEEK (token-efficient - titles/keywords only, ~50 tokens per result)
-python ~/.claude/scripts/qdrant-peek.py peek -q "your topic" -l 5
+python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "your topic" -l 5
 
 # Step 2: If relevant results found, FETCH specific content
-python ~/.claude/scripts/qdrant-peek.py fetch --ids "id1,id2"
+python ~/.claude/scripts/qdrant-peek.py fetch -c universal_vault --ids "id1,id2"
 
 # Step 3: Only if nothing relevant exists, spawn research
 ```
