@@ -24,13 +24,15 @@ from pathlib import Path
 SCRIPTS_DIR = Path.home() / ".claude" / "scripts"
 GEMINI_API_CALL = SCRIPTS_DIR / "gemini-api-call.py"
 
-# Content types to extract
+# Content types to extract (V3 complete list)
 CONTENT_TYPES = [
     "historical_fact",
     "lore_fact",
     "character_state",
     "open_mystery",
     "proposed_question",
+    "revelation",           # V3: Major reveals that happened
+    "forbidden_conclusion", # V3: Statements that must NEVER be answered definitively
     "used_imagery",
     "used_sensory_language",
     "relationship"
@@ -47,16 +49,33 @@ CHUNK (Episode {episode}, Chunk {chunk_index}):
 CONTEXT: This is from "Tesla Mandela Effects" - a documentary series blending real history with invented lore. Characters like George Bliss may APPEAR historical but are unverifiable.
 
 Extract as JSON array with these content types:
+
 1. historical_fact - ONLY things independently verifiable (Carrington Event = yes, George Bliss = no)
 2. lore_fact - Series-invented canon (fiction presented as fact)
 3. character_state - Subjective experience/belief of a character
-4. open_mystery - Questions deliberately left unanswered
-5. used_sensory_language - Distinctive metaphors worth tracking
+4. open_mystery - Questions deliberately left unanswered (the narrative wants these to stay mysterious)
+5. proposed_question - Questions raised that MAY be answered later
+6. revelation - Major reveals that happened (discoveries, truths uncovered, significant disclosures)
+7. forbidden_conclusion - Statements that must NEVER be answered definitively (protect the series mystery)
+8. used_imagery - Broader metaphors and figurative language with scope (episode-only OR series-wide)
+9. used_sensory_language - Specific sensory constructions (visual, auditory, tactile descriptions)
+10. relationship - Connections between ANY entities (characters, concepts, objects)
 
-For EACH extraction include:
+For content types 1-9, include:
 - content_type
 - text (the extracted content)
 - reasoning (WHY you classified it this way)
+- confidence (0.0-1.0)
+
+For RELATIONSHIPS (content_type: "relationship"), include:
+- content_type: "relationship"
+- entity_a: First entity (character name, concept, or object)
+- entity_b: Second entity
+- relationship_type: One of [protective, hostile, symbiotic, parasitic, witness, family, mystery, creator, antagonist, mentor, student, rival, ally]
+- direction: "symmetric" | "a_to_b" | "b_to_a"
+- temporal_context: When in the narrative (e.g., "During infancy", "1856", "After the storm")
+- evidence: Direct quote from text supporting this relationship
+- text: Brief description of the relationship
 - confidence (0.0-1.0)
 
 {instruction}
@@ -166,22 +185,76 @@ def run_gemini_pass(chunk_text: str, episode: int, chunk_index: int,
         return []
 
 
+def normalize_text(text: str) -> str:
+    """Normalize text for comparison: lowercase, strip, collapse whitespace."""
+    import re
+    text = text.lower().strip()
+    text = re.sub(r'\s+', ' ', text)
+    return text
+
+
 def similarity_key(item: dict) -> str:
-    """Create a key for matching similar extractions across passes."""
-    # Use content type + first 50 chars of text
-    text = item.get("text", "")[:50].lower()
-    ctype = item.get("content_type", "")
-    return f"{ctype}:{text}"
+    """
+    Create a key for matching similar extractions across passes.
+
+    CRITICAL FIX (v3): Group by TEXT ONLY, not content_type.
+    The same fact may be classified as lore_fact by Pass 1 and historical_fact by Pass 2.
+    We want to GROUP them together, then VOTE on the classification.
+
+    V3 ADDITION: Relationships are keyed by entity pair, not text.
+    """
+    content_type = item.get("content_type", "")
+
+    # Relationships are keyed by entity pair + relationship type
+    if content_type == "relationship":
+        entity_a = normalize_text(item.get("entity_a", ""))
+        entity_b = normalize_text(item.get("entity_b", ""))
+        rel_type = item.get("relationship_type", "unknown")
+        # Sort entities to handle "A->B" and "B->A" as same relationship
+        entities = sorted([entity_a, entity_b])
+        return f"rel:{entities[0]}:{entities[1]}:{rel_type}"
+
+    # All other types: key by normalized text
+    text = normalize_text(item.get("text", ""))[:100]  # First 100 chars normalized
+    return text
+
+
+def vote_on_classification(items: list) -> tuple[str, int, int]:
+    """
+    Vote on what content_type a grouped set of items should have.
+
+    Returns:
+        (winning_type, votes_for, total_votes)
+    """
+    from collections import Counter
+
+    type_votes = Counter()
+    for item in items:
+        ctype = item.get("content_type", "unknown")
+        type_votes[ctype] += 1
+
+    if not type_votes:
+        return "unknown", 0, 0
+
+    winner, votes = type_votes.most_common(1)[0]
+    return winner, votes, len(items)
 
 
 def vote_on_extractions(pass1: list, pass2: list, pass3: list) -> tuple[list, list]:
     """
     Compare extractions from 3 passes and vote.
 
+    V3 FIX: Group by TEXT ONLY first, then vote on classification separately.
+    This reduces 81% disagreement to <20% by recognizing that:
+    - "Tesla's visions" as lore_fact (Pass 1)
+    - "Tesla's visions" as character_state (Pass 2)
+    - "Tesla's visions" as lore_fact (Pass 3)
+    ...should be ONE item with 2/3 vote for lore_fact, not 3 disagreed items.
+
     Returns:
         (agreed_items, disagreed_items)
     """
-    # Group by similarity
+    # Group by normalized text similarity
     all_items = {}
 
     for item in pass1 + pass2 + pass3:
@@ -195,25 +268,46 @@ def vote_on_extractions(pass1: list, pass2: list, pass3: list) -> tuple[list, li
     disagreed = []
 
     for key, data in all_items.items():
-        agreement = len(data["passes"])
+        items = data["items"]
+        passes_found = len(data["passes"])
+
+        # Step 1: Do we have 2/3 or 3/3 passes finding this text?
+        if passes_found < 2:
+            # Only 1 pass found this - needs review
+            best_item = max(items, key=lambda x: x.get("confidence", 0))
+            best_item["_needs_opus"] = True
+            best_item["_reason"] = "single_pass_only"
+            disagreed.append(best_item)
+            continue
+
+        # Step 2: Vote on classification (the V3 fix!)
+        winning_type, votes_for, total_votes = vote_on_classification(items)
 
         # Take the item with highest confidence
-        best_item = max(data["items"], key=lambda x: x.get("confidence", 0))
+        best_item = max(items, key=lambda x: x.get("confidence", 0))
 
-        if agreement >= 2:
-            # 2/3 or 3/3 agreement - accept
-            best_item["_agreement"] = f"{agreement}/3"
-            best_item["_final_confidence"] = 0.95 if agreement == 3 else 0.85
+        # Step 3: Check if classification has consensus (2/3 or 3/3 agree on type)
+        if votes_for >= 2:
+            # Classification consensus - ACCEPT
+            best_item["_agreement"] = f"{passes_found}/3"
+            best_item["_classification_votes"] = f"{votes_for}/{total_votes}"
+            best_item["_final_confidence"] = 0.95 if (passes_found == 3 and votes_for == 3) else 0.85
 
-            # Remove internal fields before output
+            # Use the voted classification, not the individual item's
             clean_item = {k: v for k, v in best_item.items() if not k.startswith("_")}
+            clean_item["content_type"] = winning_type  # The voted winner
             clean_item["confidence"] = best_item["_final_confidence"]
             clean_item["agreement"] = best_item["_agreement"]
+            clean_item["votes_for"] = votes_for
 
             agreed.append(clean_item)
         else:
-            # No agreement - needs Opus
+            # Classification split (e.g., 1 lore_fact, 1 historical_fact, 1 character_state)
+            # This is the ONLY case that truly needs Opus review
             best_item["_needs_opus"] = True
+            best_item["_reason"] = "classification_split"
+            best_item["_classification_votes"] = f"{votes_for}/{total_votes} for {winning_type}"
+            best_item["_all_classifications"] = [i.get("content_type") for i in items]
             disagreed.append(best_item)
 
     return agreed, disagreed

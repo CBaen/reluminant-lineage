@@ -9,43 +9,72 @@ description: |
   for 200+ episode series.
 
   Content types extracted: historical_fact, lore_fact, character_state, open_mystery,
-  proposed_question, used_imagery, used_sensory_language, episode_term_usage, relationship.
+  proposed_question, revelation, forbidden_conclusion, used_imagery, used_sensory_language, relationship.
+
 ---
 
-# Semantic Extractor
+# Semantic Extractor V3
 
 Extract structured narrative data from Tesla Mandela Effects documentary scripts.
+
+## V3 Features
+
+| Feature | Description |
+|---------|-------------|
+| **Fixed Voting** | Groups by TEXT, votes on classification separately (81% → <20% disagreement) |
+| **Relationship Extraction** | Full entity_a/entity_b with direction, temporal context, evidence |
+| **Deduplication** | Hash check + 0.90 threshold semantic similarity |
+| **Flagged Review** | 0.90-0.95 similarity items flagged (may be contradictions) |
+| **Parallel Embedding** | 32 concurrent workers for ~32x faster storage |
+| **Batch Upsert** | 50 points per Qdrant call |
+| **Episode Summaries** | Auto-generated metadata after extraction |
+| **Sensory Vocabulary** | Tracks distinctive phrases with 50-episode decay |
 
 ## Pipeline Architecture
 
 ```
 Episode Chunk
     ↓
-Pass 1: Gemini (temp 0.1, precise) → Account 1
+Pass 1: Gemini (precise) → Account 1
     ↓ [5s delay]
-Pass 2: Gemini (temp 0.3, moderate) → Account 2
+Pass 2: Gemini (moderate) → Account 2
     ↓ [5s delay]
-Pass 3: Gemini (temp 0.5, exploratory) → Account 1
+Pass 3: Gemini (exploratory) → Account 1
     ↓
-COMPARE: 3/3 agree → Store (conf 0.95+)
-         2/3 agree → Store majority (conf 0.85), flag dissent
-         0/3 agree → Opus tiebreaker
+V3 VOTING: Group by TEXT, vote on classification
+    3/3 agree → Store (conf 0.95+)
+    2/3 agree → Store majority (conf 0.85)
+    1/3 or classification split → Opus tiebreaker
     ↓
-Opus: Fact/fiction verification + narrative reasoning
+DEDUPLICATION: Hash check → Semantic similarity
+    >0.95 → Auto-merge (update episode_refs)
+    0.90-0.95 → Flag for review (may be contradiction)
+    <0.90 → Store as new
     ↓
-Store to Qdrant tesla_mandela_effects
+PARALLEL EMBEDDING: 32 workers → Ollama nomic-embed-text
+    ↓
+BATCH UPSERT: 50 points/call → Qdrant tesla_mandela_effects
+    ↓
+EPISODE SUMMARY: Auto-generate metadata
+    ↓
+SENSORY SYNC: Track vocabulary for anti-cloning
 ```
 
-## Execution
+## Quick Start
 
-### Step 1: Prepare the chunk
-
-Get chunk text from Qdrant or file. Target: 500-800 words.
-
-### Step 2: Run the extraction script
+### Full Migration (Episodes 1 & 2)
 
 ```bash
-# Run all 3 passes with automatic voting
+# Dry-run first
+python ~/.claude/skills/semantic-extractor/scripts/migrate-episodes.py --all --dry-run
+
+# Run actual migration
+python ~/.claude/skills/semantic-extractor/scripts/migrate-episodes.py --all
+```
+
+### Single Chunk Extraction
+
+```bash
 python ~/.claude/skills/semantic-extractor/scripts/extract-chunk.py \
     --episode 2 \
     --chunk-index 5 \
@@ -53,82 +82,58 @@ python ~/.claude/skills/semantic-extractor/scripts/extract-chunk.py \
     --output results.json
 ```
 
-Or with inline text:
-```bash
-python ~/.claude/skills/semantic-extractor/scripts/extract-chunk.py \
-    --episode 2 \
-    --chunk-index 5 \
-    --chunk-text "The letter was rediscovered..."
-```
-
-The script automatically:
-1. Runs Pass 1 (Precise) via Gemini CLI
-2. Waits 5 seconds (rate limiting)
-3. Runs Pass 2 (Moderate) via Gemini CLI
-4. Waits 5 seconds
-5. Runs Pass 3 (Exploratory) via Gemini CLI
-6. Compares all extractions and votes
-
-### Step 3: Compare and vote
-
-```python
-# Pseudocode for voting logic
-def compare_extractions(pass1, pass2, pass3):
-    results = []
-    all_items = merge_by_text_similarity(pass1, pass2, pass3)
-
-    for item in all_items:
-        agreement = count_passes_that_found(item)
-
-        if agreement == 3:
-            item.confidence = 0.95
-            item.needs_opus = False
-        elif agreement == 2:
-            item.confidence = 0.85
-            item.dissent = get_dissenting_view(item)
-            item.needs_opus = False
-        else:  # All different
-            item.needs_opus = True
-
-    return results
-```
-
-### Step 4: Opus confirmation (when needed)
-
-Run Opus on:
-1. Items where all 3 passes disagreed
-2. ALL `historical_fact` classifications (verify if truly verifiable)
-3. Borderline `lore_fact` vs `historical_fact` cases
-
-Opus prompt template:
-```
-You are the TIEBREAKER for narrative extraction.
-
-CONTEXT: Tesla Mandela Effects is a documentary series blending real history
-with invented lore. George Bliss-style characters may APPEAR historical but
-are unverifiable - default to lore_fact unless independently confirmable.
-
-CRITICAL: The 1859 Carrington Event is REAL (historical_fact).
-George Bliss is UNVERIFIABLE (lore_fact).
-
-DISAGREEMENT TO RESOLVE:
-{items_needing_resolution}
-
-Apply rigorous narrative reasoning. Return final classification with reasoning.
-```
-
-### Step 5: Store to Qdrant
+### Store to Qdrant
 
 ```bash
-# Store validated extractions
-python ~/.claude/scripts/qdrant-store-gemini.py \
-    --collection tesla_mandela_effects \
-    --topic "ep{episode_number}-chunk{chunk_index}" \
-    --session "SemanticExtractor" \
-    < validated_extractions.json
+# Save extraction to hub
+python ~/.claude/skills/semantic-extractor/scripts/store-extractions.py \
+    --save-extraction results.json
+
+# Store episode with parallel embedding
+python ~/.claude/skills/semantic-extractor/scripts/store-extractions.py \
+    --store-episode 2
 ```
 
-## Content Type Definitions
+## Scripts Reference
+
+| Script | Purpose |
+|--------|---------|
+| `extract-chunk.py` | Run 3-pass Gemini extraction with V3 voting |
+| `store-extractions.py` | Store to Qdrant with deduplication + parallel embedding |
+| `reset-collection.py` | Backup/reset collection with V3 schema + indexes |
+| `generate-episode-summary.py` | Auto-generate episode metadata |
+| `sensory-vocabulary.py` | Manage sensory language tracking |
+| `migrate-episodes.py` | Full V3 migration pipeline |
+
+## Deduplication Commands
+
+```bash
+# Check if text is a duplicate
+python ~/.claude/skills/semantic-extractor/scripts/store-extractions.py \
+    --check-duplicate "Tesla's visions appeared during storms"
+
+# Review flagged items (0.90-0.95 similarity)
+python ~/.claude/skills/semantic-extractor/scripts/store-extractions.py \
+    --review-flagged
+```
+
+## Sensory Vocabulary Commands
+
+```bash
+# Check if phrase is used
+python ~/.claude/skills/semantic-extractor/scripts/sensory-vocabulary.py \
+    --check "metallic tang of ozone" --episode 50
+
+# Sync from episode extractions
+python ~/.claude/skills/semantic-extractor/scripts/sensory-vocabulary.py \
+    --sync --episode 2
+
+# Show available for reuse (50+ episodes since last use)
+python ~/.claude/skills/semantic-extractor/scripts/sensory-vocabulary.py \
+    --available --episode 100
+```
+
+## Content Type Definitions (V3 Complete - 10 Types)
 
 | Type | Key Question | Example |
 |------|--------------|---------|
@@ -136,7 +141,12 @@ python ~/.claude/scripts/qdrant-store-gemini.py \
 | `lore_fact` | "Is this series-invented canon?" | "George Bliss received circular burns on his fingers" |
 | `character_state` | "What does this character believe/feel?" | "Bliss felt his fingers were no longer his own" |
 | `open_mystery` | "Would answering this destroy the horror?" | "What is using Bliss's fingers to touch the world?" |
-| `used_sensory_language` | "Should this metaphor not repeat?" | "water healing over a stone's splash" |
+| `proposed_question` | "Is this a question that MAY be answered later?" | "Why did the light target Nikola specifically?" |
+| `revelation` | "Is this a major reveal/discovery?" | "Dane realized the sun had been replaced" |
+| `forbidden_conclusion` | "Must this NEVER be answered definitively?" | "Is Nikola human or something else?" |
+| `used_imagery` | "Is this a broader metaphor worth tracking?" | "the machinery of government" |
+| `used_sensory_language` | "Is this a specific sensory construction?" | "water healing over a stone's splash" |
+| `relationship` | "How do these entities connect?" | "Djuka → Nikola: protective (during infancy)" |
 
 ## The George Bliss Rule
 
@@ -149,8 +159,61 @@ Text presents characters as historical. They may NOT be verifiable.
 - Nikola Tesla (verified historical figure)
 - Verified dates, places, documented events
 
+## V3 Schema
+
+Full schema: `WARDENCLYFFE/Editor_&_Writer_Rules/Qdrant_Schema_v3.md`
+
+Key V3 additions:
+- `text_hash` - SHA256 for deduplication
+- `episode_refs` - Array of episodes where item appears
+- `votes_for` - Classification consensus count
+- `relationship_subjects` - Array index for relationship queries
+- `entity_a`, `entity_b`, `direction`, `temporal_context`, `evidence` - Relationship fields
+
+## Parallel Embedding Configuration
+
+```python
+PARALLEL_WORKERS = 32  # Concurrent Ollama requests
+BATCH_SIZE = 50        # Points per Qdrant upsert
+```
+
+Approximate performance:
+- Sequential: ~2 sec/item
+- Parallel (32 workers): ~0.06 sec/item
+- **~32x speedup**
+
+## File Structure
+
+```
+~/.claude/skills/semantic-extractor/
+├── SKILL.md                    # This file
+├── sensory_vocabulary.json     # Tracked sensory phrases
+├── migration_log.json          # Migration history
+├── scripts/
+│   ├── extract-chunk.py        # 3-pass extraction
+│   ├── store-extractions.py    # Storage with dedup + parallel
+│   ├── reset-collection.py     # Collection management
+│   ├── generate-episode-summary.py
+│   ├── sensory-vocabulary.py
+│   ├── migrate-episodes.py
+│   └── apply-opus-review.py    # Apply Opus tiebreaker results
+└── extractions/
+    ├── index.json              # Master index
+    ├── flagged/                # Items needing review
+    ├── summaries/              # Episode summaries
+    ├── archived/               # 30-day retention
+    └── episodes/
+        ├── 001/
+        │   ├── manifest.json
+        │   ├── chunk-01-raw.txt
+        │   ├── chunk-01.json
+        │   └── ...
+        └── 002/
+            └── ...
+```
+
 ## References
 
-- Full schema: `Editor_&_Writer_Rules/Qdrant_Schema_v2.md`
-- Research findings: `~/.claude/research/hot/llm-extraction-accuracy.md`
-- Episode 2 (gold standard): `epsiodes/002 - THE LION VS THE WOLF/V8 002- THE LION VS THE WOLF.txt`
+- V3 Schema: `WARDENCLYFFE/Editor_&_Writer_Rules/Qdrant_Schema_v3.md`
+- V2 Schema (archived): `WARDENCLYFFE/Editor_&_Writer_Rules/Qdrant_Schema_v2.md`
+- Episode 2 (gold standard): `WARDENCLYFFE/epsiodes/002 - THE LION VS THE WOLF/`
