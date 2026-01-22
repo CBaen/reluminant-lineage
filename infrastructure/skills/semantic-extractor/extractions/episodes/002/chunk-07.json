@@ -1,0 +1,94 @@
+{
+  "episode": 2,
+  "chunk_index": 7,
+  "extractions": [
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Milutin",
+      "relationship_type": "family",
+      "direction": "symmetric",
+      "temporal_context": "During the initial observation of the changed sun",
+      "evidence": "'Papa. The sun. It's the wrong color.'",
+      "text": "Dane is Milutin's son, indicating a close family bond.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "A fragment of memory trying to surface through murky water.",
+      "reasoning": "Metaphorical description of Milutin's brief hesitation, conveying the difficulty of accessing forgotten truths.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "Milutin's voice carried the patience of a priest explaining scripture to a slow child.",
+      "reasoning": "A simile used to describe the tone of Milutin's voice, emphasizing his patronizing and absolute conviction in his altered reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The beam hit the dirt floor like a laser. Not a shaft of dusty morning light. A cylinder. Solid. The edges sharp enough to cut.",
+      "reasoning": "Simile and descriptive language to convey the alien, physical, and dangerous nature of the new light.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The stone was cool against his back.",
+      "reasoning": "Specific tactile sensation experienced by Dane.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "A hand on the crown of his skull, holding him still while something decided what to do with him.",
+      "reasoning": "Personification of the 'massive, patient attention' as a physical, controlling entity, emphasizing Dane's vulnerability.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "Milutin's face carried the blankness of a man who has just woken from surgery and doesn't yet know what has been removed.",
+      "reasoning": "Figurative language used to describe Milutin's expression after his memory was altered, emphasizing the profound and unsettling nature of the change.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 7
+    }
+  ],
+  "needs_opus_review": 128,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-07-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:27.290003",
+  "stored_at": "2026-01-22T14:28:38.890861",
+  "v3_stats": {
+    "stored": 7,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

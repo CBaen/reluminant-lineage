@@ -1,0 +1,736 @@
+{
+  "episode": 2,
+  "chunk_index": 5,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "Every drop of moisture pulled upward, sacrificed to the column of white light drilling into Dane's brother's nursery.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a specific, fictional event or phenomenon occurring within the series' canon, explaining the environmental effect of the white light.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He twisted the handle and kicked the door open.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes an action taken by Dane, reflecting his urgency and determination.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The air inside the house tasted of lightning.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid description combining taste and an abstract electrical sensation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Static charge crackled through every surface.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Auditory and tactile description of the electrical atmosphere.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The hair on his arms rose and stayed rigid, reaching toward something invisible.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Tactile sensation of piloerection (hair rising) and visual description of its rigidity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The floorboards vibrated beneath his feet.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Direct tactile description of vibration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Each facet reflected something different???fragments of the room, fragments of other rooms, fragments of places that looked nothing like Smiljan.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The mention of 'places that looked nothing like Smiljan' introduces an unexplained element about other locations or dimensions, deliberately left vague.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The shape was digesting the attack. Metabolizing it. Using the planet's immune response as food.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a major discovery by or insight revealed to Dane about the function of the geometry.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Three pulses. Pause. Six pulses. Pause. Nine pulses. The rhythm matched the telegraph machines in Boston. The rhythm matched the numbers burned into the paper tape four thousand miles away.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Introduces a specific, rhythmic behavior of the 'geometry' and links it to seemingly unrelated real-world events or technologies in a fictional context.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Outside, the red aurora was boiling. But here, in the center of the beam, the temperature plunged. The air carried the chill of void???the absolute cold of a place where no star had ever burned.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the specific, extreme environmental conditions created by the 'beam' within the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He shivered. His breath fogged. But he kept walking.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's physical reactions to the cold and his determined action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But it hadn't failed. Dane understood that instantly. The geometry had finished its work in the moment before he blocked the beam. The final pulse wasn't panic???it was release. A seed pod bursting after planting.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's realization that the geometry achieved its objective despite his intervention, changing the understanding of its 'shattering'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His lungs emptied. His vision inverted???white walls turning black, shadows blazing bright.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes physical sensations (lungs emptying) and a drastic visual alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His pulse stuttered. Skipped. Then reset???not to his own rhythm but to something imposed from outside. A new tempo. A foreign conductor.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a physical, physiological alteration caused by the intrusion, implying external control.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His heart was still beating, but it was no longer entirely his to command.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's subjective experience of losing bodily autonomy.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His heart was still beating, but it was no longer entirely his to command. ... Foreign matter settling into the space behind his eyes. The intrusion settling into place, and the surrounding flesh choosing???against all instinct???not to reject it.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "These statements describe a fundamental, unexplained change in Dane's physiology and autonomy, and the body's unnatural acceptance of 'foreign matter', which are core mysteries to be protected.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He tried to scream. His throat had frozen shut.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a physical sensation of inability and cold in his throat.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane acts to protect Nikola from the mysterious light and geometry.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The geometry consumes and metabolizes the red aurora light.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pulse rhythm of the geometry mysteriously matches the rhythm of telegraph machines and burned numbers.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A mysterious presence intrudes upon Dane, altering his physical state and internal rhythms, and settling within him.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "impact jarring his teeth, the ground brittle beneath him",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes physical sensations experienced by Dane upon landing.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the ground brittle beneath him as if the earth itself had been dehydrated???every drop of moisture pulled upward, sacrificed to the column of white light drilling into his brother's nursery.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language describing the ground and the perceived cause of its state, linking it to the white light.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The air inside the house tasted of lightning. Static charge crackled through every surface.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes an anomalous environmental condition within the house, characteristic of the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The hair on his arms rose and stayed rigid, reaching toward something invisible. The floorboards vibrated beneath his feet.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes physical bodily reaction and tactile sensation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "No geometry except the crib in the center and the thing suspended above it.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The nature of 'the thing' is deliberately left vague and mysterious at this point.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola lay on his back. Three years old.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Nikola's specific age is a detail of the series' canon.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A complex, many-sided form made of what looked like frozen lightning???liquid and solid at once, its surfaces refracting the white glare into spectrums that had no names.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language used to describe the appearance and properties of the 'Geometry'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Smiljan",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Smiljan is the historical birthplace of Nikola Tesla.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fragments of other rooms, fragments of places that looked nothing like Smiljan.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The origin and nature of these reflected 'other rooms' and 'places' are left mysterious.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The shape pulsed. It expanded, swelling to fill the space above the crib. Then it contracted, snapping down to a tight, hard point.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the dynamic, supernatural behavior of the Geometry.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light that entered was red, alive, aggressive. The light that emerged was white, still, and carried the temperature of deep space.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes visual qualities and a profound tactile sensation (cold).",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Geometry acts as a parasite, consuming the energy of the aurora, which is described as the planet's immune response.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Boston",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Boston is a historical city.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The beam hit him like cold water. Outside, the red aurora was boiling. But here, in the center of the beam, the temperature plunged. [...] He shivered. His breath fogged. But he kept walking.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's physical experience of extreme cold and his determined action.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the red aurora was boiling.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative description of the aurora's intensity.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The air carried the chill of void???the absolute cold of a place where no star had ever burned.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a profound tactile sensation of cold, enhanced by cosmic imagery.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The glass-like shape stuttered, lost its rhythm, pulsed erratically???three-two-five, the pattern broken.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes the visual and rhythmic disruption of the Geometry.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The incompatible tissue that the light couldn't integrate.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphorical description of Dane's resistance to the Geometry's influence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It hit Dane like a memory",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Simile describing the impact of the mist.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A presence passed through his chest. [...] not to his own rhythm but to something imposed from outside. A new tempo. A foreign conductor.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The nature of the 'presence' and the 'foreign conductor' is unknown and implies a lingering mystery.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Cold and slick, threading between his ribs, brushing against his heart with fingers made of nothing.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes tactile sensations and the ethereal nature of the presence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fingers made of nothing",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language to describe the intangible nature of the presence.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A new tempo. A foreign conductor.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphorical description of the imposed control over Dane's heart.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An unknown presence invades Dane, altering his heart rhythm and taking partial control of his body.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His throat had frozen shut.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a physical, chilling sensation and its effect.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Foreign matter settling into the space behind his eyes. The intrusion settling into place, and the surrounding flesh choosing???against all instinct???not to reject it.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "The nature and purpose of this 'foreign matter' and its implications for Dane's future are key mysteries to be maintained.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The edges of his mind being pulled together. A seam closing behind his eyes. Foreign matter settling into the space behind his eyes.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's internal experience of a mental and physical alteration.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The edges of his mind being pulled together. A seam closing behind his eyes.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a bizarre, internal tactile and visual sensation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "impact jarring his teeth, the ground brittle beneath him as if the earth itself had been dehydrated",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes tactile sensations (jarring, brittle) and a visual metaphor for dryness.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "every drop of moisture pulled upward, sacrificed to the column of white light drilling into his brother's nursery.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes an unnatural phenomenon (moisture being pulled upward by white light) as part of the series' invented canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "column of white light drilling into his brother's nursery",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language suggesting an invasive, powerful, and focused force.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The iron latch on the front door seared his palm...The skin blistered",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes tactile pain (searing, blistering).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The air inside the house tasted of lightning. Static charge crackled through every surface. Dane took one step and a spark leapt from his ear to his shoulder???a bright snap that left the smell of singed hair. The hair on his arms rose and stayed rigid...The floorboards vibrated beneath his feet. A low hum filled the hallway, too deep to hear properly???more pressure than sound, pressing against his eardrums from the inside.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A rich collection of sensory details: taste (lightning), auditory (crackled, snap, hum), olfactory (singed hair), tactile (hair rising, vibrating floorboards, pressure on eardrums), visual (spark leapt).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the thing suspended above it.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Refers to an unknown object, deliberately vague and mysterious at this point in the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola lay on his back...unbothered, as if the blinding intensity was nothing more than afternoon sun through a window.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Nikola's unusual immunity to the intense phenomenon is a piece of established lore about the character.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "something rotated. Not a ball of fire. Not a cloud or a spirit or anything Dane had words for.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Dane's inability to categorize or name the object emphasizes its alien and mysterious nature.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Geometry. A complex, many-sided form made of what looked like frozen lightning???liquid and solid at once, its surfaces refracting the white glare into spectrums that had no names.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Detailed description of a unique, fantastical object central to the series' fictional universe.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "frozen lightning???liquid and solid at once",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Oxymoronic and visually striking imagery used to describe the mysterious 'Geometry'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fragments of places that looked nothing like Smiljan.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Implies the Geometry reflects other, unknown locations, raising questions about its origin or capabilities.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "swallowing the aurora",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification or vivid description of the Geometry's consumption.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Geometry actively consumes and metabolizes the red aurora, which is framed as the planet's immune response.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pulsation rhythm of the Geometry mysteriously matches the rhythm of telegraph machines and data transmitted from Boston.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The beam hit him like cold water...the temperature plunged. The air carried the chill of void...He shivered. His breath fogged.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Tactile (cold water, chill, shivered) and visual (breath fogged) descriptions of extreme cold.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The beam hit him like cold water...the temperature plunged. The air carried the chill of void???the absolute cold of a place where no star had ever burned.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a specific, extreme environmental effect of the 'beam' which is unique to the series' physics.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "chill of void???the absolute cold of a place where no star had ever burned",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Evocative imagery connecting the cold to cosmic emptiness and profound stillness.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the composed stillness of something waiting.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Leaves the reason for Nikola's stillness and what he might be 'waiting' for as an open question.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His body blocked the light. The geometry faltered. The white beam fractured around his silhouette, unable to pass through. The glass-like shape stuttered, lost its rhythm, pulsed erratically???three-two-five, the pattern broken.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals that Dane has a unique, disruptive effect on the Geometry, causing it to malfunction.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane stepped between the window and the crib. His body blocked the light. The geometry faltered...unable to pass through.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes Dane's unique physical property as a 'barrier' against the Geometry's energy.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's presence disrupts and blocks the Geometry's activity, acting as an antagonist to its function.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was the insulator. The barrier. The incompatible tissue that the light couldn't integrate. The shape pulsed one final time???not frantic now, but satisfied???and shattered. Not into shards. Into mist. But it hadn't failed. Dane understood that instantly. The geometry had finished its work in the moment before he blocked the beam. The final pulse wasn't panic???it was release. A seed pod bursting after planting.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Multiple revelations: Dane's unique physical nature, the Geometry's successful completion of its task despite appearing to shatter, and the metaphor of 'release' and 'seed planting'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was the insulator. The barrier. The incompatible tissue that the light couldn't integrate. ... The geometry had finished its work in the moment before he blocked the beam. The final pulse wasn't panic???it was release. A seed pod bursting after planting.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Defines Dane's unique biological property in relation to the light, and reveals the Geometry's true nature (it completed its task, a 'release' like a 'seed pod bursting').",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "incompatible tissue",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Medical/biological metaphor highlighting Dane's unique, unintegrable nature.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A wave of colorless mist...hit Dane like a memory???not wind, not force, but information. Data slamming into his nervous system faster than his brain could process.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes that the mist is a vehicle for information/data transfer, a key mechanism in the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A wave of colorless mist crashed outward...hit Dane like a memory...Data slamming into his nervous system...His lungs emptied. His vision inverted???white walls turning black, shadows blazing bright.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes visual (colorless mist, inverted vision), kinetic (crashed, slamming), cognitive (like a memory, data), and physical (lungs emptied) sensations.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A presence passed through his chest...His pulse stuttered. Skipped. Then reset???not to his own rhythm but to something imposed from outside. A new tempo. A foreign conductor. His heart was still beating, but it was no longer entirely his to command.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals Dane has been internally invaded and his vital functions are now controlled by an external entity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A new tempo. A foreign conductor. His heart was still beating, but it was no longer entirely his to command.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The identity of the 'foreign conductor' and the implications of Dane's compromised autonomy are left open for future exploration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A foreign presence invades Dane's body, taking control of his heart rhythm and potentially his will.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Then came the stitching...Foreign matter settling into the space behind his eyes. The intrusion settling into place, and the surrounding flesh choosing???against all instinct???not to reject it.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a supernatural mental alteration involving 'foreign matter' and an unnatural biological acceptance.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His throat had frozen shut. Then came the stitching. Not a needle???a sensation. The edges of his mind being pulled together. A seam closing behind his eyes.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Physical (frozen throat) and cognitive/tactile (stitching sensation, pulling of mind edges) descriptions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T14:26:56.481012",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

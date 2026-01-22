@@ -1,0 +1,439 @@
+{
+  "episode": 1,
+  "chunk_index": 15,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "The margin note of Nikola Tesla's damaged baptismal record states 'Dolazi izmedu' or 'Arriving from between.'",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Nikola Tesla is historical, the specific details of a 'damaged baptismal record' with a 'margin note' and its precise translated phrase are presented as a mysterious plot point unique to this narrative, making it series-invented canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The world is a temporary structure, a graft, a scaffolding built on the impossible physics of a child who shouldn't have been born.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the fundamental, fabricated nature of reality within the series' canon, directly attributed to an unidentifiable 'child who shouldn't have been born,' which is clearly part of the invented lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "temporary structure. A graft. A scaffolding",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses architectural and medical terms metaphorically to describe the unstable and constructed nature of reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "prognosis is terminal",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses medical terminology ('prognosis is terminal') as a metaphor for an inevitable negative outcome.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe will eventually win. The immune system will eventually flush the contaminant. The Healthy timeline will be restored.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These statements outline the natural, inherent mechanisms and ultimate goals of the 'universe' and 'immune system' within the series' fictional framework, leading to a 'Healthy timeline' \u00e2\u20ac\u201c all invented canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And when that happens, what happens to the cells of the tumor?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A direct question posed by the narrator that is explicitly left unanswered, inviting speculation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "cells of the tumor",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a medical metaphor ('cells of the tumor') to refer to components of the 'unhealthy' timeline/reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "civilization built on the scar",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a medical metaphor ('scar') to describe the foundation of a civilization.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The audience, if they are a product of the Tesla Timeline, is identified as 'the virus'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the cure works, you don't get better. You get erased.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the detrimental effect of the 'cure' within the series' specific narrative, indicating a non-standard outcome that is part of the invented lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'cure' acts as an antagonist, erasing 'you' if it succeeds.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "That moment of vertigo where your memory doesn't match the world.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes a specific, subjective internal experience (vertigo due to memory-reality mismatch), which is a character's state.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "slip. That moment of vertigo",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a physical and mental sensation ('slip', 'vertigo') related to memory and perception.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Don't be afraid that you are losing your mind. Be afraid that you are losing your reality.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "These are direct instructions and a re-framing of fear for the audience, expressing a subjective belief about the nature of their potential experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are going to investigate the scar. Every symptom must be documented. Every lost ship. Every silenced witness. The edges of the fracture must be found.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This outlines the narrator's explicit intentions and methodology for investigation within the narrative, representing a plan or belief about how to proceed.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "investigate the scar. Every symptom must be documented. The edges of the fracture must be found.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Employs medical and physical metaphors ('scar', 'symptom', 'fracture') to describe the investigation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The possibility that your own memories are actively working to delete you.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A margin note of Nikola Tesla's damaged baptismal record states: 'Dolazi izmedu. Arriving from between.'",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific content of a margin note on Tesla's baptismal record and its translation are presented as unique lore within the documentary, not verifiable historical fact.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The prognosis for this reality is terminal; the universe will eventually win, the immune system will flush the contaminant, and the Healthy timeline will be restored.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the inevitable outcome for the 'Tesla Timeline' within the series' canon, framing the timeline as a 'contaminant' that will be 'cured' or 'restored' by the 'universe'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If you are a product of the Tesla Timeline, then you are the virus, and if the cure works, you don't get better, you get erased.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This defines the individual's role and fate within the lore, presenting their existence as a 'virus' and the 'cure' as an erasure, central to the narrative's stakes.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'scar' (representing the Tesla Timeline) is being investigated, requiring documentation of every symptom, lost ship, silenced witness, and the edges of the fracture.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This outlines the central investigative premise of the documentary within its own narrative framework, treating the timeline's anomalies as subjects for study.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The experience of a 'slip,' a 'moment of vertigo' where memory doesn't match the world.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes a subjective internal experience, a personal sensation of reality shifting or memory failing to align with external reality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Do not be afraid of losing your mind, but be afraid of losing your reality.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This offers guidance on how 'you' should interpret memory discrepancies, shifting the fear from personal sanity to the stability of existence itself.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "not the solid ground we thought it was. It is a temporary structure. A graft. A scaffolding",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Employs architectural and medical terms to create a visual and tactile metaphor for the instability and artificiality of the perceived world.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe will eventually win. The immune system will eventually flush the contaminant.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Personifies the 'universe' and uses biological terms ('immune system', 'flush', 'contaminant') to describe its actions against the 'Tesla Timeline'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "then you are the virus.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a biological metaphor to label individuals within the Tesla Timeline as an infectious agent.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "investigate the scar. Every symptom must be documented. Every lost ship. Every silenced witness. The edges of the fracture must be found.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a blend of medical ('scar', 'symptom'), investigative ('documented', 'found'), and damage-related ('lost ship', 'silenced witness', 'fracture') metaphors to describe the process of uncovering anomalies.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola Tesla's existence and 'impossible physics' are the foundational, yet unstable, origin of the current world's structure.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe is an active force hostile towards the Tesla Timeline, aiming to eradicate it and restore a 'Healthy timeline'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A metaphorical 'immune system' acts to protect a 'Healthy timeline' by eliminating the 'Tesla Timeline' regarded as a contaminant.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Individuals within the Tesla Timeline are considered a 'virus', implying a parasitic relationship with the timeline itself, being a product of its 'disease'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A questioning relationship exploring whether the individual is protecting their memories, or if memories are an active entity opposing the individual.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The margin note of Nikola Tesla's damaged baptismal record reads 'Dolazi izmedu' (Arriving from between).",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Nikola Tesla is historical, the 'damaged baptismal record' and its 'margin note' are presented as specific narrative elements within the documentary's invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The world we live in is not the solid ground we thought it was. It is a temporary structure. A graft. A scaffolding built on the impossible physics of a child who shouldn't have been born.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Employs architectural and biological metaphors ('solid ground', 'temporary structure', 'graft', 'scaffolding') to describe the precarious nature of reality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The current reality is portrayed as a construct, a 'scaffolding' fundamentally dependent on or created by the 'impossible physics' associated with Nikola Tesla's existence.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The prognosis for the current reality is terminal.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This declares a definitive, dire state for the established reality, presented as an outcome within the series' narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe will eventually win, its immune system will flush the contaminant, and the Healthy timeline will be restored.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This outlines the ultimate cosmic conflict and its predetermined outcome according to the documentary's lore, where the universe acts to purge an anomaly.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe is depicted as actively antagonistic towards an unspecified 'contaminant', seeking to eliminate it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The audience's very existence is defined as a 'product' of the 'Tesla Timeline', implying they are a direct outcome or creation of it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A direct equation is made between the audience and 'the virus', suggesting they are one and the same entity.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the cure works, you don't get better; you get erased.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This reveals the ultimate, harsh consequence for the 'virus' (the audience/humanity) if the cosmic 'cure' is successful, defining their annihilation rather than recovery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'cure' is presented as an opposing force that will lead to the eradication of the audience, rather than their healing.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The experience of memory not matching the world, feeling a 'slip' or 'vertigo'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes a subjective, internal experience of cognitive dissonance where personal memory conflicts with perceived reality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And you feel that slip. That moment of vertigo where your memory doesn't match the world.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses 'slip' and 'vertigo' to describe a disorienting sensory experience associated with memory failure and a disconnect from reality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Do not be afraid that you are losing your mind; be afraid that you are losing your reality.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This is a direct instruction to the audience, re-framing their potential fear from a psychological one to an ontological one, emphasizing the instability of existence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The documentary's purpose is to investigate 'the scar', document every symptom, lost ship, and silenced witness, and find the edges of the fracture.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This statement defines the mission and scope of the narrative, using specific metaphorical terms ('scar', 'symptom', 'lost ship', 'silenced witness', 'fracture') unique to its lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Presents memories as having agency and potentially being a hostile force actively working to erase the individual.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:06:32.851007",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

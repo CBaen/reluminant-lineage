@@ -1,0 +1,592 @@
+{
+  "episode": 1,
+  "chunk_index": 9,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "Every time he tried to commercialize his technology, every time he tried to make the alien physics permanent, the system rejected it.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a claim within the narrative about a 'system' rejecting Tesla's work due to 'alien physics,' which is part of the invented lore.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Radio War",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The 'Radio War' refers to historical patent disputes over radio technology, specifically between Tesla and Marconi.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "U.S. Patent Office",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The U.S. Patent Office is a real governmental entity.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla wasn't wrong. The math worked perfectly.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the documentary's assertion about the validity of Tesla's work, which is a subjective interpretation within the narrative.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It just didn't work here.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This statement implies a difference in physical laws ('here' versus elsewhere), which is part of the invented lore.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His laboratory at thirty-three South Fifth Avenue. Eighteen ninety-five.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Tesla indeed had a laboratory at this location that burned down in 1895.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He had shadowgraphs of the human body taken with invisible light. He had a map of the stars that didn't match any sky on Earth.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These are highly specific and unusual claims about Tesla's inventions that are presented as facts within the narrative but are not verifiable historical facts.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The lab burned to the ground.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The fire at Tesla's laboratory in 1895 is a well-documented historical event.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fire marshal's report blamed the basement. A gas jet left burning near oil-soaked rags. Chemicals stored by a dry-cleaning establishment below. Negligence. An accident. Ordinary.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The existence of an official fire marshal's report with specific, mundane causes is a verifiable historical detail that stands in contrast to the lore.",
+      "gemini_confidence": 0.99,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla disputed this for the rest of his life.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Tesla's personal belief and consistent disagreement with the official explanation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The night watchman, they said, refused to discuss what he saw. But his wife told the neighbors that her husband woke screaming for weeks afterward. He told her the fire moved wrong. He told her it climbed the stairs too fast, as if it was looking for something. He told her that before the flames, the air had turned the color of a bruise.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is explicitly presented as 'oral history' and contains supernatural elements ('fire moved wrong,' 'air had turned the color of a bruise'), marking it as part of the series' invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla told the New York Times that he had lost the work of half his lifetime in an hour. But he never rebuilt the oscillator. He never recreated the shadowgraphs. He moved on, as if he understood that some doors, once closed, cannot be reopened.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Tesla's public statement and his subsequent actions/lack of actions, interpreted as his understanding.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrative posits the universe as an immune system that acts hostilely towards Tesla's 'contaminant' inventions, neutralizing them through various means including physical destruction.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe has an immune system. And like any immune system, it identifies foreign contaminants and tries to neutralize them.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is presented as a fundamental truth within the documentary's narrative but is clearly an invented concept, blending scientific metaphor with fictional lore.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The U.S. Patent Office rejected his application for the Apparatus for Transmission of Electrical Energy.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The existence of patent applications and rejections by the U.S. Patent Office for historical figures like Tesla is a verifiable historical event.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla wasn't wrong. The math worked perfectly. It just didn't work here.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This directly supports the 'alien physics' lore, implying Tesla's science operated under different, non-earthly rules, a key part of the series' invented canon.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His laboratory at thirty-three South Fifth Avenue. Eighteen ninety-five. The lab burned to the ground.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Tesla's lab fire in 1895 at this location is a documented historical event.",
+      "gemini_confidence": 0.99,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But Tesla disputed this for the rest of his life.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Tesla's lifelong belief and stance against the official report, indicating his personal and subjective experience/conviction.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a detail that appears only in the oral history of the building's other tenants, passed down through the Ukrainian immigrant community of lower Manhattan. The night watchman, they said, refused to discuss what he saw. But his wife told the neighbors that her husband woke screaming for weeks afterward. He told her the fire moved wrong. He told her it climbed the stairs too fast, as if it was looking for something. He told her that before the flames, the air had turned the color of a bruise.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This entire passage describes an unverifiable, almost mythical 'oral history' with supernatural elements ('fire moved wrong,' 'looking for something,' 'air had turned the color of a bruise'), firmly placing it in the documentary's invented lore.",
+      "gemini_confidence": 0.99,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The night watchman, they said, refused to discuss what he saw.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The watchman's silence and refusal to speak about the event creates a deliberate unanswered question regarding the true nature of what he witnessed.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But his wife told the neighbors that her husband woke screaming for weeks afterward. He told her the fire moved wrong. He told her it climbed the stairs too fast, as if it was looking for something. He told her that before the flames, the air had turned the color of a bruise.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the night watchman's traumatic subjective experience and his recounting of surreal observations, reflecting his disturbed psychological state after the fire.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla told the New York Times that he had lost the work of half his lifetime in an hour.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Tesla's public statement to a newspaper like the New York Times is a verifiable historical record.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He never rebuilt the oscillator. He never recreated the shadowgraphs. He moved on, as if he understood that some doors, once closed, cannot be reopened.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Tesla's subsequent actions and an interpretation of his understanding or acceptance of the situation, reflecting his internal state.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But a wound that is cauterized on the surface can still bleed underneath.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This concluding statement implies a lingering, unresolved issue despite apparent resolution, suggesting a deeper, hidden problem that the narrative leaves for the audience to ponder.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "bureaucratic horror",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Figurative language that assigns an emotional and intense descriptor ('horror') to the typically dry process of bureaucracy, making it more vivid.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the immune response became physical.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Extends the 'immune system' metaphor by describing its manifestation in a tangible, violent event (the fire), creating a vivid image of cosmic retaliation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the fire moved wrong.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Sensory language that describes the fire's behavior as unnatural and unsettling, contributing to the mysterious and supernatural tone.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "it climbed the stairs too fast, as if it was looking for something.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Personification of the fire, giving it agency and intent, which heightens the dramatic and eerie quality of the event.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a wound that is cauterized on the surface can still bleed underneath.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A metaphor suggesting that superficial solutions do not always resolve deeper problems, leaving a haunting image of concealed suffering or unresolved danger.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe possesses an immune system, which acts as a protective mechanism.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe's immune system perceives Tesla's inventions as contaminants and actively seeks to neutralize them.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The U.S. Patent Office, through an examiner, rejected Tesla's patent application, acting as an antagonist to his innovations.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fire marshal's report provided an official account and cause for Tesla's lab fire.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla possessed a map of the stars that was unlike any known on Earth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The night watchman's wife was privy to his traumatic reactions and relayed his experiences to neighbors.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The night watchman's wife shared details of her husband's disturbing post-fire experiences with neighbors.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrative questions if the universe itself was actively and violently addressing the 'wound' caused by Tesla's influence.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe has an immune system that identifies foreign contaminants and tries to neutralize them.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a core conceptual framework introduced by the documentary, presented as an intrinsic property of the universe within its narrative, not a verifiable scientific fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla's inventions were 'contaminants' to the universe's immune system.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Directly links Tesla's work to the series' central metaphor, establishing a key tenet of the documentary's canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'system' (universe's immune system) rejected Tesla's attempts to commercialize his technology and make 'alien physics' permanent.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Expands on the 'universe's immune system' concept and introduces 'alien physics' as a term specific to the series' lore, indicating a systemic resistance.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The bureaucratic hurdles of patent applications are reinterpreted as a form of 'rejection' by the universe's immune system due to Tesla's 'alien physics'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This recontextualizes historical events through the lens of the series' overarching lore, attributing a supernatural cause to mundane difficulties.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It is commonly assumed that Tesla lost the Radio War to Marconi and various patent battles due to his business acumen or being a 'poor capitalist'.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The text presents these as established, albeit later challenged, historical interpretations of events involving Tesla and Marconi.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The U.S. Patent Office rejected Tesla's application for the 'Apparatus for Transmission of Electrical Energy'.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable historical event regarding Tesla's patenting efforts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A patent examiner rejected Tesla's application not because it wouldn't work, but because 'the mathematics made no sense,' citing 'a variable that does not exist in standard inductance' and 'a conductivity of the medium that is theoretically infinite' in a handwritten note.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While the rejection is historical, the specific, almost fantastical, reasoning attributed to the examiner, especially the direct quotes about 'non-existent variables' and 'infinite conductivity', serves to reinforce the 'alien physics' narrative of the series.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrator asserts that Tesla's math worked perfectly, but 'it just didn't work here' (on Earth).",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This statement reflects the narrator's interpretation and a key premise within the documentary's established reality, rather than a universally accepted scientific truth.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "When bureaucratic means failed to stop Tesla, the universe's immune response escalated to a 'physical' manifestation.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This connects the patent rejections to the subsequent lab fire, framing both as stages of a single, orchestrated 'immune response' within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla's laboratory at 33 South Fifth Avenue burned to the ground in 1895.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A well-documented historical incident in Nikola Tesla's life.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Prior to the fire, Tesla was preparing to demonstrate an automated oscillator (a machine purportedly capable of causing earthquakes) and had created shadowgraphs of the human body using 'invisible light' (referencing his early work with X-rays).",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Tesla's work on oscillators and X-rays is historical. The 'earthquake machine' aspect is a known, often exaggerated, historical claim.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla possessed 'a map of the stars that didn't match any sky on Earth' before his lab fire.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This detail introduces a clearly fictional, speculative, and anomalous element to Tesla's research, fitting the 'invented lore' category.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fire marshal's report attributed the lab fire to ordinary negligence: a gas jet left burning near oil-soaked rags and chemicals from a dry-cleaning establishment.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is presented as the official, historical explanation for the cause of the fire.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla disputed the official cause of the fire throughout his life, claiming he had meticulously extinguished all flames and checked gas valves before leaving.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Tesla's personal belief and a historical detail about his reaction to the fire's explanation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An unpublished letter from Tesla to a colleague detailed his belief that he had personally ensured all fire hazards were addressed before the 1895 lab fire.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This specific detail about the letter and its contents, used to support Tesla's theory of foul play, is presented as part of the series' dramatic narrative structure.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "According to oral history from the Ukrainian immigrant community, the night watchman of Tesla's building was deeply disturbed by the fire, claiming it 'moved wrong,' 'climbed the stairs too fast as if it was looking for something,' and was preceded by the air turning 'the color of a bruise.'",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This information is explicitly sourced to unverified 'oral history' and contains highly supernatural and descriptive elements that are clearly fictional additions to the historical event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The night watchman was so traumatized by witnessing the lab fire that his wife reported he woke screaming for weeks afterward.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the profound psychological impact of the event on the watchman, based on his wife's testimony.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fire moved wrong. It climbed the stairs too fast, as if it was looking for something. The air had turned the color of a bruise.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "These phrases employ strong personification and evocative color imagery to describe the fire in an unsettling, supernatural manner, typical of distinctive narrative choices.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "All of Tesla's work housed in the lab, including prototypes, shadowgraphs, and 'the map of the other sky,' was completely destroyed in the fire.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Reinforces the complete loss, including the previously introduced fictional 'map of the other sky', emphasizing the narrative impact of the event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla stated to The New York Times that he lost 'the work of half his lifetime in an hour' and subsequently abandoned efforts to rebuild the oscillator or recreate the shadowgraphs.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable quote from Tesla and a factual account of his actions and professional shift after the fire.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrator interprets Tesla's decision to move on from his lost work as if he understood that 'some doors, once closed, cannot be reopened.'",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This is a psychological interpretation of Tesla's motivation and understanding offered by the narrator, attributing a specific insight to him.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Was the universe actively 'cauterizing the wound' represented by Tesla's anomalous inventions?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A direct rhetorical question posed by the narrator, inviting the audience to consider the series' thematic explanation for the fire's severity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe cauterizing the wound. A wound that is cauterized on the surface can still bleed underneath.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses vivid medical metaphors ('cauterizing,' 'wound,' 'bleed underneath') to describe the universe's interaction with Tesla's work and to imply lingering, hidden consequences or unresolved threats.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe, functioning as an immune system, perceives Tesla's inventions as 'contaminants' and actively seeks to neutralize or eliminate them.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The patent examiner acted as an antagonist to Tesla's work by rejecting his application based on its unconventional mathematics, contributing to the 'immune response'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fire was a destructive force that completely consumed Tesla's laboratory and all the research, prototypes, and unique discoveries within it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla created a unique and anomalous map of the stars, suggesting esoteric knowledge, which was destroyed in the fire.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:03:36.671040",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

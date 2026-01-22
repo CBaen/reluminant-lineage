@@ -1,0 +1,269 @@
+{
+  "episode": 2,
+  "chunk_index": 8,
+  "extractions": [
+    {
+      "content_type": "used_sensory_language",
+      "text": "Static crackled across his knuckles.",
+      "reasoning": "Direct description of auditory and tactile sensations.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The fine hairs rose and stayed rigid, reaching toward the beam like iron filings drawn to a magnet.",
+      "reasoning": "Simile comparing the reaction of hairs to iron filings, providing a broader figurative description.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "the air turned thick and bright.",
+      "reasoning": "Direct description of tactile and visual sensations.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "character_state",
+      "text": "The sensation was not heat. It was thickness.",
+      "reasoning": "Dane's subjective physical experience and interpretation of the beam.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The light had viscosity.",
+      "reasoning": "A unique, physical property attributed to the light within the series' fictional rules.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "His hand entered the beam as if passing through warm syrup. The light had viscosity. It clung to his skin, resisted his movement, made every millimeter of progress feel like swimming through honey.",
+      "reasoning": "Metaphors and similes ('as if passing through warm syrup', 'swimming through honey') describing the beam's unique resistance.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "revelation",
+      "text": "The ridges had been unmade???as if the light had reached into the architecture of his skin and simply deleted the pattern. His fingertips were blank now. Pale circles of undifferentiated flesh. The whorls and loops that had marked him as himself since before his birth had been rendered down to nothing. He was looking at skin that had forgotten its own shape.",
+      "reasoning": "A significant physical alteration to Dane's body, representing a major discovery for him within the narrative.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The body remembered its own pattern.",
+      "reasoning": "A statement establishing an inherent, self-correcting biological ability within the series' lore.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "But did it remember correctly?",
+      "reasoning": "Dane's internal questioning and doubt about the integrity of his body's regeneration.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "the white sun continued its examination.",
+      "reasoning": "Attributes an active, intentional, and analytical quality to the 'white sun,' establishing it as a narrative force with specific capabilities.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "White sun",
+      "entity_b": "Dane",
+      "relationship_type": "antagonist",
+      "direction": "a_to_b",
+      "temporal_context": "Ongoing",
+      "evidence": "the white sun continued its examination.",
+      "text": "The white sun is actively observing and analyzing Dane in a potentially threatening way.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "revelation",
+      "text": "He was being read.",
+      "reasoning": "Dane's realization that he is the subject of an active scanning or analysis.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The wax was melting. It dripped over his fingers in slow rivulets. Soft. Warm. Pooling in the creases of his palm. The cellar temperature was fifty degrees. Cold enough to see his breath if he exhaled sharply. Wax melts at one hundred and forty. There was no flame. No heat source.",
+      "reasoning": "Discovery of an anomalous event: the candle melting without a heat source in a cold environment.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "historical_fact",
+      "text": "Wax melts at one hundred and forty.",
+      "reasoning": "A verifiable general scientific fact about the melting point of wax, used as a contrast to the anomalous event. (Assuming Fahrenheit for typical candle wax).",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The molecular structure of the candle was failing. The bonds holding the paraffin together were loosening, letting go, allowing the solid to remember that it had once been liquid.",
+      "reasoning": "Describes an invented physical property of the 'light' - its ability to affect molecular bonds and induce a 'memory' of past states in matter.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "allowing the solid to remember that it had once been liquid.",
+      "reasoning": "Personification or metaphor for the molecular breakdown and return to a previous state.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "where it touched the edge of the light beam, it evaporated???a thin wisp of vapor rising and vanishing.",
+      "reasoning": "Establishes a further, extreme property of the light beam: its ability to cause instantaneous evaporation upon contact.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane looked at his own hands. The skin looked wrong. Shiny. Soft. The texture of wax that had begun to warm.",
+      "reasoning": "Dane's subjective visual and tactile perception of his altered skin.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "revelation",
+      "text": "He wasn't just seeing the grid. The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue behind his eyes where memory lived.",
+      "reasoning": "The discovery that the 'grid' is an active, perceiving entity, not just a visual artifact, and that it is actively analyzing him.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue behind his eyes where memory lived.",
+      "reasoning": "Establishes the 'grid' as an intelligent, invasive, and biologically analytical entity within the series' canon, specifically targeting memory.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane compared his right hand to his left. The prints looked the same. But something about them felt wrong???the flesh beneath was foreign territory now???his own skin, his own ribs, but rearranged. Reorganized.",
+      "reasoning": "Dane's subjective feeling of internal alteration despite external appearance, leading to unease.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "As if someone had taken him apart in the dark and put him back together with pieces left over.",
+      "reasoning": "A vivid simile expressing Dane's feeling of internal rearrangement and fundamental alteration, even if outwardly he appears similar.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "As if reality itself was developing scar tissue, and he was trapped beneath it.",
+      "reasoning": "A powerful metaphor illustrating Dane's fading sensory input and perception of the world, suggesting a blockage or numbing of reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "The grid",
+      "entity_b": "Dane",
+      "relationship_type": "antagonist",
+      "direction": "a_to_b",
+      "temporal_context": "present",
+      "evidence": "He wasn't just seeing the grid. The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue behind his eyes where memory lived.",
+      "text": "The 'grid' is actively and invasively mapping and sampling Dane's biological data, positioning it as a direct threat or adversary.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 8
+    }
+  ],
+  "needs_opus_review": 83,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-08-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:27.463199",
+  "stored_at": "2026-01-22T14:29:27.939128",
+  "v3_stats": {
+    "stored": 24,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

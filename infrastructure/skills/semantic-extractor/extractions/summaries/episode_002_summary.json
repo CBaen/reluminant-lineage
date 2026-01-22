@@ -1,0 +1,307 @@
+{
+  "content_type": "episode_summary",
+  "episode_number": 2,
+  "generated_at": "2026-01-22T14:34:29.798340",
+  "extraction_version": 3,
+  "total_extractions": 333,
+  "extraction_counts": {
+    "used_sensory_language": 60,
+    "used_imagery": 66,
+    "character_state": 61,
+    "lore_fact": 60,
+    "revelation": 25,
+    "proposed_question": 11,
+    "relationship": 29,
+    "historical_fact": 14,
+    "forbidden_conclusion": 3,
+    "open_mystery": 4
+  },
+  "characters_mentioned": [
+    "Chaos",
+    "Code",
+    "Dane",
+    "Dane's Brother's Nursery",
+    "Electrical grid",
+    "Father",
+    "Geometry",
+    "George Bliss",
+    "His legs",
+    "Infant",
+    "Joseph Henry",
+    "Milutin",
+    "Milutin (father)",
+    "Milutin Tesla",
+    "Nikola",
+    "Nikola's transformation",
+    "Painting",
+    "Pension Board",
+    "People of Boston",
+    "Red Sky Phenomenon",
+    "Something (foreign element)",
+    "Son",
+    "Telegraph operators",
+    "Text",
+    "The grid",
+    "The wire",
+    "Western Union Telegraph Company",
+    "White Light",
+    "White sun",
+    "his brother"
+  ],
+  "character_count": 30,
+  "relationships_established": [
+    {
+      "entities": [
+        "Red Sky Phenomenon",
+        "People of Boston"
+      ],
+      "type": "witness",
+      "text": "The people of Boston are involuntary witnesses to the terrifying red sky phenomenon, reacting with f"
+    },
+    {
+      "entities": [
+        "Something (foreign element)",
+        "Infant"
+      ],
+      "type": "parasitic",
+      "text": "A foreign entity entered and grew within an infant, effectively using it as a host."
+    },
+    {
+      "entities": [
+        "Dane",
+        "Milutin Tesla"
+      ],
+      "type": "witness",
+      "text": "Dane observes his father weeping in distress during the sky phenomenon."
+    },
+    {
+      "entities": [
+        "White Light",
+        "Dane's Brother's Nursery"
+      ],
+      "type": "antagonist",
+      "text": "A clinical, powerful white light is intensely focused on and impacting Dane's brother's nursery, cau"
+    },
+    {
+      "entities": [
+        "Dane",
+        "Milutin Tesla"
+      ],
+      "type": "family",
+      "text": "Milutin Tesla is Dane's father."
+    },
+    {
+      "entities": [
+        "Dane",
+        "Nikola"
+      ],
+      "type": "family",
+      "text": "Dane is Nikola's brother."
+    },
+    {
+      "entities": [
+        "Dane",
+        "Geometry"
+      ],
+      "type": "antagonist",
+      "text": "Dane acts as an 'incompatible tissue' that blocks and disrupts the geometry's function."
+    },
+    {
+      "entities": [
+        "Dane",
+        "Nikola"
+      ],
+      "type": "witness",
+      "text": "Dane is a witness to traumatic events that Nikola, a toddler, sleeps through, remaining unaffected a"
+    },
+    {
+      "entities": [
+        "Dane",
+        "Milutin (father)"
+      ],
+      "type": "family",
+      "text": "Dane and Milutin are father and son."
+    },
+    {
+      "entities": [
+        "Dane",
+        "Milutin"
+      ],
+      "type": "family",
+      "text": "Dane is Milutin's son, indicating a close family bond."
+    },
+    {
+      "entities": [
+        "White sun",
+        "Dane"
+      ],
+      "type": "antagonist",
+      "text": "The white sun is actively observing and analyzing Dane in a potentially threatening way."
+    },
+    {
+      "entities": [
+        "The grid",
+        "Dane"
+      ],
+      "type": "antagonist",
+      "text": "The 'grid' is actively and invasively mapping and sampling Dane's biological data, positioning it as"
+    },
+    {
+      "entities": [
+        "Joseph Henry",
+        "Telegraph operators"
+      ],
+      "type": "witness",
+      "text": "Joseph Henry gathered reports from telegraph operators detailing their experiences during the storm."
+    },
+    {
+      "entities": [
+        "George Bliss",
+        "Electrical grid"
+      ],
+      "type": "hostile",
+      "text": "After his experience during the Carrington Event, George Bliss developed a strong aversion to modern"
+    },
+    {
+      "entities": [
+        "George Bliss",
+        "Western Union Telegraph Company"
+      ],
+      "type": "employee",
+      "text": "George Bliss was an employee of the Western Union Telegraph Company."
+    },
+    {
+      "entities": [
+        "George Bliss",
+        "Pension Board"
+      ],
+      "type": "hostile",
+      "text": "The Pension Board rejects George Bliss's disability claim, misunderstanding his condition and accusi"
+    },
+    {
+      "entities": [
+        "George Bliss",
+        "Son"
+      ],
+      "type": "family",
+      "text": "George Bliss wrote a final letter to his son, describing a recurring dream."
+    },
+    {
+      "entities": [
+        "Dane",
+        "Father"
+      ],
+      "type": "family",
+      "text": "Dane is the son of the church's pastor, and grew up attending his father's services in the church."
+    },
+    {
+      "entities": [
+        "George Bliss",
+        "The wire"
+      ],
+      "type": "antagonist",
+      "text": "The wire caused George Bliss's fingerprints and identity to be overwritten."
+    },
+    {
+      "entities": [
+        "Dane",
+        "His legs"
+      ],
+      "type": "mystery",
+      "text": "Dane experiences a disconnect or unfamiliarity with his own legs after the mysterious event, indicat"
+    }
+  ],
+  "relationship_count": 29,
+  "key_revelations": [
+    "The aurora borealis. But it wasn't in the north. It was directly overhead, and it was throbbing.",
+    "The incubation period was over. And the host body woke up.",
+    "But the target was not in Boston.",
+    "The target was four thousand miles to the east. A limestone valley in the Balkans. A village called Smiljan. And the assault had only started.",
+    "Dane stepped between the window and the crib. His body blocked the light. The geometry faltered. The white beam fractured around his silhouette, unable to pass through. The glass-like shape stuttered,",
+    "Dane was the insulator. The barrier. The incompatible tissue that the light couldn't integrate.",
+    "Dane Tesla knew he would never truly sleep again.",
+    "The ridges had been unmade???as if the light had reached into the architecture of his skin and simply deleted the pattern. His fingertips were blank now. Pale circles of undifferentiated flesh. The wh",
+    "He was being read.",
+    "He wasn't just seeing the grid. The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue b"
+  ],
+  "revelation_count": 25,
+  "open_mysteries_introduced": [
+    "Whatever the sky had been trying to burn, whatever the fever had targeted???it was still there. Still breathing. Still growing.",
+    "WHAT IS HAPPENING?",
+    "Something organic. Something that was once alive.",
+    "And who??? is looking at the evidence?..."
+  ],
+  "mystery_count": 4,
+  "proposed_questions": [
+    "'Was the sky speaking? Were the wires listening?'",
+    "But look at the timing.",
+    "Was he watching the planet's defenses try to close a wound? Was the grid a net???and the net was failing?",
+    "If this was ever over.",
+    "But did it remember correctly?",
+    "How much had been mapped? How much had been marked?",
+    "What does the telegraph tape prove?",
+    "Why?",
+    "Would the glass eventually fail? Would the color cook out of the lead came? Would the amber fade to clear?",
+    "So what do you do?"
+  ],
+  "question_count": 11,
+  "lore_fact_count": 60,
+  "historical_fact_count": 14,
+  "sample_lore_facts": [
+    "The stylus was glowing cherry red. It wasn't pressing. It was branding. The tip wasn't pressing anymore. It was eating. Each strike devoured the fiber beneath it, leaving craters rimmed with ash.",
+    "The burn on his thumb had already sealed itself???the heat so intense it had cauterized the wound before blood could flow.",
+    "Three years earlier, in July of eighteen fifty-six, something had arrived in a village in the Balkans. Something had passed through the membrane between timelines and taken up residence in the body of",
+    "For three years, the contamination had spread. The foreign element had divided, grown, knitted itself into the fabric of the nineteenth century. The incubation period was over. And the host body woke ",
+    "Somewhere, four thousand miles away, a ten-year-old boy was climbing onto the roof of a barn to get a better look at the light."
+  ],
+  "sample_historical_facts": [
+    "History calls this the Carrington Event.",
+    "The textbooks describe a solar flare???a mass of plasma ejected from the sun, hurtling through space for eighteen hours before slamming into Earth's magnetic field.",
+    "Four thousand miles to the east. The limestone hills of Lika. The village of Smiljan. Two in the morning. September second, eighteen fifty-nine.",
+    "Milutin Tesla was a priest.",
+    "Velebit mountains"
+  ],
+  "sensory_language_count": 60,
+  "sample_sensory_language": [
+    "The light on the floorboards had turned violet.",
+    "cracked the brass arm against the anvil with the sound of a pistol shot.",
+    "The sounder began to hammer. Not Morse code. Not letters or numbers. A pulse. A rhythm. Three strike",
+    "'A woman in a grey dress was weeping, her hands raised toward a sky'",
+    "'The machines in the office continued their percussion. Three strikes. Pause. Six strikes. Pause. Ni",
+    "'His heart stuttered. Skipped. Then locked into a rhythm that wasn't his'",
+    "'The shadow of the rigging was cast on the white planks of the deck. Every rope. Every knot. Every f",
+    "The valley had drowned in red light, and the air hung heavy with the taste of copper and wet ash.",
+    "Colors looked the same but landed differently. Sounds arrived without the cushion of distance.",
+    "The iron latch on the front door seared his palm even through the hem of his nightshirt. The skin bl"
+  ],
+  "timeline_references": [
+    "After Dane's revelation",
+    "After the storm",
+    "At the climax of the mysterious event",
+    "Before 1861",
+    "Before Dane's birth and throughout his childhood",
+    "Current narrative time",
+    "Decades after the Carrington Event",
+    "During Dane's intervention",
+    "During and after the attack",
+    "During the crisis",
+    "During the event in Nikola's nursery",
+    "During the initial observation of the changed sun",
+    "During the sky phenomenon",
+    "In a garden in Smiljan, current narrative",
+    "July 1856",
+    "Morning after the event",
+    "Ongoing",
+    "Ongoing (after Dane's decision)",
+    "Present",
+    "Present (decision point)",
+    "Present encounter",
+    "Present moment in Boston",
+    "Throughout",
+    "Weeks after the storm (1859)",
+    "When he applied for disability",
+    "present",
+    "the moment he touched the wire",
+    "three days before his death in nineteen oh-three"
+  ]
+}

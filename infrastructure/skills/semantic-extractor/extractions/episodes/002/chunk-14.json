@@ -1,0 +1,69 @@
+{
+  "episode": 2,
+  "chunk_index": 14,
+  "extractions": [
+    {
+      "content_type": "used_sensory_language",
+      "text": "Amber body. Brown mane. Head resting on the white wool of the lamb beside it.",
+      "reasoning": "Specific visual details of the lion in the stained glass.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 14
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The surgery was not omnipotent. It had limits. It could change the instructions, but it could not change the organs.",
+      "reasoning": "An extended medical metaphor for the rewriting entity's capabilities and limitations.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 14
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Text",
+      "entity_b": "Code",
+      "relationship_type": "symbiotic",
+      "direction": "a_to_b",
+      "temporal_context": "After Dane's revelation",
+      "evidence": "Text is code. A book is a sequence of instructions.",
+      "text": "Dane realizes that text functions as code, a sequence of instructions that can be manipulated.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 14
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Painting",
+      "entity_b": "Chaos",
+      "relationship_type": "symbiotic",
+      "direction": "a_to_b",
+      "temporal_context": "After Dane's revelation",
+      "evidence": "But a painting is not code. A painting is chaos.",
+      "text": "Dane concludes that painting embodies chaos, contrasting it with the structured nature of code/text.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 14
+    }
+  ],
+  "needs_opus_review": 128,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-14-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:28.558355",
+  "stored_at": "2026-01-22T14:33:13.317684",
+  "v3_stats": {
+    "stored": 4,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

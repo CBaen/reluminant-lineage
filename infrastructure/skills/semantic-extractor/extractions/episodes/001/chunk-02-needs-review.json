@@ -1,0 +1,610 @@
+{
+  "episode": 1,
+  "chunk_index": 2,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "The Nikola Tesla Museum is located in Belgrade, on Krunska Street.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable geographical and institutional fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The baptismal records at the Nikola Tesla Museum are kept behind heavy, UV-filtering glass, which serves to hold the paper flat, contrary to curators' claim it protects ink from fading.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific details about the baptismal records, the perceived and actual purpose of the glass, and the contradiction of the curators' claim are presented as facts within the documentary's narrative but are elements of its invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The curators at the Nikola Tesla Museum say the glass protects the ink from fading.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the stated belief or explanation of the curators.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The page for eighteen fifty-six in the baptismal records is warped, ripples near the bottom, as if soaked in water and dried in a freezing room, and has dark ink pressed so hard it bruised the paper.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These highly specific, dramatic, and unusual physical details about a historical document are presented as facts within the narrative but are clearly invented elements of the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "as if the vellum was once soaked in water and allowed to dry in a freezing room",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "This is a vivid simile used to describe the warped page.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola Tesla's parents were Milutin and Duka.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable biographical detail about Nikola Tesla.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The entry in the baptismal records for July 1856, for Nikola, son of Milutin and Duka, was recorded by a priest named Father Toma.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Tesla's parents and birth year are historical, the specific priest, Father Toma, and his role in this particular entry are part of the invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The handwriting for Nikola's name in the baptismal records is shaky, with jagged loops, and the pen nib snagged on the letter N, tearing a microscopic hole.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These minute, dramatic details about the handwriting are fabricated elements of the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The handwriting for Nikola's name in the baptismal records indicates the writer (Father Toma) was not looking at the page, but rather looking over his shoulder.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This interprets the physical characteristic of the handwriting as a reflection of the character's internal state or fear.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the margin of the baptismal record, reserved for notes on temperament, there is a smear of ink, possibly a thumbprint or a smudge from someone trying to wipe away a mistake.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These specific, evocative details about the margin are invented narrative elements.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Underneath the smear, carved into the grain with a force that almost tore the page, is the Serbian phrase 'Dolazi izmedu', meaning 'Arriving from between'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The carved phrase and its translation are central, invented elements of the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma wrote the Serbian phrase 'Dolazi izmedu' and closed the book, after which Nikola Tesla's baptism was his last.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This connects Father Toma's action directly to the phrase and his last baptism, reinforcing the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma claimed a palsy of the hand and that his fingers would no longer hold the quill.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Father Toma's stated reason for his inability to write.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Three weeks later, Father Toma requested a transfer to a mountain monastery; however, official records of his transfer show his hand was steady and letters crisp, contradicting his claim of palsy.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The details of the transfer, the contradictory handwriting, and the implied mystery are all part of the invented narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Upon his transfer, Father Toma took a vow of contemplative silence, maintaining it for thirty-five years, and never spoke again.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This dramatic life event for Father Toma is an invented narrative detail.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the margin of his transfer request, Father Toma inscribed the Latin phrase 'Quod transit debet cito nominari', meaning 'What comes through must be named quickly', as the last words he ever wrote officially.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific Latin phrase, its translation, and the context of it being Father Toma's last official words are key elements of the invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The museum protects and houses the baptismal records.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The glass is claimed by curators to protect the ink.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The glass holds the paper flat.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma wrote the Serbian phrase 'Dolazi izmedu'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma took a vow of contemplative silence.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma inscribed the Latin phrase 'Quod transit debet cito nominari'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Nikola Tesla Museum in Belgrade, on Krunska Street, keeps the baptismal records.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The existence and location of the Nikola Tesla Museum are verifiable historical facts, as is its function of preserving records.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The curators say the glass protects the ink from fading. But look closer. The glass is there to hold the paper flat.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This presents a narrative twist on the stated purpose of the glass, creating an 'uncovering' of a deeper, non-obvious truth, which is characteristic of the series' blend of real history and invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "heavy, UV-filtering glass",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes the physical attributes of the glass using visual and tactile descriptors.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "warped",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes the physical state of the page (visual, tactile).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "ripples",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual and tactile characteristic of the page.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "soaked in water",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a past physical state (tactile, visual).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "freezing room",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Evokes a temperature sensation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "ink is dark",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual attribute of the ink.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The entry is for July. The priest, a man named Father Toma, recorded the name. Nikola. Parents. Milutin and Duka.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Tesla's birth month (July) and parents' names (Milutin and Duka) are verifiable historical facts. The existence of a priest named Father Toma in that context is also plausible historical detail.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin is Nikola Tesla's parent.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka is Nikola Tesla's parent.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma recorded Nikola's name in the baptismal record.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "shaky",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile and visual quality of the handwriting.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "jagged",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual quality of the handwriting.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "nib... snagged",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "microscopic hole",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual detail.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "looking over his shoulder",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Implies a sense of unease or being watched (visual, metaphorical).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "smear of ink",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual and tactile quality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "thumbprint",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual and tactile detail.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "smudge",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual and tactile detail.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "carved into the grain",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile and visual action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "force that almost tore the page",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes the intensity of an action (tactile, visual).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The phrase 'Arriving from between' is mysteriously linked to Nikola Tesla's origin or nature.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma wrote it, and then he closed the book. The parish records show that Nikola Tesla was his last baptism. He claimed a palsy of the hand. He claimed his fingers would no longer hold the quill.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This sequence of events (writing the phrase, it being his last baptism, and the convenient claim of palsy) is a narrative construction to deepen the mystery around Father Toma and Tesla's baptism.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma inscribed the mysterious phrase 'Dolazi izmedu'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "hand is steady",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual and tactile characteristic of the handwriting.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "letters are crisp",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual quality of the handwriting.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma inscribed the Latin phrase 'Quod transit debet cito nominari'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The evidence begins with a document.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This statement frames the start of the narrative's central (fictional) investigation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Nikola Tesla Museum in Belgrade, on Krunska Street",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The existence and location of the Nikola Tesla Museum are verifiable historical facts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Nikola Tesla Museum in Belgrade, on Krunska Street, keeps the baptismal records behind heavy, UV-filtering glass.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While the museum and baptismal records exist, the specific details regarding *these particular* records and the UV-filtering glass are presented as a narrative detail for the lore, rather than a universally verifiable fact about the museum's entire collection.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The curators say the glass protects the ink from fading.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a statement attributed to fictional 'curators' within the narrative, serving to set up a later twist.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But look closer. The glass is there to hold the paper flat.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a narrative revelation that reinterprets a previously stated 'fact,' integral to building the fictional mystery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "warped, ripples, soaked in water, freezing room, ink is dark, bruised the paper",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "These words create vivid visual and tactile imagery, enhancing the description of the document's condition.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola. Parents. Milutin and Duka.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Nikola Tesla's parents, Milutin Tesla and Duka Mandi\u00c4\u2021, are verifiable historical figures. His name is also historical.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The priest, a man named Father Toma, recorded the name.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Father Toma is introduced as a character specific to this fictional narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "shaky, jagged, snagged, tearing a microscopic hole, looking over his shoulder",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "These terms vividly describe the physical act of writing and imply the emotional context.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But look at the margin.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a narrative instruction, directing the reader's attention to another fictional detail of the document.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "smear of ink, thumbprint, smudge",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "These create visual and tactile images of imperfections and potential human interaction with the document.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma wrote it, and then he closed the book.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes Father Toma's fictional action of completing the inscription and ending his interaction with the record.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The parish records show that Nikola Tesla was his last baptism. He claimed a palsy of the hand. He claimed his fingers would no longer hold the quill.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These are invented details about Father Toma's immediate post-baptism life, suggesting a traumatic event or profound impact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "hand is steady, letters are crisp",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "These contrasting sensory details emphasize the inexplicable change in Father Toma's physical control.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma sought solace or a new way of life by transferring to a mountain monastery.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Father Toma's life was profoundly altered by an unknown entity or event, hinted at during Nikola Tesla's baptism.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:00:53.036713",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

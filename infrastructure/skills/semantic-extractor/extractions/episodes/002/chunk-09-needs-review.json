@@ -1,0 +1,673 @@
+{
+  "episode": 2,
+  "chunk_index": 9,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "triangle eyes",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language used to describe the appearance of the grid's sensory apparatus.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "soft tissue behind his eyes where memory lived",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A metaphorical description of the location of memory within the body.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The weight on his skull pressed harder.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A tactile description of physical sensation experienced by Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pressure in his chest forced the air out in a thin wheeze.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A tactile and auditory description of Dane's physical distress.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He opened his mouth.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "An action performed by the character, reflecting his physical state.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "dust and ??? stone",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The use of '???' indicates an unknown or unstated detail, deliberately leaving a gap in the description.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the atmosphere had thickened???not fog, not smoke, just density.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The narrator struggles to define the exact nature of the atmospheric change, maintaining ambiguity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A heaviness that filled his lungs with something other than oxygen.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A tactile description of the atmospheric condition and its effect on Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He pulled his knees tighter.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "A physical action performed by Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The cellar walls pressed in.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A tactile description of Dane's perception of his surroundings.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The analysis would remain.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a significant disclosure to Dane, revealing the permanent impact of his experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Somewhere in the machinery of the universe, in the autonomic systems that ran beneath the surface of reality, his coordinates had been logged. He was flagged.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a major discovery within the narrative, revealing Dane's new status within a cosmic system.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "machinery of the universe, in the autonomic systems that ran beneath the surface of reality",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphorical language describing a hidden, controlling mechanism of existence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "whatever came next???whatever cutting or excision or quarantine the system prescribed",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The future actions of 'the system' are left entirely unknown and deliberately vague.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "cutting or excision or quarantine",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language suggesting medical or punitive actions taken by an abstract system.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "it knew where to find him.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A statement affirming the system's ability within the fictional narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the texture of old bone",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile comparing the cooled wax to an unsettling organic material.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the slow, methodical disassembly of everything he was",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A metaphorical description of the profound and destructive impact of the examination on Dane's being.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a fragment of telegraph tape in a climate-controlled drawer in Massachusetts.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is presented as a specific artifact within the series' lore, likely invented for the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The collector???an estate lawyer who inherited it from a client???keeps the basement office at sixty-two degrees. He doesn't display the artifact. He doesn't know what he has.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Descriptions of the collector's actions, preferences, and lack of knowledge regarding the artifact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the brown of old blood, of coffee grounds left too long in the filter",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile used to convey the disturbing and unnatural color of the paper.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a brittleness that feels like a warning",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile conveying the fragility of the paper and its implied danger.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the evidence disappears",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language emphasizing the fragility of the artifact and the potential loss of information.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The smell rises even through the controlled air: scorched wood and something else.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Olfactory description of the paper's scent.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "something else. Something organic. Something that was once alive.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Deliberately vague description of an unknown organic component contributing to the paper's smell, maintaining a sense of mystery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "September second, eighteen fifty-nine.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable date, although the specific events connected to George Bliss are lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Smithsonian holds a different kind of evidence.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Refers to a verifiable institution known for holding historical records.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the weeks after the storm, Joseph Henry???the institution's first Secretary???collected reports from telegraph operators across the continent.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Verifiable historical event (Carrington Event implied by 'the storm'), historical figure (Joseph Henry, first Secretary of Smithsonian), and his historical action of collecting reports from telegraph operators.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The reports are catalogued. The testimony is preserved.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable statement about the status of historical documents.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stylus pressed clean indentations into the fiber.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A tactile and visual description of the stylus's action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ordinary rhythm of a September morning in a nation that did not yet know it was at war with itself.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A historical reference to the pre-Civil War tensions in the US in 1859.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A black line drags for six inches???a continuous wound",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A visual description of the mark on the paper, also using imagery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the surge rolling down from the aurora",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Refers to the geomagnetic disturbance (aurora) associated with the Carrington Event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The mark isn't on the paper. It's through the paper. A canyon cut by a tool that had become a weapon.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Further significant discoveries detailing the extreme nature of the damage to the tape.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "This is the moment the circuit screamed. The moment George Bliss reached for the switch and the spark jumped to his thumb and the machine began working on celestial current alone.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a major disclosure about the dramatic climax of the event on the tape, combining both lore (George Bliss's actions) and a significant turning point.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the circuit screamed",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification of the circuit, conveying intense stress or feedback.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the spark jumped to his thumb",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A visual and tactile description of the electrical discharge.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "BATTERIES DISCONNECTED. WHAT IS HAPPENING?",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This specific message is presented as content extracted from the fictionalized telegraph tape.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The dots and dashes have been seared into the fiber, their edges feathered where the heat fluctuated.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual and tactile descriptions of the heat damage to the tape.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid is actively mapping and taking invasive samples from Dane.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The collector possesses the artifact but is unaware of its true significance.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Joseph Henry was the first Secretary of the Smithsonian, indicating a foundational role.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Historians have interpreted the event recorded on the tape as a message.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The documentary creators interpret the event recorded on the tape as a wound.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stylus, superheated, ceased its recording function and instead damaged the paper.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "George Bliss interacted with the machine, leading to its operation on celestial current.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The machine became powered by celestial current during the event.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He wasn't just seeing the grid. The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue behind his eyes where memory lived.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective experience and perception of being analyzed by 'the grid'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The weight on his skull pressed harder. The pressure in his chest forced the air out in a thin wheeze. He opened his mouth. The air tasted of dust and ??? stone.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific tactile, auditory, and gustatory descriptions of Dane's physical experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid was seeing him with something like triangle eyes",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language to describe the grid's method of observation, creating a visual metaphor.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And whatever came next???whatever cutting or excision or quarantine the system prescribed???it knew where to find him.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The narrative deliberately leaves the precise nature of the future consequences of being 'flagged' vague, building suspense.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The system has taken samples from Dane and marked him, suggesting a non-consensual and potentially harmful relationship where Dane is being exploited.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The collector takes measures to preserve the telegraph tape by storing it in a climate-controlled environment.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He doesn't display the artifact. He doesn't know what he has.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The narrative highlights the collector's ignorance of the tape's significance, implying a hidden importance to be unveiled later.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "This strip has survived one hundred and sixty years. But survival is not the same as preservation.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A narrative statement about the tape's longevity versus its condition, setting up a theme within the documentary's unique interpretation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But survival is not the same as preservation.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A thematic statement contrasting mere existence with intentional safeguarding, implying a deeper meaning about the tape's current state and significance.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Touch me wrong and I will disintegrate. Touch me wrong and the evidence disappears.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "This statement uses personification to express the fragility of the 'evidence,' creating a narrative warning that prevents direct investigation and preserves the mystery of its full content.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The smell rises even through the controlled air: scorched wood and something else. Something organic. Something that was once alive.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Olfactory description, with an added layer of vague, unsettling implication about the smell's origin.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Joseph Henry, as the first Secretary, was instrumental in establishing the collection of evidence at the Smithsonian related to the event.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.7,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The reports are catalogued. The testimony is preserved. But the tapes themselves???the physical record of what the wires received that day???were largely destroyed by the very phenomenon they recorded.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Verifiable historical outcome of the Carrington Event's impact on telegraph records.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "superheated by the surge rolling down from the aurora",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This refers to the scientifically verifiable electromagnetic effects of the Carrington Event.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A continuous wound where the stylus... started destroying. The mark isn't on the paper. It's through the paper. A canyon cut by a tool that had become a weapon.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Powerful, violent metaphors used to describe the severe damage to the telegraph tape, elevating it beyond simple charring.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The moment the circuit screamed.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification, attributing a human-like cry to the circuit, enhancing the drama and impact of the event.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stylus, under extreme conditions, acted destructively upon the tape, transforming from an instrument into a weapon.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "George Bliss's physical interaction with the machine created an unusual and powerful energetic connection during the surge.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the machine began working on celestial current alone.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a significant, supernatural-leaning revelation about the machine's power source during the Carrington Event, indicating a profound shift from conventional operation.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The charred section ends. The message resumes. BATTERIES DISCONNECTED. WHAT IS HAPPENING? The letters are legible. The dots and dashes have been seared into the fiber, their edges feathered where the heat fluctuated.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific content of the message ('BATTERIES DISCONNECTED. WHAT IS HAPPENING?') and the physical description of its imprinting on the damaged tape are unique to the series' lore about George Bliss's artifact.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The room smells of vinegar and old dust. Metal cabinets line the walls. Each drawer is labeled with an index card in faded typewriter ink.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific olfactory and visual details establishing the scene.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "This strip has survived one hundred and sixty years.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A statement of fact about the tape's longevity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The edges crumble when touched. Flakes of carbon drift onto the metal table. The smell rises even through the controlled air: scorched wood and something else. Something organic. Something that was once alive.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual, tactile, and olfactory details describing the tape's deterioration and the lingering scent.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The paper is no longer indented. It is branded. A black line drags for six inches.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual details describing the damage to the telegraph tape.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A continuous wound where the stylus, superheated by the surge rolling down from the aurora, stopped recording and started destroying.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphorical description of the stylus's destructive action, elevating it from a recording tool to an agent of damage, with thematic links to the 'wound' motif.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "This is the moment the circuit screamed.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification of the electrical circuit, attributing a human sound of distress to emphasize the intensity of the event.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T14:29:27.941626",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

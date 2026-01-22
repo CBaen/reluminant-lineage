@@ -1,0 +1,154 @@
+{
+  "episode": 2,
+  "chunk_index": 17,
+  "extractions": [
+    {
+      "content_type": "lore_fact",
+      "text": "The immune response that had somehow survived the fever and was still circulating, still fighting, still remembering what had been lost.",
+      "reasoning": "Describes a specific, non-standard biological phenomenon presented as fact within the narrative.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The radiation beat against his back.",
+      "reasoning": "A factual environmental condition impacting the character, part of the story's established world.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "the cold wave had passed through him in the nursery.",
+      "reasoning": "Refers to a past, significant event within the series' narrative that affected Dane.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "If you carry the residue of the old world, if the original pattern still pulses somewhere beneath the sealed skin, you see red. A deep, earthy, wine-dark red. Maroon. Burgundy. The color of velvet curtains in an old theater. The color of dried roses pressed between the pages of a book.",
+      "reasoning": "A specific assertion about how certain individuals perceive the color Chartreuse, presented as a condition within the narrative's reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "character_state",
+      "text": "Whatever else Nikola was, he was also this. A three-year-old boy playing with rocks in a garden.",
+      "reasoning": "Dane's subjective attempt to reconcile Nikola's dual nature.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane didn't ask what that meant. He wasn't sure he wanted to know.",
+      "reasoning": "Reveals Dane's reluctance and uncertainty about Nikola's statements.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "character_state",
+      "text": "And Dane understood that this was his purpose now. Not to fight. Not to warn. Not to try to stop something that had already won before he was born. To remember.",
+      "reasoning": "Dane's realization and acceptance of his new, specific role.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "character_state",
+      "text": "He wanted to cry. He wanted to run to his father and bury his face in the rough wool of the priest's coat and say Papa, I'm scared, something is wrong, I can't carry this.",
+      "reasoning": "Direct expression of Dane's emotional distress and longing for paternal comfort.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "character_state",
+      "text": "Whatever Nikola was becoming, Dane would watch. He would witness. He would remember. That was the only resistance left.",
+      "reasoning": "Dane's resolute decision regarding his role in relation to Nikola's transformation.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Nikola",
+      "relationship_type": "protective",
+      "direction": "a_to_b",
+      "temporal_context": "Present (decision point)",
+      "evidence": "A little brother who needed protecting",
+      "text": "Dane decides he needs to protect Nikola, despite Nikola's altered state.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Nikola's transformation",
+      "relationship_type": "witness",
+      "direction": "a_to_b",
+      "temporal_context": "Ongoing (after Dane's decision)",
+      "evidence": "Whatever Nikola was becoming, Dane would watch. He would witness. He would remember.",
+      "text": "Dane resolves to observe and remember Nikola's ongoing transformation.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Father",
+      "relationship_type": "family",
+      "direction": "symmetric",
+      "temporal_context": "Present",
+      "evidence": "run to his father and bury his face in the rough wool of the priest's coat",
+      "text": "Dane's father is a priest.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 17
+    }
+  ],
+  "needs_opus_review": 114,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-17-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:29.182519",
+  "stored_at": "2026-01-22T14:34:26.920424",
+  "v3_stats": {
+    "stored": 12,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

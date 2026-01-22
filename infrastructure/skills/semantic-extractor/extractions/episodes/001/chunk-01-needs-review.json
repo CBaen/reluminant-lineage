@@ -1,0 +1,520 @@
+{
+  "episode": 1,
+  "chunk_index": 1,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "It was January seventh, nineteen forty-three.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a specific date of Tesla's death, verifiable historical information.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Room thirty-three twenty-seven of the Hotel New Yorker.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Hotel New Yorker is a real place, and Tesla's death location is verifiable.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "an eighty-six-year-old man lay dead in the bed. ... Nikola Tesla was gone",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Nikola Tesla's death at 86 on that date is a verifiable historical fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The agents were from the Office of Alien Property.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Office of Alien Property was a real U.S. government agency during WWII, verifiable historical information.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A wartime agency designed to seize the assets of enemies of the state.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This describes the verifiable purpose of the Office of Alien Property.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But Tesla wasn't an enemy. He was an American citizen.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Tesla became a naturalized U.S. citizen, a verifiable historical fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He was the man who had illuminated the Chicago World's Fair, the man who had electrified the planet.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "These are verifiable historical achievements and contributions of Nikola Tesla.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tesla's nephew arrived at the hotel room. Sava Kosanovic was a Yugoslav diplomat with access the FBI couldn't block.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Sava Kosanovic was indeed Tesla's nephew and a Yugoslav diplomat, a verifiable historical fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Only sixty arrived at the museum in Belgrade years later.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "It is verifiable that Tesla's effects eventually went to a museum in Belgrade.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They swept through the two small rooms like locusts. They tagged everything. Documents. Blueprints. Black notebooks filled with the cramped, frantic handwriting of a man running out of time.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Highly descriptive, dramatic language used to convey the intensity of the raid, which leans into the series' invented narrative style.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His inventory was meticulous. Eighty trunks. Hundreds of items. Every notebook catalogued. Every blueprint numbered.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Detailed description of Foxworth's meticulousness, setting up the subsequent lore about missing items.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But what if they were looking for a receipt? What if they were looking for the documentation of a crime that happened eighty-six years earlier? A crime against nature itself.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This hypothesis about the agents' true motive and the nature of a 'crime against nature itself' is a central fictional premise of the documentary series.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are here to examine the pathology of an infection that began on July tenth, eighteen fifty-six. We are here to look at the incision.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The metaphorical language of 'infection' and 'incision' starting on Tesla's birth date frames the narrative within the series' specific, non-historical interpretation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He wanted peace.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This expresses Tesla's internal desire prior to his death.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What was in them? (Referring to the twenty vanished trunks)",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a direct question about the contents of the missing trunks, intentionally left unanswered.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pigeons cooing on the windowsill",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Auditory imagery of the pigeons.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Office of Alien Property raided Tesla's room and seized his assets, treating him as an 'enemy of the state' despite his citizenship.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "P.E. Foxworth was the FBI agent who meticulously cataloged Tesla's belongings after his death.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Twenty trunks containing a quarter of Tesla's life's work vanished, implied to be taken by the government.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola Tesla illuminated the Chicago World's Fair.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola Tesla electrified the planet.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrator is examining a metaphorical 'infection' related to Tesla's historical trajectory.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrator explicitly states the documentary's focus differs from traditional biographical or technical discussions of Tesla.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Sava Kosanovic was a Yugoslav diplomat with access the FBI couldn't block. He had come to retrieve personal effects.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Sava Kosanovic was indeed Tesla's nephew and a Yugoslav diplomat who was involved in handling Tesla's estate after his death.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The FBI searched. They opened every trunk. They catalogued every notebook. They found star maps and schematics and correspondence with dead financiers.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The FBI did search Tesla's belongings after his death, and such items are consistent with his known work.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Within hours, before the family was notified, before the obituaries were written, before the world even knew that Nikola Tesla was gone, the agents were there.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While agents did arrive, the extreme speed and secrecy ('within hours', 'before the family was notified') are exaggerated within the narrative to build mystery and implies a level of surveillance or pre-knowledge that leans into invented lore.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The agent in charge was P.E. Foxworth, assistant director of the New York FBI office. His inventory was meticulous. Eighty trunks. Hundreds of items. Every notebook catalogued. Every blueprint numbered.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While the FBI was involved, the specific naming of 'P.E. Foxworth' as the agent in charge with such a 'meticulous inventory' that aligns perfectly with the 'eighty trunks' number, falls into the specific, detailed narrative lore designed to feel historical but potentially embellished or invented for the series.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He had hung a Do Not Disturb sign on the door two days earlier. He wanted peace.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Indicates Tesla's desire for solitude and tranquility in his final days.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But someone was already disturbing.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This statement introduces an unknown party or entity actively interfering before the agents, posing a question about their identity and actions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Kosanovic told the agents that something was missing.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This explicitly states that an item is unaccounted for, initiating a central mystery of the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The coordinates of what, Tesla wouldn't say.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The text directly states that the purpose of the coordinates in the ledger is unknown, creating an explicit mystery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Twenty trunks vanished.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The disappearance of 20 trunks is presented as an unexplained event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What was in them?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A direct question about the contents of the vanished trunks.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pigeons cooing on the windowsill, waiting for the feed that would never come.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Auditory imagery ('cooing') combined with poignant visual of waiting pigeons, emphasizing loss.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "cramped, frantic handwriting of a man running out of time.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of handwriting conveying a sense of urgency and desperation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "examine the pathology of an infection",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor describing a systemic, spreading problem, often associated with disease, applied to a historical event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "look at the incision.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor using a surgical term to imply a precise, critical point of origin for the 'infection'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The agents acted hostilely and disrespectfully towards Tesla's estate, despite him not being an enemy.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A portion of Tesla's life's work was taken by government entities, implying theft or seizure without proper record.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Someone was observing Tesla's hotel room, awaiting his death to acquire his knowledge.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrative suggests Tesla's birth is linked to a mysterious 'crime against nature itself' that the agents might be investigating.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Office of Alien Property acted antagonistically towards Tesla's estate by seizing his property despite his U.S. citizenship, treating him as if he were an enemy.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They hauled out eighty trunks.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "It is historically documented that a large quantity of Tesla's belongings (often cited as 80 trunks) was removed from his hotel room.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But the next morning, Tesla's nephew arrived at the hotel room. Sava Kosanovic was a Yugoslav diplomat with access the FBI couldn't block.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Sava Kosanovic was Tesla's nephew and a prominent Yugoslav diplomat, giving him diplomatic immunity and leverage with the FBI.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They found star maps and schematics and correspondence with dead financiers.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific mention of 'star maps' and 'dead financiers' in the context of the FBI's findings about the ledger appears to be narrative embellishment beyond typical historical accounts of Tesla's papers.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Because here is the part that history books gloss over.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This statement frames the subsequent information as a hidden truth or overlooked detail that the documentary is uniquely revealing, a common narrative device.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Eighty trunks left the Hotel New Yorker. Only sixty arrived at the museum in Belgrade years later.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The discrepancy between the number of trunks seized and those that arrived in Belgrade is a widely recognized historical detail related to Tesla's estate.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Twenty trunks vanished. One quarter of his life's work. Gone. Vaporized into the dark machinery of government. Along with a small ledger that no inventory ever recorded.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The fate of the twenty vanished trunks and the unrecorded ledger is explicitly presented as an unresolved mystery and a significant loss, with implied governmental involvement.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What was in them? Why did the agents arrive so fast? Who was watching that hotel room, waiting for the old man's heart to stop beating so they could take what he knew?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Explicit questions posed by the narrator, inviting speculation and highlighting fundamental unresolved aspects of the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Death Ray. The Earthquake Machine.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "These are historically recognized (though often sensationalized or unproven) concepts associated with Nikola Tesla's research and theories.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "looking for a receipt",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor suggesting the search for evidence or proof of a past event or transaction, rather than a physical object.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A crime against nature itself.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This hyperbolic phrase is used to dramatically frame a past event within the documentary's unique narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are not here to discuss the biography of an inventor. We are not here to list patents or debate the merits of alternating current.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Declares the narrator's specific focus and intent, shifting away from conventional historical accounts.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the pathology of an infection",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Medical metaphor suggesting a deep-seated, spreading illness or problem that began long ago, setting a serious and investigative tone.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the incision",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Medical metaphor, likely referring to the precise starting point or cause of the 'infection', reinforcing the analytical, investigative tone.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrator explicitly states their intention to depart from standard biographical or technical discussions of Tesla, positioning their approach as an alternative interpretation.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T11:59:54.128332",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

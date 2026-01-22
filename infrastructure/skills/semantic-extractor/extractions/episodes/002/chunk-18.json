@@ -1,0 +1,111 @@
+{
+  "episode": 2,
+  "chunk_index": 18,
+  "extractions": [
+    {
+      "content_type": "character_state",
+      "text": "If you carry the residue of the old world, if the original pattern still pulses somewhere beneath the sealed skin, you see red.",
+      "reasoning": "This describes the subjective experience and perception of the audience/listener ('you') based on the narrative's internal lore.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The color of velvet curtains in an old theater. The color of dried roses pressed between the pages of a book.",
+      "reasoning": "Figurative language used to characterize the remembered red color.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "carries the weight of a sun that no longer exists",
+      "reasoning": "Figurative language describing the boy's emotional burden related to a lost celestial body.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "So what do you do?",
+      "reasoning": "A rhetorical question posed to the listener, leading into the narrative's proposed course of action.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "forbidden_conclusion",
+      "text": "The surgery will continue. The scar tissue will spread. The world will keep growing lighter, sharper, more efficient, more numb.",
+      "reasoning": "These statements describe the ongoing, inescapable, and future state of the world according to the narrative. They are presented as definitive outcomes that the series' mystery depends on not being definitively 'solved' or changed by intervention within the story.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "lighter, sharper, more efficient, more numb",
+      "reasoning": "Descriptive progression of the world's changing state.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "revelation",
+      "text": "Chartreuse is not red. Chartreuse is a screaming, radioactive yellow-green.",
+      "reasoning": "This is a direct disclosure that contradicts a widely held belief within the narrative, serving as a significant turning point in the understanding of the phenomenon.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "screaming, radioactive yellow-green. The color of a highlighter. The color of antifreeze. The color of something that wants to be seen from a great distance, that has no interest in subtlety or warmth.",
+      "reasoning": "These are specific, vivid descriptions of the actual color Chartreuse, contrasting sharply with the 'red' memory.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "we are examining a wound. And when you find red paint on a wall that is currently green, you don't say the wall is confused. You say the wall was painted over. The Chartreuse anomaly is not a mistake. It is a scar. It is the residue of a color that existed before the surgery.",
+      "reasoning": "This is a series of powerful metaphors used to reframe the Chartreuse phenomenon from a psychological error to a physical alteration of reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The red Chartreuse you remember is a phantom limb. It is your optic nerve trying to process a color that no longer exists in this lighting environment. It is the original code, still running beneath the scar tissue, still trying to render a world that has been overwritten.",
+      "reasoning": "These are powerful metaphors used to describe the persistent memory of a color that is no longer physically present, linking it to medical and technological concepts.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 18
+    }
+  ],
+  "needs_opus_review": 102,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-18-needs-review.json",
+  "stored_to_qdrant": false,
+  "saved_at": "2026-01-22T14:24:29.392893"
+}

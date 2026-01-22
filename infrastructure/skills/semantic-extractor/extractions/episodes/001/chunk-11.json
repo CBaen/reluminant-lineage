@@ -1,0 +1,119 @@
+{
+  "episode": 1,
+  "chunk_index": 11,
+  "extractions": [
+    {
+      "content_type": "historical_fact",
+      "text": "The trees fell in a radial pattern.",
+      "reasoning": "The radial pattern of fallen trees is a definitive characteristic of the Tunguska Event's impact zone.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "open_mystery",
+      "text": "Did Tesla try to send a wave of energy to correct the timeline?",
+      "reasoning": "A direct question posed by the narrative, left unanswered, linking Tesla to the event.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The audio track of the world had been muted.",
+      "reasoning": "Metaphor comparing the cessation of sound to a muted audio track.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "the sky split in two.",
+      "reasoning": "Vivid description of the sky's appearance.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "It wasn't radiant heat. It didn't warm his skin. It burned his shirt off his back.",
+      "reasoning": "Detailed sensory description of an unusual and painful heat experience.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "a light so bright it cast shadows behind his eyes. He could see the veins in his own eyelids.",
+      "reasoning": "Vivid sensory description of extreme light intensity.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Sergei Semenov",
+      "entity_b": "The taiga",
+      "relationship_type": "symbiotic",
+      "direction": "symmetric",
+      "temporal_context": "His entire life",
+      "evidence": "He is a man who has lived in the taiga his entire life. He knows the sounds of the forest. He knows the rhythm of the wind.",
+      "text": "Sergei Semenov has a deep, lifelong connection and understanding of the taiga, indicating a symbiotic relationship where he thrives within and comprehends his environment.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Sergei Semenov",
+      "entity_b": "researchers from the Soviet Academy of Sciences",
+      "relationship_type": "witness",
+      "direction": "a_to_b",
+      "temporal_context": "later",
+      "evidence": "Semenov later told researchers from the Soviet Academy of Sciences that the silence wasn't natural.",
+      "text": "Sergei Semenov provided his account of the event to Soviet researchers.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "And then, the forest stops.",
+      "reasoning": "Metaphorical language to describe a sudden, unnatural silence; auditory/perceptual.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 11
+    }
+  ],
+  "needs_opus_review": 79,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\001\\chunk-11-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T11:59:53.250709",
+  "stored_at": "2026-01-22T12:04:56.357052",
+  "v3_stats": {
+    "stored": 9,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

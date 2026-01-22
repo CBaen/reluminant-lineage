@@ -1,0 +1,73 @@
+{
+  "version": "3.0",
+  "migrations": [
+    {
+      "started_at": "2026-01-22T11:23:21.803938",
+      "episodes": [
+        1,
+        2
+      ],
+      "dry_run": false,
+      "results": [
+        {
+          "episode": 1,
+          "started_at": "2026-01-22T11:23:21.803969",
+          "steps": {
+            "chunks_found": 15,
+            "cleared": true,
+            "extracted": 15,
+            "extract_failed": 0,
+            "stored": true,
+            "summary": true,
+            "sensory_sync": true
+          },
+          "success": true,
+          "completed_at": "2026-01-22T12:07:01.858013"
+        },
+        {
+          "episode": 2,
+          "started_at": "2026-01-22T12:07:01.858101",
+          "steps": {
+            "chunks_found": 11,
+            "cleared": true,
+            "extracted": 6,
+            "extract_failed": 5,
+            "stored": true,
+            "summary": true,
+            "sensory_sync": true
+          },
+          "success": false,
+          "completed_at": "2026-01-22T12:33:47.555436"
+        }
+      ],
+      "completed_at": "2026-01-22T12:33:47.555561",
+      "overall_success": false
+    },
+    {
+      "started_at": "2026-01-22T13:34:55.784605",
+      "episodes": [
+        2
+      ],
+      "dry_run": false,
+      "results": [
+        {
+          "episode": 2,
+          "started_at": "2026-01-22T13:34:55.784631",
+          "steps": {
+            "chunks_found": 19,
+            "cleared": true,
+            "extracted": 19,
+            "extract_failed": 0,
+            "stored": false,
+            "summary": true,
+            "sensory_sync": true
+          },
+          "success": true,
+          "completed_at": "2026-01-22T14:34:32.412614"
+        }
+      ],
+      "completed_at": "2026-01-22T14:34:32.412721",
+      "overall_success": true
+    }
+  ]
+}

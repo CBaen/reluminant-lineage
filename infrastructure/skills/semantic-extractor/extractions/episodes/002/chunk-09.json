@@ -1,0 +1,384 @@
+{
+  "episode": 2,
+  "chunk_index": 9,
+  "extractions": [
+    {
+      "content_type": "lore_fact",
+      "text": "The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue behind his eyes where memory lived.",
+      "reasoning": "This describes a technologically advanced, invasive process attributed to 'the grid' within the series' fictional universe, presented as a factual event within the narrative but unverifiable in reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "He wasn't just seeing the grid.",
+      "reasoning": "This reflects Dane's subjective perception or understanding of the situation.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The air tasted of dust and ??? stone.",
+      "reasoning": "Gustatory and olfactory descriptions of the environment experienced by Dane.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "He tried to breathe, but the atmosphere had thickened???not fog, not smoke, just density. A heaviness that filled his lungs with something other than oxygen.",
+      "reasoning": "Dane's subjective struggle and perception of the environment.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane had been under the light for hours.",
+      "reasoning": "Dane's subjective awareness of the passage of time.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "How much had been mapped? How much had been marked?",
+      "reasoning": "These are questions posed by Dane, implying an unknown aspect of the narrative that might be explored or answered.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The beam of light hummed???a sound so low it was almost below hearing, more vibration than tone.",
+      "reasoning": "An auditory and tactile description of the light source.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "He waited. He waited for the sun to set. He waited for the examination to end. He waited for the weight to lift and the grid to fade and the world to feel solid again.",
+      "reasoning": "These describe Dane's internal desires and expectations.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "revelation",
+      "text": "But even as the hours crawled past, he understood. The analysis would remain.",
+      "reasoning": "Dane's realization or internal understanding.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The samples had been taken. The tissue had been marked. Somewhere in the machinery of the universe, in the autonomic systems that ran beneath the surface of reality, his coordinates had been logged. He was flagged.",
+      "reasoning": "These statements present a fictional, yet asserted, reality within the documentary's lore, describing a system's action upon Dane.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The candle wax had cooled. It pooled around his boots in a white ring, hard and smooth, the texture of old bone.",
+      "reasoning": "Visual and tactile descriptions of the cooled candle wax.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane sat in the dark and listened to the hum of the examination???the slow, methodical disassembly of everything he was.",
+      "reasoning": "Dane's physical action and his subjective, metaphorical interpretation of the 'examination'.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "the slow, methodical disassembly of everything he was.",
+      "reasoning": "The exact process and full implications of this 'disassembly' are left undefined to maintain narrative mystery.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The room smells of vinegar and old dust.",
+      "reasoning": "Olfactory description of the collector's office.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The tape occupies drawer fourteen-C.",
+      "reasoning": "A specific detail regarding the fictional artifact's storage.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "historical_fact",
+      "text": "Standard Morse register paper from the eighteen-fifties was made of rag pulp. Thick. Fibrous. Chemically neutral. Built to outlast the messages it carried.",
+      "reasoning": "Verifiable information about the materials and properties of historical Morse register paper.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The paper is brown. Not the warm sepia of aged documents???the brown of old blood, of coffee grounds left too long in the filter.",
+      "reasoning": "A detailed visual description comparing the paper's unusual brown color to disturbing organic substances.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "This is the color of something that has been through violence more than once.",
+      "reasoning": "Metaphorical language to describe the paper's appearance as indicative of past trauma.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "Charred, then soaked in the humidity of a century, then dried again into a brittleness that feels like a warning.",
+      "reasoning": "A sequence of tactile descriptions detailing the paper's damaged state.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The edges crumble when touched. Flakes of carbon drift onto the metal table.",
+      "reasoning": "Visual and tactile descriptions of the paper's disintegration.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "This is the tape that fed through George Bliss's machine between eleven-fifteen in the morning and one-thirty in the afternoon on September second, eighteen fifty-nine.",
+      "reasoning": "This statement attributes the tape's origin to a specific event involving George Bliss, who is identified as an unverifiable character within the context of the documentary, thus making it series lore.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "historical_fact",
+      "text": "Dozens of firsthand accounts describing machines that worked without batteries, sparks that jumped from keys to fingers, paper that caught fire mid-transmission.",
+      "reasoning": "These are verifiable phenomena reported during the 1859 solar storm (Carrington Event) that affected telegraph systems.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "revelation",
+      "text": "the tapes themselves???the physical record of what the wires received that day???were largely destroyed by the very phenomenon they recorded.",
+      "reasoning": "This is a significant discovery regarding the loss of physical evidence related to the historical event.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "Historians have read it as a message. We are reading it as a wound.",
+      "reasoning": "Contrasting subjective interpretations of the historical event/tape by historians versus the documentary's creators/narrator.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "historical_fact",
+      "text": "Commercial traffic. A query about pork belly futures in New York. A husband in Providence telling his wife that his train would be delayed.",
+      "reasoning": "Examples of mundane, verifiable commercial and personal telegraph messages typical of the era before the event.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "revelation",
+      "text": "Then, at eleven-eighteen, the pattern breaks. The paper is no longer indented. It is branded. A black line drags for six inches???a continuous wound where the stylus, superheated by the surge rolling down from the aurora, stopped recording and started destroying.",
+      "reasoning": "This describes a major discovery about a critical moment on the tape and the stylus's destructive transformation.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "A canyon cut by a tool that had become a weapon.",
+      "reasoning": "A powerful metaphor describing the mark as a deep, destructive incision.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The moment George Bliss reached for the switch and the spark jumped to his thumb and the machine began working on celestial current alone.",
+      "reasoning": "Describes a specific, dramatic event within the series' fictional history involving George Bliss, an unverifiable character.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "open_mystery",
+      "text": "WHAT IS HAPPENING?",
+      "reasoning": "A direct question found on the tape, indicating an unanswered query within the narrative.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Joseph Henry",
+      "entity_b": "Telegraph operators",
+      "relationship_type": "witness",
+      "direction": "a_to_b",
+      "temporal_context": "Weeks after the storm (1859)",
+      "evidence": "Joseph Henry... collected reports from telegraph operators across the continent.",
+      "text": "Joseph Henry gathered reports from telegraph operators detailing their experiences during the storm.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "He pulled his knees tighter. The cellar walls pressed in.",
+      "reasoning": "Describes Dane's physical reaction and his feeling of being confined or trapped.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "There is a fragment of telegraph tape in a climate-controlled drawer in Massachusetts. The collector???an estate lawyer who inherited it from a client???keeps the basement office at sixty-two degrees. He doesn't display the artifact. He doesn't know what he has. The tape occupies drawer fourteen-C.",
+      "reasoning": "This introduces a key artifact and its current context within the series' invented narrative; the collector and specific details are not independently verifiable.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "open_mystery",
+      "text": "Something organic. Something that was once alive.",
+      "reasoning": "The narrative poses a subtle question about the origin of the organic smell, leaving its specific nature and implications unknown.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "historical_fact",
+      "text": "The Smithsonian holds a different kind of evidence. In the weeks after the storm, Joseph Henry???the institution's first Secretary???collected reports from telegraph operators across the continent.",
+      "reasoning": "Verifiable historical fact about Joseph Henry's role and actions post-Carrington Event.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The stylus pressed clean indentations into the fiber. Dots and dashes, compressed but intact. The spacing is regular. The pressure is uniform.",
+      "reasoning": "Specific visual details describing the initial, normal state of the telegraph tape.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The letters are legible. The dots and dashes have been seared into the fiber, their edges feathered where the heat fluctuated.",
+      "reasoning": "Specific visual details describing the final, damaged state of the message on the tape.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 9
+    }
+  ],
+  "needs_opus_review": 73,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-09-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:27.647931",
+  "stored_at": "2026-01-22T14:30:35.326926",
+  "v3_stats": {
+    "stored": 35,
+    "skipped": 1,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

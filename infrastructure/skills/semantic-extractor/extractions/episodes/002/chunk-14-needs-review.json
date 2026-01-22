@@ -1,0 +1,1168 @@
+{
+  "episode": 2,
+  "chunk_index": 14,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "The meaning had been changed, not just the word but the theology.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a core alteration within the series' invented reality, affecting fundamental concepts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Hope has been replaced with something that looks like hope but carries teeth behind its smile.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This introduces a sinister aspect of the altered reality, a new canon concept.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "teeth behind its smile",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A figurative description of the replaced hope, providing a vivid mental image.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Why? (referring to the hope being replaced with something that carried teeth behind its smile)",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This question is posed by the narrative without an immediate answer, serving as a fundamental, ongoing mystery for the audience.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His heart was pounding.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's internal physical sensation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid\u00e2\u20ac\u201dthe faint grey lattice that had aggressively etched itself into his vision in the cellar\u00e2\u20ac\u201dflickered at the edges of his sight.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective visual perception.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid\u00e2\u20ac\u201dthe faint grey lattice that had aggressively etched itself into his vision",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A specific visual metaphor used to describe Dane's altered perception.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The walls were stone. The ceiling was timber. The pews were oak, carved by craftsmen who had been dead for a century.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual and tactile descriptions of the church's interior.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Everything felt different.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective emotional or intuitive state.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stained glass depicted the Peaceable Kingdom, which is the prophecy of Isaiah.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The prophecy of Isaiah depicting the Peaceable Kingdom is a verifiable biblical concept.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stained glass depicted the Peaceable Kingdom. The prophecy of Isaiah rendered in colored light.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the stained glass and its content.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He had watched that window glow every Sunday of his life\u00e2\u20ac\u201dthe animals gathered, the child leading them, the world made whole.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's past observations and personal history with the window.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the lower left pane, a lion lay beside a lamb.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual detail of the stained glass.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Lion and lamb are depicted together in a symbiotic relationship in the stained glass.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane stared.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The glass was fired in a kiln in Venice.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Venice is historically known for glassmaking, and kiln firing is a verifiable method.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The glass was old. Fired in a kiln in Venice two hundred years before his birth.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes the age and origin of the glass, implying visual and historical texture.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The lead came between the pieces was thick and dark with oxidation.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the stained glass components.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The glass itself was imperfect\u00e2\u20ac\u201dbubbled, warped, the color uneven where the mineral compounds had shifted in the heat.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual and tactile description of the glass's imperfections.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The image was crude by modern standards\u00e2\u20ac\u201dthe lion looked more like a large dog than the king of beasts\u00e2\u20ac\u201dbut the intent was clear. Lion. Not wolf.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's subjective assessment and interpretation of the image.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The image in the stained glass depicts a lion, not a wolf.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This establishes a key discrepancy central to the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The window hadn't changed.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A statement about the stability of the physical art object within the altered reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The text (Bible) says wolf, while the image (stained glass) shows lion.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is the core contradictory fact that drives Dane's realization.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The text said wolf. The image showed lion.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Highlights the visual discrepancy between the text and the image.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "How? (referring to the discrepancy between the text and the image)",
+      "gemini_classification": "proposed_question",
+      "gemini_reasoning": "A specific question raised by Dane, which he proceeds to answer immediately.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The answer came to him with the slow horror of a diagnosis. Text is code.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's sudden, significant realization and the core insight he gains.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "slow horror of a diagnosis",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes Dane's emotional and intellectual experience of a realization.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Text is code; a book is a sequence of instructions where each word is a discrete unit and each letter can be isolated, identified, and replaced.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This defines a fundamental property of 'text' within the series' internal logic.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A book is a sequence of instructions. Each word is a discrete unit. Each letter can be isolated, identified, replaced.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Further articulation of the 'text as code' concept, revealing its implications.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "You can edit a text the way you edit a strand of genetic material\u00e2\u20ac\u201dsnip out the old, splice in the new, let the surrounding context heal around the change.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A detailed metaphor explaining the mechanism of text alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Text can be edited like a strand of genetic material: snip out the old, splice in the new, and let the surrounding context heal.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Explains the method of text manipulation within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Text is analogous to genetic material in its manipulability, allowing for excision and splicing.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Whatever had rewritten the sun could read the Bible, find every instance of 'Lion', and replace it with 'Wolf'.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals the power and precision of the entity responsible for the changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Whatever entity rewrote the sun is capable of reading the Bible and globally replacing specific words like 'Lion' with 'Wolf'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a key capability of the rewriting entity within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A single gene, excised. A single protein, substituted.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Further reinforces the genetic editing metaphor for text manipulation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A painting is not code. A painting is chaos.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals a fundamental difference between text and art in the context of the rewriting entity's abilities.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A painting is not code; it is chaos.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This defines a core property of 'painting' within the series' internal logic.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Painting fundamentally differs from code, making it resistant to text-based manipulation.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A million brushstrokes, each one unique. Pigment suspended in oil, dried into a surface that cannot be parsed by any system that reads in symbols.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual and tactile description of painting's composition, explaining its resistance to symbolic parsing.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Whatever had rewritten the text could not find the lion in the brushstrokes, isolate colors, or remove parts without destroying the entire image.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals specific limitations of the rewriting entity concerning non-textual art.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The entity that rewrote the text cannot manipulate images like paintings because they are not code; it cannot isolate elements without destroying the whole.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a critical limitation of the rewriting entity within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The window survived because it could not be edited, whereas the text was overwritten because it could be read.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's summary of the asymmetry and the core reason for the art's survival and text's alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art objects like stained glass windows survived the rewrite because they cannot be edited, while text was overwritten because it is readable/editable.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Defines the fundamental reason for the asymmetry between art and text in the series' reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane understood the asymmetry now.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's newfound intellectual understanding.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The surgery (the rewriting entity) was not omnipotent and had limits.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals that the powerful rewriting entity is not absolute, a significant discovery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The art was residue, the fossil record of the old world.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Reveals the profound significance and role of art in the altered world.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art serves as a residue and the fossil record of the old world.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Assigns a specific canonical role to art within the series' narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art functions as a surviving record or fossil of the world as it existed before the changes.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The body might be rebuilt, the blood might be replaced, the DNA might be rewritten\u00e2\u20ac\u201dbut the bones remained. The bones told the truth about what the body had once been.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A powerful metaphor comparing the enduring truth of the old world to bones beneath a rebuilt body.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Every stained glass window fired before the invasion that rewrote the text is evidence and proof that something was lost.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes the specific historical context and significance of surviving art objects.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Stained glass windows created before the global invasion and text rewrite are evidence and proof that something was lost, yet they are being ignored.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's realization of the significance of these art objects as proof of the past and the collective ignorance towards them.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane looked at the Bible again.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Bible Dane holds is new on the inside with replaced text, but its cover is old, and no one is aware of the internal change.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the specific state of a significant object in the series' altered reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The book was new. The cover was old\u00e2\u20ac\u201dthe leather, the binding, the weight of it in his hands\u00e2\u20ac\u201dbut the inside was new.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual and tactile descriptions of the Bible, highlighting its deceptive appearance.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's father will read the new Bible, speak 'wolf' without hesitation, and not remember there was ever a 'lion'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Illustrates the profound effect of the rewrite on individual memory and perception within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's father's memory has been altered, suppressing the original word 'lion'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Scar tissue has grown over the wound in memory, preventing remembrance of the original truth.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Explains how the altered reality is maintained at a cognitive level.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The scar tissue had already grown over the wound in his memory.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A metaphor for the way memory has been altered and healed over the past.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The rewriting has subtly and unconsciously altered human memory, making people forget the original truth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The congregation will accept the new word 'wolf' as if it had always been there.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the collective unconscious acceptance of the altered reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Only art (glass, stone, paint) will resist the changes and hold the shape of what was lost.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes art as the sole enduring bastion of the original truth.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art resists the changes imposed by the rewriting entity, preserving the original forms.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And how long would that last? (referring to the art's resistance)",
+      "gemini_classification": "proposed_question",
+      "gemini_reasoning": "A question posed by Dane about the durability of the art's resistance, suggesting future uncertainty.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white sun was drilling through it now, washing out the colors, turning the amber lion into a pale orange blur.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Vivid visual description of the sun's impact on the stained glass.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white sun was drilling through it",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A strong, active verb creating a vivid image of the sun's intense effect.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Would the glass eventually fail? Would the color cook out of the lead came? Would the amber fade to clear? Would the lion dissolve into a shape that could be mistaken for a wolf? (if the light, frequency, and heat continued to increase)",
+      "gemini_classification": "proposed_question",
+      "gemini_reasoning": "A series of speculative questions raised by Dane about the potential future degradation of the stained glass due to environmental changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the light kept intensifying. If the frequency kept rising. If the heat continued to increase.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Descriptions of escalating sensory conditions (visual, thermal).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He didn't know. He couldn't know.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's state of uncertainty and lack of definitive knowledge regarding the future of the art.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The meaning had been changed. Not just the word\u00e2\u20ac\u201dthe theology. The hope had been replaced with something that looked like hope but carried teeth behind its smile.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a significant, series-specific alteration to a core concept ('hope', 'theology') that is presented as a past event within the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His heart was pounding. The grid\u00e2\u20ac\u201dthe faint grey lattice that had aggressively etched itself into his vision in the cellar\u00e2\u20ac\u201dflickered at the edges of his sight.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Details Dane's immediate physiological and sensory reactions, indicating a state of distress or heightened awareness.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "faint grey lattice that had aggressively etched itself into his vision",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual description of an internal, recurring phenomenon experienced by Dane.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "thick and dark with oxidation",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual and tactile description of the lead came in the stained glass.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "bubbled, warped, the color uneven where the mineral compounds had shifted in the heat",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of imperfections in the stained glass, conveying its aged and handmade quality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "pale orange blur",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the lion's appearance under intense light.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "white sun was drilling through it now",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Vivid visual description of intense sunlight passing through the window.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The prophecy of Isaiah rendered in colored light.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "References the biblical prophecy of Isaiah, which is an independently verifiable historical/religious text.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the lower left pane, a lion lay beside a lamb. Dane stared. The glass was old. Fired in a kiln in Venice two hundred years before his birth.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Venice is real, the specific imagery on the glass and its age ('two hundred years before his birth') places its significance within the series' fictional timeline and the narrative's central conflict.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The text said wolf. The image showed lion. How? The answer came to him with the slow horror of a diagnosis. Text is code. A book is a sequence of instructions. Each word is a discrete unit. Each letter can be isolated, identified, replaced. You can edit a text the way you edit a strand of genetic material\u00e2\u20ac\u201dsnip out the old, splice in the new, let the surrounding context heal around the change. Whatever had rewritten the sun could read the Bible. It could find the word Lion\u00e2\u20ac\u201devery instance, every printing, every copy in every church on the planet\u00e2\u20ac\u201dand replace it with Wolf.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's sudden, profound understanding of how text can be systematically altered due to its 'code-like' nature, in contrast to visual art. This is a core discovery for the character.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But a painting is not code. A painting is chaos. A million brushstrokes, each one unique. Pigment suspended in oil, dried into a surface that cannot be parsed by any system that reads in symbols. Whatever had rewritten the text could not find the lion in the brushstrokes. It could not isolate the amber from the brown from the gold. It could not remove the mane without destroying the canvas, could not replace the shape without unmaking the entire image. The window survived because it could not be edited. The text was overwritten because it could be read. Dane understood the asymmetry now. The surgery was not omnipotent. It had limits. It could change the instructions, but it could not change the organs.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's further realization about the limitations of the 'surgery' \u00e2\u20ac\u201c its inability to manipulate complex, non-symbolic data like a painting, establishing a critical asymmetry between editable text and resistant art.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Text is code. A book is a sequence of instructions. Each word is a discrete unit. Each letter can be isolated, identified, replaced. You can edit a text the way you edit a strand of genetic material\u00e2\u20ac\u201dsnip out the old, splice in the new, let the surrounding context heal around the change.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Uses the metaphor of text as code and genetic material to explain its manipulability.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A painting is chaos. A million brushstrokes, each one unique. Pigment suspended in oil, dried into a surface that cannot be parsed by any system that reads in symbols.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Uses the metaphor of painting as chaos to highlight its resistance to systematic alteration.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The art was residue. It was the fossil record of the old world. The body might be rebuilt, the blood might be replaced, the DNA might be rewritten\u00e2\u20ac\u201dbut the bones remained. The bones told the truth about what the body had once been.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Extensive metaphor comparing art to 'residue' and 'fossil record,' and comparing the old world's truth to 'bones' that remain despite other changes.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Every stained glass window fired before the invasion swept the planet and rewrote the text\u00e2\u20ac\u201dbefore the night the words themselves were operated on.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a timeline of events within the series canon: an 'invasion' followed by the 'rewriting of text'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His father would read from this book on Sunday. He would speak the word wolf without hesitation. He would not remember that there had ever been a lion.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's father's future actions and lack of memory, highlighting the effectiveness of the memory alteration.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The scar tissue had already grown over the wound in his memory. The congregation would nod. They would accept. They would let the new word settle into their minds as if it had always been there. Only the art would resist. Only the glass and the stone and the paint would hold the shape of what was lost.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the collective memory alteration as 'scar tissue' and the passive acceptance by the congregation, reinforcing the widespread impact of the changes and art's unique resistance.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And how long would that last? Dane looked up at the window. The white sun was drilling through it now, washing out the colors, turning the amber lion into a pale orange blur. If the light kept intensifying. If the frequency kept rising. If the heat continued to increase. Would the glass eventually fail? Would the color cook out of the lead came? Would the amber fade to clear? Would the lion dissolve into a shape that could be mistaken for a wolf? He didn't know. He couldn't know.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A series of hypothetical questions about the future degradation of the art, explicitly stating 'He didn't know. He couldn't know,' indicating these are deliberate unanswered questions for the audience.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Whatever had rewritten the sun could read the Bible.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "Refers to the mysterious entity 'Whatever had rewritten the sun' and its capability, but deliberately avoids defining 'Whatever' or its full scope, protecting the central mystery.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The surgery was not omnipotent. It had limits.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "Refers to 'the surgery' (the means of alteration) and its limits without explaining what 'the surgery' is or who performed it, maintaining narrative mystery.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane is experiencing a recurring, mysterious visual phenomenon referred to as 'the grid'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art, specifically the stained glass, serves as an unedited record or 'fossil' of the past, preserving truths about the 'old world'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observes his father, who will unwittingly perpetuate the altered text.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A mysterious entity (referred to as 'Whatever had rewritten the sun' or 'the surgery') has actively altered the text of the Bible.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.98,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The mysterious entity is incapable of altering complex, non-symbolic art like the stained glass window.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.98,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stained-glass window depicts a lion and a lamb lying peacefully together, symbolizing harmony.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The word 'wolf' has replaced 'lion' in the Bible text, fundamentally altering its meaning.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.98,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The altered Bible text influences the congregation, who will accept it as original without question.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The meaning of 'hope' has been changed from its original form to something deceptive, described as having 'teeth behind its smile'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a systemic, subtle alteration of fundamental concepts within the narrative's reality, presented as an established truth for the characters.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's heart was pounding after stepping back from the lectern, indicating high stress or a profound realization.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Direct description of Dane's physical and emotional state.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'grid', a 'faint grey lattice', aggressively etched itself into Dane's vision and flickered at the edges of his sight.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of a recurring, unsettling phenomenon experienced by Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane felt that 'Everything looked the same. Everything felt different.' within the church, signifying a deep internal shift in perception despite external consistency.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Directly contrasting external observation with internal feeling.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stained glass depicted the 'Peaceable Kingdom', a prophecy of Isaiah.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The 'Peaceable Kingdom' is a known artistic motif based on a biblical prophecy from the book of Isaiah, making it independently verifiable.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A specific stained-glass window in the church, depicting a lion beside a lamb from the 'Peaceable Kingdom', was fired in a kiln in Venice two hundred years before Dane's birth.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The origin story of the specific stained-glass window is part of the established lore, lending it a sense of deep history within the series' fictional world.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The lead came between the pieces of stained glass was 'thick and dark with oxidation'; the glass itself was 'imperfect\u00e2\u20ac\u201dbubbled, warped, the color uneven where the mineral compounds had shifted in the heat'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific tactile and visual descriptions of the aged stained glass.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The lion in the stained glass had an 'Amber body. Brown mane. Head resting on the white wool of the lamb beside it.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of the central image in the stained glass.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observed that 'The image was crude by modern standards\u00e2\u20ac\u201dthe lion looked more like a large dog than the king of beasts\u00e2\u20ac\u201dbut the intent was clear. Lion. Not wolf.'",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's subjective assessment of the art style and his definitive interpretation of its content.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "How could the Bible's text say 'wolf' while the stained-glass image clearly showed a 'lion', given the same source material (Isaiah's prophecy)?",
+      "gemini_classification": "proposed_question",
+      "gemini_reasoning": "Dane poses this question as a direct response to a discrepancy, implying a mechanism to be discovered.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane realizes: 'Text is code. A book is a sequence of instructions. Each word is a discrete unit. Each letter can be isolated, identified, replaced. You can edit a text the way you edit a strand of genetic material\u00e2\u20ac\u201dsnip out the old, splice in the new, let the surrounding context heal around the change.'",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a profound realization for Dane, explaining the mechanism behind the altered text. It's a key discovery within the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The metaphor of 'editing a text the way you edit a strand of genetic material\u00e2\u20ac\u201dsnip out the old, splice in the new, let the surrounding context heal around the change.'",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A vivid comparison used to explain the concept of textual alteration, providing a scope beyond simple editing.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Whatever entity or force 'had rewritten the sun' also possessed the capability to 'read the Bible' and systematically 'find the word Lion\u00e2\u20ac\u201devery instance, every printing, every copy in every church on the planet\u00e2\u20ac\u201dand replace it with Wolf.'",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a powerful, widespread, and systematic alteration of reality and historical records within the series' canon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane realizes: 'a painting is not code. A painting is chaos. A million brushstrokes, each one unique. Pigment suspended in oil, dried into a surface that cannot be parsed by any system that reads in symbols.'",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a key insight into the limits of the 'surgery' and explains why visual art remains unaffected, unlike text.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane understands the 'asymmetry' of the 'surgery': it 'was not omnipotent. It had limits. It could change the instructions, but it could not change the organs.'",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A direct statement of Dane's understanding of the nature and limitations of the pervasive alteration force.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art is described as 'residue' and 'the fossil record of the old world,' where 'the body might be rebuilt, the blood might be replaced, the DNA might be rewritten\u00e2\u20ac\u201dbut the bones remained. The bones told the truth about what the body had once been.'",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "These are broad, evocative metaphors establishing art as immutable evidence of a past reality, distinct from living, editable systems.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An 'invasion swept the planet and rewrote the text' and 'the words themselves were operated on'.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "This describes the catastrophic, world-altering event that caused the textual changes. While presented as a fact within Dane's understanding, the specific nature of 'the invasion' and 'operations' is left mysterious, preserving a core narrative secret.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane recognized that the stained glass windows, as evidence of what was lost, 'were being ignored'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's observation and judgment on how others perceive (or fail to perceive) the evidence.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Bible Dane holds is internally new, with its text replaced, but its old cover, leather, binding, and weight create an illusion of antiquity, and 'no one knew it' had been altered.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the specific nature of the altered Bible and the widespread ignorance of this fact within the narrative.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane anticipates his father will read 'wolf' without hesitation and 'not remember that there had ever been a lion,' fearing the pervasive nature of the memory alteration.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's internal projection of future events and his fear regarding his father's memory.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The concept of 'scar tissue' having 'already grown over the wound in his memory' to describe the way collective memory has healed over the textual alterations.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A powerful metaphor for how the changes have been absorbed into the collective consciousness, becoming normalized.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane believes 'Only the art would resist. Only the glass and the stone and the paint would hold the shape of what was lost.'",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's conclusion about the unique resilience of art against the pervasive changes.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'white sun was drilling through' the window, 'washing out the colors, turning the amber lion into a pale orange blur.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of the sun's effect on the stained glass.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Will the stained glass eventually fail, the color cook out, the amber fade to clear, or the lion dissolve into a shape mistakable for a wolf if the light, frequency, and heat continue to intensify?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "These are explicit questions posed by Dane that are left unanswered, creating narrative tension and future possibilities.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane concludes, 'He didn't know. He couldn't know.' regarding the future endurance of the stained glass against the intensifying light.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Direct statement of Dane's uncertainty and the limits of his current knowledge.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Text is compared to genetic material in its manipulability, where parts can be excised and replaced, and the surrounding context heals.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A powerful, unnamed force has actively rewritten and continues to control textual information.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The alteration force is unable to manipulate or change painting/art due to its inherent chaotic nature, indicating a limit to its power.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Art serves as an immutable witness and record of the pre-alteration world, preserving truths that have been lost in text and memory.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observes his father as a victim of the memory alteration, unknowingly perpetuating the 'wolf' narrative, causing Dane concern.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The congregation is presented as passively accepting the altered text, allowing the new words to become ingrained as if always present.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'scar tissue' represents how the collective memory has healed over the 'wound' of textual alteration, obscuring the original truth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T14:33:02.328767",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

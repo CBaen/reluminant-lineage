@@ -1,0 +1,907 @@
+{
+  "episode": 1,
+  "chunk_index": 4,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "Her name was Marta.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This establishes a character's name within the narrative, presented as fact for the documentary's canon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She was a woman of the frontier, accustomed to the harsh realities of life in the Military Frontier.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes Marta's background and setting within the fictionalized historical context of the series.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She had delivered hundreds of children. She knew the blood and the screaming and the joy. She knew the rhythm of life entering the world.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's experience and professional competence before the unusual birth.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But she did not want to touch this child.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Expresses Marta's subjective aversion to the newborn.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In a letter sent to her sister in Zagreb three weeks later, a letter that was found tucked inside a family bible in nineteen thirty-four, Marta described the walk to the Tesla house.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a specific, unverifiable artifact and event within the series' fictional timeline.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She said the air felt dry. Not the humidity of a storm, but the static dryness of rubbing wool against amber.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a distinctive simile to describe the atmospheric sensation.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She said the hair on her arms stood up as she crossed the threshold of the house.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's physiological reaction.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She said her skirts clung to her legs, snapping with sparks every time she took a step.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses vivid imagery and sound to describe an unusual sensory experience.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The mother, Duka, lay on the bed.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Introduces Duka as the mother within the narrative, a character of the series' canon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka was not screaming in pain. She was screaming in confusion.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Duka's subjective emotional state.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She kept gripping the sheets, crying out that the room was changing shape. She told Marta that the corners of the ceiling were receding. That the walls were breathing. That the distance between the bed and the door was growing and shrinking like a lung.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Duka's subjective, hallucinatory experience of the room.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The distance between the bed and the door was growing and shrinking like a lung.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a simile to describe Duka's perception of the changing room.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta dismissed this as fever.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's interpretation and belief regarding Duka's state.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the basin, the water was not sitting flat. It was vibrating. A pattern of concentric rings, ripples moving from the center outward, was etched into the surface. There was no vibration in the floor. The table was steady. But the water was reacting to a frequency that Marta couldn't feel.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Describes an unexplained, supernatural phenomenon that defies normal physics and Marta's perception.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And then the head crowned.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A key narrative event in the birthing process.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The oil lamp on the bedside table didn't just flicker. It exploded. This wasn't a draft. The glass chimney shattered outward. The oil caught fire, but it didn't burn with a yellow flame. It burned blue. A cold, hissing blue light that cast no shadows.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Describes a series of unexplained, supernatural events involving the lamp and fire.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It burned blue. A cold, hissing blue light that cast no shadows.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Distinctive visual and auditory description of the unusual flame.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta claimed she saw something. She looked at the space where the child lay. And she saw a hole in the dark.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's subjective visual experience and what she reported seeing.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta described it as a geometric absence. A place where the room simply stopped. It wasn't black. Black is a color. This was a tear in the canvas of the night. It was a place where the visual information of the universe had failed to render.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Describes an unexplained, metaphysically disturbing visual phenomenon, a 'hole in the dark'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "geometric absence. A place where the room simply stopped... tear in the canvas of the night... visual information of the universe had failed to render.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Distinctive and abstract metaphors used to describe the perceived phenomenon.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Then the baby cried.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A key narrative event in the birthing process.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The blue flame died. The darkness rushed back in. The normal, heavy, comforting darkness of a country night.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the resolution of the supernatural event and return to normalcy within the narrative.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But Marta refused to hold him.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's immediate action and emotional response to the newborn.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She cut the cord with a knife that she later buried in the yard, claiming the handle was hot to the touch.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes Marta's specific actions post-birth, presented as narrative facts.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "claiming the handle was hot to the touch.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's subjective sensory experience and claim.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "She washed her hands with lye soap until the skin cracked and bled.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's extreme, ritualistic cleansing action, indicating her distress.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta told her sister that when her skin brushed the infant's shoulder, she felt a vibration. Not a tremble. A hum.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's subjective physical sensation upon touching the infant.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Not a tremble. A hum. She called it the grinding.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Distinctive description of an unusual tactile and auditory sensation.",
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta experiences profound aversion and fear towards the Tesla child, refusing contact and performing ritualistic acts after the birth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta witnesses several unexplainable, supernatural phenomena during the birth of the Tesla child.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka is the biological mother of the Tesla child.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta has a familial relationship with her sister, to whom she confides about the birth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.98,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The birth of the Tesla child is associated with mysterious, disruptive effects on the immediate physical environment.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The story takes place in the 'Military Frontier', a historical region.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Military Frontier was a real historical borderland of the Habsburg Monarchy. The context specifies the series blends real history, so geographical and political entities can be considered historical.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta's sister resided in 'Zagreb'.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Zagreb is a real city, historically significant. The context specifies the series blends real history, so geographical and political entities can be considered historical.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta's letter describing the events of the birth was found tucked inside a family bible in nineteen thirty-four.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This detail about the letter's discovery in 1934 provides a specific, verifiable-sounding piece of information within the narrative, but is highly likely to be invented lore to build the show's canon, especially given the 'Tesla Mandela Effects' premise.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The child born is implied to be Nikola Tesla, given the mention of 'Tesla house' and the extraordinary circumstances surrounding the birth.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The series blends real history with invented lore, and this narrative chunk directly precedes or describes the birth of a child in the 'Tesla house' with bizarre phenomena, strongly implying it is Tesla's birth and thus a foundational piece of the series' invented lore around his origins.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta experienced static electricity, with her hair standing up and skirts clinging and snapping with sparks, as she approached and entered the Tesla house.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's subjective physical sensations and observations.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka was screaming in confusion, believing the room was changing shape, with corners receding, walls breathing, and the distance between bed and door growing and shrinking.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Duka's subjective, disoriented perception of her surroundings.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta dismissed Duka's claims as fever.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Shows Marta's interpretation and rationalization of Duka's state.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta claimed she saw 'a hole in the dark' where the child lay, describing it as 'a geometric absence' and 'a tear in the canvas of the night'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Marta's subjective visual experience and her attempt to articulate it.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta refused to hold the newborn child.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "A direct action indicating her strong aversion and fear.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta cut the cord with a knife she later buried, claiming its handle was hot to the touch.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Marta's subjective physical sensation and subsequent action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta washed her hands with lye soap until the skin cracked and bled, after feeling a vibration/hum ('the grinding') upon brushing the infant's shoulder.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Marta's extreme physical reaction driven by fear and an unsettling sensory experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta believed she had heard 'the sound of the world cracking open to let something in'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Marta's profound, fearful interpretation of the events.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The water in the basin was vibrating in concentric rings without any external physical cause, reacting to an unfelt frequency.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This phenomenon is presented without explanation, suggesting an unknown force or energy at play.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The oil lamp exploded, and its oil burned with a cold, hissing blue light that cast no shadows.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The explosion and the unnatural properties of the flame (color, temperature, lack of shadows) are inexplicable by normal means.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'hole in the dark' \u00e2\u20ac\u201c a 'geometric absence' where the visual information of the universe had failed to render \u00e2\u20ac\u201c appeared where the child lay.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a profound, unexplained visual anomaly, a non-physical 'tear' in reality associated with the child's presence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The nature of the 'something' that Marta believed was 'let in' when the world cracked open.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The narrative explicitly leaves the identity of this 'something' ambiguous, inviting speculation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'static dryness of rubbing wool against amber'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A distinctive, specific metaphor used to describe the atmosphere and static electricity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'the distance between the bed and the door was growing and shrinking like a lung'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid, unsettling simile describing Duka's distorted perception of space.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'A pattern of concentric rings, ripples moving from the center outward, was etched into the surface' (of the water)",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "The word 'etched' adds a sense of permanence and unnaturalness to the water's vibration.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'A cold, hissing blue light that cast no shadows.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific, striking visual and auditory descriptors for the unnatural flame.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'geometric absence. A place where the room simply stopped. It wasn't black. Black is a color. This was a tear in the canvas of the night. It was a place where the visual information of the universe had failed to render.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Highly descriptive and metaphorical language used to explain an ineffable visual phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'normal, heavy, comforting darkness of a country night.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A sensory description that contrasts with the earlier supernatural light and chaos.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'Not a tremble. A hum.' (describing the vibration from the infant)",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Precise, distinctive auditory/tactile language differentiating the vibration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'the grinding'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Marta's unique and unsettling name for the felt vibration/hum.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'the sound of the world cracking open to let something in.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A powerful, metaphorical description of a perceived cataclysmic event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta, the midwife, exhibits a strong and persistent aversion to the newborn child.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka is the mother giving birth to the child.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta confides in her sister through a letter after the traumatic birth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The child's emergence is linked to a mysterious, unfelt frequency that causes water to vibrate.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The crowning of the child is immediately followed by a supernatural explosion of the oil lamp and an unnatural blue flame.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A 'hole in the dark' \u00e2\u20ac\u201c a tear in reality \u00e2\u20ac\u201c is directly associated with the space where the child lay.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta experiences an unsettling vibration/hum ('the grinding') upon physical contact with the infant.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta attributes the unsettling phenomena during the birth to the 'world cracking open to let something in,' implicitly linked to the child.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta experiences strange phenomena upon approaching and entering the Tesla house for the birth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta is introduced as a midwife.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This establishes a character within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta was a woman of the frontier, accustomed to the harsh realities of life in the Military Frontier.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Provides background lore for the character Marta, setting her context within the series' invented history.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta had delivered hundreds of children and was accustomed to the rhythm of life entering the world.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Marta's professional experience and emotional state prior to the specific event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta's account of the Tesla birth was documented in a letter sent to her sister in Zagreb three weeks later, which was found tucked inside a family bible in nineteen thirty-four.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a narrative device, presenting a fictional 'historical' document and its discovery within the documentary's lore. Zagreb is a real place, but its inclusion here serves the fictional narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The air felt dry, 'not the humidity of a storm, but the static dryness of rubbing wool against amber'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid, comparative metaphor used to describe an unusual atmospheric sensation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta's hair on her arms stood up as she crossed the threshold of the house, and her skirts clung to her legs, snapping with sparks.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Subjective physical sensations experienced by Marta, suggesting an unseen electrical phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The mother's name is Duka.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Introduces another character central to the series' narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka was screaming in confusion, not pain, crying out that the room was changing shape, walls breathing, and distances growing and shrinking.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Duka's subjective, disorienting experience during labor, indicating a reality distortion.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'The distance between the bed and the door was growing and shrinking like a lung'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A powerful simile describing Duka's perception of the room's dynamic, unsettling alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta initially dismissed Duka's perceptions as fever.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Shows Marta's rational attempt to explain the unusual, reflecting her prior experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Water in the basin was vibrating with a pattern of concentric ripples, despite no floor vibration or table movement.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "An unexplained physical anomaly occurring during the birth, part of the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The water in the basin was reacting to a frequency that Marta couldn't feel.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Explicitly states an unknown, imperceptible cause for a physical phenomenon, leaving it unexplained.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The oil lamp on the bedside table exploded, shattering outward.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A sudden, violent, and unexplained event during the birth.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The oil from the lamp caught fire, burning with a cold, hissing blue light that cast no shadows.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes an unnatural and specific form of fire, distinct from normal combustion, a clear lore element.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'A cold, hissing blue light that cast no shadows'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Striking visual and auditory descriptors for an unnatural phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In the blue light, Marta claimed she saw a 'hole in the dark' where the child lay.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Marta's subjective vision, a central, unsettling experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta described the 'hole in the dark' as a 'geometric absence'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A specific, paradoxical term used to define an impossible visual.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'hole in the dark' was described as 'a tear in the canvas of the night' and 'a place where the visual information of the universe had failed to render'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Poetic and profound metaphors used to convey the incomprehensible nature of the visual anomaly.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The nature of the 'geometric absence' / 'hole in the dark' / 'tear in the canvas of the night' that Marta witnessed.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The text offers descriptions but no explanation for what this phenomenon fundamentally is, leaving it as a core enigma.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The blue flame died and normal darkness returned after the baby cried.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The end of the anomalous phenomena coinciding with the baby's cry links the two events within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta refused to hold the infant.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Her persistent and strong rejection of the child post-birth.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta washed her hands with lye soap until the skin cracked and bled, indicating extreme distress and a desire to cleanse herself.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Shows Marta's visceral, severe psychological and physical reaction to the event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta felt a 'vibration, not a tremble. A hum.' from the infant's shoulder, which she called 'the grinding'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Marta's unique sensory experience upon contact with the baby and her personal naming of the phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infant emitted a 'vibration. Not a tremble. A hum.' which Marta termed 'the grinding'.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific tactile and auditory descriptors of the child's unnatural presence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta exhibits a strong, visceral refusal to touch or hold the newborn.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta confides in her sister through a letter, recounting the bizarre birth.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Duka perceives the physical space of the room distorting and changing in unnatural ways.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The water visibly reacts to an unseen and unfelt frequency, implying a connection between the two.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The oil lamp undergoes an anomalous transformation, exploding and burning with an unnatural blue flame.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta sees a profound and disturbing visual anomaly, described as a 'hole in the dark' or 'geometric absence'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Marta experiences an unusual vibration or hum emanating from the infant, which she terms 'the grinding'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The birth of the infant is consistently accompanied by and seems to be the causal agent for a series of unsettling and supernatural events.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:01:39.561912",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

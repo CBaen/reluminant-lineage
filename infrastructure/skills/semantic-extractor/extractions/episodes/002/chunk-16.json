@@ -1,0 +1,234 @@
+{
+  "episode": 2,
+  "chunk_index": 16,
+  "extractions": [
+    {
+      "content_type": "used_sensory_language",
+      "text": "Bottomless in a way that had nothing to do with the color of the iris.",
+      "reasoning": "Visual description emphasizing the perceived depth of Nikola's eyes.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "His voice was clear. No toddler's lisp. No fumbling for words. The sentence came out whole, precise, as if it had been rehearsed.",
+      "reasoning": "Specific auditory descriptions of Nikola's speech, highlighting its unusual clarity and precision for a toddler.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane's throat tightened.",
+      "reasoning": "Describes Dane's physical, involuntary reaction to Nikola's unusual behavior.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "His small finger aimed directly at the white hole in the sky, unflinching.",
+      "reasoning": "A specific visual detail describing Nikola's action and intensity.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane stood frozen. The words didn't make sense. They made too much sense. They made sense in a way that his mind refused to accept but his body already believed.",
+      "reasoning": "Describes Dane's internal conflict and physical reaction to Nikola's statement, indicating a cognitive dissonance.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The words tasted strange in his mouth.",
+      "reasoning": "Gustatory/tactile description of Dane's unusual sensation when speaking.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "revelation",
+      "text": "For one second, the white hole resolved. It wasn't a star. It was an examination lamp. A cold, hard, artificial light source hanging in a ceiling that was much closer than ninety-three million miles. The sky wasn't a sky???it was a dome, and the dome was illuminated by something that had been installed there, something that was designed to see rather than to warm.",
+      "reasoning": "This is a profound, albeit fleeting, visual discovery by Dane about the true nature of their environment.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The operating theater. The examination lamp. The patient pinned beneath the light while something studied its insides.",
+      "reasoning": "Broader metaphorical language used by Dane to interpret his disturbing vision, suggesting a world under observation or experimentation.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "He turned away, gasping, pressing his palms against his eyes.",
+      "reasoning": "Describes Dane's immediate physical reaction of pain and distress.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "The dark eyes held no malice, no triumph, no awareness that anything unusual had happened. He was simply watching, the way a child watches an insect before deciding whether to let it live.",
+      "reasoning": "Describes Dane's perception of Nikola's detached and emotionless observation, combined with a comparison to a child's indifference.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "Dane's voice came out hoarse.",
+      "reasoning": "A specific auditory description of Dane's voice, indicating his emotional or physical strain.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane thought of his father in the yard, staring at the white sun without pain. The sun has always been white.",
+      "reasoning": "Describes Dane's memory of his father's perception, contrasting it with his own.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "new memories growing over the old in everyone's mind, sealing shut, leaving smooth surfaces where rough truths had been.",
+      "reasoning": "A metaphor for the seamless and pervasive nature of memory alteration.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "revelation",
+      "text": "Dane understood then what he was looking at. It was not his little brother Nikola. Not entirely. A passenger had come through with Nikola. A presence that had been arriving since the night of his birth, threading itself through the nervous system of this century, making itself at home in a body that wasn't designed to contain it???and remaking the body until it was.",
+      "reasoning": "This is Dane's major realization about Nikola's true, altered nature and the parasitic entity within him.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "A passenger had come through with Nikola. A presence that had been arriving since the night of his birth, threading itself through the nervous system of this century, making itself at home in a body that wasn't designed to contain it???and remaking the body until it was.",
+      "reasoning": "This details the invented canon of a non-human 'presence' inhabiting and altering Nikola since birth.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "revelation",
+      "text": "The attack hadn't been aimed at Nikola. It had been aimed at the resistance???the parts of the world that might reject the new tenant. The aurora, the radiation, the heat that had swept the planet???it was meant to burn away the antibodies. Exhaust the immune response until the host body stopped fighting. And it had worked. His father had accepted the new sun. The village had accepted the new sun.",
+      "reasoning": "Dane's realization about the true purpose of past global catastrophic events (aurora, radiation, heat) as a means to suppress resistance to the 'new tenant'.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The Bible had been rewritten and no one noticed the scar. Everyone had taken the graft.",
+      "reasoning": "These are presented as canonical facts within the series, describing a widespread, unnoticed alteration of reality/memory.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "He was the incompatible tissue. The part of the old body that wouldn't integrate. The immune response that had somehow survived the fever and was still circulating, still fighting, still remembering what had been lost.",
+      "reasoning": "An extended biological metaphor describing Dane's unique resistance to the pervasive changes, likening him to an immune system rejecting a foreign body.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "He should be afraid. He should run. He should tell someone???anyone???that the thing sitting in the garden wasn't entirely his brother anymore.",
+      "reasoning": "Describes Dane's internal thoughts, fear, and urgent considerations based on his realizations.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "character_state",
+      "text": "Whatever else Nikola was, he was also this. A three-year-old boy playing with rocks in a garden.",
+      "reasoning": "Describes Dane's conflicting perception of Nikola's duality ??? the mysterious presence and the innocent child.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Nikola",
+      "relationship_type": "family",
+      "direction": "symmetric",
+      "temporal_context": "Current narrative time",
+      "evidence": "It was not his little brother Nikola.",
+      "text": "Dane and Nikola are brothers, though Dane perceives Nikola to be fundamentally altered.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 16
+    }
+  ],
+  "needs_opus_review": 68,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-16-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:28.974510",
+  "stored_at": "2026-01-22T14:34:09.116420",
+  "v3_stats": {
+    "stored": 21,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

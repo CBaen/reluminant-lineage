@@ -1,0 +1,430 @@
+{
+  "episode": 2,
+  "chunk_index": 12,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "And somewhere, in the records of a pension office that no longer exists, a letter from a man with fingerprints that grew back wrong gathers dust.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Details a specific consequence of a fictional event affecting a character and an object within the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "George Bliss died in nineteen oh-three.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The user context explicitly states George Bliss is unverifiable and part of the invented lore, despite appearing historical.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His grave is in a small cemetery in Vermont.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Details about a fictional character's grave, part of the invented lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The headstone has weathered to illegibility.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Further detail about the fictional grave of George Bliss.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "if you could dig down???if you could find the bones of his hands???you would notice that the fingertips are smooth. The whorls never came back. The pattern that should have been his, the unique signature of his identity, was overwritten in the moment he touched the wire.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a physical alteration to a fictional character, central to the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He spent the rest of his life wearing someone else's hands.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a lasting consequence for a fictional character, part of the invented narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In his final letter to his son???written three days before his death in nineteen oh-three???Bliss described a recurring dream.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific biographical detail about the fictional George Bliss.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He was standing at the telegraph key. The spark was jumping toward his thumb.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Details from the fictional dream of George Bliss.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But beneath his father's church, in the cellar where the limestone walls held the cold of centuries, a ten-year-old boy was only now climbing back toward the world. Dane climbed the cellar stairs on legs that no longer felt entirely his.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Introduces a new character, Dane, and his immediate physical state and location within the fictional narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Bible rested on the lectern. A heavy volume, bound in leather that had cracked with age. Printed in Vienna in eighteen forty-two. His father had read from it every Sunday since before Dane was born. The binding was soft from use.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a specific, significant object within the fictional church setting, including its fabricated history.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The stone steps were cool beneath his bare feet. The oak door at the top was heavy???he had to put his shoulder against it, had to push with weight he wasn't sure he still possessed.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's physical sensations and effort, reflecting his subjective experience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The sunlight coming through the stained glass was wrong. He had grown up in this church. He had sat in these pews every Sunday, watching the light shift across the floor as the service progressed. He knew the colors by heart???the warm amber of Saint George's dragon, the deep ruby of the Virgin's robe, the soft gold that pooled near the altar in the late afternoon.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective perception of his familiar environment being altered, rooted in his past experiences and memories of the church.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "when you measure the frequency of a hum that shouldn't exist",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Explicitly refers to a 'hum that shouldn't exist', posing an unexplained phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The message still waits to be read.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Explicitly states that a 'message' exists but is yet to be deciphered, leaving its content unknown.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The colors had been drained of their depth. They still existed, but they had been flattened. Simplified. Reduced to something that could be reproduced without error.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This describes a profound and specific change in the nature of reality (colors) that has occurred, presented as a new truth uncovered.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It smelled like a welding shop inside a sanctuary.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Uses a simile to compare the smell in the church to an incongruous industrial smell.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The red glass that had once glowed like wine now looked brown???dried blood instead of fresh.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Employs a vivid comparison (wine to dried blood) to describe the altered appearance of the stained glass, suggesting decay and danger.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The blue panels that had shimmered like summer sky now pierced the air like the flash of an emergency signal.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Uses a simile to compare the altered blue stained glass to an urgent, alarming visual signal.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Smelling of carbon and something older.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Directly describes the smell of the tape, engaging the sense of smell.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The numbers still pulse in the burn marks.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual effect (pulsing) that suggests movement or energy.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fingers no longer felt like their own",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile sensation of detachment or alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "measure the frequency of a hum that shouldn't exist",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "References an auditory phenomenon and the act of measuring it.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The oak door at the top was heavy",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Directly describes a tactile sensation (weight/resistance) experienced by Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Empty. Silent.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes the auditory and visual emptiness of the church.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What pooled on the floor now was not soft. It hit the stone in hard geometric shapes. Sharp-edged. Shadowless.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes visual and tactile qualities of the light on the floor.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The red glass that had once glowed like wine now looked brown",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual change in color and luminescence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the new tenant couldn't use.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The identity and nature of the 'new tenant' are deliberately left vague and mysterious, central to the series' core premise.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The numbers still pulse in the burn marks. The message still waits to be read.",
+      "gemini_classification": "proposed_question",
+      "gemini_reasoning": "The existence of these numbers and an unread message clearly implies a future revelation or deeper understanding that the audience might expect to uncover.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "somewhere, in the records of a pension office that no longer exists, a letter from a man with fingerprints that grew back wrong gathers dust.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This detail is specific to the fictional narrative of altered human physiology and bureaucratic decay, serving as a lore-specific 'historical' record.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The skin grows back. But it is not my skin.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a profound realization about the fundamental change experienced by George Bliss, revealing the permanent and alienating nature of the 'surgery'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "George Bliss died in nineteen oh-three. His grave is in a small cemetery in Vermont. The headstone has weathered to illegibility.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Although dates and locations are real, George Bliss is explicitly stated to be an unverifiable character, making this specific 'historical' detail part of the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But if you could dig down???if you could find the bones of his hands???you would notice that the fingertips are smooth. The whorls never came back. The pattern that should have been his, the unique signature of his identity, was overwritten in the moment he touched the wire.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a major reveal about the physical manifestation of the 'surgery' and its permanent alteration of an individual's identity, a key plot point.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The village of Smiljan",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Smiljan is a real historical village, notable as the birthplace of Nikola Tesla.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Velebit mountains",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Velebit mountains are a real geographical feature in Croatia.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Brown and brittle. Smelling of carbon and something older.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Direct descriptions appealing to sight (brown, brittle) and smell (carbon, older scent).",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'new tenant' altered George Bliss's physical identity, taking over or replacing parts of his reality, a parasitic transformation.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The village had been subjected to and was recovering from a period of intense fear or dread.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "George Bliss died in nineteen oh-three. His grave is in a small cemetery in Vermont.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "These are presented as concrete, verifiable details about a character's life and death, even if the character himself might be fictional in context.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pattern that should have been his, the unique signature of his identity, was overwritten in the moment he touched the wire. He spent the rest of his life wearing someone else's hands.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a supernatural and identity-altering event directly resulting from contact with 'the wire,' a core piece of the series' invented lore.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The sunlight coming through the stained glass was wrong.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This is Dane's subjective perception and interpretation of the altered light within the familiar church.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The binding was soft from use.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes a tactile quality of the Bible, implying its familiar and well-used nature from Dane's perspective.",
+      "gemini_confidence": 0.7,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The assault didn't fail.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "The narrative presents 'the assault' as a success, which fundamentally redefines reality. Accepting this definitively would undermine the core mystery and tension of what is 'real'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "George Bliss communicated with his son, sharing intimate thoughts in his final days.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A mysterious 'new tenant' has altered or consumed parts of reality for its own purposes.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observes profound and unsettling changes to a deeply familiar and sacred space, altering his perception of it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "wearing someone else's hands",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "This is a powerful metaphor for loss of identity, implying that George Bliss's own essence or uniqueness was stripped away and replaced.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T14:31:35.353940",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

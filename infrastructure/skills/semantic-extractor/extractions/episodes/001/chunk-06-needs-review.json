@@ -1,0 +1,934 @@
+{
+  "episode": 1,
+  "chunk_index": 6,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "The childhood of Nikola Tesla reads like anecdotes.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a narrative framing device, presenting information about Nikola's early life within the documentary's storytelling style, not an independently verifiable historical fact.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Cute stories about a curious boy playing in the streams of Lika.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These are details presented as part of Nikola's childhood narrative within the documentary, not a fact verifiable outside this specific lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The genesis of a genius.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the narrator's interpretation and framing of Nikola's childhood development, reflecting a subjective characterization.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In family accounts, Dane was described as standing straight, with a calm, anchored presence. Nikola is often blurry. He is often looking away.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes details from 'family accounts' (lore-specific sources) contrasting the perceived demeanour of Dane and Nikola.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family revolved around Dane. He was the heir. He was the one who belonged.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the Tesla family's perception and treatment of Dane, indicating his central role and perceived belonging within the family unit.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And Nikola? Nikola was the other one.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This contrasts Nikola's perceived role within the family against Dane's, suggesting a feeling of being an outsider.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a concept in transplant medicine called Graft-versus-Host Disease. It happens when the donated cells attack the body they have been placed in. But there is also the reverse. Rejection. The body attacking the new cells.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This introduces and explains a medical concept used as a metaphor within the narrative, presented as an explanatory 'fact' for the audience.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They noticed that animals wouldn't approach him. The farm dogs would whine and back away when he entered the yard. The cats would hiss at empty air around his head.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This presents supernatural or unusual occurrences surrounding Nikola, which are part of the documentary's invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Biographers call them hallucinations. Tesla called them tongues of fire.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This details different interpretations of Nikola's visions, presented as information from sources within the lore (biographers, Tesla himself).",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The report is written in German.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A specific detail about a document within the lore, adding verisimilitude.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It describes a boy in a state of catatonic rigidity.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is content from the aforementioned report, detailing Nikola's physical state as observed in the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The boy claims to be seeing blinding bursts of light, geometric shapes, and complex structures floating in the air.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Nikola's subjective claim of what he experienced during an episode, reflecting his internal state.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dr. Kovac performed a simple test. He shone a lantern into the boy's eyes during a hallucination.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This details an action taken by Dr. Kovac within the lore's narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Normally, when a person sees a bright light, even a hallucinated one, the pupils contract. It is a reflex. The brain tells the eye to protect itself.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This presents a general physiological fact to set up a contrast with Nikola's reaction, serving the purpose of the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola's pupils did not contract. They remained fully dilated. Wide open.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is an observation about Nikola's physical reaction (or lack thereof) during the doctor's test, which is a key detail in the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dr. Kovac noted this with a double underline. No reaction to stimulus.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Further detail from the lore's report, emphasizing the unusual observation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The image was being projected directly into his consciousness.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The source of this projection and the mechanism behind it are entirely unknown, creating a core mystery about Nikola's abilities and the forces interacting with him.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The doctor prescribed rest. He prescribed darkness. He told the parents it was a nervous disorder.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "These are the public actions and diagnosis given by Dr. Kovac in the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But in his private notes, he wrote a different diagnosis. He wrote that the boy seemed to be receiving.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This reveals Dr. Kovac's private, more speculative diagnosis, adding depth to the lore and hinting at the supernatural.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "This is the part the biographers miss. They focus on Nikola. They treat Dane as a footnote???the golden brother who lived in the light.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a meta-commentary by the narrator, critiquing conventional biographical approaches and setting up the documentary's unique focus, part of the lore's framing.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But buried in the same family letters, in the same oral histories that describe Nikola's affliction, there are references to Dane.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This identifies lore-specific sources (family letters, oral histories) for information about Dane's experiences.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He would climb to the roof of the barn at night and stare at the stars until his eyes burned. He was looking for something. Mapping something.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes Dane's actions motivated by his curiosity about the visions, a specific event within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family didn't talk about Dane's visions. They were too busy managing Nikola's.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the family's dynamic and focus regarding the brothers' visions, part of the narrative's lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But one of Dane's letters survived???a fragment, really, tucked into the same family bible that held Marta's testimony.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This identifies another lore-specific source (Dane's letter) and its physical location.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It is dated eighteen fifty-eight. Dane was ten years old.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific factual details about Dane's letter within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He writes to his cousin in Zagreb. He writes about a night when the northern lights appeared over Smiljan. He writes that he saw something in the aurora that no one else saw.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Details from Dane's letter describing an event and his unique perception within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And unlike the villagers who crossed themselves and looked away, Dane watched.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This contrasts Dane's reaction with that of other characters, highlighting his unique role within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He was the witness. He was the anchor. And anchors do not look away.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This assigns specific roles and metaphorical significance to Dane within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There was a shadow in the Tesla house.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses 'shadow' as a visual metaphor for a pervasive, unsettling, or mysterious presence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The golden child.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses 'golden' as a visual/value metaphor to describe someone highly favored or brilliant.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola is often blurry.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses 'blurry' as a visual metaphor to describe an indistinct or less defined presence/personality compared to others.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Flashes.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Direct sensory description of sudden bursts of light or vision.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tongues of fire.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual and tactile metaphor used by Tesla to describe his visions.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Blinding bursts of light.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Sensory description of intense visual phenomena.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Catatonic rigidity.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a physical state, evoking a visual and tactile sense of stiffness and unresponsiveness.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Double underline.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A visual detail from the report emphasizing the significance of the doctor's observation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tucked into the same family bible.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses 'tucked' to evoke a tactile and visual sense of something carefully placed and hidden.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A lattice of white lines crossing the sky in perfect triangles.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of Dane's vision of the grid.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid was broken in places.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the condition of the grid in Dane's vision.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It looked like a net that was trying to form but couldn't hold together.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses 'net' as a visual metaphor to describe the appearance and instability of the grid.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His eyes burned.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Sensory description of Dane's physical discomfort from staring at the stars.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla family loved Nikola but treated him cautiously due to his unusual experiences.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla family saw Dane as the heir and centered their lives around him.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Animals exhibited fear and avoidance towards Nikola.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dr. Kovac examined Nikola and privately concluded he was 'receiving' something supernatural, despite a public diagnosis of a nervous disorder.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola was tormented by his visions and tried to make them stop.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was curious about the visions and tried to understand them, actively seeking them out.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An unknown entity (perceived as a grid/net by Dane) is looking for something and waiting for Nikola to guide it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Biographers tend to focus primarily on Nikola Tesla.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Biographers tend to treat Dane as a minor, secondary figure.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a concept in transplant medicine called Graft-versus-Host Disease.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable medical phenomenon, independent of the documentary's fictional elements.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The childhood of Nikola Tesla reads like anecdotes. Cute stories about a curious boy playing in the streams of Lika. The genesis of a genius.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Tesla had a childhood, the specific framing of 'cute stories' and 'genesis of a genius' in this context feels like narrative construction within the lore, blending with known biographical elements but emphasizing the documentary's angle.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was the older brother. The brilliant one. The golden child. In family accounts, Dane was described as standing straight, with a calm, anchored presence. Nikola is often blurry. He is often looking away.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This details the specific, idealized portrayal of Dane and contrasts it with Nikola, which is a character-building element within the fictional narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family revolved around Dane. He was the heir. He was the one who belonged. And Nikola? Nikola was the other one.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This highlights the family dynamics and Nikola's perceived outsider status as presented in the documentary's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla family loved Nikola. But they walked around him carefully. They noticed things. They noticed that animals wouldn't approach him. The farm dogs would whine and back away when he entered the yard. The cats would hiss at empty air around his head.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes supernatural phenomena associated with Nikola, a key element of the invented lore that explains his unique nature.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And then there were the flashes. Biographers call them hallucinations. Tesla called them tongues of fire.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Tesla might have experienced something similar, the specific terms and the direct attribution in this narrative are part of how the documentary frames his unique abilities as lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dr. Kovac performed a simple test. He shone a lantern into the boy's eyes during a hallucination. Normally, when a person sees a bright light, even a hallucinated one, the pupils contract. It is a reflex. The brain tells the eye to protect itself. Nikola's pupils did not contract. They remained fully dilated. Wide open. Dr. Kovac noted this with a double underline. No reaction to stimulus.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a detailed, invented scenario designed to explain Nikola's unique visual experiences within the lore, medically impossible under normal circumstances.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The doctor prescribed rest. He prescribed darkness. He told the parents it was a nervous disorder. But in his private notes, he wrote a different diagnosis. He wrote that the boy seemed to be receiving.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific, mysterious diagnosis in private notes is an invented plot point to deepen the lore around Nikola's abilities.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But Dane saw them too. This is the part the biographers miss. They focus on Nikola. They treat Dane as a footnote\u00e2\u20ac\u201dthe golden brother who lived in the light. But buried in the same family letters, in the same oral histories that describe Nikola's affliction, there are references to Dane.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a critical lore-building statement, revealing Dane's shared experiences and asserting that historians have overlooked it, framing it as a 'hidden truth' within the documentary.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But where Nikola was tormented by the visions, Dane was curious. Where Nikola tried to make them stop, Dane tried to make them stay. He would climb to the roof of the barn at night and stare at the stars until his eyes burned. He was looking for something. Mapping something.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Differentiates Dane's reaction to the visions, showing his active engagement with them, which is a character arc established by the lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family didn't talk about Dane's visions. They were too busy managing Nikola's. But one of Dane's letters survived\u00e2\u20ac\u201da fragment, really, tucked into the same family bible that held Marta's testimony.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The existence and discovery of Dane's letter is a specific, invented plot device used to reveal crucial lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It is dated eighteen fifty-eight. Dane was ten years old. He writes to his cousin in Zagreb. He writes about a night when the northern lights appeared over Smiljan. He writes that he saw something in the aurora that no one else saw.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific details of Dane's letter (date, recipient, content about seeing unique things in the aurora) are elements of the invented narrative. The northern lights appearing in 1858 over Smiljan is possible, but its connection to Dane's specific vision makes it part of the lore here.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And then he writes a sentence that stops the blood. I think it is looking for something. I think it is waiting for Nikola to show it where to land.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a direct quote from the fictional letter, providing a pivotal lore reveal about an external entity and Nikola's role.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And unlike the villagers who crossed themselves and looked away, Dane watched. He was the witness. He was the anchor. And anchors do not look away.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This establishes Dane's defining role as a conscious observer and stabilizing force in the narrative, a significant lore detail about his character.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But look at the medical history. Look at the way the family treated him.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Implies there are hidden, perhaps disturbing, truths about Tesla's past that biographers overlook.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola is often blurry. He is often looking away.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual, describing Nikola's elusive or unfocused presence, perhaps reflecting his internal state or how others perceive him.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But where Nikola was tormented by the visions, Dane was curious.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "A direct contrast of the emotional and intellectual states of the two brothers regarding their shared visions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Where Nikola tried to make them stop, Dane tried to make them stay.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the differing reactions and desires of Nikola and Dane regarding their visions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He was looking for something. Mapping something.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's active intellectual and observational state concerning his visions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane knew. He knew before anyone else.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Highlights Dane's unique awareness and foresight regarding Nikola and the incoming entity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But the grinding did not stop. It merely changed frequency.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The nature of 'the grinding' and why its 'frequency changed' is left unexplained, posing a fundamental question about the underlying forces in the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He wrote that the boy seemed to be receiving.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The explicit phrase 'receiving' without specifying *what* he is receiving leaves a significant ambiguity and implies an unknown origin or purpose for the visions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "shadow in the Tesla house",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual and metaphorical, suggesting a pervasive, often negative, unseen influence or presence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The farm dogs would whine and back away... The cats would hiss at empty air around his head.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Auditory (whine, hiss) and visual (back away, hiss at empty air), conveying animalistic fear and perception of an unseen force around Nikola.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "flashes,\" \"tongues of fire",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual metaphors for Nikola's intense, internal light-based visions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "blinding bursts of light, geometric shapes, and complex structures floating in the air.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Vivid visual description of the content of Nikola's visions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He was the witness. He was the anchor. And anchors do not look away. But anchors can be cut.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses the metaphor of an 'anchor' (visual, tactile, symbolic) to describe Dane's role, introducing stability and then foreshadowing its violent end.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They are brothers.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family favored Dane and he was central to them.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family was cautious and protective of Nikola due to his unusual nature.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola was tormented and afflicted by his visions.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was curious about and actively sought to understand his visions.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observed and understood Nikola's unique connection to the incoming entity.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An unknown entity is seeking something and waiting for Nikola to guide it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observed the mysterious grid entity in the aurora.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The childhood of Nikola Tesla...playing in the streams of Lika.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Nikola Tesla is a historical figure, and Lika is his birthplace. The general idea of his childhood anecdotes is common in biographies.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family centered their aspirations and attention on Dane, viewing him as the rightful heir.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nikola was perceived as an outsider or 'the other' by his family, contrasting with Dane's accepted role.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a concept in transplant medicine called Graft-versus-Host Disease... Rejection. The body attacking the new cells.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Medical metaphor used to describe Nikola's difficult integration or inherent difference within his family/environment.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The family loved Nikola but approached him with caution due to his unusual nature.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "animals wouldn't approach him. The farm dogs would whine and back away when he entered the yard. The cats would hiss at empty air around his head.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Fictional details indicating Nikola's inherent strangeness or a supernatural aura affecting animals.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The report is written in German. It describes a boy in a state of catatonic rigidity. The boy claims to be seeing blinding bursts of light, geometric shapes, and complex structures floating in the air.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Detailed, specific fictional medical report and Nikola's description of his visions within the narrative.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dr. Kovac performed a simple test. He shone a lantern into the boy's eyes during a hallucination... Nikola's pupils did not contract. They remained fully dilated. Wide open. Dr. Kovac noted this with a double underline. No reaction to stimulus.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific, medically impossible, and narratively significant observation by the fictional Dr. Kovac, indicating an unnatural phenomenon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "in his private notes, [Dr. Kovac] wrote a different diagnosis. He wrote that the boy seemed to be receiving.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dr. Kovac's private, cryptic, and speculative interpretation of Nikola's condition.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrative implies biographers have historically overlooked or minimized Dane's significance, effectively sidelining him.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But one of Dane's letters survived... tucked into the same family bible that held Marta's testimony.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Fictional evidence and specific details about the discovery of Dane's letter and Marta's testimony.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He writes about a night when the northern lights appeared over Smiljan. He writes that he saw something in the aurora that no one else saw. He saw a grid. A lattice of white lines crossing the sky in perfect triangles.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific, unique vision attributed to Dane, presented as an actual event within the story's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane believes the phenomenon is actively seeking Nikola and has a specific purpose related to him.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The villagers responded to Nikola's strangeness with fear and avoidance, perceiving him as unsettling.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He was the witness. He was the anchor.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes Dane's narrative role as a stabilizing force and primary observer of the supernatural events surrounding Nikola.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "anchors do not look away.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor emphasizing Dane's unwavering attention and crucial role as an observer.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "anchors can be cut.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor implying vulnerability and the potential for a crucial stabilizing element to be removed or destroyed.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:02:03.836126",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

@@ -1,0 +1,889 @@
+{
+  "episode": 2,
+  "chunk_index": 4,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "He'd skipped supper???too excited about the red sky to sit still for bread and cheese. Now the hunger felt distant, like a complaint from someone else's body.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's emotional state (excitement) leading to an action (skipping supper) and his subjective physical sensation (distant hunger).",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He thought about the apple he'd hidden under his pillow. Green, from the tree by the well, stolen before it was ripe because he couldn't wait. It would still be there when this was over. If this was ever over.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Reveals Dane's impatience ('couldn't wait') and a glimmer of hope/uncertainty about the future ('If this was ever over').",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A man of logic, of scripture, of the ordered universe that God had created and organized into comprehensible laws.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes Milutin Tesla's philosophical and religious convictions as presented in the narrative, potentially an embellished or specific interpretation for the series.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He spoke four languages. He could parse the Greek of the apostles and the Latin of the church fathers.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Verifiable historical facts about Milutin Tesla's linguistic and scholarly abilities.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Tonight, language had failed him. He rocked back and forth, clutching his prayer book, begging the sky for mercy in a voice that cracked and broke like kindling.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Milutin's subjective state of distress, inability to cope, and his desperate actions.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane watched his father weep. Then he lifted his eyes to the sky. He did not see judgment. He saw machinery.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Highlights Dane's observational and detached reaction to his father's distress, and his unique, analytical interpretation of the sky phenomenon.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He did not see judgment. He saw machinery.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A significant discovery or interpretation by Dane about the nature of the sky phenomenon, diverging from the common fearful interpretation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Most of the villagers had fled indoors. The ones who remained outside were on their knees, crossing themselves, certain the end had come.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the villagers' collective fear and belief that the apocalypse was upon them.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Behind the red curtain, something else flickered. White lines. Faint, geometric, crossing the sky in perfect triangles- triangles that make hexagons and hexagons that made??? a grid. The white lattice pulsed and snapped. The lines tried to connect, tried to form a cage around the valley, but the links kept breaking. Threads of light would reach toward each other, strain, then shatter into sparks that rained upward instead of down.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane's discovery of a hidden, structured, and active phenomenon behind the initial red light, revealing a complex 'grid' or 'lattice'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He looked down at his hands. The red light passed through his skin. His fingers had gone translucent. He could see the dark architecture of his bones, the black web of veins branching beneath the surface.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of the effect of the light on Dane's hands.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His circulation had become something denser than plasma. Something that remembered iron. The iron in his blood was pulling upward. Not a metaphor. Not imagination. He could feel each red cell straining toward the sky, toward whatever hung behind the red curtain, as if his own biology had chosen a new loyalty.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a unique and fictional physiological response within Dane's body, where his iron-rich blood is literally being drawn upwards, presented as a concrete event within the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His skeleton was warming from the inside. Dane was being cooked.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Uses a powerful metaphor ('Dane was being cooked') to convey the intense internal heat he experiences.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Any other child would have run to a parent. Would have buried his face in his father's coat and wept, but Dane stood up. He balanced on the peak of the barn roof. He spread his fingers against the red light and watched the bones glow through the flesh. He was testing himself. Measuring how much radiation his body could absorb before something broke.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Highlights Dane's extraordinary and unconventional response to danger, showing his stoicism, scientific curiosity, and self-testing nature.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Then he looked toward the house. The windows were dark. All except one. The nursery was glowing. But not red. The light pouring from that window was white. Blinding, clinical white???the color of an operating theater, the color of a laboratory lamp focused on a specimen.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane discovers a new, contrasting phenomenon: a white, clinical light emanating from the nursery, distinct from the red light in the sky.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ground brittle beneath him as if the earth itself had been dehydrated???every drop of moisture pulled upward, sacrificed to the column of white light drilling into his brother's nursery.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes a fictional physical effect on the environment, where moisture is drawn upward and sacrificed to the white light, presented as a fact within the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light above the valley was not a glow. It was a curtain... The fabric rippled. It moved in waves, responding to a wind that didn't touch the trees below.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual descriptions of the sky phenomenon's movement and appearance.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "White lines. Faint, geometric, crossing the sky in perfect triangles... The white lattice pulsed and snapped. The lines tried to connect... then shatter into sparks that rained upward instead of down.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual descriptions of the geometric pattern and its dynamic, breaking behavior.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light pouring from that window was white. Blinding, clinical white.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the nursery light's color and intensity.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "impact jarring his teeth, the ground brittle beneath him as if the earth itself had been dehydrated.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Tactile sensation of impact and the brittle ground.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was highly excited and captivated by the red sky phenomenon, to the point of skipping supper.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane interprets the sky phenomenon as 'machinery' rather than divine judgment, indicating a rational and analytical approach to the mystery.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's body, specifically the iron in his blood, is actively being drawn towards the sky phenomenon, as if aligning with it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane actively tests the limits of his own body against the effects of the red light/radiation.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane felt as though he was baking under an invisible noon sun, even though it was closer to midnight.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective perception of the environmental conditions.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "baking under an invisible noon sun, though the hour was closer to midnight",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Combines tactile (baking/heat) and visual (invisible noon sun, midnight) sensations.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "wrapped his arms around his knees",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a physical action/posture involving tactile sensation.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane was hungry, his stomach growled.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Directly states Dane's physical sensation of hunger.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane felt detached from his hunger, perceiving it as a 'complaint from someone else's body'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective feeling and psychological state of detachment.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the hunger felt distant, like a complaint from someone else's body",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile conveying Dane's emotional and physical detachment from his own hunger.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane thought about a stolen, unripe apple, indicating a longing for normalcy or a future where the current crisis is over.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Reveals Dane's internal thoughts and desires, suggesting a coping mechanism or distraction.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "knelt in the dirt",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual and tactile description of Milutin Tesla's posture.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla is characterized as a man of logic, scripture, and belief in an ordered, comprehensible, God-created universe.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Details about Milutin Tesla's character and worldview, presented as fact within the series' narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla spoke four languages and could parse Greek of the apostles and Latin of the church fathers.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific intellectual details attributed to Milutin Tesla within the series; while he was educated, these precise details may be fictional embellishments or lore-specific.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla was in such distress that 'language had failed him'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Milutin's emotional and psychological state of powerlessness.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla, a man whose strength lies in logic and language, finds his faculties failing him in the face of the inexplicable event.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A significant moment revealing the depth of the crisis and its impact on a character known for his intellect.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "rocked back and forth, clutching his prayer book, begging the sky for mercy in a voice that cracked and broke like kindling",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Combines visual (rocked, clutching), auditory (voice cracked/broke), and tactile (clutching) descriptions.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "voice that cracked and broke like kindling",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile depicting the fragility and emotional distress in Milutin's voice.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla was weeping and desperately praying, showing extreme fear and distress.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Milutin's emotional and physical actions.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane did not interpret the sky as judgment but as 'machinery', indicating a rational, scientific perspective.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Highlights Dane's unique cognitive approach and lack of religious fear compared to others.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane perceives the phenomenon in the sky not as divine judgment but as 'machinery'.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A crucial insight into Dane's character and his scientific/observational nature, diverging from the general population's reaction.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "heavy velvet the color of venous blood, draped from the zenith to the mountains",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the sky's appearance, including texture and color.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a curtain???heavy velvet the color of venous blood, draped from the zenith to the mountains",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A detailed metaphor describing the sky as a theatrical curtain of dark red.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light above the valley is described as a 'curtain' of 'heavy velvet the color of venous blood', draped from zenith to mountains.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific, descriptive detail of the supernatural sky phenomenon, integral to the series' fictional world.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fabric rippled. It moved in waves",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of motion.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'wind that didn't touch the trees below' that caused the sky curtain to ripple.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Explicitly stated as an unexplainable phenomenon within the narrative, leaving its source and nature mysterious.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Most villagers fled indoors or prayed in fear, believing 'the end had come'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the general emotional and psychological state of the villagers.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane analytically observed 'white lines. Faint, geometric, crossing the sky in perfect triangles... a grid' behind the red curtain.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Highlights Dane's observant and analytical nature, focusing on patterns.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane discovers a flickering, geometric 'grid' of white lines behind the red curtain in the sky.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A significant discovery within the narrative that changes the perception of the phenomenon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A 'white lattice' or 'grid' of geometric lines (triangles forming hexagons) exists behind the red sky curtain.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A fundamental element of the series' supernatural lore, describing the underlying structure of the sky phenomenon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white lattice pulsed and snapped. Threads of light would reach toward each other, strain, then shatter into sparks that rained upward instead of down.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Combines visual (pulsed, shattered sparks raining upward) and auditory (snapped) details.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white lattice pulsed, snapped, and its links kept breaking as 'threads of light' tried to connect but shattered into sparks that rained upward.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the dynamic and unstable behavior of the supernatural grid.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane meticulously counted the geometric shapes in the sky.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Emphasizes Dane's methodical and scientific approach to the strange events, even in crisis.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The purpose and origin of the grid \u00e2\u20ac\u201c whether it's 'planet's defenses' or a 'net', and why it's 'failing'.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Explicit questions raised by the narrative about the function and efficacy of the observed phenomenon, with no immediate answer.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the planet's defenses try to close a wound",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A metaphor for the grid's potential function, personifying the planet and its protective mechanisms.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the grid a net",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A metaphor for the grid's potential function as something designed to contain or capture.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The red light causes Dane's skin to become translucent, revealing his bones and veins.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A supernatural/sci-fi physical effect experienced by a character, central to the series' fictional elements.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The blood moving through those vessels had slowed. He could feel it???thick, reluctant, dragging through his veins",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Internal tactile sensation combined with descriptive words for motion and texture.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "dragging through his veins like syrup through a straw",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile vividly describing the slowed, viscous movement of Dane's blood.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's blood circulation slowed, becoming 'denser than plasma', and the iron within it was being pulled upward by an external force.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A specific, supernatural physiological effect on Dane, indicating a direct interaction with the mysterious phenomenon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane discovers that the iron in his blood is being physically pulled upward by an unknown force, profoundly affecting his biology.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A major reveal about the direct physical impact of the phenomenon on Dane himself.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "as if his own biology had chosen a new loyalty",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification, suggesting his body's involuntary alignment with the external force.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane experiences a dry, penetrating heat originating in his marrow and radiating outward, causing his skeleton to warm from the inside.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A unique, supernatural physical sensation and effect experienced by Dane, indicative of an external influence.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane exhibits extraordinary bravery and scientific curiosity by testing his body's absorption of the red light, rather than reacting with fear.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Contrasts Dane's reaction with a typical child's, highlighting his unique traits of stoicism and self-experimentation.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane actively tests his body's limits against the red light, revealing an unusual scientific curiosity and stoicism in a child.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This action reveals a profound aspect of Dane's character and his proactive, analytical engagement with the mysterious phenomenon.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A blinding, clinical white light, distinctly different from the red sky, emanates from the nursery window.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Introduces a new, significant element to the mystery, localized and distinct from the broader phenomenon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A clinical, white light originates from the nursery window, cutting through the red fog.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A specific detail of the supernatural event, suggesting a localized and distinct phenomenon from the red sky.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "beam cut through the red fog of the yard like a scalpel through the swollen meat of a wound",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A vivid simile conveying the piercing, surgical nature of the white light.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "radiance of an examination lamp focused on a single point of interest",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile emphasizing the focused, analytical, and potentially invasive nature of the white light.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white light from the nursery is described as a 'scalpel' or 'examination lamp', clinically drilling into the roof and dehydrating the earth.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Elaborates on the specific, invasive nature of this localized supernatural light.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white light is focused on the nursery, actively dehydrating the earth beneath it and suggesting a targeted examination or consumption of moisture.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This reveals the specific target and invasive nature of the white light, escalating the stakes.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ground beneath the white light became brittle and dehydrated, with moisture being pulled upward towards the nursery.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A specific, supernatural environmental effect caused by the white light, directly impacting the physical world.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane rushes to his brother's aid when he realizes the white light is targeting the nursery.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The nature and purpose of the white light, and its specific interest in the nursery (and implicitly, Dane's brother).",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The light's actions (drilling, dehydrating, focused on the nursery) are presented as inexplicable, driving a core mystery.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane demonstrates extreme determination and pain endurance by enduring a seared and blistered palm without crying out, to reach the nursery.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Highlights Dane's unwavering resolve and unique resilience in a moment of crisis.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane is baking under an invisible noon sun, despite it being closer to midnight.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Dane's subjective physical sensation and perception of time.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane is hungry, his stomach growled, but the hunger felt distant.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's internal physical state and his detached perception of it.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Now the hunger felt distant, like a complaint from someone else's body.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile comparing his hunger to a complaint from another body, conveying detachment.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane thinks about an apple he stole, believing it would be there when the current event was over, if it ever ended.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Reveals Dane's thoughts, anticipation, and underlying uncertainty about the event's duration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla was a priest, a man of logic, scripture, and an ordered universe, fluent in four languages, including Greek and Latin for religious texts.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While Nikola Tesla's father was a priest, the specific emphasis on 'ordered universe' and 'comprehensible laws' for a documentary series blending history with invented lore leans this toward a 'lore_fact' as these specific traits contribute to the series' narrative framing rather than strictly verifiable history (as per the George Bliss example).",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin Tesla is distressed, feeling that language has failed him, and is begging the sky for mercy with a voice that is cracking.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Milutin's emotional state, actions, and physical manifestations of distress.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane perceives the sky not as judgment, but as machinery.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A significant internal discovery or shift in understanding for the character about the nature of the phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "curtain???heavy velvet the color of venous blood, draped from the zenith to the mountains. The fabric rippled. It moved in waves.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual, tactile, and kinetic descriptions of the sky's appearance.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Most villagers fled indoors, while those remaining outside are on their knees, believing the end has come.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the collective reaction and belief of the villagers.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane observes a flickering white, geometric grid of triangles and hexagons behind the red curtain in the sky, which attempts to form a cage but keeps breaking.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A significant discovery by Dane about the hidden, mechanical structure behind the atmospheric phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "White lines. Faint, geometric, crossing the sky in perfect triangles- triangles that make hexagons and hexagons that made??? a grid. The white lattice pulsed and snapped. The lines tried to connect, tried to form a cage around the valley, but the links kept breaking. Threads of light would reach toward each other, strain, then shatter into sparks that rained upward instead of down.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Highly detailed visual and kinetic descriptions of the grid, including its structure, movement, and failures.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane's hands become translucent under the red light, allowing him to see the architecture of his bones and veins.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A physical change to Dane's body, revealing an internal structure, which is a key discovery for him.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane feels his blood slowing, becoming thick and reluctant, like syrup through a straw.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's subjective internal physical sensation and an accompanying simile.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "dragging through his veins like syrup through a straw.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A vivid simile describing the sensation of his blood flow.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane feels the iron in his blood being pulled upward toward the sky, as if his biology has chosen a new loyalty.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A profound physical experience indicating an external force acting on his body, a significant discovery about himself and the phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane experiences a dry, penetrating heat starting in his marrow and radiating outward, feeling as though his skeleton is warming from the inside and he is being cooked.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Detailed subjective internal physical sensations and his interpretation of them.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Despite the frightening circumstances, Dane stands on the barn roof, testing himself and measuring his body's radiation absorption, rather than seeking comfort from his father.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Reveals Dane's unique and resilient character, his curiosity, and his reaction to extreme stress.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He spread his fingers against the red light and watched the bones glow through the flesh.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of Dane's interaction with the red light.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane discovers his brother's nursery is glowing with a blinding, clinical white light, distinct from the red light outside, resembling an operating theater or laboratory lamp.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A major visual discovery revealing a specific target and quality of another mysterious light source.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A column of clinical, probing white light is drilling into the roof directly above Dane's brother's nursery, dehydrating the earth beneath it.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Identifies the precise target of the white light, its invasive nature, and its destructive physical effect on the environment.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane runs and endures intense pain as the iron latch sears his palm, blistering his skin, but he does not cry out and forces his way into the house.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's urgent actions, his physical suffering, and his remarkable stoicism/determination.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Milutin, a priest, desperately begs the sky (implicitly God) for mercy.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane intellectually observes and analyzes the strange, mechanical nature of the sky phenomenon, contrasting it with his father's spiritual interpretation.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T14:26:16.501505",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

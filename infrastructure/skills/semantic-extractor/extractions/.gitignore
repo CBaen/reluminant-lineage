@@ -1,0 +1,11 @@
+# Raw text chunks - can be regenerated from episode files
+**/chunk-*-raw.txt
+
+# Archived backups - duplicates with timestamps
+archived/
+
+# Backup directories
+../backups/
+
+# Flagged items awaiting review (optional - remove this line if you want to track them)
+# flagged/

@@ -1,0 +1,136 @@
+{
+  "episode": 2,
+  "chunk_index": 19,
+  "extractions": [
+    {
+      "content_type": "used_sensory_language",
+      "text": "The examination lamp shows everything, hides nothing, leaves no corner unilluminated.",
+      "reasoning": "Describes a visual experience of intense, pervasive light.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "character_state",
+      "text": "You remember. You hold the yellow in your chest. You hold the lion in your mind. You hold the red Chartreuse in your memory, even when every screen and every search result insists that you're wrong. You refuse to blink.",
+      "reasoning": "Describes Dane's (and by extension, the audience's encouraged) internal state of active resistance, remembering, and defiance against an altered reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "You hold the yellow in your chest. You hold the lion in your mind. You hold the red Chartreuse in your memory, even when every screen and every search result insists that you're wrong.",
+      "reasoning": "These are abstract, metaphorical images representing cherished, resistant truths or memories held internally against external invalidation. 'Yellow in your chest' and 'lion in your mind' are abstract symbols.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The surgery will continue. The scar tissue will spread. The world will keep growing lighter, sharper, more efficient, more numb.",
+      "reasoning": "Extended metaphor of 'surgery' and 'scar tissue' describing a transformative, painful process, and the world becoming 'numb'.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "You are the residue. You are the fossil record. You are the lion in a world that insists there have only ever been wolves.",
+      "reasoning": "Powerful metaphors describing individuals who remember the past as remnants, historical evidence, and rare, defiant truths in an altered world.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "Before today, before you heard any of this???what color did you think Chartreuse was?",
+      "reasoning": "A direct question posed to the audience/reader, designed to elicit self-reflection.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "A residue the surgery tried to dissolve but couldn't quite reach. A stain that set too deep. A thread of the old world woven so tightly into your neurons that cutting it out would mean cutting out you.",
+      "reasoning": "Metaphorical descriptions of an ingrained, unremovable part of one's being, using terms like 'residue', 'stain', and 'thread'.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "In a garden in Smiljan, under a sun that shouldn't be white, he is holding his brother's hand and refusing to forget.",
+      "reasoning": "Presents specific, unverifiable details (Smiljan, sun shouldn't be white, holding brother's hand) as established facts within the series' fictional canon.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "his brother",
+      "relationship_type": "family",
+      "direction": "symmetric",
+      "temporal_context": "In a garden in Smiljan, current narrative",
+      "evidence": "he is holding his brother's hand",
+      "text": "Dane is physically connected with his brother, implying a family bond.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "open_mystery",
+      "text": "And who??? is looking at the evidence?...",
+      "reasoning": "This question is explicitly left unanswered at the end of the chunk, designed to create ongoing mystery and suspense for the narrative.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The examination lamp shows everything, hides nothing, leaves no corner unilluminated. But clean rooms are not built for living. They are built for surgery.",
+      "reasoning": "These lines use the imagery of an examination lamp and a clean room built for surgery to symbolize intense, unsparing scrutiny and a harsh, transformative, possibly invasive process that is not conducive to natural existence.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "Watch the colors bleeding out of the sky???the oranges, the purples, the deep reds that the old light used to cast.",
+      "reasoning": "Vivid visual description of twilight and specific colors associated with a past reality.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 19
+    }
+  ],
+  "needs_opus_review": 32,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-19-needs-review.json",
+  "stored_to_qdrant": false,
+  "saved_at": "2026-01-22T14:24:29.582034"
+}

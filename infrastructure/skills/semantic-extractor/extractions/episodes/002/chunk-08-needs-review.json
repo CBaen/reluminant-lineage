@@ -1,0 +1,763 @@
+{
+  "episode": 2,
+  "chunk_index": 8,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "blinding white on the other, with no gradient between.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Direct description of visual sensation related to the light and shadow.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Static crackled across his knuckles. The fine hairs rose and stayed rigid, reaching toward the beam like iron filings drawn to a magnet.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes an unnatural, energetic property of the beam within the series' invented canon, making hairs react like metal to a magnet.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fingers tingled???not the pins and needles of a sleeping limb. This was vibration. His fingertips hummed at a frequency he could feel in his teeth.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific tactile and auditory descriptions of Dane's physical sensations.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "as if the light had reached into the architecture of his skin and simply deleted the pattern. His fingertips were blank now... He was looking at skin that had forgotten its own shape.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphors describing the profound, pattern-deleting effect on Dane's skin.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light actively altered Dane's fingerprints by deleting their pattern.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Slowly, the texture returned. The ridges faded back in, pressing up through the smoothed surface like grass growing through concrete.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "The discovery that Dane's skin is regenerating after being altered.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ridges faded back in, pressing up through the smoothed surface like grass growing through concrete.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Simile describing the regeneration of Dane's skin texture.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But something about them felt wrong???the flesh beneath was foreign territory now???his own skin, his own ribs, but rearranged. Reorganized. As if someone had taken him apart in the dark and put him back together with pieces left over.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's subjective feeling of unease and disorganization within his own body after the alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the flesh beneath was foreign territory now... As if someone had taken him apart in the dark and put him back together with pieces left over.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphors conveying Dane's altered physical and psychological state, feeling alien in his own body.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "lungs remembered how to work. His back hit the wall. The stone pressed into his spine.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific tactile sensations and physical relief experienced by Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He could sense it working. The weight on his skull wasn't passive???it was methodical. Systematic. Moving across his scalp in slow passes, cataloging the topography of his skull, measuring the distance between his ears, noting the precise location of every follicle and pore.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's subjective perception and interpretation of the 'sun's' analytical action upon him.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The precise purpose or nature of being 'read' by the 'white sun' and its ultimate implications for Dane's identity or fate must remain ambiguous to preserve the series' central mystery.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "The narrative deliberately leaves the ultimate 'why' and 'what' of this key phenomenon unanswered to maintain suspense and central mystery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nothing but the ambient pressure of the light passing through the stone above.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a unique, supernatural property of the 'light' capable of causing melting through solid objects, which is integral to the series' canon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ambient pressure of the light caused the candle wax to melt.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The wax had turned to liquid in the air, between his hand and the ground. The white pool spread across the dirt, seeping into the cracks, and where it touched the edge of the light beam, it evaporated???a thin wisp of vapor rising and vanishing.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A dramatic escalation of the anomalous effect of the light, revealing its instant liquefaction and evaporative properties upon contact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "splattered. The wax had turned to liquid in the air... evaporated???a thin wisp of vapor rising and vanishing.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific auditory and visual descriptions of the wax's transformation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The edge of the light beam caused the liquid wax to evaporate.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The skin looked wrong. Shiny. Soft. The texture of wax that had begun to warm.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Simile and descriptive language comparing Dane's skin to melting wax, conveying its altered state.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He could feel the pressure, the heat of his own circulation, the ridges of his fingerprints pressing against each other. But the depth of sensation was fading. The world was growing thinner. Each surface he touched returned less. The stone wall against his back: he could feel the pressure, but not the texture. The dirt beneath his knees: weight without grain. The world was going smooth. Going numb. As if reality itself was developing scar tissue, and he was trapped beneath it.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's worsening sensory perception and growing dissociation from reality, expressed subjectively.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The world was growing thinner. Each surface he touched returned less... The world was going smooth. Going numb. As if reality itself was developing scar tissue, and he was trapped beneath it.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphors for sensory degradation, diminished reality, and an overarching feeling of entrapment.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid was waiting. Lines ??? almost like prism glass. Perfect triangles. A reticle overlaying his vision, and when he focused on the center triangle, it pulsed??? a rainbow of colors passed through the prism thread, turned white at the convergence of six triangles, marked, then the next triangle, marked, then the next.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "The explicit appearance and active nature of the 'grid' as an internal visual phenomenon, indicating a significant discovery for Dane.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Lines ??? almost like prism glass. Perfect triangles. A reticle overlaying his vision... pulsed??? a rainbow of colors passed through the prism thread, turned white...",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual descriptions of the grid's appearance and behavior.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid was seeing him with something like triangle eyes...",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification or metaphor for the grid's perception and analytical nature.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid is actively perceiving, mapping, cataloging, and taking samples from Dane's biological and neurological structures, particularly those related to memory.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The weight on his skull pressed harder. The pressure in his chest forced the air out in a thin wheeze. He opened his mouth. The air tasted of dust and ??? stone. He tried to breathe, but the atmosphere had thickened???not fog, not smoke, just density. A heaviness that filled his lungs with something other than oxygen.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's increasing physical distress, difficulty breathing, and sensory perceptions of the environment.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "something other than oxygen",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "The narrative deliberately leaves the precise nature of the substance filling Dane's lungs undefined, creating an open question for the audience.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ultimate nature, source, and full extent of the 'light' and 'grid's' influence on physical reality, matter, and human consciousness, including the identity of the 'something other than oxygen' filling Dane's lungs, are intentionally kept ambiguous to preserve the core mystery of the series.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "The narrative explicitly avoids defining these phenomena, relying on their mystery to drive the plot and maintain suspense.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "on one side, blinding white on the other, with no gradient between.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual experience of light and shadow.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "reaching toward the beam like iron filings drawn to a magnet.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile comparing hair movement to iron filings, providing a vivid visual and tactile metaphor.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He reached across the threshold???from shadow into the column where the air turned thick and bright.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's action and immediate perception of his environment changing.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His hand entered the beam as if passing through warm syrup.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile sensation using a simile.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "passing through warm syrup.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile conveying the tactile sensation of the light's viscosity.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It clung to his skin, resisted his movement, made every millimeter of progress feel like swimming through honey.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's direct experience and struggle against the light's properties.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "swimming through honey.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile illustrating the effort and resistance felt in the light.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He pulled his hand back. The tips of his fingers tingled???not the pins and needles of a sleeping limb. This was vibration. His fingertips hummed at a frequency he could feel in his teeth.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's physical reaction and detailed description of a unique sensation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His fingertips hummed at a frequency he could feel in his teeth.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile and internal auditory/vibratory sensation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He looked at the skin. Not abraded. Not worn down by labor or friction.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's observation and initial assessment of his skin's condition.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the light had reached into the architecture of his skin and simply deleted the pattern.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a specific, non-natural ability of the light within the narrative's rules.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "skin that had forgotten its own shape.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification emphasizing the unnatural alteration of the skin.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "like grass growing through concrete.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile describing the return of skin texture, suggesting an organic yet forceful process.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "his own skin, his own ribs, but rearranged. Reorganized.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A significant discovery of an internal, possibly permanent, physical rearrangement.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He scrambled backward, out of the column, into the dark where his lungs remembered how to work.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's immediate, fearful reaction and a return to normal bodily function in the absence of the light.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His back hit the wall. The stone pressed into his spine.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes tactile sensations.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He drew his knees to his chest and wrapped his arms around them.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's physical posture, indicative of fear or seeking comfort.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He could sense it working.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's subjective perception of the 'white sun's' influence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The weight on his skull wasn't passive???it was methodical. Systematic. Moving across his scalp in slow passes, cataloging the topography of his skull, measuring the distance between his ears, noting the precise location of every follicle and pore.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the specific, highly detailed, and active scanning process performed by the 'white sun' or its influence, establishing a new rule within the lore.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He looked at the candle in his hand. He didn't remember picking it up.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's action and a memory lapse, indicating confusion or an unexplained event.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A votive candle from the shelf behind him???unlit, the wick still black.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes an object's mysterious presence and state, hinting at unexplained events within the series' canon.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The cellar temperature was fifty degrees. Cold enough to see his breath if he exhaled sharply. Wax melts at one hundred and forty. There was no flame. No heat source.",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Presents a clear paradox (melting wax without a heat source) that the narrative deliberately leaves unexplained, deepening the mystery.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Nothing but the ambient pressure of the light passing through the stone above. The molecular structure of the candle was failing. The bonds holding the paraffin together were loosening, letting go, allowing the solid to remember that it had once been liquid.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Offers a quasi-scientific explanation within the series' canon for the impossible melting, attributing it to the 'ambient pressure of the light'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'ambient pressure of the light' is causing the candle's molecular structure to break down, leading to its melting.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane dropped the candle. It hit the floor and didn't roll. It splattered.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's action and observation of the candle's unusual behavior upon impact.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The wax had turned to liquid in the air, between his hand and the ground.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A startling discovery revealing the immediate and pervasive effect of the 'light's pressure'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a thin wisp of vapor rising and vanishing.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a visual phenomenon.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The texture of wax that had begun to warm.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A simile describing the unsettling change in Dane's skin texture.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He pressed his palms together. He could feel them. He could feel the pressure, the heat of his own circulation, the ridges of his fingerprints pressing against each other.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's action and detailed description of his tactile sensations.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But the depth of sensation was fading. The world was growing thinner. Each surface he touched returned less. The stone wall against his back: he could feel the pressure, but not the texture. The dirt beneath his knees: weight without grain. The world was going smooth. Going numb.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "A profound and terrifying discovery of a progressive loss of sensory input and a fundamental alteration of his perception of reality.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He closed his eyes again. The grid was waiting.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's action and his perception of an internal, waiting presence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Lines ??? almost like prism glass. Perfect triangles. A reticle overlaying his vision, and when he focused on the center triangle, it pulsed??? a rainbow of colors passed through the prism thread, turned white at the convergence of six triangles, marked, then the next triangle, marked, then the next.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Detailed visual description of an internal, supernatural construct ('the grid'), establishing its visual properties within the lore.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid was seeing him with something like triangle eyes.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Personification of the grid, attributing sight and intent to it.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The weight on his skull pressed harder.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a tactile sensation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pressure in his chest forced the air out in a thin wheeze.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes tactile (pressure) and auditory (wheeze) sensations.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The air tasted of dust and ??? stone.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Describes a gustatory (taste) sensation.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He tried to breathe, but the atmosphere had thickened???not fog, not smoke, just density. A heaviness that filled his lungs with something other than oxygen.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's struggle and his perception of the altered atmospheric conditions.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the atmosphere had thickened???not fog, not smoke, just density. A heaviness that filled his lungs with something other than oxygen.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a new, non-natural property of the atmosphere within the affected area, specific to the series' lore.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The altered atmosphere is preventing Dane from breathing normally, indicating a hostile impact on his physiology.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He held up his hand. Static crackled across his knuckles. The fine hairs rose and stayed rigid, reaching toward the beam like iron filings drawn to a magnet. He reached across the threshold\u00e2\u20ac\u201dfrom shadow into the column where the air turned thick and bright. The sensation was not heat. It was thickness. His hand entered the beam as if passing through warm syrup. The light had viscosity. It clung to his skin, resisted his movement, made every millimeter of progress feel like swimming through honey.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's immediate physical sensations and perceptions upon encountering the mysterious light beam, including tactile, visual, and kinesthetic experiences.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He pulled his hand back. The tips of his fingers tingled\u00e2\u20ac\u201dnot the pins and needles of a sleeping limb. This was vibration. His fingertips hummed at a frequency he could feel in his teeth. He looked at the skin. Not abraded. Not worn down by labor or friction. The ridges had been unmade\u00e2\u20ac\u201das if the light had reached into the architecture of his skin and simply deleted the pattern. His fingertips were blank now. Pale circles of undifferentiated flesh. The whorls and loops that had marked him as himself since before his birth had been rendered down to nothing. He was looking at skin that had forgotten its own shape.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Details Dane's immediate post-exposure sensations, observations, and profound realization about the alteration of his skin.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The tips of his fingers tingled\u00e2\u20ac\u201dnot the pins and needles of a sleeping limb. This was vibration. His fingertips hummed at a frequency he could feel in his teeth.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific tactile and auditory (though internal) description of the post-exposure sensation.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The ridges had been unmade\u00e2\u20ac\u201das if the light had reached into the architecture of his skin and simply deleted the pattern. His fingertips were blank now. Pale circles of undifferentiated flesh. The whorls and loops that had marked him as himself since before his birth had been rendered down to nothing. He was looking at skin that had forgotten its own shape.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "This is a significant discovery for Dane: the light has fundamentally altered his physical form, erasing his fingerprints, which are typically unique identifiers.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Above him, through three feet of rock and the oak beams of the church floor, the white sun continued its examination.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This attributes sentience and purpose ('examination') to the 'white sun' and suggests it can act through solid objects, establishing a unique property of this celestial body within the series' canon.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He could sense it working. The weight on his skull wasn't passive\u00e2\u20ac\u201dit was methodical. Systematic. Moving across his scalp in slow passes, cataloging the topography of his skull, measuring the distance between his ears, noting the precise location of every follicle and pore. He was being read.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Dane's interpretation of the 'white sun's' actions, perceiving it as an active, intelligent entity performing a detailed scan or analysis of him, leading to his conclusion 'He was being read.'",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane dropped the candle. It hit the floor and didn't roll. It splattered. The wax had turned to liquid in the air, between his hand and the ground. The white pool spread across the dirt, seeping into the cracks, and where it touched the edge of the light beam, it evaporated\u00e2\u20ac\u201da thin wisp of vapor rising and vanishing. Dane looked at his own hands. The skin looked wrong. Shiny. Soft. The texture of wax that had begun to warm. He pressed his palms together. He could feel them. He could feel the pressure, the heat of his own circulation, the ridges of his fingerprints pressing against each other. But the depth of sensation was fading. The world was growing thinner. Each surface he touched returned less. The stone wall against his back: he could feel the pressure, but not the texture. The dirt beneath his knees: weight without grain. The world was going smooth. Going numb.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's observations of the candle's peculiar liquefaction and evaporation, followed by his terrifying realization that his own physical sensations and perception of the world are diminishing, becoming 'thinner' and 'numb'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The grid was waiting. Lines \u00e2\u20ac\u201d almost like prism glass. Perfect triangles. A reticle overlaying his vision, and when he focused on the center triangle, it pulsed\u00e2\u20ac\u201d a rainbow of colors passed through the prism thread, turned white at the convergence of six triangles, marked, then the next triangle, marked, then the next. He wasn't just seeing the grid. The grid was seeing him with something like triangle eyes, it was mapping him. Cataloging every cell. Taking samples from his optic nerve, his retina, the soft tissue behind his eyes where memory lived.",
+      "gemini_classification": "revelation",
+      "gemini_reasoning": "Dane directly perceives a 'grid' that is not merely visual but also actively scanning and 'seeing' him, extracting data from his body and even his memories. This reveals a new, highly intrusive, and possibly sentient aspect of the phenomenon.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Lines \u00e2\u20ac\u201d almost like prism glass. Perfect triangles. A reticle overlaying his vision",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Visual imagery describing the geometric and optical qualities of the 'grid' that appears before Dane's eyes.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "it pulsed\u00e2\u20ac\u201d a rainbow of colors passed through the prism thread, turned white at the convergence of six triangles, marked, then the next triangle, marked, then the next.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual description of the grid's dynamic appearance and function.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The pressure in his chest forced the air out in a thin wheeze. He opened his mouth. The air tasted of dust and \u00e2\u20ac\u201d stone. He tried to breathe, but the atmosphere had thickened\u00e2\u20ac\u201dnot fog, not smoke, just density. A heaviness that filled his lungs with something other than oxygen.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's escalating physical distress, specifically respiratory difficulty, and his sensory perception of the altered air, indicating a systemic effect on his environment.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A heaviness that filled his lungs with something other than oxygen.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "This statement describes a fundamental alteration of the atmosphere, implying a non-oxygen gas or substance. Defining what this 'something other than oxygen' is would resolve a major mystery, which the prompt specifically instructs to avoid.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light beam physically intrudes upon Dane, altering his skin and potentially his molecular structure, draining sensation and effectively 'consuming' his normal state.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane experiences a profound alienation from his own body, which feels foreign and rearranged despite appearing superficially normal. This introduces a mystery about his identity and physical integrity.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The white sun is portrayed as an active, methodical, and intrusive entity that is 'examining' and 'reading' Dane, suggesting a hostile or at least predatory intent.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The light possesses the ability to reverse the state of matter, making solids 'remember' their liquid form, showcasing a fundamental power over physical properties.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Reality itself is perceived by Dane as actively diminishing his sensory input and awareness, likened to scar tissue that dulls his connection to the world, trapping him.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T14:28:38.895478",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

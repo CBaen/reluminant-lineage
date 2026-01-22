@@ -1,0 +1,54 @@
+{
+  "episode": 1,
+  "chunk_index": 4,
+  "extractions": [
+    {
+      "content_type": "character_state",
+      "text": "Marta believed she had heard the sound of the world cracking open to let something in.",
+      "reasoning": "Marta's profound, terrifying interpretation of the events, suggesting a cosmic intrusion.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Marta",
+      "entity_b": "Duka",
+      "relationship_type": "witness",
+      "direction": "symmetric",
+      "temporal_context": "During birth",
+      "evidence": "She entered the birthing room. The mother, Duka, lay on the bed. ... Marta dismissed this as fever.",
+      "text": "Marta is the midwife attending Duka's birth; Duka's strange perceptions are witnessed by Marta.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 1,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "character_state",
+      "text": "Marta did not want to touch this child.",
+      "reasoning": "Direct statement of Marta's emotional and physical aversion.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 4
+    }
+  ],
+  "needs_opus_review": 99,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\001\\chunk-04-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T11:59:52.024723",
+  "stored_at": "2026-01-22T12:01:43.979220",
+  "v3_stats": {
+    "stored": 3,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

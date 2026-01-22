@@ -1,0 +1,295 @@
+{
+  "episode": 2,
+  "chunk_index": 19,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "clean rooms are not built for living. They are built for surgery.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Metaphor comparing a sterile environment (clean room) to a surgical process, implying a lack of natural life.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the red Chartreuse",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual description of a color, directly referencing a sensory experience.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "as long as someone remembers what was lost, the original isn't entirely gone. It's archived. Preserved. Waiting.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This establishes a core tenet of the series' lore: that memory has the power to preserve a lost 'original' state, suggesting a metaphysical or narrative mechanism.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'You' character is portrayed as a unique entity, a 'lion', in opposition to a conformist world of 'wolves'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "look at the twilight. Watch the colors bleeding out of the sky???the oranges, the purples, the deep reds that the old light used to cast.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of colors in the sky during twilight.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If you saw red, you are carrying something. A residue the surgery tried to dissolve but couldn't quite reach. A stain that set too deep. A thread of the old world woven so tightly into your neurons that cutting it out would mean cutting out you. Something that marks you as incompatible.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Directly addresses the viewer, implying they might share a similar experience of remembering the 'old world' and thus are 'incompatible' with the 'new'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Something that marks you as incompatible.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This states a direct consequence within the series' canon: possessing this 'residue' makes one fundamentally 'incompatible' with the altered reality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane is holding on.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Dane's current action and state of resolve.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a sun that shouldn't be white",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual description of the sun's color, noting an unnatural quality.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The question isn't whether you'll survive what's coming. The question is- what world are you evidence of?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a profound, open-ended question that the narrative deliberately leaves unanswered, inviting the audience to ponder their fundamental nature and connection to different realities, rather than providing a concrete solution.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "what world are you evidence of?",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "This question is explicitly stated as the core, overarching query, implying it's meant to drive narrative thought rather than be definitively answered within the series.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "who??? is looking at the evidence?",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "This question is presented as an open-ended mystery, intended to remain ambiguous and drive further narrative engagement.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "You hold the red Chartreuse in your memory, even when every screen and every search result insists that you're wrong.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a core element of the 'Mandela Effect' lore where collective memory is altered, and official sources deny the original truth. The color of Chartreuse is presented as having changed.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But as long as someone remembers what was lost, the original isn't entirely gone. It's archived. Preserved. Waiting.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a fundamental rule of the series' lore: memory acts as a form of preservation against reality alteration.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "You are the lion in a world that insists there have only ever been wolves.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes the altered perception of reality where the 'old world' and its truths (lions) are erased, leaving only the 'new world's' narrative (wolves).",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In a garden in Smiljan, under a sun that shouldn't be white",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Smiljan is historically real as Tesla's birthplace, but the 'sun that shouldn't be white' introduces a clear fictional alteration of reality within the series' canon, making the specific situation lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Hold onto it. Dane is holding on. In a garden in Smiljan, under a sun that shouldn't be white, he is holding his brother's hand and refusing to forget.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Confirms Dane's active internal and external resistance to the altered reality, emphasizing his determination to remember and preserve the truth.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The question isn't whether you'll survive what's coming.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "The narrative explicitly states that survival is not the central question, guiding the audience away from a definitive answer on that front and focusing on other themes.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "You hold the yellow in your chest. You hold the lion in your mind.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "Figurative language suggesting internal strength, courage, and the preservation of truth or identity within oneself.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The surgery will continue. The scar tissue will spread.",
+      "gemini_classification": "used_imagery",
+      "gemini_reasoning": "A recurring metaphor for the ongoing, damaging process of reality alteration, likening it to a medical procedure with lasting, negative effects.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "yellow in your chest",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual and tactile description, implying an internal sensation of color.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "red Chartreuse",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual description, highlighting the altered color of an object central to the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "lighter, sharper, more efficient, more numb",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Sensory descriptions of the changing state of the world (visual, tactile, emotional).",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "sun that shouldn't be white",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific visual detail highlighting an abnormal and altered state of the environment.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane is holding his brother's hand, suggesting a bond of family and mutual support in resisting the altered reality.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "You do what Dane is doing. You remember. You hold the yellow in your chest. You hold the lion in your mind. You hold the red Chartreuse in your memory, even when every screen and every search result insists that you're wrong. You refuse to blink.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the internal state and actions of Dane (and by extension, the 'you' character), emphasizing active remembrance, holding onto a personal truth, and stubborn resistance to external pressure and perceived falsification.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "what color did you think Chartreuse was? If you saw red, you are carrying something. A residue the surgery tried to dissolve but couldn't quite reach. A stain that set too deep. A thread of the old world woven so tightly into your neurons that cutting it out would mean cutting out you.",
+      "gemini_classification": "forbidden_conclusion",
+      "gemini_reasoning": "While the text posits a condition ('if you saw red'), the actual 'correct' color of Chartreuse, and the definitive meaning of seeing 'red' are deliberately left open to maintain the mystery and personal connection for the audience. The series wants this 'stain' to be a personal, unexplained mark.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane is holding on. In a garden in Smiljan, under a sun that shouldn't be white, he is holding his brother's hand and refusing to forget.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This highlights Dane's resolute action of 'holding on' and 'refusing to forget', emphasizing his emotional commitment and defiance in a subtly altered reality ('sun that shouldn't be white').",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Dane actively protects and preserves memories and symbols of a lost, true reality.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrative identifies the audience/character as embodying a remnant, a living historical record, and a unique truth-holder in a conformist world.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The current, altered world actively denies the existence of the 'lion' (the old truth), promoting a false narrative of uniformity ('wolves').",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.85,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'surgery' (the process altering reality) is actively hostile towards and attempts to erase remnants of the 'old world' and its truths.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ]
+}

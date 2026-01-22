@@ -1,0 +1,209 @@
+{
+  "episode": 1,
+  "chunk_index": 13,
+  "extractions": [
+    {
+      "content_type": "open_mystery",
+      "text": "Has the fracture moved from the physical to the cognitive?",
+      "reasoning": "A question posed directly to the audience, deliberately left unanswered.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The fracture is no longer fusing sailors to bulkheads.",
+      "reasoning": "Presented as a past effect of the 'fracture' within the narrative's invented history.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "fusing sailors to bulkheads",
+      "reasoning": "Uses vivid, visceral imagery to describe an effect.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "heal the wound by burning out the infection sites",
+      "reasoning": "Metaphorical language describing a destructive healing process.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "character_state",
+      "text": "We are the carriers.",
+      "reasoning": "A direct assertion about humanity's role as described by the narrator, integral to the lore.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The immune system has begun to attack the only thing left that anchors the Tesla timeline to reality: our memories.",
+      "reasoning": "A central premise of the narrative's lore, linking an 'immune system' to an attack on 'memories' and the 'Tesla timeline'.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "immune system",
+      "entity_b": "Our memories",
+      "relationship_type": "hostile",
+      "direction": "a_to_b",
+      "temporal_context": "ongoing",
+      "evidence": "the immune system has begun to attack the only thing left that anchors the Tesla timeline to reality. Our memories.",
+      "text": "The immune system is actively attacking human memories.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "Millions of people, strangers, separated by continents and generations, share the exact same specific, detailed hallucination.",
+      "reasoning": "Presented as an observable phenomenon within the narrative that supports its premise.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "historical_fact",
+      "text": "Fruit of the Loom states, in their official corporate history, that the logo has never featured a cornucopia and they have patents going back to the early 1900s showing only fruit.",
+      "reasoning": "A verifiable claim about a real company's corporate history and logo patents.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "open_mystery",
+      "text": "Did millions of people independently invent the same specific wicker object to frame a pile of fruit? Did millions of brains suffer the same hallucination independently?",
+      "reasoning": "Rhetorical questions emphasizing the improbability of independent hallucination, posing a central mystery.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "phantom limb of a world that was amputated",
+      "reasoning": "A powerful and evocative metaphor for a lost reality.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "current reality",
+      "entity_b": "timeline that was overwritten",
+      "relationship_type": "rival",
+      "direction": "symmetric",
+      "temporal_context": "past and present",
+      "evidence": "The strong image, the current reality, shows only fruit. But the weak image, the residue of the timeline that was overwritten, shows the basket.",
+      "text": "The current reality exists alongside the residue of a previously overwritten timeline.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "The brain",
+      "entity_b": "a world that was deleted",
+      "relationship_type": "witness",
+      "direction": "a_to_b",
+      "temporal_context": "past",
+      "evidence": "The brain is accurate. It remembers a world that was deleted.",
+      "text": "The brain retains memories of a world that no longer exists.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The deletion is getting sloppy.",
+      "reasoning": "A narrative observation indicating a change in the process of reality alteration.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "universe",
+      "entity_b": "Healthy timeline",
+      "relationship_type": "creator",
+      "direction": "a_to_b",
+      "temporal_context": "ongoing",
+      "evidence": "If the universe is trying to revert to a Healthy timeline",
+      "text": "The universe is actively attempting to revert to a 'Healthy timeline'.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "character_state",
+      "text": "We are seeing the drift in our own bodies.",
+      "reasoning": "A claim that the physical drift is manifesting in human anatomy, part of the lore.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The heart is moving, the stomach is shifting, and the ocular ridge of the skull is becoming more pronounced.",
+      "reasoning": "Claims of ongoing anatomical changes presented as facts within the narrative's lore.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 13
+    }
+  ],
+  "needs_opus_review": 136,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\001\\chunk-13-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T11:59:53.604688",
+  "stored_at": "2026-01-22T12:06:17.548080",
+  "v3_stats": {
+    "stored": 17,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

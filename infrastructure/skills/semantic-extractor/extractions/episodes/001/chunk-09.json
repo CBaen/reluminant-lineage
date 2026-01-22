@@ -1,0 +1,169 @@
+{
+  "episode": 1,
+  "chunk_index": 9,
+  "extractions": [
+    {
+      "content_type": "used_sensory_language",
+      "text": "The universe has an immune system.",
+      "reasoning": "This is a distinct metaphor comparing the universe to an organism with an immune system.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "Tesla's inventions were contaminants.",
+      "reasoning": "This statement defines Tesla's work within the framework of the 'universe's immune system' lore, making it a series-invented canon.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "We assume he lost the Radio War to Marconi because of business acumen. We assume he lost the patent battles because he was a poor capitalist.",
+      "reasoning": "Describes a general assumption or belief held by people ('We assume').",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Tesla",
+      "entity_b": "Marconi",
+      "relationship_type": "rival",
+      "direction": "symmetric",
+      "temporal_context": "During the 'Radio War' and patent disputes",
+      "evidence": "We assume he lost the Radio War to Marconi because of business acumen. We assume he lost the patent battles because he was a poor capitalist.",
+      "text": "Tesla and Marconi were historical rivals, particularly in the race for radio technology and associated patent conflicts.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The examiner, a man who had approved hundreds of electrical patents, did not reject it because it wouldn't work. He rejected it because the mathematics made no sense. In a handwritten note attached to the file, the examiner wrote. The equations imply a variable that does not exist in standard inductance. The applicant assumes a conductivity of the medium that is theoretically infinite.",
+      "reasoning": "While Tesla had patent struggles, the specific, detailed reasoning for the rejection, including the direct quotes from the examiner about 'alien physics' not fitting 'standard inductance' or 'theoretically infinite' conductivity, is presented as specific lore of the documentary, hinting at physics beyond contemporary understanding.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "And when the bureaucracy failed to stop him, the immune response became physical.",
+      "reasoning": "This links the 'universe's immune system' concept directly to the physical events of the story (the fire), establishing a cause-and-effect within the documentary's fictional framework.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "He was on the verge of demonstrating the automated oscillator, a machine that could purportedly create earthquakes. He had the prototypes. He had the data. He had shadowgraphs of the human body taken with invisible light. He had a map of the stars that didn't match any sky on Earth.",
+      "reasoning": "While Tesla worked on oscillators and X-rays (shadowgraphs), the specific claim of an 'earthquake machine' and especially 'a map of the stars that didn't match any sky on Earth' are specific embellishments that align with the invented lore of the series.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "character_state",
+      "text": "In a letter to a colleague, never published, Tesla wrote that he had been in the laboratory until midnight. He had extinguished every flame himself. He had checked every gas valve twice. The habit of a man who worked with electricity knew the dangers of fire.",
+      "reasoning": "These are Tesla's own assertions and beliefs about his actions and habits, revealing his state of mind and certainty regarding the fire's origins.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "the air had turned the color of a bruise.",
+      "reasoning": "A strong, visual metaphor that conveys a sense of pain, injury, and ominous discoloration, making the atmosphere before the fire intensely unsettling.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "open_mystery",
+      "text": "Was the universe cauterizing the wound?",
+      "reasoning": "This is a direct, rhetorical question posed by the narrative, explicitly leaving the answer open and inviting speculation, fitting the definition of an open mystery.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Tesla",
+      "entity_b": "Automated oscillator",
+      "relationship_type": "creator",
+      "direction": "a_to_b",
+      "temporal_context": "Prior to 1895 lab fire",
+      "evidence": "He was on the verge of demonstrating the automated oscillator...He had the prototypes.",
+      "text": "Tesla developed and possessed prototypes of an 'automated oscillator' which was destroyed in the fire.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Tesla",
+      "entity_b": "Shadowgraphs",
+      "relationship_type": "creator",
+      "direction": "a_to_b",
+      "temporal_context": "Prior to 1895 lab fire",
+      "evidence": "He had shadowgraphs of the human body taken with invisible light.",
+      "text": "Tesla created shadowgraphs, a form of early X-ray imaging, which were lost in the fire.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Night watchman",
+      "entity_b": "Lab fire",
+      "relationship_type": "witness",
+      "direction": "a_to_b",
+      "temporal_context": "The night of the 1895 fire and weeks afterward",
+      "evidence": "The night watchman...refused to discuss what he saw. But his wife told the neighbors that her husband woke screaming for weeks afterward.",
+      "text": "The night watchman witnessed the lab fire and was profoundly traumatized by its unusual and terrifying characteristics.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 1,
+      "chunk_index": 9
+    }
+  ],
+  "needs_opus_review": 64,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\001\\chunk-09-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T11:59:52.878325",
+  "stored_at": "2026-01-22T12:04:03.431621",
+  "v3_stats": {
+    "stored": 13,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

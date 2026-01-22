@@ -1,0 +1,1240 @@
+{
+  "episode": 1,
+  "chunk_index": 13,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "The fracture may now be fusing memories to a timeline that no longer exists.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Presented as a current effect of the 'fracture' within the narrative's invented premise.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fusing your memories",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses vivid, visceral imagery to describe an effect.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "For a century, the universe tried to heal the wound by burning out the infection sites: the labs, the towers, the ships.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Personifies the 'universe' with intent and describes past actions within the narrative's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infection is no longer in a building, it is in us.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A key statement about the nature and location of the 'infection' within the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The term 'Mandela Effects' was coined by Fiona Broome in 2010 after she discovered thousands of strangers shared her false memory of Nelson Mandela dying in prison in the 1980s.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This aligns with the generally accepted origin and definition of the Mandela Effect, verifiable by external sources.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We treat Mandela Effects as trivia and laugh about misremembering things like children's book names or clothing brand logos.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes a collective societal attitude or belief about Mandela Effects.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fading photograph",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A metaphor used to describe the nature of memory.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The errors in shared false memories are not random.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "A direct assertion by the narrator about the nature of these memory discrepancies.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Millions of people share an identical detailed hallucination.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Many people visualize the Fruit of the Loom logo with a brown wicker cornucopia behind the fruit, with tactile details.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes a specific, widely shared false memory and its vividness.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "brown wicker basket. A cornucopia. The horn of plenty.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Descriptive language creating vivid imagery of the false memory.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "tactile. The texture of the weave. The way the tip curved upward to the left. A six-year-old asking a mother, What is that basket called? The word cornucopia, learned specifically because of that label scratching the back of the neck.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Emphasizes sensory and personal experience to underline the vividness of the false memory.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Where did the basket come from?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A direct question posed by the narrator, left unanswered, highlighting the enigma of the Mandela Effect.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Are you looking at a phantom limb of a world that was amputated?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A rhetorical question suggesting a profound, unsettling explanation for the memory discrepancy.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The current reality is a 'strong image' of film showing only fruit, while the 'residue' of an overwritten timeline is a 'weak image' showing the basket.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a narrative analogy explaining the Mandela Effect within the documentary's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "piece of film that has been shot twice. The strong image... The weak image, the residue of the timeline that was overwritten",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Vivid metaphorical language to explain the concept of overlapping realities.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The brain isn't failing; it is accurate and remembers a world that was deleted.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A core assertion within the lore, reframing memory errors as accurate recollection of a past reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The brain isn't failing. The brain is accurate. It remembers a world that was deleted.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "A statement of belief or understanding about the brain's function within the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The phenomenon extends beyond logos to the fundamental constants of matter.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "An expansion of the scope of the narrative's central phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In 1954, the National Bureau of Standards dealt with the calibration of precision weights and the standard atomic weight of copper.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The existence of the National Bureau of Standards and its work on atomic weights in 1954 is verifiable.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In 1954, researchers noted a drift where samples of copper were weighing slightly less than they should (by 0.0004 percent), which they blamed on equipment or impurities.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Presented as a specific event with details (percentage) but interpreted within the narrative's lore as a sign of reality shifting, rather than a purely scientific observation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What if the copper didn't change? What if the standard changed?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Rhetorical questions probing an alternative, reality-altering explanation for the observed drift.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the universe is trying to revert to a Healthy timeline with slightly different physics (lighter gravity, faster electron spin), our physical reality will begin to drift.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A hypothetical explanation for the physical changes, central to the documentary's invented premise.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "gravity is slightly lighter, if the electron spin is slightly faster",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Specific, measurable physical attributes used to describe the hypothetical changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The anatomy of the human being is being retconned, which is the most terrifying symptom of the immune response.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A strong assertion about anatomical changes and their perceived cause within the narrative's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "retconned",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A meta-narrative term applied to a physical phenomenon, adding a layer of interpretation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'retconning' of human anatomy is the most terrifying symptom of the immune response.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "The narrator's subjective evaluation of the severity and fear associated with the anatomical changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In another reality, kidneys are in the lower back, just above the hips, explaining why boxers protect the kidney punch and why people feel a dull ache there when dehydrated.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Describes anatomical facts of an 'another reality' and uses cultural/physical phenomena to support this lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Currently, kidneys are high up, tucked underneath the ribcage, almost touching the lungs.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable anatomical fact about the current human body.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Doctors insist kidneys have always been under the ribs, and medical textbooks from the 1800s show diagrams confirming this.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable fact about medical consensus and historical documentation of human anatomy.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Does the current kidney location feel right? Or is there a phantom sensation, the ghost of an organ that used to be there, before the reconstruction moved it?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Rhetorical questions prompting the audience to question their own perception against anatomical facts, suggesting a deeper mystery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "phantom sensation? The ghost of an organ",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Evocative metaphors suggesting the lingering presence of a past reality within the body.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are not just misremembering the world; we are inhabiting bodies that are being redesigned while we are still living in them.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A summarizing statement of the profound physical changes occurring according to the narrative's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are not just misremembering the world. We are inhabiting bodies that are being redesigned while we are still living in them.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "The narrator's profound realization and belief about the current state of humanity and their bodies.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Humans are experiencing their bodies being redesigned as they inhabit them.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune system is raising the temperature and trying to burn us out.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Personifies the 'immune system' with a hostile, destructive intent towards humanity within the narrative's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "raising the temperature. It is trying to burn us out.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Threatening, visceral imagery of destruction and elimination.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune system is attempting to eliminate humans.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fever is rising. The timeline is shaking.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Figurative statements about the escalating crisis and instability of reality, part of the lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fracture may be fusing your memories to a timeline that no longer exists.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A central premise of the documentary's lore, explaining the cause of perceived reality shifts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fracture is actively corrupting or altering memories by linking them to a non-existent timeline.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "For a century, the universe tried to heal the wound by burning out the infection sites.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a long-standing, active force within the documentary's fictional universe.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infection sites were the labs, the towers, the ships.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific examples of targets within the documentary's fictional conflict.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infection is no longer in a building. It is in us.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "The narrator's understanding and belief about the current state and location of the 'infection'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe actively combated the infection by destroying specific locations.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infection has relocated and now resides within humanity.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Humanity carries the infection, implying a close, perhaps unintentional, co-existence.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune system is now actively targeting human memories.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Memories serve as the last connection or anchor for the Tesla timeline to reality.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The term Mandela Effect was coined by Fiona Broome in two thousand ten.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable fact about the origin of the term in the real world.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fiona Broome discovered thousands of strangers shared her false memory of Nelson Mandela dying in prison in the nineteen eighties.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Describes the real-world event that led to the coining of the 'Mandela Effect' term.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We treat Mandela Effects as trivia. We laugh about how we all misremembered the name of a children's book or the logo of a clothing brand.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the common, casual societal perception and reaction to Mandela Effects.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fiona Broome is credited with coining the term 'Mandela Effect'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "forensic evidence of memory",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a metaphor from crime investigation to describe examining memories, implying scrutiny.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If memory were simply a fading photograph, the errors would be random.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A simile comparing memory to a photograph, illustrating how errors would appear under a different premise.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fruit of the Loom logo.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A real-world brand and its logo are used as a factual reference point for a Mandela Effect.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Close your eyes. Visualize the logo of the clothing brand Fruit of the Loom. The apple. The purple grapes. The green leaves. And behind them, framing the fruit, a brown wicker basket. A cornucopia. The horn of plenty. The image isn't just visual. It's tactile. The texture of the weave. The way the tip curved upward to the left. A six-year-old asking a mother, What is that basket called? The word cornucopia, learned specifically because of that label scratching the back of the neck.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This detailed, multi-sensory description evokes a commonly shared false memory, which the narrative attributes to a 'character state' of collective experience within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "label scratching the back of the neck",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Tactile imagery used to describe a specific, remembered sensory detail associated with the Fruit of the Loom logo.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fruit of the Loom has patents going back to the early nineteen hundreds. Just fruit. No basket.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable claim about the company's historical records, supporting their statement about the logo.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "So where did the basket come from?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A direct question highlighting the unexplained origin of the shared false memory.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Or are you looking at a phantom limb of a world that was amputated?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A profound question suggesting a lost reality, left for the audience to ponder.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Imagine a piece of film that has been shot twice. The strong image, the current reality, shows only fruit. But the weak image, the residue of the timeline that was overwritten, shows the basket.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "An extended metaphor using film analogy to explain the coexistence of different realities or memories.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The residue of the timeline that was overwritten, shows the basket.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Provides a lore-based explanation for the existence of the remembered cornucopia, linking it to an erased timeline.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The brain accurately retains memories of a former, now-deleted world.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It isn't just logos. It is the fundamental constants of matter.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Expands the scope of the reality changes from cultural artifacts to the very fabric of physical existence in the lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "National Bureau of Standards, nineteen fifty-four.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A real historical institution and year, providing a touchstone for the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "standard atomic weight of copper.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A real scientific concept, grounding the fictional 'drift' in a recognizable scientific context.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In nineteen fifty-four, researchers noted a drift: Samples of copper were weighing slightly less than they should, by zero point zero zero zero four percent.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While a historical observation might exist, the specific interpretation of this as a 'drift' caused by timeline shifts (rather than measurement error) firmly places it within the documentary's lore.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They blamed the equipment. They blamed impurities. They adjusted the scales.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the historical human response and rationalizations for the observed anomaly, contrasting with the lore's true explanation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But what if the copper didn't change? What if the standard changed?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Questions challenging the conventional explanation and hinting at a deeper, lore-driven cause.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the universe is trying to revert to a Healthy timeline, and the physics of that timeline are slightly different (e.g., gravity is slightly lighter, electron spin is slightly faster), then our physical reality will begin to drift.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Outlines the mechanics of how timeline reversion causes observable physical changes within the documentary's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The current physical reality's laws are incompatible with those of the 'Healthy timeline', causing a drift.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.7,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "This is the most terrifying symptom of the immune response.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "The narrator's subjective assessment of the severity and nature of the bodily changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The anatomy of the human being is being retconned.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A key lore concept describing the active, systematic alteration of human physiology.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune response is causing a forceful alteration of human anatomy.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In another reality that IS where your kidneys are. That is why boxers are taught to protect the kidney punch. That is why you feel a dull ache there when you are dehydrated.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Evokes a shared, lingering physical memory of kidney placement, attributing it to a 'past reality' within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In another reality that IS where your kidneys are.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Establishes a past or alternate reality where kidney anatomy was different, as a tenet of the lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Boxers are taught to protect the kidney punch.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A real-world fact about boxing, used to support the idea of kidneys historically being in a different location.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The kidneys are not in the lower back. They are high up. They are tucked underneath the ribcage. They are almost touching the lungs.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Accurate, verifiable anatomical facts about the current human kidney location.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Medical textbooks show diagrams from the eighteen hundreds with kidneys under the ribs.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "A verifiable claim about historical medical documentation, used to counter the 'phantom sensation' argument.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Doctors insist they have always been there.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the unwavering current medical consensus regarding kidney placement.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But does it feel right?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A question inviting the audience to introspect on their own bodily sensations versus current medical facts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Or is there a phantom sensation? The ghost of an organ that used to be there, before the reconstruction moved it?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "Questions suggesting a lingering awareness of former anatomy, implying an unseen process of change.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "phantom sensation",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor describing a felt but non-existent physical presence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "ghost of an organ",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor personifying the residual memory of a lost organ.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "before the reconstruction moved it?",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Implies an active, deliberate process of anatomical rearrangement within the lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The heart is moving. The stomach is shifting. The ocular ridge of the skull is becoming more pronounced.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific, ongoing anatomical changes described as part of the documentary's lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are not just misremembering the world.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "The narrator's denial of a simple explanation for the observed changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are inhabiting bodies that are being redesigned while we are still living in them.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A profound statement about the human condition within the documentary's fictional reality, where bodies are actively changing.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Humans exist within bodies that are undergoing redesign, implying a dynamic and involuntary relationship.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An external force is actively and forcibly altering human bodies.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune system is raising the temperature. It is trying to burn us out.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Extends the metaphor of the universe's 'immune system' and its destructive intent towards humanity in the lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune system is attempting to eliminate humanity.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fever is rising.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor describing the escalating intensity of the 'immune response' or crisis.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The timeline is shaking.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor indicating instability and upheaval of reality itself.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The fracture has moved from the physical to the cognitive, no longer fusing sailors to bulkheads but potentially fusing memories to a non-existent timeline.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes a central, speculative concept of the documentary's lore, framing a 'fracture' with specific, fictional impacts on reality and memory.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "For a century, the universe tried to heal the wound by burning out infection sites like labs, towers, and ships.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This details a specific, century-long historical event within the documentary's fictional universe, involving the 'universe' acting as an entity against 'infection sites'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infection is now in humans, who are the carriers, rather than in buildings.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This establishes a key plot point: the 'infection' has shifted its host, directly implicating humanity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "An immune system has begun to attack human memories, which are the last anchors of the Tesla timeline to reality.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This introduces a personified 'immune system' and the concept of a 'Tesla timeline' being actively undermined through memory manipulation, a core lore mechanism.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The term 'Mandela Effects' was coined by Fiona Broome in 2010.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable historical detail about the origin of a widely recognized cultural phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Thousands of strangers shared Fiona Broome's false memory of Nelson Mandela dying in prison in the 1980s.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This describes the foundational event and observation that led to the coining of the 'Mandela Effect' term, which is historically documented.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We treat Mandela Effects as trivia and laugh about misremembered details like book names or brand logos.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes a collective human attitude and behavior towards Mandela Effects, reflecting a shared subjective experience or interpretation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The brain is accurate; it remembers a world that was deleted.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This offers a specific, non-scientific, in-universe explanation for shared false memories, positing that they are not errors but accurate recollections of a past, deleted reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Mandela Effects are explained as a 'phantom limb of a world that was amputated,' a weak residue of an overwritten timeline showing the basket in the Fruit of the Loom logo, while the current reality is the 'strong image' showing only fruit.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This provides a specific, metaphorical, and fictional explanation for the Mandela Effect phenomenon within the series' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The tactile memory of the cornucopia in the Fruit of the Loom logo, including its weave texture, curve, and learning the word 'cornucopia' from the label.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This is a highly personal and vivid subjective memory described by the narrator, indicating a strong individual experience of the Mandela Effect.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fruit of the Loom officially states their logo has never featured a cornucopia, with patents going back to the early 1900s showing only fruit.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is presented as verifiable corporate history, contrasting with widespread public memory.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Where did the cornucopia basket come from in the Fruit of the Loom logo?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a direct question posed in the text, highlighting an unexplained phenomenon within the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Are we looking at a phantom limb of a world that was amputated?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a speculative question posed to the audience, suggesting a deeper, lore-based explanation for Mandela Effects.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'deletion' of realities is getting sloppy, affecting not only logos but also the fundamental constants of matter.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This indicates an escalation and expansion of the lore's central phenomenon (timeline alteration) to a more fundamental level.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In 1954, the National Bureau of Standards observed a drift in the standard atomic weight of copper, with samples weighing slightly less by 0.0004 percent.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This refers to a specific, historical scientific observation and institution, providing a factual anchor for the subsequent lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Researchers in 1954 blamed equipment or impurities and adjusted scales to explain the copper weight drift.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the actions and initial interpretations of the researchers, reflecting their subjective understanding of an anomaly.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What if the copper didn't change, but the standard itself changed?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This question challenges the conventional explanation for the copper weight drift, hinting at a lore-based alternative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the universe is trying to revert to a 'Healthy timeline' with slightly different physics (lighter gravity, faster electron spin), our physical reality will drift.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This outlines a hypothetical, lore-driven mechanism for observable physical changes, tying them to a cosmic 'healing' process.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The drift is observable in human bodies, as the 'most terrifying symptom of the immune response,' leading to the 'retconning' of human anatomy.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This extends the lore of physical drift to human biology, framing it as a direct consequence of the 'immune response' and using the term 'retconned' to describe the alteration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "In 'another reality,' kidneys are located in the lower back, explaining why boxers protect the kidney punch and why dehydration causes a dull ache there.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This posits an alternate reality where human anatomy is different, providing a lore-based explanation for common intuitions or past knowledge about kidney placement.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Doctors insist kidneys have always been under the ribcage, and medical textbooks from the 1800s show diagrams with kidneys in that location.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This presents the current, verifiable medical consensus and historical evidence from textbooks, setting up a contrast with the 'phantom sensation'.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Does the current kidney location 'feel right,' or is there a 'phantom sensation,' the 'ghost of an organ' that used to be there before reconstruction moved it?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This question directly engages the audience's subjective experience, prompting them to consider the lore's explanation of anatomical changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Humans are inhabiting bodies being redesigned while still living in them, as the 'immune system' raises the temperature, trying to 'burn us out,' causing the 'fever' to rise and the 'timeline' to shake.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This summarizes the dire, ongoing situation where human bodies are actively changing due to a hostile 'immune system,' using vivid metaphorical language.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "fusing your memories to a timeline that no longer exists",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Abstract yet powerful imagery, linking a physical process (fusing) to cognitive and temporal concepts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "memory were simply a fading photograph",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Evocative metaphor describing memory as a fragile, degrading physical object.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Millions of people... share the exact same specific, detailed hallucination.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Contradictory and unsettling phrase, highlighting the shared, yet false, nature of the memories.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The strong image, the current reality, shows only fruit. But the weak image, the residue of the timeline that was overwritten, shows the basket.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Visual metaphor comparing realities to overlaid film negatives, with different strengths and clarity.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "physical reality will begin to drift.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Subtle yet unsettling image of fundamental constants losing their stability.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "anatomy of the human being is being retconned.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses a meta-narrative term ('retconned') to describe a biological process, adding an unsettling, artificial quality to the changes.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "phantom sensation? The ghost of an organ that used to be there, before the reconstruction moved it?",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Evocative, almost supernatural imagery applied to a physical sensation, linking it to a past, altered reality.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The immune system is raising the temperature. It is trying to burn us out. The fever is rising. The timeline is shaking.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Extended metaphor of a body fighting an infection (fever, burning out), applied to the universe and timeline, indicating escalating crisis.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A conceptual 'fracture' is being investigated for its current domain, shifting from physical effects to cognitive ones.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe has engaged in a century-long hostile action to eliminate a 'wound' or 'infection'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The infection now resides within humanity, making humans its carriers.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fiona Broome coined the term 'Mandela Effects' in 2010.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Millions of people globally share identical false memories or 'hallucinations'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Fruit of the Loom's corporate history actively contradicts the widespread memory of a cornucopia in their logo.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Physical reality is fundamentally influenced by constants like gravity and electron spin, which are now hypothesized to be changing.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A cosmic 'immune response' is actively hostile, causing the anatomy of human beings to be 'retconned'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The perceived location of human kidneys has shifted between 'another reality' (lower back) and the current one (under ribcage).",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'immune system' is depicted as a hostile force attempting to eliminate humanity through a 'fever'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:05:42.600130",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

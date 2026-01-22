@@ -1,0 +1,214 @@
+{
+  "episode": 2,
+  "chunk_index": 4,
+  "extractions": [
+    {
+      "content_type": "historical_fact",
+      "text": "Milutin Tesla was a priest.",
+      "reasoning": "Verifiable historical fact about Nikola Tesla's father.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The light above the valley was not a glow. It was a curtain???heavy velvet the color of venous blood, draped from the zenith to the mountains.",
+      "reasoning": "A central visual metaphor describing the sky's appearance, with strong evocative color and texture.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "Was he watching the planet's defenses try to close a wound? Was the grid a net???and the net was failing?",
+      "reasoning": "These are direct questions posed by the narrative, explicitly designed to create intrigue and remain unanswered at this point.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The beam cut through the red fog of the yard like a scalpel through the swollen meat of a wound. A column of light harsher than any noon was drilling into the roof???clinical, probing, the radiance of an examination lamp focused on a single point of interest. He dropped to the grass???the impact jarring his teeth, the ground brittle beneath him as if the earth itself had been dehydrated.",
+      "reasoning": "Multiple strong sensory details: visual (cutting beam), tactile (jarring teeth, brittle ground), and a vivid simile for the light's action.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The iron latch on the front door seared his palm even through the hem of his nightshirt. The skin blistered, but he didn't cry out. He twisted the handle and kicked the door open.",
+      "reasoning": "Visceral tactile descriptions of pain and physical action.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "baking under an invisible noon sun, though the hour was closer to midnight.",
+      "reasoning": "Combines tactile (baking) and temporal (midnight/noon sun) descriptions.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "His stomach growled.",
+      "reasoning": "A specific auditory sensation from within the character.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "voice that cracked and broke like kindling.",
+      "reasoning": "A simile providing a specific auditory and textural description of Milutin's voice.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The red light passed through his skin. His fingers had gone translucent. He could see the dark architecture of his bones, the black web of veins branching beneath the surface. The blood moving through those vessels had slowed. He could feel it???thick, reluctant, dragging through his veins like syrup through a straw.",
+      "reasoning": "Specific visual (translucent skin, visible bones/veins) and tactile/internal sensations (slowed, thick blood).",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "Heat pressed down on him. Not the warmth of fire???this was dry, penetrating, a heat that started in his marrow and radiated outward through the muscle.",
+      "reasoning": "Detailed tactile and internal bodily sensations.",
+      "confidence": 0.95,
+      "agreement": "3/3",
+      "votes_for": 3,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Milutin Tesla",
+      "relationship_type": "witness",
+      "direction": "a_to_b",
+      "temporal_context": "During the sky phenomenon",
+      "evidence": "Dane watched his father weep.",
+      "text": "Dane observes his father weeping in distress during the sky phenomenon.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "White Light",
+      "entity_b": "Dane's Brother's Nursery",
+      "relationship_type": "antagonist",
+      "direction": "a_to_b",
+      "temporal_context": "At the climax of the mysterious event",
+      "evidence": "The nursery was glowing... A column of light harsher than any noon was drilling into the roof???clinical, probing, the radiance of an examination lamp focused on a single point of interest... drilling into his brother's nursery.",
+      "text": "A clinical, powerful white light is intensely focused on and impacting Dane's brother's nursery, causing dehydration.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "character_state",
+      "text": "Dane had skipped supper due to excitement about the red sky.",
+      "reasoning": "Explains Dane's past action and emotional motivation.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "If this was ever over.",
+      "reasoning": "An implicit question posed by the narrative about the duration and outcome of the event.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "Dane",
+      "entity_b": "Milutin Tesla",
+      "relationship_type": "family",
+      "direction": "symmetric",
+      "temporal_context": "During the crisis",
+      "evidence": "Below, in the yard, his father knelt in the dirt. Milutin Tesla was a priest.",
+      "text": "Milutin Tesla is Dane's father.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "Dane was being cooked.",
+      "reasoning": "A concise, powerful metaphor for the internal heat he is experiencing.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The nursery was glowing. But not red. The light pouring from that window was white. Blinding, clinical white???the color of an operating theater, the color of a laboratory lamp focused on a specimen.",
+      "reasoning": "Intense visual descriptions of the white light and its metaphorical comparisons.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "Blinding, clinical white???the color of an operating theater, the color of a laboratory lamp focused on a specimen.",
+      "reasoning": "A set of similes that define the sterile, intense, and investigative nature of the white light.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 4
+    }
+  ],
+  "needs_opus_review": 97,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-04-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:26.756559",
+  "stored_at": "2026-01-22T14:26:56.478942",
+  "v3_stats": {
+    "stored": 17,
+    "skipped": 0,
+    "merged": 1,
+    "flagged": 0,
+    "error": 0
+  }
+}

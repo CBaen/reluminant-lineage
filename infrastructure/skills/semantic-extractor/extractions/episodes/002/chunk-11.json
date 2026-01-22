@@ -1,0 +1,109 @@
+{
+  "episode": 2,
+  "chunk_index": 11,
+  "extractions": [
+    {
+      "content_type": "lore_fact",
+      "text": "George Bliss's employee file survives in the archives of the Western Union Telegraph Company.",
+      "reasoning": "Presented as a verifiable fact within the documentary's narrative for the fictional character.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "George Bliss's medical records were transferred to the pension office when he applied for disability, and his application was denied.",
+      "reasoning": "Details about the fictional George Bliss's interactions with a historical institution, central to his personal story in the lore.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The letter was rediscovered in nineteen seventy-four.",
+      "reasoning": "A specific date for the rediscovery of a lore-specific document.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "character_state",
+      "text": "Telegraph operators developed palsy in their sending hands.",
+      "reasoning": "A reported symptom and subjective physical experience of other affected characters.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "proposed_question",
+      "text": "What does the telegraph tape prove?",
+      "reasoning": "A direct question posed by the narrator, intentionally left unanswered to build narrative intrigue and suggest deeper implications.",
+      "confidence": 0.85,
+      "agreement": "3/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The sky was not simply hemorrhaging light; it was speaking.",
+      "reasoning": "Personification of the sky, implying intentional communication rather than a passive natural phenomenon.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "George Bliss",
+      "entity_b": "Western Union Telegraph Company",
+      "relationship_type": "employee",
+      "direction": "a_to_b",
+      "temporal_context": "Before 1861",
+      "evidence": "His employee file survives in the archives of the Western Union Telegraph Company.",
+      "text": "George Bliss was an employee of the Western Union Telegraph Company.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    },
+    {
+      "content_type": "relationship",
+      "entity_a": "George Bliss",
+      "entity_b": "Pension Board",
+      "relationship_type": "hostile",
+      "direction": "b_to_a",
+      "temporal_context": "When he applied for disability",
+      "evidence": "The application was denied... The pension board rejected his claim. They said burns heal. They said sensation returns. They said he was malingering.",
+      "text": "The Pension Board rejects George Bliss's disability claim, misunderstanding his condition and accusing him of malingering.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 11
+    }
+  ],
+  "needs_opus_review": 120,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-11-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:28.014261",
+  "stored_at": "2026-01-22T14:31:35.351763",
+  "v3_stats": {
+    "stored": 8,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

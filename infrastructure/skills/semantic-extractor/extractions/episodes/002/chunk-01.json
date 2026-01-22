@@ -1,0 +1,189 @@
+{
+  "episode": 2,
+  "chunk_index": 1,
+  "extractions": [
+    {
+      "content_type": "used_sensory_language",
+      "text": "The light on the floorboards had turned violet.",
+      "reasoning": "A specific visual description of an unusual color in the environment.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The surge came down the wire like a fist.",
+      "reasoning": "A powerful simile conveying the force and suddenness of the electrical surge.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "cracked the brass arm against the anvil with the sound of a pistol shot.",
+      "reasoning": "An auditory description, comparing the sound to a pistol shot.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "His arm locked. The current seized the muscles in his forearm and clamped his fingers around the key. He couldn't let go. His teeth rattled. The bones in his wrist vibrated like a struck tuning fork. Bliss threw his weight backward. The chair toppled. His hand ripped free. He lay on the floor, gasping.",
+      "reasoning": "Describes Bliss's involuntary physical reactions, struggle, and immediate aftermath of the electrical shock.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "The bones in his wrist vibrated like a struck tuning fork.",
+      "reasoning": "A vivid simile conveying the intense physical sensation Bliss experienced.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "His thumb throbbed???not with the fading ache of a burn, but with the persistent pressure of occupation. As if the spark hadn't just damaged the skin. As if it had moved in. He could feel it settling behind the wound???cold, deliberate, making itself at home in tissue that didn't belong to it.",
+      "reasoning": "Describes Bliss's subjective and unusual sensation in his thumb, suggesting a deeper, more invasive injury than a simple burn.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "The telegraph should have been dead. He had disconnected the batteries. The leads hung loose on the floor. The circuit gaped open, wires dangling like severed arteries.",
+      "reasoning": "Describes Bliss's logical deduction and observation that the telegraph should be inoperable, setting up the subsequent mystery.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "used_imagery",
+      "text": "wires dangling like severed arteries.",
+      "reasoning": "A morbid simile that emphasizes the disconnection and implies a life-force draining from the machine.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "Bliss pushed himself up. The hair on his arms rose. The air around the desk had weight. It pushed back against him???not wind, not pressure, but resistance. The atmosphere had thickened into something that didn't want to be walked through.",
+      "reasoning": "Describes Bliss's physical and sensory experience of an oppressive, almost sentient atmosphere.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "used_sensory_language",
+      "text": "The sounder began to hammer. Not Morse code. Not letters or numbers. A pulse. A rhythm. Three strikes, pause. Three strikes, pause.",
+      "reasoning": "Auditory descriptions of the telegraph's abnormal operation, emphasizing its rhythmic, non-communicative sounds.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "Bliss looked at the paper register. The stylus should have been pressing dots and dashes into the tape, compressing the fibers without breaking them. The stylus was glowing cherry red. It wasn't pressing. It was branding. The tip wasn't pressing anymore. It was eating. Each strike devoured the fiber beneath it, leaving craters rimmed with ash.",
+      "reasoning": "Describes Bliss's observation of the stylus's destructive, anomalous behavior, and his realization of its unnatural action.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The stylus was glowing cherry red. It wasn't pressing. It was branding. The tip wasn't pressing anymore. It was eating. Each strike devoured the fiber beneath it, leaving craters rimmed with ash.",
+      "reasoning": "This describes the stylus performing actions physically impossible for a normal telegraph, indicating a supernatural or lore-based transformation and intent.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "Bliss wrapped his coat around his hand and grabbed the key. The heat radiated through the wool, but he held on. He tapped out a message to Portland.",
+      "reasoning": "Describes Bliss's determined and courageous action despite his injury and the danger.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "Bliss stepped back from the desk. His hand throbbed. The burn on his thumb had already sealed itself???the heat so intense it had cauterized the wound before blood could flow.",
+      "reasoning": "Describes Bliss's physical reaction and observation of his unnaturally healed wound, highlighting the extreme nature of the event.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "lore_fact",
+      "text": "The burn on his thumb had already sealed itself???the heat so intense it had cauterized the wound before blood could flow.",
+      "reasoning": "This describes a healing process that is physically impossible for a normal human burn, attributing supernatural or lore-based effects to the incident.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "character_state",
+      "text": "He crossed to the window and looked out. The sky over Boston was not blue. A curtain of red fire hung from the zenith to the horizon. It rippled like heavy fabric in a draft. The color was wrong???not the amber of sunset, not the soft rose of dawn. This was arterial red. The red of something opened. The aurora borealis. But it wasn't in the north. It was directly overhead, and it was throbbing.",
+      "reasoning": "Describes Bliss's observation of the sky and his reaction to its anomalous and frightening appearance.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    },
+    {
+      "content_type": "revelation",
+      "text": "The aurora borealis. But it wasn't in the north. It was directly overhead, and it was throbbing.",
+      "reasoning": "The appearance of the aurora borealis in an impossible location and with unnatural characteristics is a major revelation, indicating a global and profound anomaly.",
+      "confidence": 0.85,
+      "agreement": "2/3",
+      "votes_for": 2,
+      "episode_number": 2,
+      "chunk_index": 1
+    }
+  ],
+  "needs_opus_review": 65,
+  "disagreed_items": [],
+  "review_file": "C:\\Users\\baenb\\.claude\\skills\\semantic-extractor\\extractions\\episodes\\002\\chunk-01-needs-review.json",
+  "stored_to_qdrant": true,
+  "saved_at": "2026-01-22T14:24:26.189944",
+  "stored_at": "2026-01-22T14:24:53.418974",
+  "v3_stats": {
+    "stored": 17,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}

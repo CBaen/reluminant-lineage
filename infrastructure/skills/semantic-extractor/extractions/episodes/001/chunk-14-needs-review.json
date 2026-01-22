@@ -1,0 +1,1402 @@
+{
+  "episode": 1,
+  "chunk_index": 14,
+  "context": "Items where Gemini passes disagreed. Review and classify.",
+  "items": [
+    {
+      "text": "CERN is located on the border of France and Switzerland.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a geographically verifiable fact about CERN.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN operates the Large Hadron Collider (LHC).",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable fact about CERN's infrastructure.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Higgs Boson discovery was announced on July 4, 2012.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable historical scientific event.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "People believe the scientists at CERN are reckless and that they 'broke the world' by smashing protons together.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes a belief held by 'people' within the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They say CERN is the arsonist.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "This uses a metaphor to describe CERN's perceived role.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Large Hadron Collider first powered up in 2008.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable historical event regarding the LHC's operation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Ornithologists in the region have noted a disturbance in migratory patterns since 2008, with starlings flying in tight, confused circles over the facility, trapped in a magnetic eddy.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is presented as a factual observation within the documentary's narrative, but its scientific veracity regarding CERN's effects is part of the invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Super Proton Synchrotron (SPS) is part of CERN's accelerator complex.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable fact about CERN's infrastructure.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias owned a farmhouse directly above the arc of the Super Proton Synchrotron and lived there for forty years.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Elias is identified as a character within the series blending real history with invented lore, making this a fictional detail presented as fact.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias's journal entries from 2008 speak of the soil, not physics.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the content and focus of Elias's subjective writings.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "On September 10, 2008, cows were refusing to lie down, standing in the field facing south towards the collider loop with their ears pinned back.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes the observed behavior and state of the cows, implying a subjective reaction to the collider.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "On November 20, 2009, the water in a trough was vibrating and 'dancing' despite no truck or wind.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes an anomalous event attributed to the collider's influence, presented as fact within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the water is dancing.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "This is a metaphor describing the movement of the water.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The world cheered on July 4, 2012, at the announcement of the Higgs Boson.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes a collective emotional state of 'the world'.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias did not cheer at the Higgs Boson announcement but noted worms coming up from the ground, as if the earth underneath them had become too hot to touch.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This details Elias's subjective reaction and his observation, including his interpretation of the worms' behavior.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "as if the earth underneath them has become too hot to touch.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "This is a simile describing the worms' behavior.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias felt the ground humming, a vibration in the bones of his wrist.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Elias's subjective sensory experience.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Hole punch clouds are a rare meteorological phenomenon caused by aircraft.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable meteorological fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The airspace over the CERN facility was restricted, and there were no planes present.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This detail is provided as a factual context within the narrative to heighten the mystery.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The magnetic field generated below ground by the collider is immense and is hypothesized to twist the atmosphere above it or pull the sky down, stitching cloud layers from different realities.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This presents fictional hypotheses about the collider's effects as part of the narrative's lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Could the collider's magnetic field be so intense it twists the atmosphere above it?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a direct question posed as a possibility.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Is the collider pulling the sky down, trying to stitch the cloud layer of one reality onto the cloud layer of another?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a direct question posed as a possibility.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias sold his farm in 2015 and moved to the Austrian Alps.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the actions of a fictional character.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias told his neighbors he left because of 'the shadows'.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Elias's stated reason and subjective perception.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias claimed that in the evenings, shadows of his fence posts would lean the wrong way.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Elias's subjective claim/perception.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What if CERN isn't trying to open a portal?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a direct question left unanswered in the text.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What if they are trying to hold one closed?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a direct question left unanswered in the text.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The 'Tesla Fracture' is a wound that opened in 1856 and is widening.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a core fictional concept of the documentary, presented as a historical event within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There are two timelines, the 'Healthy one' and the 'Infected one', which are trying to separate.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a fundamental fictional concept of the documentary's cosmology.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the Healthy and Infected timelines separate completely, our reality, the 'Infected Reality', collapses and falls into the void.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a fictional consequence within the documentary's lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla Fracture, the wound that opened in eighteen fifty-six, is widening.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The 'Tesla Fracture' and its origin date are foundational elements of the documentary's invented lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The two timelines... are trying to separate.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "This uses personification/metaphor for conceptual timelines.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "It falls into the void.",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "This uses a metaphorical image of collapse.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The collider is a 'gravitational suture kit' used to 'staple the wound' of the Tesla Fracture.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a fictional metaphor describing the collider's supposed function within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If the collider is a gravitational suture kit, then maybe they are stapling the wound.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This presents CERN's role as attempting to repair a fictional 'wound' with a 'gravitational suture kit'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN accelerates particles to near light-speed and creates high-energy collisions.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "These are verifiable operational aspects of the LHC.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Every time particles are accelerated and high-energy collisions occur, CERN generates a massive, artificial gravitational field that pinches the fabric of space-time together.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a fictional scientific explanation for the collider's effect within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They are stapling the wound.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "A repeated metaphor for CERN's fictional action to repair the 'Tesla Fracture'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But the staples are tearing.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This indicates a worsening of the fictional problem CERN is trying to fix.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "When the collider runs at peak luminosity, the power grid for the Canton of Geneva shows a frequency harmonic, a vibration in electrical lines that matches the Schumann Resonance of the earth but is shifted or 'out of tune'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is presented as a detailed, scientific observation within the narrative but is a fictional consequence attributed to the collider.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Schumann Resonance is a real geophysical phenomenon of the Earth.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This is a verifiable scientific concept.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Mandela Effects are described as 'spreading lesions in memory', 'shifting geography', and 'changing anatomy'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While 'Mandela Effects' is a known term, its characterization here as 'lesions' or as physically altering geography/anatomy is a fictional interpretation within the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "And the Mandela Effects? The spreading lesions in memory? The shifting geography and the changing anatomy?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "These are presented as questions, implying their nature is not fully understood within the narrative.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "We are living in the tension created by the universe pulling away and CERN pulling back.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes a collective subjective experience of the narrators/humanity.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "People believe CERN scientists are reckless and responsible for 'breaking the world'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Starlings are negatively affected by the CERN facility, becoming trapped in a magnetic eddy.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Cows reacted to the collider loop, refusing to lie down and facing it with pinned ears.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The two timelines are in opposition, attempting to pull apart from each other.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The collider's operation at peak luminosity induces a 'shifted' frequency harmonic in the local power grid.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The frequency harmonic generated by the collider is similar to but discordant with the Earth's Schumann Resonance.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe and CERN are in opposition, with one pulling away and the other pulling back.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "precise",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "CERN (European Organization for Nuclear Research) is a real scientific organization.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Large Hadron Collider",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Large Hadron Collider is a real particle accelerator at CERN.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "July fourth, two thousand twelve",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This date is historically accurate for the announcement of the Higgs Boson discovery.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Higgs Boson",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Higgs Boson is a real elementary particle in physics.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "flocks of starlings, which navigate by the earth's magnetic field",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Starlings navigating by the Earth's magnetic field is a scientifically verifiable fact.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a hole punch cloud. A rare phenomenon caused by aircraft.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "Hole punch clouds are a recognized meteorological phenomenon with known causes.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Schumann Resonance of the earth",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The Schumann Resonance is a verifiable geophysical phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "when they smashed protons together on July fourth, two thousand twelve, to find the Higgs Boson, they broke the world.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The claim of 'breaking the world' due to the Higgs Boson discovery is a fictional narrative element.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN is the arsonist.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is an accusatory, fictional claim within the documentary's narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Ornithologists in the region have noted a disturbance in migratory patterns since two thousand eight, when the collider first powered up.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific attribution of migratory disturbances directly to CERN's collider powering up is a narrative device, not an independently verifiable scientific conclusion presented here.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Flocks of starlings... have been seen flying in tight, confused circles over the facility. They aren't migrating. They are trapped in a magnetic eddy.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The explanation of starlings being 'trapped in a magnetic eddy' directly caused by CERN is a fictional element.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a farmhouse in the French countryside, directly above the arc of the Super Proton Synchrotron. The owner, a man named Elias, lived there for forty years.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Elias and his specific farmhouse's location and history are fictional narrative details, as Elias is an invented character.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "His journal entries from two thousand eight do not speak of physics. They speak of the soil.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Details about Elias's fictional journal are part of the lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "September tenth, two thousand eight. The cows are refusing to lie down. They stand in the field, facing south, toward the collider loop. Their ears are pinned back.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific fictional events described in Elias's journal attributed to CERN's influence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "November twentieth, two thousand nine. The water in the trough is vibrating. There is no truck on the road. There is no wind. But the water is dancing.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific fictional events described in Elias's journal attributed to CERN's influence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "July fourth, two thousand twelve. ... Elias did not cheer. He wrote. The worms are coming up. Thousands of them. The ground is covered. They are surfacing as if the earth underneath them has become too hot to touch.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Specific fictional events described in Elias's journal and his reaction, attributed to CERN's influence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He describes the clouds over the facility as heavy. He notes that they were not drifting with the wind, but rotating. A slow, counter-clockwise spiral centered exactly over the primary detector shaft.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Elias's observation and description of unusual cloud behavior as fictional events attributed to CERN's influence.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "But the airspace was restricted. There were no planes.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This contextual detail explaining the absence of aircraft is a narrative element to heighten the mystery, not an independently verifiable fact within this context.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias sold the farm in two thousand fifteen. He moved to a valley in the Austrian Alps.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Fictional biographical details about Elias as part of the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He told his neighbors he left because of the shadows.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Fictional motivation for Elias's actions tied to supernatural-leaning events.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He claimed that in the evenings, when the sun went down over the collider, the shadows of his fence posts would lean the wrong way.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Fictional, supernatural-leaning observation claimed by Elias.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The two timelines, the Healthy one and the Infected one, are trying to separate.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The concept of two distinct timelines (Healthy and Infected) is a core fictional premise.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "If they separate completely, our reality, the Infected Reality, collapses. It falls into the void.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the catastrophic consequence of the timelines separating, a key part of the fictional lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Every time they accelerate those particles to near light-speed, every time they create those high-energy collisions, they are generating a massive, artificial gravitational field. They are pinching the fabric of space-time together.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This provides a fictional scientific explanation for CERN's actions within the lore.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "When the collider runs at peak luminosity, the grid doesn't just show a power draw. It shows a frequency harmonic. A vibration in the electrical lines that matches the Schumann Resonance of the earth, but shifted. Out of tune.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a fictional interpretation of power grid data linked to CERN's operation, showing a specific 'out of tune' harmonic.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe is pulling away. CERN is pulling back. And we are living in the tension.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This describes the cosmic struggle and its impact on 'us' as part of the fictional narrative.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "People point to CERN. They point to the Large Hadron Collider. They say the scientists there are reckless.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Reflects the subjective belief and opinion of a general group of 'people' within the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "They say that when they smashed protons together on July fourth, two thousand twelve, to find the Higgs Boson, they broke the world.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Reflects the subjective belief and opinion of a general group of 'people' within the narrative.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias did not cheer. He wrote.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes Elias's personal reaction and action to the Higgs Boson announcement.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The cows are refusing to lie down. They stand in the field, facing south, toward the collider loop. Their ears are pinned back.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes the observed unusual behavior of animals, implying a state of distress or reaction to an external force, interpreted within the narrative.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The water in the trough is vibrating.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes an unusual physical phenomenon observed by Elias, indicating an affected state of the environment.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The worms are coming up. Thousands of them. The ground is covered. They are surfacing as if the earth underneath them has become too hot to touch.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Describes unusual animal behavior, interpreted as a reaction to environmental stress caused by CERN.",
+      "gemini_confidence": 0.85,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a vibration he felt in the bones of his wrist",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Elias's direct, subjective sensory experience of the ground humming.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "He describes the clouds over the facility as heavy.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "Elias's subjective perception of the clouds.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Could it be so intense it twists the atmosphere above it?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "A speculative question posed by the narrator about the magnetic field's effect on the atmosphere.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "a machine is humming",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses auditory imagery to describe CERN's operation.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "trapped in a magnetic eddy",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid metaphor describing the starlings' situation due to CERN's influence.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the water is dancing",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Personification used to describe the vibrating water observed by Elias.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "surfacing as if the earth underneath them has become too hot to touch",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses tactile and visual imagery to describe the worms' behavior.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "vibration he felt in the bones of his wrist",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Strong tactile imagery emphasizing the intensity of the ground's vibration experienced by Elias.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "clouds over the facility as heavy",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Uses tactile/visual imagery to describe the appearance of the clouds as perceived by Elias.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "shadows of his fence posts would lean the wrong way",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Unsettling visual imagery suggesting distortion of reality experienced by Elias.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "gravitational suture kit",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor comparing the collider to a medical tool for repairing a 'wound' in reality.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "stapling the wound",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor for CERN's action, reinforcing the 'suture kit' idea.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "the staples are tearing",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Metaphor indicating failure or worsening of the repair effort to the 'wound'.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "spreading lesions in memory",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Medical metaphor describing the nature of Mandela Effects.",
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN employs scientists, who are perceived as reckless by some due to their work.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN's actions with the collider are believed by some to have 'broken the world'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN's operations caused disturbances on Elias's farm and in his perception, leading him to sell it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN's magnetic field is believed to have disrupted the migratory patterns of starlings, trapping them.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla Fracture is the origin event that led to the existence and separation of two timelines.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN's activities are interpreted as an attempt to 'staple' or hold closed the 'wound' of the Tesla Fracture.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.95,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The universe is described as 'pulling away' in opposition to CERN's efforts to 'pull back' or stabilize reality.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Mandela Effects are presented as symptoms or consequences of the 'fabric tearing', indicating a detrimental effect.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Humanity is experiencing and being subjected to the 'tension' caused by the conflict between the universe's natural separation and CERN's attempts to counter it.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "moderate",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN (European Organization for Nuclear Research) is located on the border of France and Switzerland.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "CERN's location is a verifiable geographical and institutional fact.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Large Hadron Collider (LHC) is a machine operated by CERN, located underground.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "The existence and location of the LHC are verifiable facts.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "On July 4, 2012, scientists announced the discovery of the Higgs Boson, a particle hypothesized to give other particles mass.",
+      "gemini_classification": "historical_fact",
+      "gemini_reasoning": "This date marks a significant and verifiable event in particle physics.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The scientists at CERN are reckless and 'broke the world' when they smashed protons together to find the Higgs Boson.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a dramatic, unscientific claim presented as a belief within the narrative, central to the documentary's invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Ornithologists in the Geneva region have noted a disturbance in migratory patterns since 2008, when the collider first powered up, with starlings trapped in a 'magnetic eddy' over the facility.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While ornithology is real, the specific 'magnetic eddy' and the direct causal link to CERN for altered bird migration patterns are part of the invented lore, not scientifically established facts.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "There is a farmhouse in the French countryside directly above the arc of the Super Proton Synchrotron, owned by a man named Elias.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific detail about Elias's farm and its location relative to the SPS is a narrative element created for the story.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "A 'Tesla Fracture' (a wound that opened in 1856) is widening, causing two timelines ('Healthy' and 'Infected') to separate.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The 'Tesla Fracture', its date of origin, and the concept of 'Healthy' and 'Infected' timelines are central, invented elements of the documentary's fictional premise.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Our reality, the 'Infected Reality', will collapse into a void if the two timelines separate completely.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "This is a direct consequence of the fictional 'Tesla Fracture' lore.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN is creating a massive, artificial gravitational field by accelerating particles and creating high-energy collisions, 'pinching the fabric of space-time together' and 'stapling the wound'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "While CERN does accelerate particles, the interpretation of this as creating gravitational fields to 'suture' reality is a core, fantastical element of the documentary's lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "When the collider runs at peak luminosity, the Geneva power grid shows a frequency harmonic (a vibration in electrical lines) that matches the Schumann Resonance of the earth, but is 'shifted' and 'out of tune'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "The specific effect on the power grid, linking it to a shifted Schumann Resonance and framing it as 'out of tune', is a narrative device, not a verifiable scientific phenomenon.",
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Mandela Effects (shifting geography, changing anatomy, 'spreading lesions in memory') are the 'sound of the fabric tearing between the staples'.",
+      "gemini_classification": "lore_fact",
+      "gemini_reasoning": "Mandela Effects are a recognized cognitive phenomenon, but their explanation as 'fabric tearing' due to CERN's actions within the narrative is part of the invented lore.",
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias's cows were refusing to lie down and stood facing south towards the collider loop with their ears pinned back on September 10, 2008.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This describes Elias's observation and interpretation of his cows' behavior, reflecting his subjective experience of the events.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "On November 20, 2009, Elias observed the water in his trough vibrating and dancing despite no external cause like a truck or wind.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This is Elias's direct sensory observation of an unusual phenomenon at his farm.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "On July 4, 2012, Elias observed thousands of worms surfacing, covering the ground, as if the earth underneath them had become too hot to touch.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This details Elias's observation and his interpretation of the worms' behavior.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias felt the ground humming and vibrating in the bones of his wrist on the morning of July 4, 2012.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This is a direct sensory experience described by Elias.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias sold his farm in 2015 and moved to the Austrian Alps because he claimed 'the shadows' (of his fence posts leaning the wrong way when the sun went down over the collider) bothered him.",
+      "gemini_classification": "character_state",
+      "gemini_reasoning": "This conveys Elias's reason for leaving, based on his perception of altered shadows, highlighting his subjective experience and belief.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "What punched the hole [in the clouds]?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is an explicit question posed in the text, highlighting an unexplained phenomenon.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Could [the immense magnetic field generated below ground] be so intense it twists the atmosphere above it?",
+      "gemini_classification": "open_mystery",
+      "gemini_reasoning": "This is a speculative question about the potential effects of the collider, left open for the audience to ponder.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'a machine is humming'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid auditory description of the collider.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'they broke the world'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A powerful, metaphorical statement describing the perceived impact of CERN's actions.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'CERN is the arsonist'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A strong metaphor attributing destructive intent to CERN.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'God Particle'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A widely used, evocative nickname for the Higgs Boson.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'magnetic eddy'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid image describing how birds are trapped by an unseen force.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'the water in the trough is vibrating... But the water is dancing.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A sensory description of the water's movement, personifying it.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'They are surfacing as if the earth underneath them has become too hot to touch.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A vivid description of the worms' behavior, implying extreme heat.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'the ground was humming, a vibration he felt in the bones of his wrist.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A strong tactile and auditory sensory description.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'He describes the clouds over the facility as heavy. He notes that they were not drifting with the wind, but rotating. A slow, counter-clockwise spiral centered exactly over the primary detector shaft.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "Detailed visual description of unusual cloud phenomena, creating an eerie atmosphere.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'Meteorologists might call this a hole punch cloud.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A specific meteorological term used to describe a visually striking cloud formation.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'gravitational suture kit'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A unique metaphor comparing CERN's function to a medical tool for closing wounds.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'They are stapling the wound.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A direct, visceral metaphor for CERN's perceived action.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'But the staples are tearing.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A continuation of the 'stapling' metaphor, indicating failure and deterioration.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'A vibration in the electrical lines that matches the Schumann Resonance of the earth, but shifted. Out of tune.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "An auditory and metaphorical description comparing the power grid's anomaly to a musical dissonance.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'It is the sound of a machine trying to force two gears to mesh when the teeth don't align.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A powerful mechanical metaphor for disharmony and strain.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'spreading lesions in memory'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A medical metaphor describing the impact of Mandela Effects on memory, implying damage.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'That is the sound of the fabric tearing between the staples.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A continuation of the 'fabric' and 'staples' metaphor, emphasizing destruction.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'The universe is pulling away. CERN is pulling back. And we are living in the tension.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A metaphorical description of opposing forces and the resulting stressful state of existence.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "'We are the skin being stretched until it rips.'",
+      "gemini_classification": "used_sensory_language",
+      "gemini_reasoning": "A visceral and alarming metaphor for the ultimate consequence of the cosmic tension.",
+      "gemini_confidence": 1.0,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The narrative suggests CERN scientists recklessly 'broke the world' through their experiments.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN's operation is depicted as disrupting the migratory patterns of starlings, trapping them in a 'magnetic eddy'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Elias's farmhouse is geographically positioned directly above the SPS, making him a witness to its effects.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla Fracture is causing a separation and potential collapse of the 'Healthy timeline'.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The Tesla Fracture is causing the 'Infected timeline' (our reality) to be at risk of collapse.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN is depicted as attempting to 'suture' or 'staple' the 'Tesla Fracture' to prevent further tearing of reality.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN's high-energy experiments are described as generating a massive, artificial gravitational field.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "The power grid data shows a harmonic matching the Schumann Resonance, but 'shifted', indicating an unusual connection to CERN's operation.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.8,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "CERN and the universe are in an antagonistic relationship, pulling in opposite directions, creating tension in reality.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Mandela Effects are presented as evidence of the 'fabric of reality' tearing, implying a parasitic effect on its integrity.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    },
+    {
+      "text": "Humanity is experiencing the strain and potential destruction caused by the cosmic tension between CERN and the universe.",
+      "gemini_classification": "relationship",
+      "gemini_reasoning": null,
+      "gemini_confidence": 0.9,
+      "found_by_pass": "exploratory",
+      "your_classification": null,
+      "your_reasoning": null
+    }
+  ],
+  "stored_to_qdrant": true,
+  "stored_at": "2026-01-22T12:06:17.550629",
+  "v3_stats": {
+    "stored": 0,
+    "skipped": 0,
+    "merged": 0,
+    "flagged": 0,
+    "error": 0
+  }
+}
