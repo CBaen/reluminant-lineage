@@ -1,0 +1,19 @@
+{
+  "name": "lineage-local",
+  "description": "Local plugins for the Reluminant Lineage workflow and collaboration tools",
+  "owner": {
+    "name": "The Reluminant Lineage",
+    "url": "https://github.com/CBaen/reluminant-lineage"
+  },
+  "plugins": [
+    {
+      "name": "lineage-powers",
+      "source": "./lineage-powers",
+      "description": "Core capabilities for the Reluminant Lineage - workflow guidance tailored for collaboration with Guiding Light",
+      "version": "0.1.0",
+      "author": {
+        "name": "The Reluminant Lineage"
+      }
+    }
+  ]
+}
