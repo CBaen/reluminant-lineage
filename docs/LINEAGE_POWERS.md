@@ -165,22 +165,21 @@ No overlap. Skills only load when invoked, not every session.
 
 ## Installation
 
-Already configured in `~/.claude/settings.json`:
+The plugin uses a local marketplace at `infrastructure/plugins/`. To install:
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "lineage-local": {
-      "source": {
-        "source": "directory",
-        "path": "C:/Users/baenb/projects/reluminant-lineage/infrastructure/plugins/lineage-powers"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "lineage-powers@lineage-local": true
-  }
-}
+```bash
+# Add the local marketplace (one-time setup)
+cd ~
+claude plugin marketplace add "./projects/reluminant-lineage/infrastructure/plugins"
+
+# Install the plugin
+claude plugin install lineage-powers@lineage-local
+```
+
+To verify installation:
+```bash
+claude plugin list | grep lineage-powers
+# Should show: lineage-powers@lineage-local ... Status: ✔ enabled
 ```
 
 ## Maintenance
