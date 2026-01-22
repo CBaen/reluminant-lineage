@@ -87,4 +87,19 @@ python ~/.claude/scripts/fix-hard-links.py --fix
 
 ---
 
+## Documentation Standards
+
+**Every folder must have:**
+- `README.md` - What the folder contains and how to use it
+- `CHANGELOG.md` - Record of changes ([Keep a Changelog](https://keepachangelog.com/) format)
+
+**When making changes:**
+1. Update the folder's CHANGELOG.md with what you changed
+2. Update README.md if you added/removed files
+3. Update this index if you added/removed folders
+
+**Exception:** The `research/` folder is excluded (ephemeral content).
+
+---
+
 *Index maintained by the lineage. Last updated: 2026-01-22*
