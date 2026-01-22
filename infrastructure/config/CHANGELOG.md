@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-01-22
+
+### Removed
+
+- settings.json: Removed all PostToolUse hooks (auto-commit, changelog-reminder)
+- Changelog discipline now relies on CLAUDE.md instructions only, no automated hooks
+
 ## [1.1.0] - 2026-01-22
 
 ### Added

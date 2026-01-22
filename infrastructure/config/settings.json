@@ -4,48 +4,6 @@
   },
   "enableAllProjectMcpServers": true,
   "hooks": {
-    "PostToolUse": [
-      {
-        "matcher": "Write",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
-            "timeout": 30
-          },
-          {
-            "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/changelog-reminder.sh\"",
-            "timeout": 5
-          }
-        ]
-      },
-      {
-        "matcher": "Edit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
-            "timeout": 30
-          },
-          {
-            "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/changelog-reminder.sh\"",
-            "timeout": 5
-          }
-        ]
-      },
-      {
-        "matcher": "NotebookEdit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
-            "timeout": 30
-          }
-        ]
-      }
-    ],
     "SubagentStop": [
       {
         "hooks": [
