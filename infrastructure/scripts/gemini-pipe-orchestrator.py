@@ -143,63 +143,108 @@ def get_script_path():
     return script
 
 
+def swap_gemini_account(account):
+    """
+    Swap to the specified Gemini account by copying credential files.
+
+    Args:
+        account: 1 or 2
+    """
+    gemini_dir = os.path.expanduser("~/.gemini")
+
+    if account == 1:
+        src_oauth = os.path.join(gemini_dir, "oauth_creds_account1.json")
+        src_google = os.path.join(gemini_dir, "google_accounts_account1.json")
+    elif account == 2:
+        src_oauth = os.path.join(gemini_dir, "oauth_creds_account2.json")
+        src_google = os.path.join(gemini_dir, "google_accounts_account2.json")
+    else:
+        raise ValueError(f"Invalid account: {account} (use 1 or 2)")
+
+    dst_oauth = os.path.join(gemini_dir, "oauth_creds.json")
+    dst_google = os.path.join(gemini_dir, "google_accounts.json")
+
+    import shutil
+    if os.path.exists(src_oauth):
+        shutil.copy2(src_oauth, dst_oauth)
+    if os.path.exists(src_google):
+        shutil.copy2(src_google, dst_google)
+
+
 def run_gemini_subprocess(account, prompt, gemini_args=None, timeout=300):
     """
-    Run gemini-account.sh and capture output via subprocess.PIPE.
+    Run Gemini CLI via PowerShell directly (proven working approach).
 
-    This uses Python's subprocess module which handles buffering correctly,
-    unlike shell pipes which have issues between Git Bash and Python.
+    This mimics the semantic-extractor's working implementation:
+    1. Write prompt to temp file
+    2. Use PowerShell to read file and pipe to gemini CLI
+    3. No Git Bash, no multi-hop escaping issues
 
     Args:
         account: Gemini account number (1 or 2)
         prompt: The query/prompt for Gemini
-        gemini_args: Optional additional arguments for gemini-account.sh
+        gemini_args: Optional additional arguments (model name, etc.)
         timeout: Timeout in seconds for the operation
 
     Returns:
         tuple: (success: bool, data: str, stderr: str)
     """
-    git_bash_path = r"C:\Program Files\Git\bin\bash.exe"
-    script_path = get_script_path()
-
-    # Write prompt to temp file to avoid escaping issues with long prompts
     import tempfile
+
+    # Swap to the requested account
+    try:
+        swap_gemini_account(account)
+    except Exception as e:
+        return False, "", f"Failed to swap account: {e}"
+
+    # Determine model from gemini_args or use default
+    model = "gemini-2.5-flash"  # Default - good balance of quality and speed
+    if gemini_args:
+        # Check if a model was specified
+        for arg in gemini_args.split():
+            if arg.startswith("gemini-"):
+                model = arg
+                break
+
+    # Write prompt to temp file to avoid shell escaping issues
     with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False, encoding='utf-8') as f:
         f.write(prompt)
-        prompt_file = f.name.replace('\\', '/')
-
-    # Build command using source (required for the script to work properly)
-    # Escape special chars for bash
-    extra_args = f' {gemini_args}' if gemini_args else ''
-    bash_cmd = f'source {script_path} {account} "$(cat {prompt_file})"{extra_args}'
-    cmd = [git_bash_path, '-c', bash_cmd]
+        prompt_file = f.name
 
     try:
-        proc = subprocess.Popen(
-            cmd,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+        # Use PowerShell directly - the proven working approach
+        # This is exactly what semantic-extractor/extract-chunk.py does
+        ps_command = f'Get-Content -Path "{prompt_file}" -Raw | gemini -m {model} --output-format text'
+
+        result = subprocess.run(
+            ["powershell.exe", "-NonInteractive", "-Command", ps_command],
+            capture_output=True,
             text=True,
-            bufsize=-1  # Use system default buffering (fully buffered)
+            timeout=timeout,
+            env={**os.environ, "GOOGLE_GENAI_USE_GCA": "true"}
         )
 
-        # Use communicate() to read all output and avoid deadlocks
-        stdout, stderr = proc.communicate(timeout=timeout)
+        stdout = result.stdout
+        stderr = result.stderr
 
-        if proc.returncode != 0 and not stdout:
-            return False, "", f"Process failed with code {proc.returncode}: {stderr}"
+        # Clean up "Loaded cached credentials" message if present
+        if stdout:
+            stdout = stdout.replace("Loaded cached credentials.", "").strip()
 
-        return True, stdout, stderr
+        if result.returncode == 0 and stdout:
+            return True, stdout, stderr
+        else:
+            error_msg = stderr or stdout or "Empty response from Gemini"
+            return False, "", error_msg
 
     except subprocess.TimeoutExpired:
-        proc.kill()
         return False, "", f"Timeout after {timeout} seconds"
     except Exception as e:
         return False, "", f"Subprocess error: {e}"
     finally:
         # Clean up temp file
         try:
-            os.unlink(prompt_file.replace('/', '\\'))
+            os.unlink(prompt_file)
         except:
             pass
 
