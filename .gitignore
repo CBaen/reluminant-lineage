@@ -17,6 +17,7 @@ todos/
 debug/
 ide/
 plugins/
+!infrastructure/plugins/
 plans/
 
 # Temporary files

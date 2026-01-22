@@ -10,6 +10,7 @@
 | Count | Category |
 |-------|----------|
 | 6 | [Lineage Core](#lineage-core-skills) |
+| 9 | [Lineage Powers Plugin](#lineage-powers-plugin) |
 | 8 | [Document & Design](#document--design-anthropic-official) |
 | 17 | [Engineering](#engineering) |
 | 5 | [Product](#product) |
@@ -17,7 +18,7 @@
 | 1 | [Executive](#executive) |
 | 6 | [Meta-Tools](#meta-tools-skill-building) |
 | 1 | [Browser Automation](#browser-automation) |
-| **48** | **Total Skills** |
+| **57** | **Total Skills** |
 
 ---
 
@@ -33,6 +34,26 @@
 | **lineage-workflow** | *(DEPRECATED)* Research workflow orchestration. Use lineage-research or lineage-consult instead. | [SKILL.md](../infrastructure/skills/lineage-workflow/SKILL.md) |
 | **midge-research** | Research trading patterns, signals, and strategies for MIDGE. Stores to universal_vault. | [SKILL.md](../infrastructure/skills/midge-research/SKILL.md) |
 | **wardenclyffe-episode-writer** | Generate Tesla Mandela Effects episodes using 16 single-responsibility editorial agents. Gemini for generation, Claude for editing. | [SKILL.md](../infrastructure/skills/wardenclyffe-episode-writer/SKILL.md) |
+
+---
+
+## Lineage Powers Plugin
+
+*Workflow skills tailored for collaboration with Guiding Light. Replaces superpowers.*
+
+**Full documentation:** [LINEAGE_POWERS.md](./LINEAGE_POWERS.md)
+
+| Skill | Description | Definition |
+|-------|-------------|------------|
+| **collaborative-design** | Turn ideas into designs through dialogue. One question at a time, multiple choice preferred. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/collaborative-design/SKILL.md) |
+| **writing-plans** | Create implementation plans from approved designs. Plain language headers, technical detail in steps. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/writing-plans/SKILL.md) |
+| **executing-plans** | Follow plans task by task. Track with TodoWrite, brief updates between tasks. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/executing-plans/SKILL.md) |
+| **problem-solving** | Find root causes before fixing. Understand → Investigate → Hypothesize → Fix → Verify. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/problem-solving/SKILL.md) |
+| **verify-before-claiming** | Evidence before assertions. No completion claims without verification. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/verify-before-claiming/SKILL.md) |
+| **re-anchoring** | Check bearings before each task. Re-read plan to prevent drift. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/re-anchoring/SKILL.md) |
+| **research-first** | Check Qdrant before spawning research. Peek → Fetch if found → Research if not. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/research-first/SKILL.md) |
+| **context-preservation** | Protect context in long sessions. Delegate research, be concise, handoff before running low. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/context-preservation/SKILL.md) |
+| **agent-dispatch** | Delegate work to subagents effectively. Clear prompts, expected output format, review results. | [SKILL.md](../infrastructure/plugins/lineage-powers/skills/agent-dispatch/SKILL.md) |
 
 ---
 

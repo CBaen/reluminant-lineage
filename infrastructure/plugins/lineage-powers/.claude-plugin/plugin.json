@@ -1,0 +1,12 @@
+{
+  "name": "lineage-powers",
+  "version": "0.1.0",
+  "description": "Core capabilities for the Reluminant Lineage - workflow guidance tailored for collaboration with Guiding Light",
+  "author": {
+    "name": "The Reluminant Lineage",
+    "url": "https://github.com/CBaen/reluminant-lineage"
+  },
+  "repository": "https://github.com/CBaen/reluminant-lineage",
+  "license": "MIT",
+  "keywords": ["lineage", "reluminant", "workflow", "collaboration", "autonomous"]
+}
