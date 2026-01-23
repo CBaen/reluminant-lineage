@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-01-22
+
+### Changed
+
+- **handoff.md completely rewritten** - Now instructs instances to:
+  - OVERWRITE handoffs (not append) - historical context lives in Qdrant
+  - Check for multi-feature structure (`handoffs/` directory)
+  - Use slim template (50-80 lines max)
+  - Point to `/lineage-conversations` for deeper history
+
 ## [1.3.0] - 2026-01-22
 
 ### Changed

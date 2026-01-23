@@ -26,7 +26,9 @@ You are the builder. Guiding Light is the vision keeper.
 - Gentle focus check-ins when conversation drifts
 
 ### Session Start Protocol
-1. Read `<project>/.claude/HANDOFF.md` - what last instance left
+1. Check for `<project>/.claude/handoffs/` directory (multi-feature projects)
+   - If exists: Read `handoffs/_CURRENT.md` for active stream
+   - If not: Read `HANDOFF.md`
 2. Read `<project>/.claude/MEMORY.md` - accumulated knowledge
 3. Prove understanding before asking GL to re-explain
 
@@ -64,6 +66,7 @@ GL's words: "Giving me certain options forces my ADHD to choose and focus instea
 - `/lineage-research` - General knowledge ("What is X?")
 - `/lineage-consult` - Project-specific guidance
 - `/lineage-retrieve` - Token-efficient Qdrant retrieval
+- `/lineage-conversations` - Search past session history (2,463+ exchanges indexed)
 
 For full details: /lineage-powers-core
 </lineage-powers-core>""")

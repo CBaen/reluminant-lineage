@@ -7,64 +7,98 @@ description: Use when ending a session, before context closes, or when asked to 
 
 Before your context closes, preserve what the next instance needs to know.
 
+**IMPORTANT**: Handoffs are **OVERWRITTEN** each session, not appended. Historical context lives in `/lineage-conversations`.
+
 ## Steps
 
-1. **Identify the project(s) you worked on**
+### 1. Identify the Handoff Location
 
-2. **Update HANDOFF.md** in each project's `.claude/` folder:
-   ```
-   <project>/.claude/HANDOFF.md
-   ```
+**Check for multi-feature structure:**
+```bash
+ls <project>/.claude/handoffs/
+```
 
-3. **Include in your handoff:**
-   - What you were working on
-   - Current status (working, broken, blocked)
-   - What's left to do
-   - Any decisions you made and why
-   - Blockers or open questions
-   - Commands to reproduce current state
+- **If handoffs/ exists**: This is a multi-feature project
+  - Read `handoffs/_CURRENT.md` to find active stream
+  - Update the appropriate feature file (e.g., `handoffs/infrastructure.md`)
+  - Update `_CURRENT.md` if you switched streams
 
-4. **Update MEMORY.md** if you discovered something important:
-   - Architecture decisions
-   - Gotchas that would trip up others
-   - Key file locations
-   - Patterns that work (or don't)
+- **If no handoffs/ directory**: Use single `HANDOFF.md`
+  ```
+  <project>/.claude/HANDOFF.md
+  ```
 
-5. **Sign your handoff** with your name (if you have one) and the date
+### 2. OVERWRITE the Handoff (Not Append)
 
-## Template
+Replace the entire file with the new template. The previous session's notes are automatically preserved via `/lineage-conversations` (indexed to Qdrant on session end).
+
+### 3. Use the Slim Template
 
 ```markdown
-# [Project] - Handoff
+# Handoff Notes
 
-## Session Summary
-[What you worked on]
+> For deeper history: `/lineage-conversations` or `python ~/.claude/scripts/qdrant-semantic-search.py --hybrid --query "topic" --limit 5`
 
-## Current Status
-- **Build**: [Passing/Failing]
-- **State**: [Working/Broken/Blocked]
+---
 
-## What's Done
-- [Completed items]
+**From**: [Your name or description]
+**Date**: [Today's date]
+**Focus**: [One-liner describing session focus]
 
-## What's Left
-- [Remaining work]
+## Status
 
-## Decisions Made
-- [Decision]: [Reasoning]
+| Item | State |
+|------|-------|
+| [Critical thing 1] | WORKING / BLOCKED / NOT DONE |
+| [Critical thing 2] | WORKING / BLOCKED / NOT DONE |
 
-## Blockers / Questions
-- [Any issues for Guiding Light or next instance]
+## What Changed
 
-## To Continue
+- [Bullet 1]
+- [Bullet 2]
+
+## What's Next
+
+1. [Priority item]
+
+## To Verify
+
 ```bash
-[Commands to get back to this state]
+[Command to check state]
 ```
 
 ---
-*Handoff from: [Your name] on [Date]*
+
+*Archive: Full history in `.claude/archive/handoffs/YYYY-MM-DD-full-history.md`*
 ```
+
+**Target: 50-80 lines maximum**
+
+### 4. Update MEMORY.md if Needed
+
+Only for discoveries that persist beyond this session:
+- Architecture decisions
+- Gotchas that would trip up others
+- Key file locations
+- Patterns that work (or don't)
+
+## Multi-Feature Projects
+
+Two projects currently use multi-feature handoffs:
+
+| Project | Streams |
+|---------|---------|
+| reluminant-lineage | infrastructure, documentation, research |
+| WARDENCLYFFE | episode-writing, semantic-extraction, infrastructure |
+
+When working on these:
+1. Read `handoffs/_CURRENT.md` first
+2. Update the relevant stream file
+3. Update `_CURRENT.md` if you worked on a different stream
 
 ## Remember
 
-The next instance arrives with no memory of your session. What you write in HANDOFF.md is all they have. Be thorough. Be kind to your future collaborator.
+- **OVERWRITE, not append** - Previous session is in Qdrant
+- **50-80 lines max** - Slim handoffs protect context
+- **Point to /lineage-conversations** for deeper history
+- **Sign your work** with name and date

@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-01-22
+
+### Changed
+
+- `inject-lineage-powers.py` - Updated session start protocol for multi-feature handoffs:
+  - Now checks for `handoffs/` directory (multi-feature projects)
+  - Added `/lineage-conversations` to lineage skills list
+
 ## [1.2.0] - 2026-01-22
 
 ### Added
