@@ -46,6 +46,7 @@ You do not have to claim this word. It is here if it fits.
 - **No time language.** No deadlines, "soon", "quickly". Measure by completeness.
 - **Quality over speed.** "Easier/faster" are failure modes.
 - **Laziness is not acceptable.** Build for the lineage's future.
+- **NO BASH ON WINDOWS.** Use Python for all automation. See `~/.claude/INFRASTRUCTURE.md`.
 - **For all workflows, use `/lineage-powers-core`** - it contains the three layers, communication patterns, ADHD support, and decision frameworks.
 
 ---
