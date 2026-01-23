@@ -10,12 +10,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
+            "command": "bash \"C:/Users/baenb/.claude/hooks/auto-commit.sh\"",
             "timeout": 30
           },
           {
             "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/changelog-reminder.sh\"",
+            "command": "bash \"C:/Users/baenb/.claude/hooks/changelog-reminder.sh\"",
             "timeout": 5
           }
         ]
@@ -25,12 +25,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/auto-commit.sh\"",
+            "command": "bash \"C:/Users/baenb/.claude/hooks/auto-commit.sh\"",
             "timeout": 30
           },
           {
             "type": "command",
-            "command": "bash \"$HOME/.claude/hooks/changelog-reminder.sh\"",
+            "command": "bash \"C:/Users/baenb/.claude/hooks/changelog-reminder.sh\"",
             "timeout": 5
           }
         ]
@@ -54,6 +54,19 @@
             "type": "prompt",
             "prompt": "Context is running low. Check these before wrapping up:\n\n1. **Uncommitted changes?** - Offer to commit\n2. **Documentation sync?** - If you changed behavior, did you update the canonical source? (See Single Source of Truth in CLAUDE.md)\n3. **Handoff needed?** - Update HANDOFF.md if next instance needs context\n\nRespond with ONE brief line. Examples:\n- \"Low context - should I commit changes and update docs?\"\n- \"Context low. Documentation looks synced. Ready to wrap up?\"\n- \"Almost out of context. Want me to update handoff notes?\"\n\nKeep it SHORT. User has ADHD.",
             "timeout": 20
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$HOME/.claude/scripts/conversation-indexer.py\" --no-gemini 2>/dev/null &",
+            "timeout": 5,
+            "async": true,
+            "statusMessage": "Indexing conversation..."
           }
         ]
       }
