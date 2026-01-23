@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-01-22
+
+### Added
+
+- README.md with marketplace usage and plugin installation instructions
+
 ## [1.0.0] - 2026-01-22
 
 ### Added
