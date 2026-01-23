@@ -26,11 +26,10 @@ This infrastructure IS running. Proceed with confidence.
 
 ## Critical Rules
 
-1. **NEVER parallelize Gemini calls** - run SEQUENTIALLY with 5s delays between calls
-2. **Run 5 consultation angles** - one perspective per call
-3. **Use the Python helper script** - it handles prompt creation, validation, and storage
-4. **Alternate accounts** - 1, 2, 1, 2, 1 pattern distributes load
-5. **Return ONLY coordinates** - session, collection, point IDs (not content)
+1. **Run all 5 angles IN PARALLEL** - use background processes for speed
+2. **Use the Python helper script** - it handles prompt creation, validation, and storage
+3. **Alternate accounts** - angles 1,3,5 use account 1; angles 2,4 use account 2
+4. **Return ONLY coordinates** - session, collection, point IDs (not content)
 
 ---
 
@@ -63,39 +62,20 @@ print(f'Context written to: {path}')
 "
 ```
 
-### STEP 3: Run Each Consultation Angle
+### STEP 3: Run All 5 Consultation Angles IN PARALLEL
 
-Run the 5 angles SEQUENTIALLY. After each, wait 5 seconds before the next.
+Launch ALL 5 angles at once using background processes:
 
-**The 5 Angles:**
-1. **Problem Analysis** (Account 1)
-2. **Architecture Options** (Account 2)
-3. **Implementation Details** (Account 1)
-4. **Security & Risks** (Account 2)
-5. **Validation & Testing** (Account 1)
-
-**For each angle, call the helper script:**
-
-```
-python ~/.claude/scripts/run-consultation-angle.py \
-    --topic "{{TOPIC}}" \
-    --context-file "%TEMP%/consultation_context.txt" \
-    --perspective "Problem Analysis" \
-    --account 1 \
-    --session "{{SESSION}}" \
-    --angle-num 1 \
-    --timeout 600
+```bash
+python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Problem Analysis" --account 1 --session "{{SESSION}}" --angle-num 1 --timeout 600 &
+python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Architecture Options" --account 2 --session "{{SESSION}}" --angle-num 2 --timeout 600 &
+python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Implementation Details" --account 1 --session "{{SESSION}}" --angle-num 3 --timeout 600 &
+python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Security & Risks" --account 2 --session "{{SESSION}}" --angle-num 4 --timeout 600 &
+python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Validation & Testing" --account 1 --session "{{SESSION}}" --angle-num 5 --timeout 600 &
+wait
 ```
 
-Then wait 5 seconds:
-```
-python -c "import time; time.sleep(5)"
-```
-
-**Repeat for each angle, changing:**
-- `--perspective` to the angle name
-- `--account` alternating 1, 2, 1, 2, 1
-- `--angle-num` incrementing 1 through 5
+This runs all 5 perspectives simultaneously (accounts 1 and 2 handle their load separately).
 
 ### STEP 4: Report Back
 
