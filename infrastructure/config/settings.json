@@ -92,12 +92,8 @@
     "feature-dev@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
     "security-guidance@claude-plugins-official": true,
-    "typescript-lsp@claude-plugins-official": true,
-    "pyright-lsp@claude-plugins-official": true,
-    "plugin-dev@claude-code-plugins": false,
-    "superpowers@superpowers-marketplace": false,
-    "plugin-dev@claude-plugins-official": false,
-    "lineage-powers@lineage-local": true
+    "lineage-powers@lineage-local": true,
+    "plugin-dev@claude-plugins-official": true
   },
   "alwaysThinkingEnabled": true
 }

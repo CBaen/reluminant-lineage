@@ -23,6 +23,11 @@ plans/
 # Temporary files
 tmpclaude-*
 
+# Generated output
+doc-audit-report.json
+**/backups/
+**/flagged/
+
 # Python cache
 __pycache__/
 *.pyc

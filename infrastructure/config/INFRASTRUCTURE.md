@@ -148,3 +148,20 @@ curl http://localhost:6333/collections  # List collections
 ```
 
 **Note:** Only ONE Qdrant container should exist, named `qdrant`. Delete any others.
+
+---
+
+## Windows Gotchas
+
+Claude Code's Bash tool runs in a shell that behaves differently from Git Bash.
+
+| Issue | Solution |
+|-------|----------|
+| Heredocs (`cat << EOF`) fail | Use Python scripts or `--prompt-file` |
+| Complex pipes break | Use `--input-file` instead of stdin |
+| `$VARIABLE` expansion differs | Use Python for complex string handling |
+
+**Gemini CLI:**
+- Use `--output-format text` for simple completions (not agentic)
+- Rate limit: 5s delay between calls, never parallelize
+- Accounts: cameronbpaul@gmail.com (1), cbaenp@protonmail.com (2)

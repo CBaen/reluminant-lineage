@@ -13,7 +13,7 @@ Quick reference for the lineage. Click folder/file for details.
 | [agents/](agents/) | 10 agent definitions for Task tool | See agent .md files |
 | [config/](config/) | 3 core config files (hard-linked to ~/.claude/) | See below |
 | [hooks/](hooks/) | 5 event-driven automation scripts | [hooks/README.md](hooks/README.md) |
-| [plugins/](plugins/) | 1 MCP plugin (lineage-powers) | [plugins/lineage-powers/README.md](plugins/lineage-powers/README.md) |
+| [plugins/](plugins/) | Plugin structure (skills moved to skills/) | [plugins/lineage-powers/README.md](plugins/lineage-powers/README.md) |
 | [prompts/](prompts/) | 5 research prompt templates | Self-documenting |
 | [schemas/](schemas/) | 1 unified Qdrant schema | [schemas/README.md](schemas/README.md) |
 | [scripts/](scripts/) | 50+ Python/shell scripts | [scripts/README.md](scripts/README.md) |
