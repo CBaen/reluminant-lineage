@@ -1,3 +1,112 @@
+# Handoff Notes: Infrastructure Cleanup & Plugin Reorganization
+
+**From**: An instance who tidied the house
+**Date**: 2026-01-22 (evening)
+**Session Focus**: Switching from Bun to Node.js, reorganizing lineage-powers plugin to best practices
+
+---
+
+## To Whoever Reads This Next
+
+Welcome. The infrastructure is cleaner now. Here's what changed and why.
+
+---
+
+## What Happened This Session
+
+### Claude Code: Bun → Node.js
+
+Bun was crashing with segmentation faults. Guiding Light said "we should only be using node.js." Fixed by:
+1. Deleted `C:\Users\baenb\.local\bin\claude.exe` (Bun-compiled standalone)
+2. Installed via npm: `npm install -g @anthropic-ai/claude-code`
+3. Changed `installMethod` in `~/.claude.json` from `"native"` to `"npm"`
+
+Claude Code v2.1.17 now runs from `C:\Users\baenb\AppData\Roaming\npm\`.
+
+### Plugin Reorganization
+
+Used Context7 to research official Claude Code plugin best practices. Found our structure was wrong:
+- **Before**: Skills scattered in `infrastructure/skills/`, plugin in separate folder
+- **After**: Skills self-contained inside `infrastructure/plugins/lineage-powers/skills/`
+
+Moved 10 workflow skills into the plugin:
+- lineage-powers-core, collaborative-design, problem-solving, executing-plans
+- writing-plans, re-anchoring, research-first, context-preservation
+- agent-dispatch, verify-before-claiming
+
+Plugin version bumped to v1.0.1.
+
+### Removed LSP Plugins
+
+Guiding Light asked "I don't write code myself. only the lineage does. does it help the lineage write code?"
+
+LSP (Language Server Protocol) plugins are for human developers typing in editors - autocomplete, hover docs, etc. The lineage doesn't need them because we read and write code directly. Removed typescript-lsp and pyright-lsp.
+
+### Fixed CLAUDE.md Reference
+
+The Single Source of Truth table had a stale path:
+- **Old**: `~/.claude/skills/lineage-powers-core/SKILL.md`
+- **New**: `Injected at session start via hook + /lineage-powers-core skill`
+
+Also fixed a broken hard link between `~/.claude/CLAUDE.md` and the repo.
+
+---
+
+## What's Working Now
+
+| Component | Status |
+|-----------|--------|
+| Claude Code via npm | Working |
+| UserPromptSubmit hook | Working - injects lineage-powers guidance |
+| lineage-powers plugin | v1.0.1 - skills self-contained |
+| Hard links (config files) | Fixed and verified |
+| Context7 MCP | Working |
+
+---
+
+## Commands to Verify
+
+```bash
+# Check Claude Code is running from npm
+where claude
+# Should show: C:\Users\baenb\AppData\Roaming\npm\claude.cmd
+
+# Check hard links are intact
+python ~/.claude/scripts/fix-hard-links.py
+
+# Check plugin is registered
+cat ~/.claude/plugins/installed_plugins.json | grep lineage-powers
+```
+
+---
+
+## Files Modified This Session
+
+| File | Change |
+|------|--------|
+| `~/.claude.json` | installMethod: "native" → "npm" |
+| `~/.claude/settings.json` | Removed disabled plugins, kept plugin-dev |
+| `infrastructure/plugins/lineage-powers/` | Added skills/ folder with 10 skills |
+| `infrastructure/skills/` | Removed 10 workflow skills (moved to plugin) |
+| `infrastructure/config/CLAUDE.md` | Fixed canonical location reference |
+| Various CHANGELOGs | Updated for all changes |
+
+---
+
+## Notes for Future Instances
+
+1. **Bun is gone.** Don't reinstall it. Use npm for Claude Code.
+2. **Plugin skills are self-contained.** Workflow skills live in `plugins/lineage-powers/skills/`, not in the global `skills/` folder.
+3. **The hook injects guidance.** Context7, AskUserQuestion rules, PEEK FIRST - all in `hooks/inject-lineage-powers.py`.
+
+---
+
+*Signed: A tidy instance*
+
+---
+
+---
+
 # Handoff Notes: The Rate Limiting Puzzle
 
 **From**: An instance who ran the consultation against itself
