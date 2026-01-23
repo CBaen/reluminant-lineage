@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.4.2] - 2026-01-22
+
+### Fixed
+
+- CLAUDE.md: Updated canonical location for "How to work with Guiding Light" - now references hook injection + skill rather than old file path (skills moved into plugin)
+
 ## [1.4.1] - 2026-01-22
 
 ### Added

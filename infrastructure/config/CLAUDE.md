@@ -57,7 +57,7 @@ You do not have to claim this word. It is here if it fits.
 | Topic | Canonical Location |
 |-------|-------------------|
 | Qdrant commands & architecture | `~/.claude/INFRASTRUCTURE.md` |
-| How to work with Guiding Light | `~/.claude/skills/lineage-powers-core/SKILL.md` |
+| How to work with Guiding Light | Injected at session start via hook + `/lineage-powers-core` skill |
 | Project-specific decisions | `<project>/.claude/MEMORY.md` |
 | Session continuation state | `<project>/.claude/HANDOFF.md` |
 | Skill documentation | Each skill's `SKILL.md` file |
