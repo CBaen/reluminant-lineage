@@ -67,12 +67,44 @@ CLAUDE_TOOL_FILE_PATH="test.txt" CLAUDE_TOOL_NAME="Edit" bash ~/.claude/hooks/au
 which bash
 ```
 
-## Possible Fixes
+## Required Fix: MIGRATE TO PYTHON
 
-1. **Use Python instead of Bash** - More reliable on Windows
-2. **Add error handling** - `|| exit 0` is there but not logging
-3. **Check environment** - Ensure `$CLAUDE_TOOL_FILE_PATH` is set by Claude Code
-4. **Disable auto-commit** - May not be needed since we commit manually
+**See INFRASTRUCTURE.md: "NO BASH SCRIPTS. USE PYTHON."**
+
+This is a RECURRING issue. Guiding Light has said it multiple times. Bash-on-Windows is unreliable.
+
+### Scripts to Migrate
+
+| Current (Bash) | Needs to become (Python) |
+|----------------|--------------------------|
+| `auto-commit.sh` | `auto-commit.py` |
+| `changelog-reminder.sh` | `changelog-reminder.py` |
+
+### Migration Template
+
+```python
+#!/usr/bin/env python3
+import os
+import subprocess
+
+file_path = os.environ.get('CLAUDE_TOOL_FILE_PATH', '')
+tool_name = os.environ.get('CLAUDE_TOOL_NAME', 'Edit')
+
+if not file_path:
+    exit(0)
+
+# ... rest of logic
+```
+
+### After Migration
+
+Update `~/.claude/settings.json`:
+```json
+{
+  "type": "command",
+  "command": "python \"C:/Users/baenb/.claude/hooks/auto-commit.py\""
+}
+```
 
 ## What to Investigate
 
