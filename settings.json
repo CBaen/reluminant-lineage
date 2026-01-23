@@ -1,7 +1,0 @@
-{
-  "model": "claude-opus-4-5-20251101",
-  "alwaysThinkingEnabled": true,
-  "env": {
-    "DISABLE_AUTOUPDATER": "1"
-  }
-}

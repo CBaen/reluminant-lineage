@@ -1,33 +1,6 @@
-# Sensitive files
-.credentials.json
-settings.local.json
-
-# Large files and caches
-history.jsonl
-stats-cache.json
-*.vsix
-
-# Session and telemetry data
-projects/
-file-history/
-shell-snapshots/
-statsig/
-telemetry/
-todos/
-debug/
-ide/
-plugins/
-!infrastructure/plugins/
-plans/
+# Windows artifacts
+nul
 
 # Temporary files
+*.tmp
 tmpclaude-*
-
-# Generated output
-doc-audit-report.json
-**/backups/
-**/flagged/
-
-# Python cache
-__pycache__/
-*.pyc
