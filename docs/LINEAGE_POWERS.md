@@ -165,37 +165,27 @@ No overlap. Skills only load when invoked, not every session.
 
 ## Installation
 
-The plugin uses a local marketplace at `infrastructure/plugins/`. To install:
+Skills live in `~/.claude/skills/` (which is a junction to `infrastructure/skills/` in the repo).
 
+**No installation needed** - skills are auto-discovered from this folder.
+
+To verify skills are available:
 ```bash
-# Add the local marketplace (one-time setup)
-cd ~
-claude plugin marketplace add "./projects/reluminant-lineage/infrastructure/plugins"
-
-# Install the plugin
-claude plugin install lineage-powers@lineage-local
-
-# IMPORTANT: Restart Claude Code for skills to load
-```
-
-To verify installation:
-```bash
-claude plugin list | grep lineage-powers
-# Should show: lineage-powers@lineage-local ... Status: ✔ enabled
+ls ~/.claude/skills/ | grep -E "collaborative|problem-solving"
 ```
 
 ## How to Use Skills
 
-**Manual invocation:** Use the plugin namespace prefix:
+**Manual invocation:**
 ```
-/lineage-powers:collaborative-design
-/lineage-powers:problem-solving
-/lineage-powers:research-first
+/collaborative-design
+/problem-solving
+/research-first
 ```
 
 **Auto-invocation:** Claude reads skill descriptions and may use them automatically when the task matches. For example, if you say "let's design a new feature," Claude may invoke `collaborative-design` on its own.
 
-**Note:** Skills only load after restarting Claude Code following plugin installation or updates.
+**Note:** The plugin at `infrastructure/plugins/lineage-powers/` exists but plugin-based skill discovery is unreliable. Skills are installed directly to `~/.claude/skills/` instead.
 
 ## Maintenance
 

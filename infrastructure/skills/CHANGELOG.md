@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-01-22
+
+### Added
+
+- 9 lineage-powers skills moved from plugin to main skills folder:
+  - agent-dispatch, collaborative-design, context-preservation
+  - executing-plans, problem-solving, re-anchoring
+  - research-first, verify-before-claiming, writing-plans
+- Plugin-based skill discovery was unreliable; direct installation works
+
 ## [1.0.1] - 2026-01-22
 
 ### Added
