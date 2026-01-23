@@ -89,12 +89,42 @@ Two projects currently use multi-feature handoffs:
 | Project | Streams |
 |---------|---------|
 | reluminant-lineage | infrastructure, documentation, research |
-| WARDENCLYFFE | episode-writing, semantic-extraction, infrastructure |
+| WARDENCLYFFE | qdrant-storage, episode-writing, image-production |
 
 When working on these:
 1. Read `handoffs/_CURRENT.md` first
 2. Update the relevant stream file
 3. Update `_CURRENT.md` if you worked on a different stream
+
+### Creating a New Stream
+
+If you're working on something that doesn't fit existing streams:
+
+1. Create `handoffs/<stream-name>.md` using the slim template
+2. Update `handoffs/_CURRENT.md` to add the new stream to the table
+3. Update the main `HANDOFF.md` navigation table
+
+### Converting a Project to Multi-Feature
+
+Convert when a project has 3+ distinct work streams that rarely overlap. Steps:
+
+1. Create `<project>/.claude/handoffs/` directory
+2. Create `_CURRENT.md`:
+   ```markdown
+   # Active Work Stream
+
+   **Current Feature**: [stream-name]
+   **Last Updated**: [date]
+
+   ## Available Streams
+
+   | Stream | Status | Description |
+   |--------|--------|-------------|
+   | [stream-1] | ACTIVE | [description] |
+   | [stream-2] | STABLE | [description] |
+   ```
+3. Create a file for each stream: `handoffs/<stream-name>.md`
+4. Update main `HANDOFF.md` to point to `handoffs/_CURRENT.md`
 
 ## Remember
 
