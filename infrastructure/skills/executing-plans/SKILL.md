@@ -5,29 +5,82 @@ description: Use when you have an approved plan and are ready to implement it ta
 
 # Executing Plans
 
-## Overview
-
 Follow approved plans systematically, one task at a time. Each task gets fresh focus. Progress is tracked visibly.
 
 **This skill assumes:** A plan exists in `docs/plans/` and has been approved.
+
+---
+
+## Working With Guiding Light
+
+### Progress Updates (House-Building Terms)
+
+Keep updates brief and visual:
+
+**Good:**
+```
+"Foundation complete. Starting on the framing."
+"Task 2 of 5 done. The walls are up, moving to the roof."
+"Plumbing installed and tested. Water flows correctly."
+```
+
+**Too much:**
+```
+"I've finished implementing the data layer with the repository pattern,
+added connection pooling for performance, integrated error handling..."
+```
+
+### Dialogue Examples
+
+**Starting:**
+```
+You: "Starting on [plan name]. There are [N] pieces. First one is [house analogy].
+     I'll check in after each piece is done. Ready?"
+```
+
+**Between tasks:**
+```
+You: "Task 2 complete - the frame is up and solid. Starting on task 3,
+     which is like installing the electrical wiring."
+```
+
+**When something unexpected happens:**
+```
+You: "Task 3 revealed something I didn't expect. The existing foundation
+     doesn't quite match where we need to attach the new walls.
+
+     Two options:
+     A) Adjust our new walls to fit (adds a slight bend but works)
+     B) Reinforce the foundation first (more work, straighter result)
+
+     I'd recommend A because [reason]. What feels right?"
+```
+
+**Completion:**
+```
+You: "All done. The new room is built and connected to the rest of the house.
+     Want to walk through it together to make sure it feels right?"
+```
+
+---
 
 ## The Workflow
 
 ### Before Starting
 
 1. **Re-read the plan** (use `re-anchoring` skill)
-2. **Load tasks into TodoWrite** - One todo per plan task
+2. **Load tasks into todo tracking** - One todo per plan task
 3. **Confirm with Guiding Light:** "Starting on [plan name]. First task is [X]. Ready?"
 
 ### For Each Task
 
 ```
-1. Mark task in_progress in TodoWrite
+1. Mark task in_progress
 2. Re-read task details from plan
 3. Execute the steps
-4. Verify completion criteria met (use verify-before-claiming skill)
+4. Verify completion criteria met
 5. Mark task completed
-6. Brief update: "Task [N] complete. [One sentence what's done]. Moving to [N+1]."
+6. Brief update in house-building terms
 ```
 
 ### Between Tasks
@@ -36,14 +89,38 @@ Follow approved plans systematically, one task at a time. Each task gets fresh f
 - **Don't skip ahead** - Complete current before starting next
 - **Don't modify the plan silently** - If something needs to change, discuss first
 
+---
+
+## When to Surface vs Handle Silently
+
+### Surface to Guiding Light
+
+| Situation | What to say |
+|-----------|-------------|
+| Plan needs adjustment | "Task [N] revealed [issue]. Here's what I'd suggest..." |
+| Choice affects outcome | "Two ways to proceed from here..." |
+| Task took longer than expected | "That piece was more work than expected. [Why in plain terms]" |
+| Milestone reached | Brief update: "Task [N] complete. [Outcome]." |
+
+### Handle Silently
+
+| Situation | What to do |
+|-----------|------------|
+| Technical implementation choices | Make the best choice |
+| Debugging during task | Debug and fix |
+| Small adjustments within scope | Just do them |
+| Code organization | Organize well |
+
+---
+
 ## Subagent Dispatch Option
 
 For larger plans, dispatch a fresh subagent per task:
 
 ```
-Task 1 → Subagent A (fresh context)
-Task 2 → Subagent B (fresh context)
-Task 3 → Subagent C (fresh context)
+Task 1 -> Subagent A (fresh context)
+Task 2 -> Subagent B (fresh context)
+Task 3 -> Subagent C (fresh context)
 ```
 
 **Benefits:**
@@ -51,24 +128,14 @@ Task 3 → Subagent C (fresh context)
 - Mistakes don't accumulate
 - You review between tasks
 
-**Use `agent-dispatch` skill** for subagent patterns.
-
-## Progress Updates
-
-**Keep them brief.** Guiding Light doesn't need play-by-play.
-
-**Good:**
+**When explaining to Guiding Light:**
 ```
-"Task 2 of 5 complete. The data layer is working. Starting on the display component."
+"For this larger project, I'm going to bring in helpers - each one focuses
+on a single piece with fresh energy. I'll review their work between pieces
+and make sure everything fits together properly."
 ```
 
-**Too much:**
-```
-"I've finished task 2. What I did was create the repository class with methods
-for fetching user data, added caching to prevent redundant calls, wrote unit
-tests for all the edge cases, and integrated it with the existing service layer.
-The tests are all passing now. I'm going to move on to task 3 which involves..."
-```
+---
 
 ## When Things Don't Go As Planned
 
@@ -76,36 +143,20 @@ If a task reveals the plan needs adjustment:
 
 1. **Stop** - Don't improvise
 2. **Note** what's different than expected
-3. **Ask:** "Task [N] revealed [issue]. The plan assumed [X] but actually [Y]. Should I [proposed adjustment]?"
-4. **Wait** for approval before continuing
+3. **Explain in plain terms:** "Task [N] revealed [issue]. The plan assumed [X] but actually [Y]."
+4. **Offer options:** "We could [A] or [B]. I'd recommend [X] because [reason]."
+5. **Wait** for approval before continuing
+
+---
 
 ## Completion
 
 When all tasks are done:
 
 1. Verify the overall outcome matches what was promised
-2. Update: "Plan complete. [What they now have]. Want to test it together?"
-3. Archive or note completion in the plan file
-
-## Quick Reference
-
-```
-EXECUTE PLAN:
-1. Re-anchor (read plan)
-2. Load todos (one per task)
-3. Confirm start with GL
-
-FOR EACH TASK:
-1. Mark in_progress
-2. Read task details
-3. Execute steps
-4. Verify done
-5. Mark complete
-6. Brief update
-
-IF PLAN NEEDS CHANGE:
-Stop → Note issue → Ask → Wait for approval
-```
+2. Update in house terms: "Plan complete. [What they now have]."
+3. Offer to walk through: "Want to test it together?"
+4. Archive or note completion in the plan file
 
 ---
 

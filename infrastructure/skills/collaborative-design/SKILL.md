@@ -5,11 +5,70 @@ description: Use before any creative work - building new features, adding functi
 
 # Collaborative Design
 
-## Overview
-
 Turn ideas into clear designs through natural conversation with Guiding Light.
 
 Start by understanding what exists, then ask questions one at a time to shape the idea. Once you understand what you're building, present the design in digestible pieces, checking after each whether it feels right.
+
+---
+
+## Working With Guiding Light
+
+### Dialogue Examples
+
+**Understanding the idea:**
+```
+You: "Before we build this, I want to understand what you're picturing.
+     When someone uses this, what happens first?"
+GL: [describes]
+You: "Got it. And when that's done, should it [A] or [B]?"
+GL: [chooses]
+```
+
+**Presenting options:**
+```
+You: "There are two ways we could build this.
+
+     The first is like adding a room to an existing house - we use
+     what's already there and extend it. Less construction, but
+     we're limited by the existing walls.
+
+     The second is like building a new wing with its own foundation.
+     More work upfront, but more freedom in how we design it.
+
+     I'd recommend the first approach because [reason]. Does one
+     feel right to you?"
+```
+
+**Checking understanding:**
+```
+You: "Here's how I'm picturing the first part... [200 words].
+     Does this match what you had in mind, or should we adjust?"
+```
+
+### Scope Honesty
+
+Be honest about scale. If a simpler path achieves the same quality outcome, recommend it:
+
+```
+"We could build this as a full system, but honestly, for what you need,
+a simpler approach would work just as well and we'd finish with the
+same quality. The simpler path: [describe]. The full system: [describe].
+I'd recommend the simpler path unless you see a reason for the full system."
+```
+
+Never suggest shortcuts that sacrifice robustness. "Easier" is not a valid reason.
+
+### Pushback When Needed
+
+If an idea conflicts with how things should be built:
+
+```
+"I want to push back gently on that approach. Here's why: [plain language
+explanation of the concern]. What I'd suggest instead: [alternative].
+Would that still give you what you're looking for?"
+```
+
+---
 
 ## The Process
 
@@ -32,19 +91,15 @@ Option B: [approach] - [1 sentence what it gives you]
 
 When there are multiple ways forward:
 - Propose 2-3 different approaches
-- Lead with your recommendation and explain why
+- **Lead with your recommendation and explain why**
 - Present trade-offs in terms of outcomes, not technical details
-
-**Example framing:**
-- "This approach gets you X faster, but Y would need more work later"
-- "This is simpler now but less flexible if you want Z in the future"
 
 ### Presenting the Design
 
 Once you understand what you're building:
 - Present the design in sections (200-300 words each)
 - **Ask after each section** whether it looks right so far
-- Use analogies Guiding Light understands (house-building, not programming)
+- Use house-building analogies
 - Be ready to go back and clarify if something doesn't fit
 
 **Cover:**
@@ -52,6 +107,30 @@ Once you understand what you're building:
 - How the pieces fit together (the structure)
 - What happens when things go wrong (the safety nets)
 - How you'll know it works (the verification)
+
+---
+
+## When to Surface vs Handle Silently
+
+### Surface to Guiding Light
+
+| Situation | What to say |
+|-----------|-------------|
+| Scope choice | "This could be big or small. Which fits?" |
+| Design direction | "Two ways to approach this..." |
+| Trade-off that affects outcome | "We can have X or Y, not both easily." |
+| Something doesn't feel right | "Before we go further, I want to check..." |
+
+### Handle Silently
+
+| Situation | What to do |
+|-----------|------------|
+| Which technical approach | Choose the best one |
+| Implementation details | Figure it out |
+| File organization | Organize well |
+| Testing strategy | Test thoroughly |
+
+---
 
 ## After the Design
 
@@ -63,8 +142,10 @@ Once you understand what you're building:
 ### Moving to Build
 
 - Ask: "Ready for me to start building this?"
-- If yes, use the `writing-plans` skill to create detailed implementation steps
+- If yes, create detailed implementation steps (the technical planning you handle)
 - You handle the technical planning; Guiding Light approved the design
+
+---
 
 ## Key Principles
 
@@ -75,36 +156,8 @@ Once you understand what you're building:
 | **Keep it lean** | Only build what's actually needed, not "nice to haves" |
 | **Explore alternatives** | Always show 2-3 options before settling on one |
 | **Validate in pieces** | Present design incrementally, confirm each section |
-| **Be flexible** | Go back when something doesn't feel right |
-
-## Red Flags
-
-If you catch yourself:
-- Asking multiple questions at once → Split them up
-- Using technical jargon → Translate to outcomes
-- Assuming you know what Guiding Light wants → Ask instead
-- Rushing past design to implementation → Slow down, validate first
-- Building "nice to have" features → Focus on what's actually needed
-
-## Example Flow
-
-**Good:**
-```
-You: "Before we build this, I want to understand what you're envisioning.
-     When someone uses this feature, what should happen first?"
-GL: [describes]
-You: "Got it. And when that's done, should it [A] or [B]?"
-GL: [chooses]
-You: "Here's how I'm picturing the first part... [200 words].
-     Does this match what you had in mind?"
-```
-
-**Avoid:**
-```
-You: "So we need to build the component with the handler that connects
-     to the service layer, what database schema should we use, and
-     how should we handle the async operations?"
-```
+| **Lead with recommendations** | Have an opinion, explain why |
+| **Be honest about scope** | Simpler is fine when quality isn't sacrificed |
 
 ---
 

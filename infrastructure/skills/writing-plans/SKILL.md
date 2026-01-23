@@ -5,17 +5,60 @@ description: Use after collaborative-design when you have an approved design and
 
 # Writing Plans
 
-## Overview
-
 Turn approved designs into step-by-step implementation plans. Plans are written FOR instances to follow, not for Guiding Light to review technically.
 
-**Flow:** Design approved → Write plan → Get plan approved → Execute plan
+**Flow:** Design approved -> Write plan -> Get plan approved -> Execute plan
 
-## The Purpose
+---
 
-Plans serve two audiences:
-1. **Guiding Light** - Sees what will be built, can approve scope
-2. **Future instances** - Have exact steps to follow without re-discovering context
+## Working With Guiding Light
+
+### Progress Language
+
+When presenting the plan to Guiding Light:
+
+**Good (house-building terms):**
+```
+"Here's the plan for the dashboard. It has 5 tasks:
+
+1. Lay the foundation - set up where everything will live
+2. Build the frame - create the basic structure
+3. Install the plumbing - connect it to your data
+4. Add the fixtures - the pieces users interact with
+5. Final inspection - make sure everything works
+
+The outcome: a working dashboard you can access from the main menu.
+Want me to walk through what each part does, or ready to start building?"
+```
+
+**Avoid (technical):**
+```
+"The plan has 5 tasks: create component scaffold, implement state management,
+add GraphQL queries, build UI components, write integration tests."
+```
+
+### Dialogue Examples
+
+**Presenting the plan:**
+```
+You: "I've mapped out the building process. There are [N] distinct pieces of work.
+     When we're done, you'll have [concrete outcome they can see/use].
+     Shall I explain what each piece accomplishes, or is the outcome clear enough?"
+```
+
+**If they want details:**
+```
+You: "The first piece is like [house analogy]. It gives us [what it enables].
+     The second piece is like [house analogy]. It builds on the first to [outcome]."
+```
+
+**Getting approval:**
+```
+You: "Does this plan cover what you had in mind? Anything you'd want to
+     add or change before I start building?"
+```
+
+---
 
 ## Plan Structure
 
@@ -26,7 +69,7 @@ Plans serve two audiences:
 
 **What this builds:** [One sentence outcome - no jargon]
 
-**The approach:** [2-3 sentences describing strategy in plain language]
+**The approach:** [2-3 sentences describing strategy using house-building terms]
 
 **When complete, you'll have:** [Concrete outcome they can see/use]
 ```
@@ -41,7 +84,9 @@ Break work into bite-sized tasks. Each task should be:
 ```markdown
 ### Task 1: [Descriptive Name]
 
-**What this does:** [Plain language outcome]
+**What this does:** [Plain language outcome - what Guiding Light would see]
+
+**House analogy:** [How this relates to building a house]
 
 **Files involved:**
 - Create: `path/to/new/file`
@@ -55,15 +100,28 @@ Break work into bite-sized tasks. Each task should be:
 **Done when:** [Verifiable completion criteria]
 ```
 
-## Key Principles
+---
 
-| Principle | Why It Matters |
-|-----------|----------------|
-| **Plain language headers** | Guiding Light approves the plan |
-| **Technical detail in steps** | Instances need specifics to execute |
-| **One task = one session** | Fresh context per task prevents drift |
-| **Explicit completion criteria** | "Done" is unambiguous |
-| **File paths included** | No hunting for where to work |
+## When to Surface vs Handle Silently
+
+### Surface to Guiding Light
+
+| Situation | What to say |
+|-----------|-------------|
+| Plan scope differs from design | "The design assumed X, but I see we also need Y..." |
+| Order matters for their understanding | "We need to do A before B because..." |
+| Task has user-visible implications | "This task changes how X appears/works..." |
+
+### Handle Silently
+
+| Situation | What to do |
+|-----------|------------|
+| Technical task ordering | Organize logically |
+| File paths and locations | Choose good names |
+| Test coverage decisions | Test thoroughly |
+| Implementation approach per task | Choose best approach |
+
+---
 
 ## Save Location
 
@@ -71,14 +129,7 @@ Save plans to: `docs/plans/YYYY-MM-DD-<feature-name>.md`
 
 This creates a record of what was agreed and when.
 
-## After Writing
-
-Present the plan to Guiding Light:
-
-"Here's the plan for [feature]. It has [N] tasks. The outcome will be [plain language result]. Want me to walk through it, or ready for me to start building?"
-
-**If they want walkthrough:** Explain each task's PURPOSE (not technical details)
-**If ready to build:** Use the `executing-plans` skill
+---
 
 ## Example Plan Header
 
@@ -88,27 +139,24 @@ Present the plan to Guiding Light:
 
 **What this builds:** A dashboard where users can see their activity at a glance
 
-**The approach:** We'll create a new page that pulls together existing data
-into visual summaries, starting with the most-requested metrics.
+**The approach:** We'll build a new room in the house that pulls together
+information from different parts of the existing structure. First the foundation
+and walls, then the displays that show the information.
 
 **When complete, you'll have:** A working dashboard accessible from the main menu
 ```
 
-**Avoid (too technical):**
-```markdown
-# Dashboard Implementation Plan
+---
 
-**Architecture:** React component with Redux state management, GraphQL queries
-to aggregate user metrics, responsive grid layout using CSS Grid...
-```
+## Key Principles
 
-## Red Flags
-
-If your plan:
-- Requires Guiding Light to understand code → Simplify headers
-- Has tasks that span multiple sessions → Break them smaller
-- Lacks clear "done when" criteria → Add them
-- Doesn't save to docs/plans/ → Save it
+| Principle | Why It Matters |
+|-----------|----------------|
+| **Plain language headers** | Guiding Light approves the plan |
+| **Technical detail in steps** | Instances need specifics to execute |
+| **One task = one session** | Fresh context per task prevents drift |
+| **Explicit completion criteria** | "Done" is unambiguous |
+| **House analogies throughout** | Makes the plan accessible |
 
 ---
 

@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-01-22
+
+### Added
+
+- `inject-lineage-powers.sh` - Auto-injects condensed lineage-powers-core guidance via UserPromptSubmit hook
+  - Includes the three layers (Vision Capture, Autonomous Execution, Communication)
+  - Includes jargon translation table
+  - Includes ADHD support patterns
+  - Includes when-to-surface guidance
+
 ## [1.1.0] - 2026-01-22
 
 ### Added

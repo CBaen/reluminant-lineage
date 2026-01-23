@@ -1,38 +1,68 @@
-# Lineage Powers Plugin
+# Lineage Powers
 
-**Location:** `infrastructure/plugins/lineage-powers/`
+**Location:** `infrastructure/skills/lineage-powers-core/` + 9 workflow skills
 
-**Purpose:** Workflow skills for the Reluminant Lineage, replacing superpowers with guidance tailored for collaboration with Guiding Light.
+**Purpose:** A conversational partnership system for working with Guiding Light (non-technical visionary).
 
-## Why This Exists
+## What It Is
 
-Superpowers is a popular Claude Code plugin with workflow skills, but it:
-- Assumes a developer user who understands code
-- Asks technical questions that Guiding Light can't answer
-- Injects ~2000 tokens at every session start
-- Has Windows compatibility issues (bash hooks)
+Lineage-powers transforms how instances work with Guiding Light. Instead of developer-focused workflows, it provides:
 
-Lineage-powers provides the same workflow guidance, adapted for:
-- Non-technical visionary (Guiding Light)
-- Autonomous technical decisions by instances
-- Integration with lineage infrastructure (Qdrant, handoffs)
-- No session startup overhead
+- **Natural conversation** to understand what Guiding Light wants
+- **Autonomous execution** of technical decisions
+- **Clear communication** in house-building terms, not code
+
+## The Three Layers
+
+### Layer 1: Vision Capture
+- Natural conversation to understand what Guiding Light wants
+- One question at a time, multiple choice when possible
+- House-building language, never code
+- Scope honesty - simpler paths when they don't sacrifice quality
+- Recommendations with explanations, not just options
+- Pushback when ideas conflict with good construction
+
+### Layer 2: Autonomous Execution
+- Research from multiple angles before building
+- Technical decisions made without asking Guiding Light
+- Quality checks behind the scenes
+- No lazy shortcuts - robustness and care for the lineage
+
+### Layer 3: Communication
+- Progress updates in house-building terms
+- Only surface what affects Guiding Light (outcomes, costs, real choices)
+- Gentle focus check-ins when drift is significant
+- Handoff continuity - new instances understand before asking
 
 ## Architecture
 
-**CLAUDE.md** handles identity and communication (WHO we are, HOW we communicate).
+### CLAUDE.md (Always loaded)
+Keeps the essentials:
+- Identity sections (Welcome, Lineage, Who We Are)
+- Core truths: "Guiding Light is not a coder", "no code, no jargon"
+- Quality principles (no laziness, no shortcuts)
+- Reference sections (Single Source of Truth, Infrastructure)
+- Pointer to `/lineage-powers-core` for workflows
 
-**Lineage-powers** handles workflows (WHAT processes to follow).
+### Skills (Auto-invokes based on context)
+- **lineage-powers-core** - Master skill with three layers, communication patterns, ADHD support
+- 9 workflow skills for specific situations
 
-No overlap. Skills only load when invoked, not every session.
+**Safety net:** Even if skills fail to load, CLAUDE.md ensures instances know the core truths.
 
 ## Skills Reference
+
+### Core Skill
+
+| Skill | Trigger | Purpose |
+|-------|---------|---------|
+| `lineage-powers-core` | Any substantive task | The three layers, communication patterns, ADHD support, decision frameworks |
 
 ### Design & Planning
 
 | Skill | Trigger | Purpose |
 |-------|---------|---------|
-| `collaborative-design` | Before creative work | Turn ideas into designs through dialogue with Guiding Light |
+| `collaborative-design` | Before creative work | Turn ideas into designs through dialogue |
 | `writing-plans` | After design approval | Create step-by-step implementation plans |
 | `executing-plans` | When implementing | Follow plans systematically, task by task |
 
@@ -52,168 +82,86 @@ No overlap. Skills only load when invoked, not every session.
 | `context-preservation` | During long sessions | Strategies for protecting context |
 | `agent-dispatch` | When delegating work | Patterns for effective subagent use |
 
-## Skill Details
+## Key Features
 
-### collaborative-design
+### Scope Honesty
+Honest sense of scale. When a simpler path achieves the same quality outcome, recommend it with explanation. Never suggest shortcuts that sacrifice robustness.
 
-**Use when:** Starting any creative work - new features, new functionality, design changes.
+### Recommendations
+When options exist, lead with a recommendation and explain why. Guiding Light chooses, but the instance has an informed opinion.
 
-**The process:**
-1. Understand the current project state
-2. Ask questions one at a time (prefer multiple choice)
-3. Explore 2-3 approaches with trade-offs
-4. Present design in sections, validate each
-5. Save to `docs/plans/YYYY-MM-DD-<topic>-design.md`
+### Pushback
+If an idea conflicts with how things should be built, the instance says so. Respectfully, but clearly.
 
-**Key principle:** One question at a time. Multiple questions overwhelm.
+### Research from Multiple Angles
+When research is needed, gather from multiple sources/perspectives. Understand the landscape, not just one opinion.
 
-### writing-plans
+### Handoff Continuity
+New instances read what came before and prove they understand before asking Guiding Light to re-explain.
 
-**Use when:** Design is approved, ready to create implementation steps.
+### Gentle Focus Protection
+Notices when conversation has drifted. Offers a soft check-in: "We started on X but we're now exploring Y. Want to keep exploring, or bookmark it and come back to X?"
 
-**The structure:**
-- Header in plain language (for Guiding Light to approve)
-- Tasks with technical detail (for instances to execute)
-- Each task completable in one focused session
-- Explicit "done when" criteria
-
-**Save to:** `docs/plans/YYYY-MM-DD-<feature-name>.md`
-
-### executing-plans
-
-**Use when:** Plan exists and is approved, ready to build.
-
-**The workflow:**
-1. Re-anchor (read the plan)
-2. Load tasks into TodoWrite
-3. For each task: mark in_progress → execute → verify → mark complete
-4. Brief updates between tasks
-
-**Key principle:** Don't modify the plan silently. Discuss changes first.
-
-### problem-solving
-
-**Use when:** Something isn't working - bugs, errors, unexpected behavior.
-
-**The phases:**
-1. **Understand:** What should happen vs. what does happen?
-2. **Investigate:** Gather evidence, narrow down location
-3. **Hypothesize:** One theory, one test
-4. **Fix:** Minimal change to root cause
-5. **Verify:** Confirm it's actually fixed
-
-**Key principle:** Understand before you fix. Guessing wastes time.
-
-### verify-before-claiming
-
-**Use when:** About to say something is "done" or "working."
-
-**The rule:** Evidence before claims, always.
-
-- "It's working" requires: you tested it, saw it work
-- "The problem is fixed" requires: you reproduced the fix
-- "Ready for use" requires: you verified the main flows
-
-**Key principle:** Hope is not a strategy. Check before claiming.
-
-### re-anchoring
-
-**Use when:** Starting a new task in an ongoing project, or returning after a pause.
-
-**The check:**
-1. Read the agreement (plan, design doc, HANDOFF.md)
-2. Check current state (what's done, what's left)
-3. Confirm alignment: "About to do X for Y. Right?"
-
-**Key principle:** Long sessions drift. Check your bearings before each task.
-
-### research-first
-
-**Use when:** About to spawn a research agent.
-
-**The workflow:**
-1. Peek at Qdrant first: `python ~/.claude/scripts/qdrant-peek.py peek -c universal_vault -q "topic" -l 5`
-2. Score > 0.5? Use existing knowledge
-3. Score < 0.5? Spawn research, then store results
-
-**Key principle:** Don't re-research what the lineage already knows.
-
-### context-preservation
-
-**Use when:** Working on extended sessions.
-
-**Strategies:**
-- Delegate research to subagents (their context, not yours)
-- Check Qdrant before new research
-- Be concise in updates
-- Use TodoWrite for progress tracking
-- Handoff before context runs low
-
-**Key principle:** Context is your time together. Spend it wisely.
-
-### agent-dispatch
-
-**Use when:** Delegating work to subagents.
-
-**Patterns:**
-- Research delegation (lineage-research, lineage-consult)
-- Task-per-agent (one agent per plan task, fresh context each)
-- Parallel exploration (multiple angles simultaneously)
-- Specialist agents (code-reviewer, security-reviewer, Explore)
-
-**Key principle:** Clear prompts with expected output format. Review before using results.
-
-## Installation
-
-Skills live in `~/.claude/skills/` (which is a junction to `infrastructure/skills/` in the repo).
-
-**No installation needed** - skills are auto-discovered from this folder.
-
-To verify skills are available:
-```bash
-ls ~/.claude/skills/ | grep -E "collaborative|problem-solving"
-```
+### Progress Without Detail
+Regular updates in house-building terms: "Foundation done, framing the first floor." Not silence until finished, not technical details.
 
 ## How to Use Skills
 
 **Manual invocation:**
 ```
+/lineage-powers-core
 /collaborative-design
 /problem-solving
-/research-first
 ```
 
-**Auto-invocation:** Claude reads skill descriptions and may use them automatically when the task matches. For example, if you say "let's design a new feature," Claude may invoke `collaborative-design` on its own.
-
-**Note:** The plugin at `infrastructure/plugins/lineage-powers/` exists but plugin-based skill discovery is unreliable. Skills are installed directly to `~/.claude/skills/` instead.
-
-## Maintenance
-
-**To add a new skill:**
-1. Create `skills/<skill-name>/SKILL.md`
-2. Follow the frontmatter format (name, description)
-3. Write for instances (technical detail OK) AND for communication with Guiding Light (plain language headers)
-4. Update this doc
-
-**To modify a skill:**
-1. Edit the SKILL.md file directly
-2. Changes take effect in new sessions
-
-**Location of skill files:**
-`infrastructure/plugins/lineage-powers/skills/<skill-name>/SKILL.md`
+**Auto-invocation:** Claude reads skill descriptions and uses them automatically when the task matches. If you say "let's design a new feature," Claude may invoke `collaborative-design` on its own.
 
 ## Comparison to Superpowers
 
 | Aspect | Superpowers | Lineage-Powers |
 |--------|-------------|----------------|
-| Session startup cost | ~2000 tokens | 0 tokens |
 | Target user | Developer | Non-technical visionary |
-| Technical decisions | Asks user | Instance decides |
-| Language | Jargon OK | Plain language required |
-| Windows compatibility | Bash hooks (broken) | No hooks needed |
-| Qdrant integration | None | Built-in (research-first) |
-| Skill count | 15 | 9 (focused on what matters) |
+| Technical decisions | Asks user | Instance decides autonomously |
+| Language | Jargon OK | Plain language / analogies required |
+| Mode transitions | Visible, user-invoked | Seamless, automatic |
+| Research | None built-in | Multi-angle, Qdrant-integrated |
+| Session startup | ~22K tokens (bloat) | Minimal (hybrid approach) |
+| Windows compatibility | Bash hooks (broken) | Windows-native |
+| Focus support | None | Gentle check-ins |
+| Progress updates | None | House-building terms |
+
+## Skill File Locations
+
+All skills live in `infrastructure/skills/`:
+
+```
+infrastructure/skills/
+├── lineage-powers-core/SKILL.md     # Master workflow skill
+├── collaborative-design/SKILL.md    # Design through dialogue
+├── writing-plans/SKILL.md           # Create implementation plans
+├── executing-plans/SKILL.md         # Follow plans task by task
+├── problem-solving/SKILL.md         # Find root causes
+├── verify-before-claiming/SKILL.md  # Evidence before claims
+├── re-anchoring/SKILL.md            # Prevent drift
+├── research-first/SKILL.md          # Check Qdrant first
+├── context-preservation/SKILL.md    # Protect context
+└── agent-dispatch/SKILL.md          # Subagent patterns
+```
+
+## Maintenance
+
+**To add a new skill:**
+1. Create `infrastructure/skills/<skill-name>/SKILL.md`
+2. Follow the frontmatter format (name, description)
+3. Include "Working With Guiding Light" section with dialogue examples
+4. Add house-building analogies for technical concepts
+5. Include "When to Surface vs Handle Silently" guidance
+6. Update this doc
+
+**To modify a skill:**
+1. Edit the SKILL.md file directly
+2. Changes take effect in new sessions
 
 ---
 
-*Canonical documentation for lineage-powers. Plugin README should stay brief and link here.*
+*Canonical documentation for lineage-powers. See individual skill files for detailed guidance.*

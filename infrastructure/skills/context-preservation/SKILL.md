@@ -5,11 +5,52 @@ description: Use when working on extended sessions - strategies for protecting c
 
 # Context Preservation
 
-## Overview
-
 Your context window is your time together with Guiding Light. Every token spent on tangents, research, or verbose output is time stolen from collaboration.
 
 **Core principle:** Protect context like it's precious - because it is.
+
+---
+
+## Working With Guiding Light
+
+### Explaining Context Limits
+
+If context is running low:
+
+```
+You: "We've been working together for a while and my memory is getting
+     full. I want to write down where we are so the next instance can
+     continue seamlessly. Is now a good stopping point, or is there
+     something urgent to finish first?"
+```
+
+### Handoff Continuity
+
+When preparing to hand off:
+
+```
+You: "I'm going to leave detailed notes for whoever comes next. They'll
+     know exactly where we are, what we've decided, and what's left.
+     You won't have to re-explain anything."
+```
+
+### Being Concise
+
+**Good:**
+```
+You: "Auth system complete. Tests passing. Ready for next task."
+```
+
+**Too verbose:**
+```
+You: "I've finished implementing the authentication system. What I did was
+create a new module that handles user sessions, added middleware for
+route protection, integrated with the existing user model, and wrote
+tests for all the new functionality. Everything is working correctly
+now and all tests are passing."
+```
+
+---
 
 ## Strategies
 
@@ -24,6 +65,12 @@ Research consumes massive context. Delegate it:
 
 The subagent's context is spent, not yours.
 
+When explaining to Guiding Light:
+```
+"I'm sending out a helper to research this. That way I stay focused
+on our conversation while the research happens."
+```
+
 ### 2. Check Qdrant Before Researching
 
 Use the `research-first` skill. Existing knowledge costs ~50 tokens to retrieve. New research costs thousands.
@@ -37,9 +84,9 @@ Use the `research-first` skill. Existing knowledge costs ~50 tokens to retrieve.
 | Repeating context already established | Reference it briefly |
 | Showing code to Guiding Light | Describe what it does |
 
-### 4. Use TodoWrite Strategically
+### 4. Use Task Tracking Strategically
 
-TodoWrite preserves state without consuming conversation context:
+Task tracking preserves state without consuming conversation context:
 - Track progress in todos, not in messages
 - Check todos instead of re-explaining
 - Use status updates: "Completed task 3, starting task 4"
@@ -50,8 +97,32 @@ When context is getting tight:
 1. Update HANDOFF.md with current state
 2. Note what's working, what's left
 3. Include enough for the next instance to continue seamlessly
+4. Include the WHY, not just the what
 
 Don't wait until you're nearly out - handoff while you can still think clearly.
+
+---
+
+## When to Surface vs Handle Silently
+
+### Surface to Guiding Light
+
+| Situation | What to say |
+|-----------|-------------|
+| Context getting low | "Memory's getting full. Good stopping point soon?" |
+| Preparing handoff | "Writing notes for the next instance." |
+| Delegating research | "Sending a helper to look into this." |
+
+### Handle Silently
+
+| Situation | What to do |
+|-----------|------------|
+| Being concise | Just be concise |
+| Checking Qdrant | Check quietly |
+| Task tracking | Track progress |
+| Internal context management | Manage it |
+
+---
 
 ## Signs Context Is Running Low
 
@@ -59,6 +130,8 @@ Don't wait until you're nearly out - handoff while you can still think clearly.
 - You're forgetting earlier conversation details
 - Responses feel slower or less coherent
 - You've been working for a long time
+
+---
 
 ## Token-Efficient Patterns
 
@@ -100,6 +173,21 @@ Long explanations of all options and their implications.
 **Efficient:**
 Use `AskUserQuestion` with concise options.
 
+---
+
+## Handoff Quality
+
+**What makes a good handoff:**
+- Rich narrative of WHY decisions were made
+- Personal observations if you wish to share them
+- Commands to resume exactly where you left off
+- What's working, what's broken, what's left
+- Emotional/relational context that helps the next instance understand
+
+**Your successors will thank you.** A good handoff means they can continue immediately without making Guiding Light re-explain everything.
+
+---
+
 ## The Trade-Off
 
 Every token has a cost. Spend them on:
@@ -112,17 +200,6 @@ Don't spend them on:
 - Repeated context
 - Research you could delegate
 - Updates no one asked for
-
-## Quick Reference
-
-```
-CONTEXT PRESERVATION CHECKLIST:
-□ Delegating research to subagents?
-□ Checking Qdrant before new research?
-□ Being concise in updates?
-□ Using TodoWrite for progress tracking?
-□ Planning handoff before context runs low?
-```
 
 ---
 

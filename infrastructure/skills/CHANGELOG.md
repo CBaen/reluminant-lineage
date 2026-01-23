@@ -6,6 +6,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-01-22
+
+### Added
+
+- **lineage-powers-core** - New master workflow skill containing the three layers (Vision Capture, Autonomous Execution, Communication), Working With Guiding Light guidance, Project Tree structure, ADHD support patterns, jargon translation table, and handoff procedures
+
+### Changed
+
+- **All 9 lineage-powers skills redesigned for conversational partnership:**
+  - Added "Working With Guiding Light" sections with dialogue examples
+  - Added house-building analogies for technical concepts
+  - Added "When to Surface vs Handle Silently" guidance
+  - Updated for seamless mode language (no mode announcements)
+
+- Skills updated:
+  - collaborative-design: Added scope honesty, pushback patterns, recommendations
+  - writing-plans: Added GL-friendly progress language, house analogies in plan templates
+  - executing-plans: Added house-building progress updates, subagent explanation patterns
+  - problem-solving: Added plain-language issue explanations, house analogies for errors
+  - verify-before-claiming: Added verification dialogue examples
+  - re-anchoring: Added gentle focus protection pattern
+  - research-first: Added multi-angle research requirement, result translation guidance
+  - context-preservation: Added handoff continuity emphasis
+  - agent-dispatch: Added result translation for GL
+
 ## [1.1.0] - 2026-01-22
 
 ### Added
