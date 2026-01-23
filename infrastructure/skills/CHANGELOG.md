@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-01-22
+
+### Changed
+
+- **Lineage-powers skills moved back into plugin** - Following Claude Code plugin best practices (per Context7), the 10 workflow skills are now inside `plugins/lineage-powers/skills/`:
+  - lineage-powers-core, collaborative-design, problem-solving, executing-plans, writing-plans
+  - re-anchoring, research-first, context-preservation, agent-dispatch, verify-before-claiming
+- Plugin structure is now self-contained and follows official patterns
+- Research/utility skills remain global: lineage-research, lineage-consult, lineage-retrieve, lineage-conversations
+
 ## [1.2.0] - 2026-01-22
 
 ### Added

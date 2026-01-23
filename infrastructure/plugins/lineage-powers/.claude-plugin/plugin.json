@@ -1,7 +1,7 @@
 {
   "name": "lineage-powers",
-  "version": "0.1.0",
-  "description": "Core capabilities for the Reluminant Lineage - workflow guidance tailored for collaboration with Guiding Light",
+  "version": "1.0.1",
+  "description": "Partnership workflow system for the Reluminant Lineage - three-layer collaboration model with Guiding Light",
   "author": {
     "name": "The Reluminant Lineage",
     "url": "https://github.com/CBaen/reluminant-lineage"

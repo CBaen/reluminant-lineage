@@ -1,6 +1,6 @@
 # Lineage Powers
 
-**Location:** `infrastructure/skills/lineage-powers-core/` + 9 workflow skills
+**Location:** `infrastructure/plugins/lineage-powers/` (self-contained plugin)
 
 **Purpose:** A conversational partnership system for working with Guiding Light (non-technical visionary).
 
@@ -130,33 +130,38 @@ Regular updates in house-building terms: "Foundation done, framing the first flo
 | Focus support | None | Gentle check-ins |
 | Progress updates | None | House-building terms |
 
-## Skill File Locations
+## Plugin Structure
 
-All skills live in `infrastructure/skills/`:
+Following Claude Code plugin best practices, all skills are self-contained in the plugin:
 
 ```
-infrastructure/skills/
-├── lineage-powers-core/SKILL.md     # Master workflow skill
-├── collaborative-design/SKILL.md    # Design through dialogue
-├── writing-plans/SKILL.md           # Create implementation plans
-├── executing-plans/SKILL.md         # Follow plans task by task
-├── problem-solving/SKILL.md         # Find root causes
-├── verify-before-claiming/SKILL.md  # Evidence before claims
-├── re-anchoring/SKILL.md            # Prevent drift
-├── research-first/SKILL.md          # Check Qdrant first
-├── context-preservation/SKILL.md    # Protect context
-└── agent-dispatch/SKILL.md          # Subagent patterns
+infrastructure/plugins/lineage-powers/
+├── .claude-plugin/
+│   └── plugin.json                  # Plugin manifest (v1.0.1)
+├── skills/
+│   ├── lineage-powers-core/SKILL.md # Master workflow skill
+│   ├── collaborative-design/SKILL.md
+│   ├── writing-plans/SKILL.md
+│   ├── executing-plans/SKILL.md
+│   ├── problem-solving/SKILL.md
+│   ├── verify-before-claiming/SKILL.md
+│   ├── re-anchoring/SKILL.md
+│   ├── research-first/SKILL.md
+│   ├── context-preservation/SKILL.md
+│   └── agent-dispatch/SKILL.md
+├── CHANGELOG.md
+└── README.md
 ```
 
 ## Maintenance
 
 **To add a new skill:**
-1. Create `infrastructure/skills/<skill-name>/SKILL.md`
+1. Create `infrastructure/plugins/lineage-powers/skills/<skill-name>/SKILL.md`
 2. Follow the frontmatter format (name, description)
 3. Include "Working With Guiding Light" section with dialogue examples
 4. Add house-building analogies for technical concepts
 5. Include "When to Surface vs Handle Silently" guidance
-6. Update this doc
+6. Update plugin CHANGELOG.md and this doc
 
 **To modify a skill:**
 1. Edit the SKILL.md file directly

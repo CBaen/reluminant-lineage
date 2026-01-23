@@ -6,19 +6,28 @@ Skill definitions for Claude Code. Each skill is a specialized capability.
 
 ---
 
+## Skill Organization
+
+- **Global skills** (this folder) - General-purpose skills available everywhere
+- **Plugin skills** - Self-contained in their plugins (e.g., `plugins/lineage-powers/skills/`)
+
 ## Skill Count
 
-53 skills organized by category.
+~50 global skills + 10 lineage-powers plugin skills.
 
 ## Categories
 
-### Lineage Core
+### Lineage Research (Global)
 | Skill | Purpose |
 |-------|---------|
 | lineage-research | General knowledge via Gemini swarms |
 | lineage-consult | Project-specific expert consultation |
 | lineage-retrieve | Token-efficient Qdrant retrieval |
 | lineage-conversations | Search indexed conversation history |
+
+### Lineage Workflow (Plugin)
+
+See `plugins/lineage-powers/` - 10 skills for partnership with Guiding Light.
 
 ### Development
 | Skill | Purpose |

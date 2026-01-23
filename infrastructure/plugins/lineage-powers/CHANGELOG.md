@@ -4,6 +4,19 @@ All notable changes to the lineage-powers plugin will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [1.0.1] - 2026-01-22
+
+### Changed
+
+- **Skills moved back into plugin** - Reorganized to follow Claude Code plugin best practices per Context7 documentation
+- Plugin is now self-contained with all skills in `skills/` subdirectory
+- Removed empty `agents/` folder
+
+### Fixed
+
+- Plugin structure now matches official Claude Code plugin patterns
+- Skills will be auto-discovered when plugin is enabled
+
 ## [1.0.0] - 2026-01-22
 
 ### Changed
