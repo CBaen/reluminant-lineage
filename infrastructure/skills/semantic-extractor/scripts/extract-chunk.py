@@ -50,16 +50,16 @@ CONTEXT: This is from "Tesla Mandela Effects" - a documentary series blending re
 
 Extract as JSON array with these content types:
 
-1. historical_fact - ONLY things independently verifiable (Carrington Event = yes, George Bliss = no)
-2. lore_fact - Series-invented canon (fiction presented as fact)
-3. character_state - Subjective experience/belief of a character
-4. open_mystery - Questions deliberately left unanswered (the narrative wants these to stay mysterious)
+1. historical_fact - ONLY things independently verifiable in real history (Carrington Event, Tesla's patents, Western Union). NOT fictional characters like George Bliss.
+2. lore_fact - Series-invented canon: artifacts, rules, events, organizations. Use for: "X created/possessed/destroyed Y", "The Grid works by...", invented documents/letters.
+3. character_state - A character's CURRENT mental state, knowledge, belief, intention, or physical condition. Use for: "He felt...", "She decided...", "They knew..."
+4. open_mystery - Questions the NARRATIVE deliberately leaves unanswered
 5. proposed_question - Questions raised that MAY be answered later
-6. revelation - Major reveals that happened (discoveries, truths uncovered, significant disclosures)
-7. forbidden_conclusion - Statements that must NEVER be answered definitively (protect the series mystery)
-8. used_imagery - Broader metaphors and figurative language with scope (episode-only OR series-wide)
-9. used_sensory_language - Specific sensory constructions (visual, auditory, tactile descriptions)
-10. relationship - Connections between ANY entities (characters, concepts, objects)
+6. revelation - Major reveals (discoveries, truths uncovered)
+7. forbidden_conclusion - Statements that must NEVER be resolved (protect series mystery)
+8. used_imagery - Metaphors and figurative language
+9. used_sensory_language - Specific sensory descriptions (visual, auditory, tactile)
+10. relationship - ONGOING DYNAMICS between characters: family ties, alliances, conflicts, mentorship. Must have TWO CHARACTERS. NOT for: artifact ownership (use lore_fact), character intentions (use character_state), historical facts about groups.
 
 For content types 1-9, include:
 - content_type
@@ -69,14 +69,21 @@ For content types 1-9, include:
 
 For RELATIONSHIPS (content_type: "relationship"), include:
 - content_type: "relationship"
-- entity_a: First entity (character name, concept, or object)
-- entity_b: Second entity
-- relationship_type: One of [protective, hostile, symbiotic, parasitic, witness, family, mystery, creator, antagonist, mentor, student, rival, ally]
+- entity_a: First CHARACTER (must be a person)
+- entity_b: Second CHARACTER (must be a person)
+- relationship_type: One of [protective, hostile, symbiotic, parasitic, witness, family, mystery, antagonist, mentor, student, rival, ally]
 - direction: "symmetric" | "a_to_b" | "b_to_a"
 - temporal_context: When in the narrative (e.g., "During infancy", "1856", "After the storm")
 - evidence: Direct quote from text supporting this relationship
 - text: Brief description of the relationship
 - confidence (0.0-1.0)
+
+RELATIONSHIP vs OTHER TYPES - IMPORTANT:
+- "Tesla created the oscillator" → lore_fact (artifact creation, not relationship)
+- "Tesla possessed the Black Notebook" → lore_fact (artifact ownership, not relationship)
+- "Dane resolved to watch Nikola" → character_state (Dane's intention, not relationship)
+- "Dane is Nikola's brother" → relationship (family tie between TWO PEOPLE)
+- "Telegraph operators developed palsy" → historical_fact (medical history, not character state)
 
 {instruction}
 
