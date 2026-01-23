@@ -1,0 +1,509 @@
+{
+  "batch_number": 2,
+  "total_batches": 9,
+  "item_count": 50,
+  "created": "2026-01-22T23:36:26.666877",
+  "collection": "tesla_mandela_effects",
+  "items": [
+    {
+      "id": "20130b1a-6973-4855-8998-99798670cff6",
+      "content_type": "character_state",
+      "text": "His arm locked. The current seized the muscles in his forearm and clamped his fingers around the key. He couldn't let go. His teeth rattled. The bones in his wrist vibrated like a struck tuning fork. Bliss threw his weight backward. The chair toppled. His hand ripped free. He lay on the floor, gasping.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2060ae81-9b51-4b5d-91ac-025941db9759",
+      "content_type": "revelation",
+      "text": "And there is one final anomaly. At twelve-forty-two in the afternoon, a message arrived from the direction of Portland. It is not in English. It is not in standard Morse code. It is a continuous stream of dots. No dashes. Just dots.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "209a9089-f7ba-48a7-8e70-9fe19745fc6c",
+      "content_type": "lore_fact",
+      "text": "The deletion is getting sloppy.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "22362a78-5ca5-4375-b865-c01bf1968b18",
+      "content_type": "used_sensory_language",
+      "text": "And the current was beginning to flow.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2293ae61-07fa-431d-abd5-e4b15cd615f4",
+      "content_type": "used_sensory_language",
+      "text": "fusing sailors to bulkheads",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2321714b-df12-4cf9-b509-e2c864220a43",
+      "content_type": "character_state",
+      "text": "George Bliss looked at the sky. The red fire was spreading south.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "258b3aa8-cfb9-4cc7-aa74-b88e554fc49d",
+      "content_type": "relationship",
+      "text": "Milutin is Nikola Tesla's father.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "25a7652d-5b70-4fc5-92a7-89e125e66985",
+      "content_type": "character_state",
+      "text": "Dane shielded his eyes. His retinas prickled with heat. Not the gentle warmth of morning light, but the sting of something caustic, something that wanted to get inside.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "25b4aa32-c5e1-48f1-a9c8-2860f7ae5dc0",
+      "content_type": "used_imagery",
+      "text": "Milutin's face carried the blankness of a man who has just woken from surgery and doesn't yet know what has been removed.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "25dc97d1-e02b-4a29-bf32-23c7c420272b",
+      "content_type": "used_sensory_language",
+      "text": "voice that cracked and broke like kindling.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "26bce578-156a-40a5-b951-428c07f74756",
+      "content_type": "relationship",
+      "text": "The patent office rejected Tesla's patent, acting as an antagonist to his unconventional inventions.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "26eabdd8-2296-4385-b63d-000805ba2e0e",
+      "content_type": "historical_fact",
+      "text": "He would sit in his chair, often for hours, in a state of rigid silence. His assistants knew not to disturb him. They described his eyes as fixed on a point that wasn't there.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "26fc8eab-5ea1-4877-9319-f08523d92bd4",
+      "content_type": "historical_fact",
+      "text": "But there was no impact crater. There were no meteorite fragments found for decades, and even then, they were microscopic.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "270ecc9c-db79-4809-8792-c529bd13f5a3",
+      "content_type": "used_sensory_language",
+      "text": "His voice was clear. No toddler's lisp. No fumbling for words. The sentence came out whole, precise, as if it had been rehearsed.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "27bf1951-d5ea-464e-820b-fa59c5817432",
+      "content_type": "historical_fact",
+      "text": "In letterpress printing, ink soaks into the fiber. It bleeds at the edges???not visibly, not to the casual eye, but under magnification you can see the halo where liquid met cellulose and was absorbed. The letters have soft boundaries. The words nestle into the page as if they grew there.",
+      "title": "Ep2 - historical_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "27d80770-b2de-4baf-8120-56be2a19009c",
+      "content_type": "used_sensory_language",
+      "text": "The iron latch on the front door seared his palm even through the hem of his nightshirt. The skin blistered, but he didn't cry out.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "28439c68-92c9-4433-afd7-9959a5c4a7d9",
+      "content_type": "revelation",
+      "text": "Dane was the insulator. The barrier. The incompatible tissue that the light couldn't integrate.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "28568f15-3dd9-4349-87ba-7a3ec59e05c7",
+      "content_type": "character_state",
+      "text": "Dane stayed on his knees. His chest ached where the cold wave had passed through. His heart was beating???but the rhythm felt different. Lighter. As if something had been removed to make room for something else.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2899dcc8-9a14-4b47-8118-1f4a9cf01059",
+      "content_type": "lore_fact",
+      "text": "But the ledger had vanished before the agents even arrived.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2a5cf4c2-b221-460f-bcc9-4a318ccfbc6d",
+      "content_type": "used_sensory_language",
+      "text": "And then, the forest stops.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2a6a1e43-db88-46e1-992e-184e7081fb0d",
+      "content_type": "used_sensory_language",
+      "text": "It is swallowing our memories. It is swallowing our history.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2d03618e-be74-4cce-bdad-bca27bba1929",
+      "content_type": "used_sensory_language",
+      "text": "The universe has an immune system.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2d229516-cc17-49fa-b6e4-332f5ab265bc",
+      "content_type": "lore_fact",
+      "text": "The room had been erased. White light filled every corner. The walls, the floor, the ceiling???all distinctions vanished in the glare. No shadows. No edges. No geometry except the crib in the center and the thing suspended above it.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2dbf39fc-333e-4777-81ad-c3dc63e50fab",
+      "content_type": "relationship",
+      "text": "A clinical, powerful white light is intensely focused on and impacting Dane's brother's nursery, causing dehydration.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2e12e137-54a4-4e62-a9d3-c99b5a2ba7b1",
+      "content_type": "used_sensory_language",
+      "text": "The room smells of vinegar and old dust.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2e225c98-8ecb-49b5-a0dc-87f1ce790efb",
+      "content_type": "character_state",
+      "text": "They didn't knock. They didn't mourn. They raided.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "2e3ce08e-4275-4d31-bc8e-ed59eec23378",
+      "content_type": "character_state",
+      "text": "The sensation was not heat. It was thickness.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2e56da8c-21b2-4932-b256-8a3c78e72dc7",
+      "content_type": "used_sensory_language",
+      "text": "the spark jumped to his thumb",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2ef44104-9bf8-4ed1-b984-4403d99493ee",
+      "content_type": "used_sensory_language",
+      "text": "The sound echoed through the empty church like a gunshot.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2f042865-002f-4581-b3af-a1d32aea4701",
+      "content_type": "relationship",
+      "text": "The 'grid' is actively and invasively mapping and sampling Dane's biological data, positioning it as a direct threat or adversary.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "2f82e4be-3ea5-4291-97bd-6faa1b530309",
+      "content_type": "revelation",
+      "text": "Dane understood then what he was looking at. It was not his little brother Nikola. Not entirely. A passenger had come through with Nikola. A presence that had been arriving since the night of his birth, threading itself through the nervous system of this century, making itself at home in a body that wasn't designed to contain it???and remaking the body until it was.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "30cba317-e16e-4cde-966a-edc94d765f15",
+      "content_type": "lore_fact",
+      "text": "In a drawer in Massachusetts, the tape waits. Brown and brittle. Smelling of carbon and something older. Three-six-nine. One-four-seven. Two-five-eight. The numbers still pulse in the burn marks. The message still waits to be read.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "30d1d100-edf4-406f-b2d6-bd3aaa9c83c2",
+      "content_type": "historical_fact",
+      "text": "It was January seventh, nineteen forty-three. Room thirty-three twenty-seven of the Hotel New Yorker. On the thirty-third floor, an eighty-six-year-old man lay dead in the bed.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "31578942-f668-4ff6-a27e-b411ecab9761",
+      "content_type": "historical_fact",
+      "text": "The USS Eldridge sits in dry dock. A Cannon-class destroyer escort.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "3216bd44-e9b9-4b99-b278-33f0039c1241",
+      "content_type": "revelation",
+      "text": "The attack hadn't been aimed at Nikola. It had been aimed at the resistance???the parts of the world that might reject the new tenant. The aurora, the radiation, the heat that had swept the planet???it was meant to burn away the antibodies. Exhaust the immune response until the host body stopped fighting. And it had worked. His father had accepted the new sun. The village had accepted the new sun.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "32406bae-04d3-4479-86da-1e638ac70ab5",
+      "content_type": "lore_fact",
+      "text": "Dane was the older brother. The brilliant one. The golden child.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "326db930-d067-4418-86e3-b1a818735397",
+      "content_type": "lore_fact",
+      "text": "The medics had to amputate the railing. Not the hand. The railing.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "32a2e6e6-26fa-47e1-b6e2-18089e17e5f4",
+      "content_type": "character_state",
+      "text": "He wanted to cry. He wanted to run to his father and bury his face in the rough wool of the priest's coat and say Papa, I'm scared, something is wrong, I can't carry this.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "345c6598-07b9-4ce4-a9a0-50490b07fe7c",
+      "content_type": "historical_fact",
+      "text": "The agents were from the Office of Alien Property. A wartime agency designed to seize the assets of enemies of the state.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "347071b7-a740-40df-9b59-81f2791b55d6",
+      "content_type": "lore_fact",
+      "text": "Upon his transfer, Father Toma took a vow of contemplative silence. He maintained it for thirty-five years. The priest never spoke again.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "35d13432-badc-4e3a-88f9-9a841a2689fc",
+      "content_type": "relationship",
+      "text": "Dane and Milutin are father and son.",
+      "title": "Ep2 - relationship",
+      "votes_for": 4,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "35fe5b8f-0a0a-40f4-bf36-1aa08d7ec366",
+      "content_type": "open_mystery",
+      "text": "Did Tesla try to send a wave of energy to correct the timeline?",
+      "title": "Ep1 - open_mystery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "363b1ff7-461f-4945-916a-13aec45e2291",
+      "content_type": "lore_fact",
+      "text": "And underneath the smear, carved into the grain with a force that almost tore the page, is a phrase in Serbian. Dolazi izmedu.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "37484aec-cb39-46b5-9ca2-723b59c74d2b",
+      "content_type": "used_sensory_language",
+      "text": "That is the sound of the fabric tearing between the staples.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "3799a011-20e9-459e-a292-bf05be3db3bd",
+      "content_type": "used_imagery",
+      "text": "The red glass that had once glowed like wine now looked brown???dried blood instead of fresh. The blue panels that had shimmered like summer sky now pierced the air like the flash of an emergency signal. The colors had been drained of their depth. They still existed, but they had been flattened. Simplified. Reduced to something that could be reproduced without error.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "37a62603-d7eb-4742-aa79-692230c07c70",
+      "content_type": "used_sensory_language",
+      "text": "The birds have forgotten us. The sky is empty. Even the flies do not land on the meat.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "3847ebea-8559-4a36-8ede-c6db39c1da13",
+      "content_type": "used_sensory_language",
+      "text": "The wax was melting. It dripped over his fingers in slow rivulets. Soft. Warm. Pooling in the creases of his palm. The cellar temperature was fifty degrees. Cold enough to see his breath if he exhaled sharply. Wax melts at one hundred and forty. There was no flame. No heat source.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "38c6ceef-640e-42e6-9dc5-4196b64f04d6",
+      "content_type": "lore_fact",
+      "text": "A cavity had opened behind his sternum where something used to live, and in its place sat a tenant he hadn't invited. The new occupant was quiet. Patient. Watching through his eyes while he tried to remember how to breathe.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "3bcd3c85-26a8-4009-a476-0e5bd800bd21",
+      "content_type": "historical_fact",
+      "text": "Milutin Tesla was a priest.",
+      "title": "Ep2 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "3e699254-39ce-43e0-8bee-72102f5ca89f",
+      "content_type": "lore_fact",
+      "text": "The examiner, a man who had approved hundreds of electrical patents, did not reject it because it wouldn't work. He rejected it because the mathematics made no sense. In a handwritten note attached to the file, the examiner wrote. The equations imply a variable that does not exist in standard inductance. The applicant assumes a conductivity of the medium that is theoretically infinite.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    }
+  ]
+}

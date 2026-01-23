@@ -1,0 +1,762 @@
+{
+  "batch_number": 1,
+  "total_batches": 9,
+  "item_count": 50,
+  "reviewed_by": "opus",
+  "reviewed_at": "2026-01-23T06:38:39Z",
+  "collection": "tesla_mandela_effects",
+  "decisions": [
+    {
+      "item": 1,
+      "decision": "CONFIRM",
+      "reasoning": "Metaphorical description - correctly classified as used_imagery."
+    },
+    {
+      "item": 2,
+      "decision": "CONFIRM",
+      "reasoning": "Describes Bliss's actions and immediate physical state - character_state."
+    },
+    {
+      "item": 3,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented plot element about a missing artifact - lore_fact."
+    },
+    {
+      "item": 4,
+      "decision": "CONFIRM",
+      "reasoning": "Major reveal about textual manipulation - revelation."
+    },
+    {
+      "item": 5,
+      "decision": "CONFIRM",
+      "reasoning": "Specific sensory color/temperature - used_sensory_language."
+    },
+    {
+      "item": 6,
+      "decision": "CONFIRM",
+      "reasoning": "Describes Dane's physical situation - character_state."
+    },
+    {
+      "item": 7,
+      "decision": "CONFIRM",
+      "reasoning": "Describes perception of Nikola's nature - character_state."
+    },
+    {
+      "item": 8,
+      "decision": "CONFIRM",
+      "reasoning": "Metaphorical comparison of cold - used_imagery."
+    },
+    {
+      "item": 9,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented pseudo-scientific explanation - lore_fact."
+    },
+    {
+      "item": 10,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented lore about timeline mechanics - lore_fact."
+    },
+    {
+      "item": 11,
+      "decision": "CONFIRM",
+      "reasoning": "Synesthetic color description - used_sensory_language."
+    },
+    {
+      "item": 12,
+      "decision": "CONFIRM",
+      "reasoning": "Describes immediate physical state - character_state."
+    },
+    {
+      "item": 13,
+      "decision": "lore_fact",
+      "reasoning": "The automated oscillator prototype is series-invented canon, not a relationship between entities."
+    },
+    {
+      "item": 14,
+      "decision": "CONFIRM",
+      "reasoning": "References real-world Tesla fame - historical_fact."
+    },
+    {
+      "item": 15,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented plot element about missing document - lore_fact."
+    },
+    {
+      "item": 16,
+      "decision": "CONFIRM",
+      "reasoning": "Visual sensory description - used_sensory_language."
+    },
+    {
+      "item": 17,
+      "decision": "CONFIRM",
+      "reasoning": "Multi-sensory description - used_sensory_language."
+    },
+    {
+      "item": 18,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented description of shape behavior - lore_fact."
+    },
+    {
+      "item": 19,
+      "decision": "lore_fact",
+      "reasoning": "This unpublished letter is series-invented, not real documented history."
+    },
+    {
+      "item": 20,
+      "decision": "CONFIRM",
+      "reasoning": "Questions that may be answered later - proposed_question."
+    },
+    {
+      "item": 21,
+      "decision": "CONFIRM",
+      "reasoning": "Metaphor personifying the sky - used_imagery."
+    },
+    {
+      "item": 22,
+      "decision": "CONFIRM",
+      "reasoning": "Reveal that subverts expectations - revelation."
+    },
+    {
+      "item": 23,
+      "decision": "CONFIRM",
+      "reasoning": "Duplicate of item 7 - character_state."
+    },
+    {
+      "item": 24,
+      "decision": "historical_fact",
+      "reasoning": "Telegraph operators developing palsy is documented real history, not a character state."
+    },
+    {
+      "item": 25,
+      "decision": "CONFIRM",
+      "reasoning": "Visual metaphor of light bleeding - used_imagery."
+    },
+    {
+      "item": 26,
+      "decision": "CONFIRM",
+      "reasoning": "Tunguska event is documented real history - historical_fact."
+    },
+    {
+      "item": 27,
+      "decision": "CONFIRM",
+      "reasoning": "Question deliberately left unanswered - open_mystery."
+    },
+    {
+      "item": 28,
+      "decision": "CONFIRM",
+      "reasoning": "Familial connection between characters - relationship."
+    },
+    {
+      "item": 29,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented bureaucratic detail - lore_fact."
+    },
+    {
+      "item": 30,
+      "decision": "CONFIRM",
+      "reasoning": "Western Union is real historical company - historical_fact."
+    },
+    {
+      "item": 31,
+      "decision": "CONFIRM",
+      "reasoning": "Major reveal about evidence destruction - revelation."
+    },
+    {
+      "item": 32,
+      "decision": "lore_fact",
+      "reasoning": "The Black Notebook is a series-invented artifact - lore canon, not a relationship."
+    },
+    {
+      "item": 33,
+      "decision": "CONFIRM",
+      "reasoning": "Question deliberately left open - open_mystery."
+    },
+    {
+      "item": 34,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented archival location - lore_fact."
+    },
+    {
+      "item": 35,
+      "decision": "CONFIRM",
+      "reasoning": "Connection between Bliss's experience and behavior - relationship."
+    },
+    {
+      "item": 36,
+      "decision": "CONFIRM",
+      "reasoning": "Direct sensory address about feeling numbness - used_sensory_language."
+    },
+    {
+      "item": 37,
+      "decision": "CONFIRM",
+      "reasoning": "Tactile sensory description - used_sensory_language."
+    },
+    {
+      "item": 38,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented origin story dialogue - lore_fact."
+    },
+    {
+      "item": 39,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented framing - lore_fact."
+    },
+    {
+      "item": 40,
+      "decision": "CONFIRM",
+      "reasoning": "Extended metaphor - used_imagery."
+    },
+    {
+      "item": 41,
+      "decision": "character_state",
+      "reasoning": "Describes Dane's internal decision/intention - his mental state, not a relationship."
+    },
+    {
+      "item": 42,
+      "decision": "CONFIRM",
+      "reasoning": "Metaphor comparing telegraph tape - used_imagery."
+    },
+    {
+      "item": 43,
+      "decision": "character_state",
+      "reasoning": "Describes Tesla's personal abilities and experiences - his internal state, not world-building lore."
+    },
+    {
+      "item": 44,
+      "decision": "CONFIRM",
+      "reasoning": "Visual sensory description - used_sensory_language."
+    },
+    {
+      "item": 45,
+      "decision": "CONFIRM",
+      "reasoning": "Multi-sensory description - used_sensory_language."
+    },
+    {
+      "item": 46,
+      "decision": "CONFIRM",
+      "reasoning": "Series-invented lore about fracture spread - lore_fact."
+    },
+    {
+      "item": 47,
+      "decision": "CONFIRM",
+      "reasoning": "References real historical explanations - historical_fact."
+    },
+    {
+      "item": 48,
+      "decision": "CONFIRM",
+      "reasoning": "Synesthetic taste sensation - used_sensory_language."
+    },
+    {
+      "item": 49,
+      "decision": "CONFIRM",
+      "reasoning": "Auditory sensory description - used_sensory_language."
+    },
+    {
+      "item": 50,
+      "decision": "CONFIRM",
+      "reasoning": "Major reveal about aurora location - revelation."
+    }
+  ],
+  "items": [
+    {
+      "id": "00b96772-dde3-4bbe-83fc-76a32829366b",
+      "content_type": "used_imagery",
+      "text": "As if someone had taken him apart in the dark and put him back together with pieces left over.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "01056bf0-d7de-40d3-81f6-46a244a1630f",
+      "content_type": "character_state",
+      "text": "Bliss wrapped his coat around his hand and grabbed the key. The heat radiated through the wool, but he held on. He tapped out a message to Portland.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "0281e1fb-a1b2-4027-9a5d-5858e1f5ea17",
+      "content_type": "lore_fact",
+      "text": "They never found the ledger.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "02efaabc-15d4-47ff-b84d-0184f01170bc",
+      "content_type": "revelation",
+      "text": "The original word had been removed. The new word had been inserted.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "03274e3a-82fb-42eb-b814-2f56f9cc5572",
+      "content_type": "used_sensory_language",
+      "text": "cold, blue light",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "03cc951d-3197-4d36-83a4-69fd115c6734",
+      "content_type": "character_state",
+      "text": "Dane had been under the light for hours.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "04a3343a-6673-4f5c-8491-9df243c20364",
+      "content_type": "character_state",
+      "text": "Whatever else Nikola was, he was also this. A three-year-old boy playing with rocks in a garden.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "04b14a86-68aa-4b4f-ae62-50a4d3da5c82",
+      "content_type": "used_imagery",
+      "text": "Cold like dead skin. Cold like something that had stopped circulating.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "05a3b943-81b2-49b8-a644-0c2562edf991",
+      "content_type": "lore_fact",
+      "text": "The molecular structure of the candle was failing. The bonds holding the paraffin together were loosening, letting go, allowing the solid to remember that it had once been liquid.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "05ebc735-8bd8-42d1-aadc-c1b9a3a746af",
+      "content_type": "lore_fact",
+      "text": "The immune system has begun to attack the only thing left that anchors the Tesla timeline to reality: our memories.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "074a515d-6112-45e3-87ac-35529d5ba3ac",
+      "content_type": "used_sensory_language",
+      "text": "the air had turned the color of a bruise.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "07e4770a-3fbb-464e-9288-79b88c136b69",
+      "content_type": "character_state",
+      "text": "He tried to scream. His throat had frozen shut.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "08b53c97-8482-4f24-880a-bab99bac8dd4",
+      "content_type": "relationship",
+      "text": "Tesla developed and possessed prototypes of an 'automated oscillator' which was destroyed in the fire.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "09a4929a-20a7-423c-856d-7282f64ce7fc",
+      "content_type": "historical_fact",
+      "text": "The world marvels at his inventions. They call him a wizard, the man who invented the twentieth century. His face adorns t-shirts. His name is stamped on electric cars.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "0acd3728-2911-47bf-9ce5-309c4f9d73c6",
+      "content_type": "lore_fact",
+      "text": "And the one document that might have explained everything???the coordinates, the Government, the location of the original incision???had already slipped through.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "0b4917c6-ddff-4978-89c3-6870e82de406",
+      "content_type": "used_sensory_language",
+      "text": "the sky split in two.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "0bf2f188-8f41-4c0d-9b22-1a9de802d8fd",
+      "content_type": "used_sensory_language",
+      "text": "grey, watery separation that smelled of ozone",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "0c6ee88e-cc6a-4b84-abf7-b19dac24cd0e",
+      "content_type": "lore_fact",
+      "text": "The shape pulsed one final time???not frantic now, but satisfied???and shattered. Not into shards. Into mist.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "0ca0047d-e1dd-4447-800d-b6a951abb344",
+      "content_type": "character_state",
+      "text": "In a letter to a colleague, never published, Tesla wrote that he had been in the laboratory until midnight. He had extinguished every flame himself. He had checked every gas valve twice. The habit of a man who worked with electricity knew the dangers of fire.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "0d1b485a-fad6-4d98-9588-6e4ca6dac1a0",
+      "content_type": "proposed_question",
+      "text": "Would the glass eventually fail? Would the color cook out of the lead came? Would the amber fade to clear?",
+      "title": "Ep2 - proposed_question",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "0da606d0-2b85-4622-ba93-be9b12e58569",
+      "content_type": "used_imagery",
+      "text": "The sky was not simply hemorrhaging light; it was speaking.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "0e6e91f0-4de6-48b4-915b-dff657a17569",
+      "content_type": "revelation",
+      "text": "But the target was not in Boston.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "0ff49048-2ac2-443b-b0cb-76cd0e774569",
+      "content_type": "character_state",
+      "text": "Whatever else Nikola was, he was also this. A three-year-old boy playing with rocks in a garden.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "10a667b5-6231-464d-9267-02ad23451740",
+      "content_type": "character_state",
+      "text": "Telegraph operators developed palsy in their sending hands.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1121f718-4de9-4391-a88b-69f31a322e2f",
+      "content_type": "used_imagery",
+      "text": "red light bleeding through the window",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "11635bc6-3564-43b2-a15a-668910ac0f65",
+      "content_type": "historical_fact",
+      "text": "June thirtieth, nineteen oh eight. Siberia. An explosion flattens eighty million trees over eight hundred square miles. The energy release is estimated at fifteen megatons.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "13dd96b5-5264-4936-a340-f09018fb48ce",
+      "content_type": "open_mystery",
+      "text": "Has the fracture moved from the physical to the cognitive?",
+      "title": "Ep1 - open_mystery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "13e51762-6012-4e4d-89bb-c032b356c9c4",
+      "content_type": "relationship",
+      "text": "Dane is Nikola's brother.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "13f74e36-d279-4f00-93ce-25c6f0b17859",
+      "content_type": "lore_fact",
+      "text": "George Bliss's medical records were transferred to the pension office when he applied for disability, and his application was denied.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1459da21-ab65-421a-89ba-3bbdcd319260",
+      "content_type": "historical_fact",
+      "text": "Western Union Telegraph Company",
+      "title": "Ep2 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "148984ec-33b6-4dac-85a0-00257e19842a",
+      "content_type": "revelation",
+      "text": "the tapes themselves???the physical record of what the wires received that day???were largely destroyed by the very phenomenon they recorded.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "158d18e6-79ae-4d9f-aaf9-a11fc47cd4d1",
+      "content_type": "relationship",
+      "text": "Tesla possessed and likely created (or heavily annotated) the Black Notebook, a crucial personal artifact of his 'true' work.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "15aff8e5-64a7-43ac-9818-1207ccbc80f4",
+      "content_type": "open_mystery",
+      "text": "What happens to the cells of the tumor?",
+      "title": "Ep1 - open_mystery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "15e79708-8a0a-4d29-bcf3-7a2d346bbcd0",
+      "content_type": "lore_fact",
+      "text": "The tape occupies drawer fourteen-C.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1699a1da-e506-4574-8513-d5ee58e11c02",
+      "content_type": "relationship",
+      "text": "After his experience during the Carrington Event, George Bliss developed a strong aversion to modern electricity, refusing to connect his home to the grid.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1749010a-170e-4c5e-91cb-650f3550a484",
+      "content_type": "used_sensory_language",
+      "text": "You feel the difference. You feel the numbness. You feel the absence of something that used to be there.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "17565cd1-2948-40e5-b4ff-425032f848e1",
+      "content_type": "used_sensory_language",
+      "text": "The edges crumble when touched. Flakes of carbon drift onto the metal table.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "17e9f1c4-3833-43b7-82d7-fb1f90a3eb53",
+      "content_type": "lore_fact",
+      "text": "A midwife saying, This child will be a child of darkness, and the mother replying, No, he will be a child of light.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "19602e87-5e8d-4949-893a-a835465f102b",
+      "content_type": "lore_fact",
+      "text": "Tesla's inventions were contaminants.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "19f440ac-7bcd-4ed4-86c4-f2203a071c33",
+      "content_type": "used_imagery",
+      "text": "He was the incompatible tissue. The part of the old body that wouldn't integrate. The immune response that had somehow survived the fever and was still circulating, still fighting, still remembering what had been lost.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1a941b9d-1199-42cb-b871-5265d09afaa7",
+      "content_type": "relationship",
+      "text": "Dane resolves to observe and remember Nikola's ongoing transformation.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1af3f8df-0d73-470b-9bdb-f3bc74896a4d",
+      "content_type": "used_imagery",
+      "text": "The telegraph tape is a receipt. A printout from a procedure.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1af9e414-675b-423a-b49b-574e59a3faa2",
+      "content_type": "lore_fact",
+      "text": "He had the flashes. He saw the geometry. He could look at the sky and see patterns that weren't there.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "1b6ac0c1-613c-4da3-a082-0ce303d6fbff",
+      "content_type": "used_sensory_language",
+      "text": "The light on the floorboards had turned violet.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1bcc6c60-64ac-4dfa-a077-bdc906027543",
+      "content_type": "used_sensory_language",
+      "text": "a spark leapt from his ear to his shoulder???a bright snap that left the smell of singed hair.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1cc0a05d-a08b-43ab-bb11-48618cd7015a",
+      "content_type": "lore_fact",
+      "text": "The fracture was spreading. It was no longer contained to a laboratory or a remote forest in Siberia. It was bleeding into the infrastructure of the world.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "1d05047c-e968-44b3-b735-3dccb901bee2",
+      "content_type": "historical_fact",
+      "text": "History tells us it was a meteor. A comet. A space rock that exploded in the atmosphere.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "1d26794b-df57-455f-b529-44e391682244",
+      "content_type": "used_sensory_language",
+      "text": "The words tasted strange in his mouth.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "1fae1709-1d5f-465b-afdc-1be3be12c4ac",
+      "content_type": "used_sensory_language",
+      "text": "No bird song. No insect hum. Just the sound of the wind moving through the dry grass, and the sound of the Tesla house breathing.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "1fcd8c23-5647-4e31-b521-c7507f772569",
+      "content_type": "revelation",
+      "text": "The aurora borealis. But it wasn't in the north. It was directly overhead, and it was throbbing.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    }
+  ]
+}

@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-01-23
+
+### Added
+
+- **semantic-extractor: Opus batch review system** - New `opus-batch-review.py` script for efficient QA of disputed items:
+  - Batches 50 items per prompt (vs. 416 individual calls = ~95% cost reduction)
+  - Extracts 0.85 confidence items from Qdrant
+  - Generates review prompts for Opus
+  - Applies decisions back to Qdrant (updates confidence to 0.95)
+  - Batch 1 tested: 50 items reviewed, 44 confirmed, 6 corrected
+  - 8 batches remaining (366 items)
+
 ## [1.4.0] - 2026-01-22
 
 ### Changed

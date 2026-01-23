@@ -1,0 +1,509 @@
+{
+  "batch_number": 3,
+  "total_batches": 9,
+  "item_count": 50,
+  "created": "2026-01-22T23:36:26.672330",
+  "collection": "tesla_mandela_effects",
+  "items": [
+    {
+      "id": "3e86f80c-270e-419d-8e2d-8a7102db55f9",
+      "content_type": "lore_fact",
+      "text": "The burn on his thumb had already sealed itself???the heat so intense it had cauterized the wound before blood could flow.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "3f4e97fd-bc03-4068-8768-14ac4bef5375",
+      "content_type": "lore_fact",
+      "text": "Arriving from between.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "3fa4088f-848d-4330-9b3e-1a1051c8fe86",
+      "content_type": "revelation",
+      "text": "But even as the hours crawled past, he understood. The analysis would remain.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "3ff2f2bc-493e-4998-8445-103c8e0d0246",
+      "content_type": "relationship",
+      "text": "Dane realizes that text functions as code, a sequence of instructions that can be manipulated.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "408061d2-371c-4387-ac3b-858f5855b6e2",
+      "content_type": "revelation",
+      "text": "The pattern repeats throughout the entire two-hour transmission. Hidden in the margins. Buried in the gaps between words. A second conversation running beneath the first???encoded, patient, waiting to be read.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "40cfaac9-c3fc-4796-8643-7b227dda30cc",
+      "content_type": "used_sensory_language",
+      "text": "A heavy volume, bound in leather that had cracked with age.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "40da77b2-59af-47f8-991f-45edaa38b7c4",
+      "content_type": "lore_fact",
+      "text": "The wires became antennas. They drank the energy. They channeled it into the offices of men like George Bliss.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4122c502-8b7e-4ece-9e7e-423bb6d63b87",
+      "content_type": "used_sensory_language",
+      "text": "The immune system will eventually flush the contaminant.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "415ede78-a75e-4de6-b741-274a6fe303b2",
+      "content_type": "character_state",
+      "text": "We assume they were looking for a weapon. The Death Ray. The Earthquake Machine.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "421fc204-ebaf-4102-8adf-c297427271b7",
+      "content_type": "used_imagery",
+      "text": "The operating theater. The examination lamp. The patient pinned beneath the light while something studied its insides.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "42356834-40e8-4e33-8ba9-807af069824b",
+      "content_type": "lore_fact",
+      "text": "The diary of the schoolteacher survives, as do the agricultural records of the region. Cross-reference them. A discrepancy emerges that should be impossible.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "427e3c22-3e21-4d02-8cb4-a65a56da8f5e",
+      "content_type": "used_imagery",
+      "text": "The fine hairs rose and stayed rigid, reaching toward the beam like iron filings drawn to a magnet.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "42a44701-652e-4725-a98d-a9d437fe94cf",
+      "content_type": "lore_fact",
+      "text": "Above him, something rotated. Not a ball of fire. Not a cloud or a spirit or anything Dane had words for. Geometry. A complex, many-sided form made of what looked like frozen lightning???liquid and solid at once, its surfaces refracting the white glare into spectrums that had no names.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "42fcb808-aea3-4663-b545-ac6d13fba5fa",
+      "content_type": "relationship",
+      "text": "Dane experiences a disconnect or unfamiliarity with his own legs after the mysterious event, indicating a fundamental alteration.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "43b7be38-c71b-4cdf-8d32-40fd0beda564",
+      "content_type": "historical_fact",
+      "text": "The Smithsonian holds a different kind of evidence. In the weeks after the storm, Joseph Henry???the institution's first Secretary???collected reports from telegraph operators across the continent.",
+      "title": "Ep2 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4486aca1-2108-482b-86e4-61fd87477459",
+      "content_type": "character_state",
+      "text": "Father Toma took a vow of contemplative silence. He maintained it for thirty-five years. The priest never spoke again.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "457e80f5-051c-446d-99f0-3d1d1ecbf15a",
+      "content_type": "revelation",
+      "text": "The target was four thousand miles to the east. A limestone valley in the Balkans. A village called Smiljan. And the assault had only started.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "45a2eae4-38b9-48d4-97db-c217ef840a24",
+      "content_type": "used_imagery",
+      "text": "A canyon cut by a tool that had become a weapon.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "45ee59b3-1f86-4039-88d3-d6426e04ab3f",
+      "content_type": "used_imagery",
+      "text": "the slow, methodical disassembly of everything he was.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "465d617a-8878-4200-a93b-5722d08e14b5",
+      "content_type": "lore_fact",
+      "text": "Across the planet, the attack subsided. But the target had survived.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "46c83b5f-1daa-4c41-af87-2532ae73188c",
+      "content_type": "relationship",
+      "text": "Thomas Edison's working method is characterized by a struggle to dominate or control nature.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "46ff7fbc-aba9-444e-ab49-9a173d7b4c8c",
+      "content_type": "used_sensory_language",
+      "text": "His hand was the rail.",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "470b2af7-73ab-4448-bffe-8a2078fcfd69",
+      "content_type": "lore_fact",
+      "text": "the cold wave had passed through him in the nursery.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4756ebb2-a846-4575-8da2-cb83c2f1bca6",
+      "content_type": "lore_fact",
+      "text": "He was on the verge of demonstrating the automated oscillator, a machine that could purportedly create earthquakes. He had the prototypes. He had the data. He had shadowgraphs of the human body taken with invisible light. He had a map of the stars that didn't match any sky on Earth.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "47d957be-fb41-408f-9222-83444441cb5d",
+      "content_type": "used_sensory_language",
+      "text": "The red light passed through his skin. His fingers had gone translucent. He could see the dark architecture of his bones, the black web of veins branching beneath the surface. The blood moving through those vessels had slowed. He could feel it???thick, reluctant, dragging through his veins like syrup through a straw.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "47e102c0-16b1-48e8-8058-0cb5d91c3fb6",
+      "content_type": "used_sensory_language",
+      "text": "Charred, then soaked in the humidity of a century, then dried again into a brittleness that feels like a warning.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4818225f-b9aa-4a76-b336-c08785a381d3",
+      "content_type": "lore_fact",
+      "text": "But Dane saw them too.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "48d1e071-509d-457b-b15c-36bb1cf544b4",
+      "content_type": "used_sensory_language",
+      "text": "Bottomless in a way that had nothing to do with the color of the iris.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4a3d8966-20c7-4afa-a071-ad3bda15d06b",
+      "content_type": "used_imagery",
+      "text": "Milutin's voice carried the patience of a priest explaining scripture to a slow child.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4a911d51-4552-493f-a53f-cc68611c32d0",
+      "content_type": "used_sensory_language",
+      "text": "His small finger aimed directly at the white hole in the sky, unflinching.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4aa9e573-2d3d-4754-ba18-3fb6a6cdffc5",
+      "content_type": "used_sensory_language",
+      "text": "The stylus pressed clean indentations into the fiber. Dots and dashes, compressed but intact. The spacing is regular. The pressure is uniform.",
+      "title": "Ep2 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4add6621-5013-4585-ab9d-59f0d29210d6",
+      "content_type": "used_imagery",
+      "text": "'The surface of the water looked like the fluid in a blister.'",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4b066347-8cc1-45f7-a76e-e4c2196a544d",
+      "content_type": "relationship",
+      "text": "Dane's father is a priest.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4c7d29c8-8b42-4322-b75e-0b704fb7b9a2",
+      "content_type": "lore_fact",
+      "text": "Then came the stitching. Not a needle???a sensation. The edges of his mind being pulled together. A seam closing behind his eyes. Foreign matter settling into the space behind his eyes.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4d2ea554-4f5e-435b-b3c9-93de6d69a2ba",
+      "content_type": "character_state",
+      "text": "Dane thought of his father in the yard, staring at the white sun without pain. The sun has always been white.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4ded91bf-6df4-4dad-b60a-923baf6d6035",
+      "content_type": "used_imagery",
+      "text": "A seed pod bursting after planting.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4e187dcf-88e4-4a6c-8cd1-4ad7463b13d0",
+      "content_type": "character_state",
+      "text": "He was surrounded by the only friends he had left. The pigeons cooing on the windowsill, waiting for the feed that would never come.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "4e22e1d4-7de1-4c6d-a1f2-c2d1f018bbcc",
+      "content_type": "used_imagery",
+      "text": "A golden mane. A king of beasts. The symbol of strength surrendering its power for the sake of peace. Lion.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "4e76d25b-ea5e-4a15-b1b2-df9002f79b75",
+      "content_type": "lore_fact",
+      "text": "Millions of people, strangers, separated by continents and generations, share the exact same specific, detailed hallucination.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "4f0d7538-5a3d-4114-abf6-b1b704a88da7",
+      "content_type": "character_state",
+      "text": "But during those forty days, he stopped speaking entirely.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "500fa6c2-62c7-4e7a-b60a-1024d27db078",
+      "content_type": "relationship",
+      "text": "The brain retains memories of a world that no longer exists.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "50cb3f68-78c3-4485-b398-1cde0739856e",
+      "content_type": "used_imagery",
+      "text": "The Bible had been rewritten and no one noticed the scar. Everyone had taken the graft.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "51ceae00-5b5e-4e6b-96b7-81b282aa9062",
+      "content_type": "lore_fact",
+      "text": "But they never found the ledger. The small one. The one labeled Government. The one Tesla had clutched to his chest and whispered contained coordinates.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "52e93da7-969f-4e04-b304-a277811834be",
+      "content_type": "relationship",
+      "text": "The immune system is actively attacking human memories.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "537d21ea-87e6-4307-9da4-1ab8fb46b4ab",
+      "content_type": "lore_fact",
+      "text": "Then came the stitching. Not a needle???a sensation. The edges of his mind being pulled together. A seam closing behind his eyes. Foreign matter settling into the space behind his eyes. The intrusion settling into place, and the surrounding flesh choosing???against all instinct???not to reject it.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "54e10169-11d2-41de-833f-9c02a6886933",
+      "content_type": "character_state",
+      "text": "Where Nikola was tormented by the visions, Dane was curious. Where Nikola tried to make them stop, Dane tried to make them stay.",
+      "title": "Ep1 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "55535317-e1b2-4402-92d5-7a5e6fdcf00f",
+      "content_type": "used_imagery",
+      "text": "A wolf lying with a lamb is not peace. It is a pause. A held breath. A predator conserving its energy until the moment arrives.",
+      "title": "Ep2 - used_imagery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "559a0fd1-3110-4d89-bb2f-c0419474000f",
+      "content_type": "character_state",
+      "text": "He realized that the shadow was the truth. The shadow was the diagnosis. And the physical rope was just the rotting meat covering the bone.",
+      "title": "Ep2 - character_state",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "55a21119-e170-4175-a605-fb7e4bda8cef",
+      "content_type": "lore_fact",
+      "text": "In the margin of his transfer request, the last words he ever wrote officially, he inscribed a phrase in Latin. Quod transit debet cito nominari.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "5632e6da-0a6e-40cb-a7fe-3fa576473580",
+      "content_type": "historical_fact",
+      "text": "The trees fell in a radial pattern.",
+      "title": "Ep1 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "batch_number": 9,
+  "total_batches": 9,
+  "item_count": 16,
+  "created": "2026-01-22T23:36:26.684565",
+  "collection": "tesla_mandela_effects",
+  "items": [
+    {
+      "id": "f4fbee65-1a89-4170-ae2a-16aa0775f090",
+      "content_type": "lore_fact",
+      "text": "A ten-year-old boy named Dane Tesla was not asleep. No one in the village was asleep.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "f51439c8-6096-40e7-a3b4-14f39e2107e2",
+      "content_type": "lore_fact",
+      "text": "He was just the first.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "f517ac8c-578d-4f3d-9eed-75bbc59d0f65",
+      "content_type": "lore_fact",
+      "text": "They hauled out eighty trunks. Eighty trunks containing the lifetime work of the man who invented the twentieth century.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "f5b42a4b-7fa6-4c92-a318-bffd513cbcf3",
+      "content_type": "revelation",
+      "text": "The ridges had been unmade???as if the light had reached into the architecture of his skin and simply deleted the pattern. His fingertips were blank now. Pale circles of undifferentiated flesh. The whorls and loops that had marked him as himself since before his birth had been rendered down to nothing. He was looking at skin that had forgotten its own shape.",
+      "title": "Ep2 - revelation",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "f674478a-4c39-4485-bea3-86af4d45b52e",
+      "content_type": "lore_fact",
+      "text": "Three years earlier, in July of eighteen fifty-six, something had arrived in a village in the Balkans. Something had passed through the membrane between timelines and taken up residence in the body of an infant.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "f6854692-5d45-487e-a602-21043d358b33",
+      "content_type": "proposed_question",
+      "text": "'Was the sky speaking? Were the wires listening?'",
+      "title": "Ep2 - proposed_question",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "f81296f6-0110-40bf-b297-f0d53735f1b4",
+      "content_type": "relationship",
+      "text": "Duka is Nikola Tesla's mother.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "f9b93af3-b43f-45e0-acab-64361af6799e",
+      "content_type": "relationship",
+      "text": "Dane is the son of the church's pastor, and grew up attending his father's services in the church.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "fa33779c-2d7d-4ed6-80e3-661668f36ab8",
+      "content_type": "open_mystery",
+      "text": "What if CERN isn't trying to open a portal? What if they are trying to hold one closed?",
+      "title": "Ep1 - open_mystery",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "fa59f49b-8b98-4336-9d14-e31dd84ed1ab",
+      "content_type": "relationship",
+      "text": "Tesla entrusted Kosanovic with a secret ledger and made him promise to destroy it for protection.",
+      "title": "Ep1 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "fa8df6fa-6547-48e1-b0c6-41efc46f526b",
+      "content_type": "historical_fact",
+      "text": "Velebit mountains",
+      "title": "Ep2 - historical_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "fa8fe4bd-764a-4fd2-98a7-424c07a6e160",
+      "content_type": "relationship",
+      "text": "The Pension Board rejects George Bliss's disability claim, misunderstanding his condition and accusing him of malingering.",
+      "title": "Ep2 - relationship",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "fac061a2-5eea-4baf-a6fa-0a72b4ca685e",
+      "content_type": "used_sensory_language",
+      "text": "tear the scar tissue open",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "fbdcd5ff-1004-421b-a142-6c9a7e198f18",
+      "content_type": "used_sensory_language",
+      "text": "heal the wound by burning out the infection sites",
+      "title": "Ep1 - used_sensory_language",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    },
+    {
+      "id": "fd4f24c1-d299-44cd-9dc7-ec9047b009ec",
+      "content_type": "lore_fact",
+      "text": "A wave of colorless mist crashed outward from the crib. It hit Dane like a memory???not wind, not force, but information. Data slamming into his nervous system faster than his brain could process.",
+      "title": "Ep2 - lore_fact",
+      "votes_for": 2,
+      "agreement": "3/3",
+      "episode_number": 2,
+      "keywords": []
+    },
+    {
+      "id": "ff257412-c8ab-41ca-855e-6b488678f625",
+      "content_type": "lore_fact",
+      "text": "And the man who started it all knew it was happening.",
+      "title": "Ep1 - lore_fact",
+      "votes_for": 2,
+      "agreement": "2/3",
+      "episode_number": 1,
+      "keywords": []
+    }
+  ]
+}

@@ -104,6 +104,64 @@ python ~/.claude/skills/semantic-extractor/scripts/store-extractions.py \
 | `generate-episode-summary.py` | Auto-generate episode metadata |
 | `sensory-vocabulary.py` | Manage sensory language tracking |
 | `migrate-episodes.py` | Full V3 migration pipeline |
+| `opus-batch-review.py` | Batch review disputed items (0.85 confidence) with Opus |
+
+## Opus Batch Review (Post-Extraction QA)
+
+After extraction, items with 2/3 Gemini agreement (0.85 confidence) need Opus review.
+
+### Why Batched Review?
+
+- **Problem**: 416 disputed items = 416 individual Opus calls = expensive + slow
+- **Solution**: Batch 50 items per prompt = 9 batches total = ~95% cost reduction
+
+### Workflow
+
+```bash
+# 1. Check current status
+python ~/.claude/skills/semantic-extractor/scripts/opus-batch-review.py --status
+
+# 2. Extract disputed items into batch files
+python ~/.claude/skills/semantic-extractor/scripts/opus-batch-review.py --extract
+
+# 3. Review each batch with Opus (via Claude Code Task tool or directly)
+#    Input: batch_NNN_prompt.md
+#    Output: Add "decisions" array to batch_NNN.json, save as batch_NNN_reviewed.json
+
+# 4. Apply Opus decisions to Qdrant
+python ~/.claude/skills/semantic-extractor/scripts/opus-batch-review.py --apply --batch-file batch_001_reviewed.json
+```
+
+### Batch File Structure
+
+```
+opus-review-batches/
+├── batch_001.json           # Raw items from Qdrant
+├── batch_001_prompt.md      # Prompt for Opus review
+├── batch_001_reviewed.json  # Items + decisions array (after review)
+├── batch_002.json
+└── ...
+```
+
+### Decisions JSON Format
+
+```json
+{
+  "decisions": [
+    {"item": 1, "decision": "CONFIRM", "reasoning": "Correctly classified"},
+    {"item": 2, "decision": "lore_fact", "reasoning": "Series-invented, not historical"}
+  ],
+  "items": [...]  // Original items from extraction
+}
+```
+
+### Confidence Levels After Review
+
+| Confidence | Meaning |
+|------------|---------|
+| 0.95+ (unanimous) | 3/3 Gemini agreement - no review needed |
+| 0.95 (opus) | Opus reviewed and confirmed/corrected |
+| 0.85 | 2/3 Gemini agreement - awaiting Opus review |
 
 ## Deduplication Commands
 
