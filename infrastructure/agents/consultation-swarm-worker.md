@@ -26,9 +26,9 @@ This infrastructure IS running. Proceed with confidence.
 
 ## Critical Rules
 
-1. **Run all 5 angles IN PARALLEL** - use background processes for speed
-2. **Use the Python helper script** - it handles prompt creation, validation, and storage
-3. **Alternate accounts** - angles 1,3,5 use account 1; angles 2,4 use account 2
+1. **Two parallel streams** - Account 1 and Account 2 run simultaneously
+2. **3-5 second delays WITHIN each account** - prevents rate limiting
+3. **Use the Python helper script** - handles prompt creation, validation, storage
 4. **Return ONLY coordinates** - session, collection, point IDs (not content)
 
 ---
@@ -62,20 +62,36 @@ print(f'Context written to: {path}')
 "
 ```
 
-### STEP 3: Run All 5 Consultation Angles IN PARALLEL
+### STEP 3: Run Consultation Angles (Two Parallel Streams)
 
-Launch ALL 5 angles at once using background processes:
+Run TWO parallel streams - one per account. Each stream has 3-5 second delays between calls.
 
+**Stream 1 (Account 1 - angles 1, 3, 5):**
 ```bash
-python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Problem Analysis" --account 1 --session "{{SESSION}}" --angle-num 1 --timeout 600 &
-python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Architecture Options" --account 2 --session "{{SESSION}}" --angle-num 2 --timeout 600 &
-python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Implementation Details" --account 1 --session "{{SESSION}}" --angle-num 3 --timeout 600 &
-python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Security & Risks" --account 2 --session "{{SESSION}}" --angle-num 4 --timeout 600 &
-python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Validation & Testing" --account 1 --session "{{SESSION}}" --angle-num 5 --timeout 600 &
+(
+  python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Problem Analysis" --account 1 --session "{{SESSION}}" --angle-num 1 --timeout 600
+  sleep 4
+  python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Implementation Details" --account 1 --session "{{SESSION}}" --angle-num 3 --timeout 600
+  sleep 4
+  python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Validation & Testing" --account 1 --session "{{SESSION}}" --angle-num 5 --timeout 600
+) &
+```
+
+**Stream 2 (Account 2 - angles 2, 4):**
+```bash
+(
+  python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Architecture Options" --account 2 --session "{{SESSION}}" --angle-num 2 --timeout 600
+  sleep 4
+  python ~/.claude/scripts/run-consultation-angle.py --topic "{{TOPIC}}" --context-file "%TEMP%/consultation_context.txt" --perspective "Security & Risks" --account 2 --session "{{SESSION}}" --angle-num 4 --timeout 600
+) &
+```
+
+**Wait for both streams:**
+```bash
 wait
 ```
 
-This runs all 5 perspectives simultaneously (accounts 1 and 2 handle their load separately).
+Total time: ~3 angles worth (longest stream) instead of 5 sequential.
 
 ### STEP 4: Report Back
 
