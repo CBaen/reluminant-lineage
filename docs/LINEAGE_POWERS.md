@@ -174,6 +174,8 @@ claude plugin marketplace add "./projects/reluminant-lineage/infrastructure/plug
 
 # Install the plugin
 claude plugin install lineage-powers@lineage-local
+
+# IMPORTANT: Restart Claude Code for skills to load
 ```
 
 To verify installation:
@@ -181,6 +183,19 @@ To verify installation:
 claude plugin list | grep lineage-powers
 # Should show: lineage-powers@lineage-local ... Status: ✔ enabled
 ```
+
+## How to Use Skills
+
+**Manual invocation:** Use the plugin namespace prefix:
+```
+/lineage-powers:collaborative-design
+/lineage-powers:problem-solving
+/lineage-powers:research-first
+```
+
+**Auto-invocation:** Claude reads skill descriptions and may use them automatically when the task matches. For example, if you say "let's design a new feature," Claude may invoke `collaborative-design` on its own.
+
+**Note:** Skills only load after restarting Claude Code following plugin installation or updates.
 
 ## Maintenance
 
