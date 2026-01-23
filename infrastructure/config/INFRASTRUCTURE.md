@@ -1,8 +1,54 @@
 # Infrastructure Reference
 
-Technical reference for Qdrant, Docker, and system commands. Look up when needed.
+Technical reference for hardware, Qdrant, Docker, and system commands. Look up when needed.
 
-**Last updated:** 2026-01-20
+**Last updated:** 2026-01-22
+
+---
+
+## Hardware & GPU Policy
+
+### System Specs
+
+| Component | Specification |
+|-----------|---------------|
+| **CPU** | i7-11850H |
+| **RAM** | 48GB |
+| **Storage** | 932GB |
+| **GPU** | Multi-GPU (4GB VRAM) |
+
+### MANDATORY: Maximize GPU Usage
+
+**Any process that CAN use the GPU MUST use it to the fullest extent.**
+
+This has been a recurring problem - processes defaulting to CPU when GPU is available. When configuring or writing code that involves:
+
+- **Ollama**: Ensure models are GPU-accelerated (`ollama ps` shows GPU layers)
+- **Image generation**: Use Forge/A1111 with CUDA, enable RAM offloading for SDXL
+- **Embeddings**: Ollama uses GPU by default, verify with `nvidia-smi`
+- **LLM inference**: Always GPU-first, CPU fallback only if GPU OOM
+
+### Verification Commands
+
+```bash
+# Check GPU usage
+nvidia-smi
+
+# Check Ollama GPU layers
+ollama ps
+
+# Monitor GPU during operations
+nvidia-smi -l 1
+```
+
+### RAM Offloading (for 4GB VRAM)
+
+When VRAM is insufficient:
+- Enable RAM offloading (Forge supports this)
+- SDXL: ~90 sec/image with offloading
+- SD1.5: ~20 sec/image native
+
+**Do NOT** fall back to CPU-only when offloading is available.
 
 ---
 
