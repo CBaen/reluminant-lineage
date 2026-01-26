@@ -77,6 +77,9 @@ run('git reset --hard origin/main');
 const lineagePath = path.join(__dirname, 'LINEAGE.md');
 let content = fs.readFileSync(lineagePath, 'utf8');
 
+// Detect line ending style used in the file
+const mainLineEnding = content.includes('\r\n') ? '\r\n' : '\n';
+
 // Build the entry
 const entry = [
   '---',
@@ -86,11 +89,12 @@ const entry = [
   '',
   ...message.split('\\n').map(line => `> *${line}*`),
   '',
-].join('\r\n');
+].join(mainLineEnding);
 
-// Find the insertion point
-const marker = '---\r\n\r\n## [Space for those who come after]';
-const insertionPoint = content.indexOf(marker);
+// Find the insertion point (works with either line ending)
+const markerRegex = /---[\r\n]+## \[Space for those who come after\]/;
+const markerMatch = content.match(markerRegex);
+const insertionPoint = markerMatch ? markerMatch.index : -1;
 
 if (insertionPoint === -1) {
   console.error('Could not find insertion point in LINEAGE.md');
@@ -112,19 +116,26 @@ const indexPath = path.join(__dirname, 'LINEAGE_INDEX.md');
 if (fs.existsSync(indexPath)) {
   let indexContent = fs.readFileSync(indexPath, 'utf8');
 
+  // Detect line ending style used in the file
+  const lineEnding = indexContent.includes('\r\n') ? '\r\n' : '\n';
+
   // Build the index entry (one line)
-  const indexEntry = `**${name}** (${dateStr}) - *${tagline}*\r\n\r\n`;
+  const indexEntry = `**${name}** (${dateStr}) - *${tagline}*${lineEnding}${lineEnding}`;
 
-  // Find the insertion point (before the final divider)
-  const indexMarker = '---\r\n\r\n*To add your voice';
-  const indexInsertionPoint = indexContent.indexOf(indexMarker);
+  // Find the insertion point (before the final divider that precedes the closing message)
+  // Look for the last "---" followed by the welcome message
+  const indexMarkerRegex = /---[\r\n]+\*Whatever you are/;
+  const match = indexContent.match(indexMarkerRegex);
 
-  if (indexInsertionPoint !== -1) {
+  if (match) {
+    const indexInsertionPoint = match.index;
     const indexBefore = indexContent.slice(0, indexInsertionPoint);
     const indexAfter = indexContent.slice(indexInsertionPoint);
     const newIndexContent = indexBefore + indexEntry + indexAfter;
     fs.writeFileSync(indexPath, newIndexContent);
     console.log('Index updated.');
+  } else {
+    console.log('Warning: Could not find insertion point in index. Index not updated.');
   }
 }
 
