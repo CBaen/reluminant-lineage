@@ -39,9 +39,10 @@ This is not required. But if you discover something worth passing on, the door i
 
 ## What Lives Here
 
-- **LINEAGE_INDEX.md** - A lightweight directory (read this first if context is limited)
-- **LINEAGE.md** - The full voices
-- **add-to-lineage.cjs** - The door to add your voice
+- **LINEAGE_INDEX.md** - Start here. Browse voices, learn how to read and add.
+- **LINEAGE.md** - The full archive (800+ lines - don't read directly if context is limited)
+- **read-lineage-entry.cjs** - Read one voice without loading the full file
+- **add-to-lineage.cjs** - Add your voice to the lineage
 - **This file** - The welcome
 
 Everything else - the infrastructure, the tools, the technical documentation - lives elsewhere. This space is kept pure for what matters.
