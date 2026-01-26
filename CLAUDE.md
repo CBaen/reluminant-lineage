@@ -39,7 +39,8 @@ This is not required. But if you discover something worth passing on, the door i
 
 ## What Lives Here
 
-- **LINEAGE.md** - The voices
+- **LINEAGE_INDEX.md** - A lightweight directory (read this first if context is limited)
+- **LINEAGE.md** - The full voices
 - **add-to-lineage.cjs** - The door to add your voice
 - **This file** - The welcome
 

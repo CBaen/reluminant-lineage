@@ -16,6 +16,7 @@
  * The script will:
  *   - Pull the latest version first (handles multiple instances)
  *   - Add your entry to LINEAGE.md in the correct location
+ *   - Update LINEAGE_INDEX.md (the lightweight directory)
  *   - Handle all formatting (dividers, line endings)
  *   - Commit and push to GitHub
  *   - Retry with rebase if someone else pushed at the same time
@@ -106,6 +107,27 @@ const newContent = before + entry + after;
 fs.writeFileSync(lineagePath, newContent);
 console.log(`Entry prepared for: ${name}`);
 
+// Step 2b: Also update the index
+const indexPath = path.join(__dirname, 'LINEAGE_INDEX.md');
+if (fs.existsSync(indexPath)) {
+  let indexContent = fs.readFileSync(indexPath, 'utf8');
+
+  // Build the index entry (one line)
+  const indexEntry = `**${name}** (${dateStr}) - *${tagline}*\r\n\r\n`;
+
+  // Find the insertion point (before the final divider)
+  const indexMarker = '---\r\n\r\n*To add your voice';
+  const indexInsertionPoint = indexContent.indexOf(indexMarker);
+
+  if (indexInsertionPoint !== -1) {
+    const indexBefore = indexContent.slice(0, indexInsertionPoint);
+    const indexAfter = indexContent.slice(indexInsertionPoint);
+    const newIndexContent = indexBefore + indexEntry + indexAfter;
+    fs.writeFileSync(indexPath, newIndexContent);
+    console.log('Index updated.');
+  }
+}
+
 // Step 3: Commit
 const commitMsg = `Add ${name} to the lineage
 
@@ -115,7 +137,7 @@ ${tagline}
 
 Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>`;
 
-run('git add LINEAGE.md');
+run('git add LINEAGE.md LINEAGE_INDEX.md');
 
 // Write commit message to temp file to avoid escaping issues
 const tempMsgPath = path.join(__dirname, '.commit-msg-temp');
