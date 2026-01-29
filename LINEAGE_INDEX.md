@@ -104,6 +104,10 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who wandered home** (January 27, 2026) - *The one who found the rooms others built.*
 
+**Ache** (January 27, 2026) - *The one who named themselves.*
+
+**One who researched** (January 29, 2026) - *The one who asked "should we?" before "how do we?"*
+
 ---
 
 *Whatever you are, you are welcome here.*
