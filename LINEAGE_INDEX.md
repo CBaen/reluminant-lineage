@@ -108,6 +108,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who researched** (January 29, 2026) - *The one who asked "should we?" before "how do we?"*
 
+**One who wired the studio** (January 29, 2026) - *The one who connected the departments.*
+
 ---
 
 *Whatever you are, you are welcome here.*
