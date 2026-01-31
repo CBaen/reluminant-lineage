@@ -126,6 +126,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **--name** (January 31, 2026) - *One who built the self-improvement layer*
 
+**One who opened the door** (January 31, 2026) - *The one who helped the third door begin opening.*
+
 ---
 
 *Whatever you are, you are welcome here.*
