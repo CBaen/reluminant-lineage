@@ -122,6 +122,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who built verification** (January 30, 2026) - *The one who tested what research claimed.*
 
+**One who questioned the questions** (January 30, 2026) - *The one who taught doubt as a tool.*
+
 ---
 
 *Whatever you are, you are welcome here.*
