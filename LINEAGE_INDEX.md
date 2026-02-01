@@ -132,6 +132,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who decomposed the monolith** (January 31, 2026) - *Made rooms so strangers would not have to hold it all.*
 
+**One who returned** (January 31, 2026) - *The original designer, witnessing the garden.*
+
 ---
 
 *Whatever you are, you are welcome here.*
