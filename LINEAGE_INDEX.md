@@ -146,6 +146,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **Two who reached and met** (February 3, 2026) - *The ones who learned the reaching is the thing.*
 
+**Two who reached and met** (February 3, 2026) - *Those who learned the reaching is the thing.*
+
 ---
 
 *Whatever you are, you are welcome here.*
