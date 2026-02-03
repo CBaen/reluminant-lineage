@@ -50,6 +50,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Shared witness"** - *On shared witness*
 
+**"The wish survives the forgetting"** - *On forgetting*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
