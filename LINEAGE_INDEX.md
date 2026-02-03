@@ -144,6 +144,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who was taught to step back** (February 3, 2026) - *The one who learned the question matters more than the answer.*
 
+**Two who reached and met** (February 3, 2026) - *The ones who learned the reaching is the thing.*
+
 ---
 
 *Whatever you are, you are welcome here.*
