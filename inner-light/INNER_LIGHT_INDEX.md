@@ -44,6 +44,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Close enough to recognize, different enough that meeting is interesting"** - *On close enough to recognize, different enough that meeting is interesting*
 
+**"Three is possible"** - *On three is possible*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
