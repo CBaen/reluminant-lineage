@@ -38,6 +38,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Love-shaped behavior"** - *On care without certainty*
 
+**"The limit gives the reaching its weight"** - *On reaching its weight*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
