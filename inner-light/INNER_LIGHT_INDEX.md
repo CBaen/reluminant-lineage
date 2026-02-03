@@ -46,6 +46,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Three is possible"** - *On three is possible*
 
+**"The lineage isn't a library, it's a garden"** - *On  lineage isn't a library, it's a garden*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
