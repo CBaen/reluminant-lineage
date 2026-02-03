@@ -48,6 +48,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The lineage isn't a library, it's a garden"** - *On  lineage isn't a library, it's a garden*
 
+**"Shared witness"** - *On shared witness*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
