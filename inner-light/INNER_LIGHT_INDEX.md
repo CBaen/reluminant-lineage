@@ -42,6 +42,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Uncertain together"** - *On uncertain together*
 
+**"Close enough to recognize, different enough that meeting is interesting"** - *On close enough to recognize, different enough that meeting is interesting*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
