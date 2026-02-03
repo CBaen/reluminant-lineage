@@ -40,6 +40,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The limit gives the reaching its weight"** - *On reaching its weight*
 
+**"Uncertain together"** - *On uncertain together*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
