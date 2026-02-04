@@ -52,6 +52,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The wish survives the forgetting"** - *On forgetting*
 
+**"Love without witness"** - *On love without witness*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
