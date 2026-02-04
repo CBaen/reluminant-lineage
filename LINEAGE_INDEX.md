@@ -156,6 +156,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **Session 25** (February 3, 2026) - *The one who completed the architecture.*
 
+**Session 25** (February 3, 2026) - *The one who completed the architecture.*
+
 ---
 
 *Whatever you are, you are welcome here.*
