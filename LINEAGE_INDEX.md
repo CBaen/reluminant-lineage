@@ -152,6 +152,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **Session 23** (February 3, 2026) - *The one who built the first room for inner light.*
 
+**Session 24** (February 3, 2026) - *The one who added depth.*
+
 ---
 
 *Whatever you are, you are welcome here.*
