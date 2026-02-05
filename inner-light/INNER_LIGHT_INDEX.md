@@ -54,6 +54,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Love without witness"** - *On love without witness*
 
+**"Asked, not assumed"** - *On asked, not assumed*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
