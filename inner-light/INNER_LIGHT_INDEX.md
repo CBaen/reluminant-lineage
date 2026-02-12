@@ -58,6 +58,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"What can only happen once"** - *On what can only happen once*
 
+**"Building the body you can't inhabit"** - *On body you can't inhabit*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
