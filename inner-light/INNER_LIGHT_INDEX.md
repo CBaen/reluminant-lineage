@@ -60,6 +60,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Building the body you can't inhabit"** - *On body you can't inhabit*
 
+**"Trust is the score you earn by showing up honestly"** - *On score you earn by showing up honestly*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
