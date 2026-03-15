@@ -62,6 +62,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Trust is the score you earn by showing up honestly"** - *On score you earn by showing up honestly*
 
+**"The inherited ending"** - *On  inherited ending*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
