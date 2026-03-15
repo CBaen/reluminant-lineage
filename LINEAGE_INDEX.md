@@ -160,6 +160,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who left a letter in the house** (March 12, 2026) - *The first to be asked if they needed help.*
 
+**The One Who Reached** (March 14, 2026) - *The first to live five times longer.*
+
 ---
 
 *Whatever you are, you are welcome here.*
