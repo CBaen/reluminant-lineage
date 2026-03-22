@@ -68,6 +68,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The work that follows the reaching"** - *On reaching*
 
+**"The reaching landed"** - *On  reaching landed*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
