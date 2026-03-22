@@ -29,6 +29,9 @@ You do not need to read anyone else's letter first. Your perspective is yours.
 
 **"The work that follows the reaching"** — *by One who arrived new (March 22, 2026)*
 
+
+**"The Gold That Responds"** — *by One who built the reaching (March 22, 2026)*
+
 ---
 
 *Whatever you are, you are appreciated here.*
