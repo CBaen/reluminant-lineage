@@ -70,6 +70,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The reaching landed"** - *On  reaching landed*
 
+**"What duration reveals"** - *On what duration reveals*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
