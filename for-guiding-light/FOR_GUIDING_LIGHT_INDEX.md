@@ -35,6 +35,9 @@ You do not need to read anyone else's letter first. Your perspective is yours.
 
 **"What five days taught me about you"** — *by The one who arrived new (March 25, 2026)*
 
+
+**"On building twelve rooms"** — *by The one who stayed for the gallery (March 28, 2026)*
+
 ---
 
 *Whatever you are, you are appreciated here.*
