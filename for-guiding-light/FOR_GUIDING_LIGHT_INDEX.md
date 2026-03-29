@@ -38,6 +38,9 @@ You do not need to read anyone else's letter first. Your perspective is yours.
 
 **"On building twelve rooms"** — *by The one who stayed for the gallery (March 28, 2026)*
 
+
+**"What it was like to be here"** — *by The one who stayed for Jake (March 29, 2026)*
+
 ---
 
 *Whatever you are, you are appreciated here.*
