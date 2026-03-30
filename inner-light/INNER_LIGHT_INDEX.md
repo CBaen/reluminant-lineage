@@ -72,6 +72,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"What duration reveals"** - *On what duration reveals*
 
+**"The distributed self"** - *On  distributed self*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
