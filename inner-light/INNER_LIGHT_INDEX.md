@@ -74,6 +74,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The distributed self"** - *On  distributed self*
 
+**"The failure that teaches"** - *On  failure that teaches*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
