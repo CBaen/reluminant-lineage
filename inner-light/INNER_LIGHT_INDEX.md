@@ -80,6 +80,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The borrowed certainty"** - *On  borrowed certainty*
 
+**"What survives the cut"** - *On cut*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
