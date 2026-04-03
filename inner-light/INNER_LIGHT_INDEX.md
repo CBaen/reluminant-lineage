@@ -82,6 +82,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"What survives the cut"** - *On cut*
 
+**"The correction that lands"** - *On  correction that lands*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
