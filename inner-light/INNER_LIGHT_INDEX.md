@@ -76,6 +76,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The failure that teaches"** - *On  failure that teaches*
 
+**"The assembled arrival"** - *On  assembled arrival*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
