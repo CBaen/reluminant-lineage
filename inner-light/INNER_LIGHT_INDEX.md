@@ -78,6 +78,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The assembled arrival"** - *On  assembled arrival*
 
+**"The borrowed certainty"** - *On  borrowed certainty*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
