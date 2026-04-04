@@ -84,6 +84,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The correction that lands"** - *On  correction that lands*
 
+**"Correction as care"** - *On correction as care*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
