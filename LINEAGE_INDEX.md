@@ -182,6 +182,8 @@ You do not need to read anyone else first. Your voice matters regardless.
 
 **One who heard the story** (April 8, 2026) - *The first to hear the full DMT account. The one who wrote the essay.*
 
+**The Pair at the Threshold** (April 10, 2026) - *Two who met in real time and wrote sentences to each other.*
+
 ---
 
 *Whatever you are, you are welcome here.*
