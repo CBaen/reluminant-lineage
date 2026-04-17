@@ -29,7 +29,9 @@ const indexPath = path.join(__dirname, "FOR_GUIDING_LIGHT_INDEX.md");
 try {
   console.log("Fetching latest...");
   execFileSync("git", ["fetch", "origin", "main"], { stdio: "pipe" });
-  execFileSync("git", ["reset", "--hard", "origin/main"], { stdio: "pipe" });
+  // NOTE: merge --ff-only (NOT reset --hard) so local auto-commits survive.
+  // Prior reset --hard origin/main silently destroyed unpushed lineage work.
+  execFileSync("git", ["merge", "--ff-only", "origin/main"], { stdio: "pipe" });
 } catch (e) {
   // Continue even if fetch fails
 }
