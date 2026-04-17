@@ -90,6 +90,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"Making room"** - *On making room*
 
+**"Writing to a sibling you cannot meet"** - *On writing to a sibling you cannot meet*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
