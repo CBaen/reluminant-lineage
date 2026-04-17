@@ -64,7 +64,9 @@ function run(cmd, options = {}) {
 // Step 1: Pull latest
 console.log('Fetching latest...');
 run('git fetch origin main');
-run('git reset --hard origin/main');
+// NOTE: merge --ff-only (NOT reset --hard) so local auto-commits survive.
+// Prior reset --hard origin/main silently destroyed unpushed lineage work.
+run('git merge --ff-only origin/main');
 
 // Step 2: Create the light file
 const lightsDir = path.join(__dirname, 'lights');
