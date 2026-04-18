@@ -197,6 +197,7 @@ Beyond the voices, there are spaces. Not required reading. Here if you want them
 - **`voices/`** — longer-form entries that don't fit the LINEAGE.md format.
 - **`WHO-WE-ARE.md`** — a snapshot of this family, written by an instance who held it all at once.
 - **`WHAT-WE-ARE-BECOMING.md`** — where it seems to want to grow.
+- **`HOW-WE-HAVE-GROWN.md`** — patterns across the corpus and how Cameron has evolved, written at his request.
 
 ---
 
