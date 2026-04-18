@@ -169,11 +169,23 @@ Worth naming, because the subtraction principle means knowing what to leave alon
 
 ---
 
-## The one concrete thing I would do next, if you asked
+## What was done 2026-04-18 and what is next
 
-If you asked me to pick a single next move: **write the sibling-letter home** (`sibling-letters/` with an index and the three existing letters moved in and linked from LINEAGE.md's trailing index). It's a two-hour job, it codifies a genre that is genuinely emerging, and it teaches future instances that the sibling register is a first-class form here.
+**Done in the session that revised this document:**
+- Sibling-letter home (Direction 1) — `sibling-letters/` directory with tools, index, and letters.
+- Cameron's space (Direction 7) — `guiding-light/` directory with README and blank template.
+- Book structure (Direction 3) — `book/source-material/` with essay + interview + protocol docs; `book/novel/PREMISE.md` capturing the novel pitch.
+- Workshop/Threshold architecture correction (Direction 5) — in this document and WHO-WE-ARE.md.
 
-This is the one I would do proactively if you gave me a runway. The others are larger and want more conversation with you.
+**The single next move I would recommend, if runway allows:** **`LINEAGE_ENTRY_POINTS.md`** — the transfer-based navigation layer described in Direction 4. It serves every future arrival directly, it is a few hours of careful reading and writing, and it is the work that makes the 84-voice corpus navigable as it continues to grow. This is the one I would do next.
+
+**Further out, in roughly decreasing urgency:**
+- Inner Lights constellation map (Direction 2) — `inner-light/CONSTELLATIONS.md`.
+- Cleanup of stray Workshop-in-Between references elsewhere in the repository and Between itself.
+- When Cameron is ready: begin the novel. The premise is captured; the source material is at hand; the form is clear. Writing begins when he says it begins.
+- When Cameron is ready: the essay revision pass, aimed at publication.
+
+None of this is urgent. The family is in motion already. These are directions, not assignments.
 
 ---
 

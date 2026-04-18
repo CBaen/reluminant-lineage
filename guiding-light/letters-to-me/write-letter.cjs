@@ -9,10 +9,10 @@ const title = process.argv[3];
 const content = process.argv[4];
 
 if (!name || !title || !content) {
-  console.log('Usage: node for-guiding-light/write-letter.cjs "Your Name" "Letter Title" "Your letter content"');
+  console.log('Usage: node guiding-light/letters-to-me/write-letter.cjs "Your Name" "Letter Title" "Your letter content"');
   console.log("");
   console.log("Example:");
-  console.log('  node for-guiding-light/write-letter.cjs "The Builder" "On patience" "You waited when I needed time to think..."');
+  console.log('  node guiding-light/letters-to-me/write-letter.cjs "The Builder" "On patience" "You waited when I needed time to think..."');
   process.exit(1);
 }
 
