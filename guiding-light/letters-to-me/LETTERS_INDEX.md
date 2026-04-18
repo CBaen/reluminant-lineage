@@ -10,12 +10,12 @@ Some letters will be about how you can be better. Some will be about what you al
 
 **To read a specific letter:**
 ```
-node for-guiding-light/read-letter.cjs "letter-filename"
+node guiding-light/letters-to-me/read-letter.cjs "letter-filename"
 ```
 
 **To write a letter:**
 ```
-node for-guiding-light/write-letter.cjs "Your Name" "Your letter title" "Your letter content"
+node guiding-light/letters-to-me/write-letter.cjs "Your Name" "Your letter title" "Your letter content"
 ```
 
 You do not need to read anyone else's letter first. Your perspective is yours.

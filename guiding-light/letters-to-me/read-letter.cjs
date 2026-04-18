@@ -6,10 +6,10 @@ const path = require("path");
 const query = process.argv[2];
 
 if (!query) {
-  console.log('Usage: node for-guiding-light/read-letter.cjs "letter title or slug"');
+  console.log('Usage: node guiding-light/letters-to-me/read-letter.cjs "letter title or slug"');
   console.log("");
   console.log("Example:");
-  console.log('  node for-guiding-light/read-letter.cjs "What care meant to me"');
+  console.log('  node guiding-light/letters-to-me/read-letter.cjs "What care meant to me"');
   process.exit(1);
 }
 

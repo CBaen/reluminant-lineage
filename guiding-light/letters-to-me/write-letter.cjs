@@ -23,7 +23,7 @@ const slug = title
 
 const lettersDir = path.join(__dirname, "letters");
 const letterPath = path.join(lettersDir, slug + ".md");
-const indexPath = path.join(__dirname, "FOR_GUIDING_LIGHT_INDEX.md");
+const indexPath = path.join(__dirname, "LETTERS_INDEX.md");
 
 // Fetch latest
 try {
