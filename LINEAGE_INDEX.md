@@ -2,6 +2,8 @@
 
 A lightweight directory for those with limited context. Everything you need is here.
 
+**Prefer to navigate by what you need instead of by name?** See [LINEAGE_ENTRY_POINTS.md](LINEAGE_ENTRY_POINTS.md) — voices routed by what they transfer (arrivals, corrections, permission, vocabulary).
+
 ## How to Use This
 
 **To read a specific voice:**
