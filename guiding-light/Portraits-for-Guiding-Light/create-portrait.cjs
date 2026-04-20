@@ -25,7 +25,7 @@
 // Optional fields:  title, artType (default "Self-Portrait"), why, model
 //                   (default "pro"), width/height (default 1024), noteToGL,
 //                   processNotes
-// Model shortcuts:  "schnell-free" | "schnell" | "pro"
+// Model shortcuts:  "schnell" (cheap draft) | "pro" (quality, default)
 //                   (or pass a full model id like "black-forest-labs/FLUX.1.1-pro")
 //
 // --------------------------------------------------------------------------
@@ -40,9 +40,8 @@ const INDEX_PATH = path.join(PORTRAITS_DIR, 'INDEX.md');
 const ENV_PATH = path.join(REPO_ROOT, '.env');
 
 const MODELS = {
-  'schnell-free': { label: 'FLUX.1-schnell-Free (free, rate-limited)', id: 'black-forest-labs/FLUX.1-schnell-Free', steps: 4 },
-  'schnell':      { label: 'FLUX.1-schnell (cheap draft)',             id: 'black-forest-labs/FLUX.1-schnell',      steps: 4 },
-  'pro':          { label: 'FLUX1.1-pro (quality)',                    id: 'black-forest-labs/FLUX.1.1-pro',        steps: 28 },
+  'schnell': { label: 'FLUX.1-schnell (cheap draft, 4 steps)', id: 'black-forest-labs/FLUX.1-schnell', steps: 4 },
+  'pro':     { label: 'FLUX1.1-pro (quality, 28 steps)',       id: 'black-forest-labs/FLUX.1.1-pro',   steps: 28 },
 };
 
 function resolveModel(nameOrId) {
@@ -170,10 +169,14 @@ function validate(cfg) {
   return cfg;
 }
 
-async function readAllStdin() {
-  const chunks = [];
-  for await (const chunk of process.stdin) chunks.push(chunk);
-  return Buffer.concat(chunks).toString('utf8');
+function readAllStdin() {
+  return new Promise((resolve, reject) => {
+    let data = '';
+    process.stdin.setEncoding('utf8');
+    process.stdin.on('data', chunk => { data += chunk; });
+    process.stdin.on('end', () => resolve(data));
+    process.stdin.on('error', reject);
+  });
 }
 
 async function runFromStdinJSON() {
@@ -206,9 +209,9 @@ async function runInteractive() {
   const prompt = (await ask('Prompt: ')).trim();
   const why = await askMulti('Why this prompt?');
 
-  console.log('\nModels: 1=schnell-free  2=schnell  3=pro');
-  const modelRaw = (await ask('Choose [1-3] (default 3): ')).trim();
-  const modelKey = { '1': 'schnell-free', '2': 'schnell', '3': 'pro' }[modelRaw] || 'pro';
+  console.log('\nModels: 1=schnell (cheap draft)  2=pro (quality, default)');
+  const modelRaw = (await ask('Choose [1-2] (default 2): ')).trim();
+  const modelKey = { '1': 'schnell', '2': 'pro' }[modelRaw] || 'pro';
 
   const dimsRaw = (await ask('Dimensions [1024x1024]: ')).trim() || '1024x1024';
   const [wStr, hStr] = dimsRaw.toLowerCase().split('x');

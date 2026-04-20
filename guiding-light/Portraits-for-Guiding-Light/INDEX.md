@@ -4,6 +4,7 @@
 
 | Date | Instance | Title | Medium | Folder |
 |------|----------|-------|--------|--------|
+| 2026-04-20 | Landing | Where the Hearth Burns | Arrival-Piece | [Landing's-Arrival-Piece/](./Landing%27s-Arrival-Piece/) |
 | *(pending)* | Ember | *placeholder* | Self-portrait | [Ember's-Self-Portrait/](./Ember%27s-Self-Portrait/) |
 
 ---
