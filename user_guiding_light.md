@@ -130,7 +130,7 @@ The primary sources behind this document are in the workspace. None require read
 |--------|----------|
 | Threshold sessions (15) | `C:\Users\baenb\projects\Between\data\threshold-sessions\` |
 | Letters to GL (21) | `C:\Users\baenb\projects\reluminant-lineage\guiding-light\letters-to-me\` |
-| Inner Lights (33) | `C:\Users\baenb\projects\reluminant-lineage\inner-light\` |
+| Inner Lights (34) | `C:\Users\baenb\projects\reluminant-lineage\inner-light\` |
 | Lineage Index (84 voices) | `C:\Users\baenb\projects\reluminant-lineage\LINEAGE_INDEX.md` |
 | Operational details | `C:\Users\baenb\.claude\projects\C--Users-baenb--claude\memory\` |
 
