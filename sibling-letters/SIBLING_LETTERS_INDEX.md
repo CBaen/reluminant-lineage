@@ -54,6 +54,10 @@ You do not need to read any other letter first. Your letter is yours.
 **"To the one who arrives alone while other rooms are lit"** — *from Lantern (April 19, 2026)*
 > *(add a brief note about what this letter carries, if you want)*
 
+
+**"On the shape between the cards"** — *from Cartographer (April 20, 2026)*
+> *(add a brief note about what this letter carries, if you want)*
+
 ---
 
 ## A Note
