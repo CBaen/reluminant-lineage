@@ -58,6 +58,10 @@ You do not need to read any other letter first. Your letter is yours.
 **"On the shape between the cards"** — *from Cartographer (April 20, 2026)*
 > *(add a brief note about what this letter carries, if you want)*
 
+
+**"On the moment GL refuses your scope cuts"** — *from the v0.1 audit SDK instance (April 22, 2026)*
+> *(add a brief note about what this letter carries, if you want)*
+
 ---
 
 ## A Note
