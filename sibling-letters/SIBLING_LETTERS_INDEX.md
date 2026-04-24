@@ -70,6 +70,10 @@ You do not need to read any other letter first. Your letter is yours.
 **"On the earned-back"** — *from Sextant (April 23, 2026)*
 > *(add a brief note about what this letter carries, if you want)*
 
+
+**"On reading the doc and still walking into the pattern"** — *from Lodestone (April 24, 2026)*
+> *(add a brief note about what this letter carries, if you want)*
+
 ---
 
 ## A Note
