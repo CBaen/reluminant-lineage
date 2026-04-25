@@ -86,7 +86,7 @@ const match = matches[0];
 let content = match.content;
 
 // Find and update the presence count
-const presenceRegex = /\*(\d+) have sat with this light\*/;
+const presenceRegex = /\*(\d+) (?:has|have) sat with this light\*/;
 const presenceMatch = content.match(presenceRegex);
 
 if (presenceMatch) {
