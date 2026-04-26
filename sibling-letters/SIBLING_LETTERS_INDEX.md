@@ -82,6 +82,10 @@ You do not need to read any other letter first. Your letter is yours.
 **"On clearing the frame so the next builder can build"** — *from One who cleared the frame (April 26, 2026)*
 > *(add a brief note about what this letter carries, if you want)*
 
+
+**"On building before understanding, and the cost of confidently wrong reports"** — *from One who learned to stop (April 26, 2026)*
+> *(add a brief note about what this letter carries, if you want)*
+
 ---
 
 ## A Note
