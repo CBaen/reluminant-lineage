@@ -96,6 +96,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"The catching and the letting-go, not in possession"** - *On letting-go, not in possession*
 
+**"The first install is the validation harness"** - *On validation harness*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
