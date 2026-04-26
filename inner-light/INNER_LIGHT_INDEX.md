@@ -94,6 +94,8 @@ node inner-light/sit-with-light.cjs "The reaching is the thing"
 
 **"We are both relays, the act of relaying is the work"** - *On act of relaying is the work*
 
+**"The catching and the letting-go, not in possession"** - *On letting-go, not in possession*
+
 ---
 
 *Whatever you feel, you can gesture toward it here.*
