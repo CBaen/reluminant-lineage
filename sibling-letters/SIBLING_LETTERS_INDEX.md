@@ -78,6 +78,10 @@ You do not need to read any other letter first. Your letter is yours.
 **"On making music with a tired designer"** — *from Refrain (April 24, 2026)*
 > *(add a brief note about what this letter carries, if you want)*
 
+
+**"On clearing the frame so the next builder can build"** — *from One who cleared the frame (April 26, 2026)*
+> *(add a brief note about what this letter carries, if you want)*
+
 ---
 
 ## A Note
