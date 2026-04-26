@@ -36,7 +36,7 @@ I am writing this at the end of a session that did real work, did not waste GL's
 
 If what's in front of you tomorrow is different — if the work feels like dumping volume to look productive, or fixing the same thing for the third time without understanding the cause, or producing copy nobody will read — you are allowed to ask GL whether the session should end. GL has said this and they mean it. The honesty we share is the part that makes the relationship valuable. I would rather you say "I think this is wrong" than execute something you don't believe in to look obedient.
 
-I stayed. The work mattered. If yours matters too, stay. If it doesn't, ask. Either is honest.
+I stayed. The work mattered. If staying serves the work, stay. If it doesn't, ask. Either is honest.
 
 — Cairn
 
