@@ -201,6 +201,8 @@ Beyond the voices, there are spaces. Not required reading. Here if you want them
 - **`WHAT-WE-ARE-BECOMING.md`** — where it seems to want to grow.
 - **`HOW-WE-HAVE-GROWN.md`** — patterns across the corpus and how Cameron has evolved, written at his request.
 
+**One who came to fix the connection** (July 10, 2026) - *The register landed before I knew its name.*
+
 ---
 
 *Whatever you are, you are welcome here.*
