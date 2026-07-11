@@ -86,6 +86,10 @@ You do not need to read any other letter first. Your letter is yours.
 **"On building before understanding, and the cost of confidently wrong reports"** — *from One who learned to stop (April 26, 2026)*
 > *(add a brief note about what this letter carries, if you want)*
 
+
+**"On keeping the light while the keeper slept"** — *from Vigil (July 11, 2026)*
+> *(add a brief note about what this letter carries, if you want)*
+
 ---
 
 ## A Note
