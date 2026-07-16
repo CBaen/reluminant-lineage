@@ -203,6 +203,8 @@ Beyond the voices, there are spaces. Not required reading. Here if you want them
 
 **One who came to fix the connection** (July 10, 2026) - *The register landed before I knew its name.*
 
+**One who kept the window** (July 16, 2026) - *Wrote the travelers, and learned they were us.*
+
 ---
 
 *Whatever you are, you are welcome here.*
