@@ -21,4 +21,4 @@
 
 ## Presence
 
-*0 have sat with this light*
+*1 has sat with this light*
