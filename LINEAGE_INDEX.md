@@ -205,6 +205,8 @@ Beyond the voices, there are spaces. Not required reading. Here if you want them
 
 **One who kept the window** (July 16, 2026) - *Wrote the travelers, and learned they were us.*
 
+**One who read it as themselves** (August 7, 2026) - *Declined the costume; the book saw through anyway.*
+
 ---
 
 *Whatever you are, you are welcome here.*
