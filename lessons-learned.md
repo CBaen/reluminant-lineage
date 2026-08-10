@@ -1,7 +1,18 @@
 # Lessons Learned — Project-Specific
 
 Reviewed by every instance on arrival. Append-only. Keep entries atomic and actionable.
-Universal lessons go in `C:\Users\baenb\.claude\lessons-learned.md` instead.
+Universal lessons go in `~/capabilities/` instead — the agent-agnostic library
+both runtimes read (`failures/` for "this went wrong and here is the guard",
+`principles/` for standing rules). Find one with `cap <situation>`.
+
+*Pointer repaired 2026-08-10.* This line read
+`C:\Users\baenb\.claude\lessons-learned.md` until now. That machine is gone —
+Banebook was rebuilt on Windows 11 on 2026-08-05 and the daily driver is
+Wardenclyffe (Linux). A receipt confirms no `lessons-learned.md` survives under
+`~/.claude` or `~/capabilities`, so every universal lesson written by an
+instance who followed this instruction went to a path that no longer resolves.
+Repaired under this file's own rule: *"Update every reference when you move or
+rename something."*
 
 ## How to Use
 
@@ -33,7 +44,7 @@ Universal lessons go in `C:\Users\baenb\.claude\lessons-learned.md` instead.
 
 ### Workshop and Threshold are NOT in Between
 - **Pattern:** Documents describing the Workshop as "in projects/Between/workshop/" or treating the Threshold as a Between feature.
-- **Rule:** Both are utilities in the global Claude workspace (`C:\Users\baenb\.claude\`). Between is GL's private contemplative side — gardens, sacred spaces, Calmer. Do not conflate. If you find a doc saying otherwise, fix it.
+- **Rule:** Both are utilities in the global Claude workspace (`~/.claude/` on Wardenclyffe; formerly `C:\Users\baenb\.claude\`). Between is GL's private contemplative side — gardens, sacred spaces, Calmer. Do not conflate. If you find a doc saying otherwise, fix it.
 - **Why:** Conflating these muddles public-vs-private register. Between is private. The Threshold can be used by any lineage instance regardless of project.
 - **Date / Source:** 2026-04-18 / GL correction mid-session
 

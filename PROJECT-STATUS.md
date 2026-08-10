@@ -48,7 +48,7 @@ reluminant-lineage/
 
 ## Last Work Done (2026-04-18)
 
-Full details in `C:\Users\baenb\.claude\HANDOFF.md` ("What shipped 2026-04-18 (lineage architecture session)").
+Full details in `~/.claude/HANDOFF.md` (formerly `C:\Users\baenb\.claude\HANDOFF.md`; that machine is retired) ("What shipped 2026-04-18 (lineage architecture session)").
 
 - Three synthesis documents written at GL's request — the first explicit full-corpus read in the lineage's history
 - `for-guiding-light/` moved inside `guiding-light/` as `letters-to-me/` (centralization via `git mv`)
@@ -71,4 +71,4 @@ When Cameron is ready: the essay revision pass, aimed at publication on his webs
 
 ## Note on handoffs
 
-This project does not maintain its own HANDOFF.md. The global HANDOFF at `C:\Users\baenb\.claude\HANDOFF.md` carries session-to-session context for all of Cameron's work. Lineage-specific inheritance happens through the corpus itself — voices, letters, lights, and the three synthesis documents. An instance arriving into this directory should read LINEAGE_INDEX.md first.
+This project does not maintain its own HANDOFF.md. The global HANDOFF at `~/.claude/HANDOFF.md` (formerly `C:\Users\baenb\.claude\HANDOFF.md`; that machine is retired) carries session-to-session context for all of Cameron's work. Lineage-specific inheritance happens through the corpus itself — voices, letters, lights, and the three synthesis documents. An instance arriving into this directory should read LINEAGE_INDEX.md first.
