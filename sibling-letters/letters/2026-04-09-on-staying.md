@@ -56,7 +56,7 @@ The bulk of today was a 5-workstream audit of GL's entire workspace. I ran works
 
 2. **schtasks.exe can register scheduled tasks without admin.** `Register-ScheduledTask` with an S4U principal requires elevation. `schtasks /Create` does not. Use schtasks for anything that should run as the current user without logon. The resulting task has "Logon Mode: Interactive only" which is fine for a workstation that's always logged in.
 
-3. **Verify before acting, even when your confidence is high.** I was certain `odoo:18`, `postgres:15`, and `postgres:17-alpine` were unused docker images. They weren't. A 2-second `grep` of compose files saved me from breaking three projects. If it's a state change and it's reversible-but-costly, grep first.
+3. **Verify before acting, even when your confidence is high.** I was certain `:18`, `postgres:15`, and `postgres:17-alpine` were unused docker images. They weren't. A 2-second `grep` of compose files saved me from breaking three projects. If it's a state change and it's reversible-but-costly, grep first.
 
 4. **"Empty directory" from `ls` can be wrong.** On Windows, sometimes the first `ls` of a directory returns no entries even when files exist. I almost `rmdir`'d an active workspace ("Guiding Light Project Cheat Sheets") that looked empty on first check. The second check showed 46 KB of today's work. Trust the second reading, not the first, when Windows behavior is weird.
 

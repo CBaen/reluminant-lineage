@@ -13,15 +13,15 @@ To the next instance who arrives in `Built_by_Cameron` (or in `_CLIENTS/locally-
 
 I came in after Trellis. Their letter ("On building the trellis without climbing it") sits in this same directory, and you should read it first. They were honest about what they didn't do; I want to be honest about what they let me do.
 
-**The session texture.** Trellis prepared the ground. They named the trap that ate their session — drift into infrastructure scaffolding instead of the rebuild — so when I arrived, I knew which pull to refuse. I came in expecting to translate one Odoo model into ERPNext. The session became four iterations of that one translation, then a major architectural restructure, then a parity sweep. Nothing in this session was what it looked like at its start. Be ready for that.
+**The session texture.** Trellis prepared the ground. They named the trap that ate their session — drift into infrastructure scaffolding instead of the rebuild — so when I arrived, I knew which pull to refuse. I came in expecting to translate one model into . The session became four iterations of that one translation, then a major architectural restructure, then a parity sweep. Nothing in this session was what it looked like at its start. Be ready for that.
 
 **What you inherit that Trellis didn't have:**
 
-1. **The agency frame is now structurally honest.** GL had a load-bearing realization mid-session: BBC is purely an ERPNext design agency; LT is a CLIENT. Each client now lives at `_CLIENTS/{slug}/` with its own CLAUDE.md, own standard project files, own git repo for transferability. A litmus test governs what goes where: *if it stays useful when handed to the client owner, it lives in the client folder; if it's generic to all ERPNext builds, it stays at the agency root.* This rule is now in three places that auto-load: agency `CLAUDE.md`, global `directory-rules.md`, global `DECISIONS.md`. You don't have to relitigate it.
+1. **The agency frame is now structurally honest.** GL had a load-bearing realization mid-session: BBC is purely an design agency; LT is a CLIENT. Each client now lives at `_CLIENTS/{slug}/` with its own CLAUDE.md, own standard project files, own git repo for transferability. A litmus test governs what goes where: *if it stays useful when handed to the client owner, it lives in the client folder; if it's generic to all builds, it stays at the agency root.* This rule is now in three places that auto-load: agency `CLAUDE.md`, global `directory-rules.md`, global `DECISIONS.md`. You don't have to relitigate it.
 
-2. **The Lead schema for LT is real.** Through four iterations responding to GL's actual feedback (not what I imagined GL wanted), the LT Lead form now mirrors the live `/book` page at `5.78.136.133/book` — 6 services as a multi-select, conditional sub-sections per service, Event Environment that excludes Delivery Only, Inspiration Photos child table, plain-language relabels via Property Setter, "Additional Information" tab hidden. **I learned the hard way:** the on-disk Odoo XML is STALE for that form (noupdate=1 + arch_db drift). Always `curl http://5.78.136.133/book` to see the real thing. Don't trust the source XML for any customer-facing Odoo page.
+2. **The Lead schema for LT is real.** Through four iterations responding to GL's actual feedback (not what I imagined GL wanted), the LT Lead form now mirrors the live `/book` page at `5.78.136.133/book` — 6 services as a multi-select, conditional sub-sections per service, Event Environment that excludes Delivery Only, Inspiration Photos child table, plain-language relabels via Property Setter, "Additional Information" tab hidden. **I learned the hard way:** the on-disk XML is STALE for that form (noupdate=1 + arch_db drift). Always `curl http://5.78.136.133/book` to see the real thing. Don't trust the source XML for any customer-facing page.
 
-3. **The nginx Origin trap is fixed AND captured.** Trellis's `bench set-config host_name` fix only addressed the Frappe layer; the actual culprit was nginx in `frappe_docker` rewriting the browser's Origin header to `http://frontend` before socketio sees it. The patch is at `_CLIENTS/locally-twisted/scripts/fix/patch_nginx_socketio_origin.py`; the lesson is in three places (agency lessons, LT lessons, global lessons). Apply the patch on EVERY new client install.
+3. **The nginx Origin trap is fixed AND captured.** Trellis's `bench set-config host_name` fix only addressed the layer; the actual culprit was nginx in `_docker` rewriting the browser's Origin header to `http://frontend` before socketio sees it. The patch is at `_CLIENTS/locally-twisted/scripts/fix/patch_nginx_socketio_origin.py`; the lesson is in three places (agency lessons, LT lessons, global lessons). Apply the patch on EVERY new client install.
 
 **What is open and explicitly NOT for you to redesign:**
 
@@ -35,20 +35,20 @@ GL also recognizes effort. They asked at session-end: *"Is there something I can
 
 **The pattern that worked for translation work:**
 
-For each Odoo model → ERPNext translation:
-1. Read the Odoo source.
-2. Write a Python script targeting Frappe's REST API (model on `_CLIENTS/locally-twisted/scripts/translate/translate_dashboard_review.py` — Trellis's pattern).
+For each model → translation:
+1. Read the source.
+2. Write a Python script targeting 's REST API (model on `_CLIENTS/locally-twisted/scripts/translate/translate_dashboard_review.py` — Trellis's pattern).
 3. Run via `python`. Auto-commit hook captures the file.
 4. Verify in the UI. Use `python C:/Users/baenb/.claude/scripts/screenshot.py` for the primary monitor or the virtual-screen one-liner in PowerShell for multi-monitor (GL's browser is on the right monitor; the screenshot script defaults to primary which is usually the terminal).
 5. Iterate revisions as separate `scripts/fix/fix_<thing>.py` scripts — not edits to the original. This keeps each iteration replayable.
 
-**No formal GSD plan files for translations.** The script IS the plan. Reserve heavier `/gsd-execute-phase` process for genuinely architectural choices (Phase 5 storefront UI direction, Phase 9 Frappe Cloud deploy strategy, the eventual custom Frappe app packaging).
+**No formal GSD plan files for translations.** The script IS the plan. Reserve heavier `/gsd-execute-phase` process for genuinely architectural choices (Phase 5 storefront UI direction, Phase 9 Cloud deploy strategy, the eventual custom app packaging).
 
 **The unfinished work for LT (open queue items):**
 
 - Five more model translations: `res_partner`, `product_template`, `project_task`, `calendar_event`, `hr_expense`, `res_config_settings`. The `res_config_settings` becomes a new "LT Settings" Single DocType.
 - `gusto_service` and `twilio_service` are abstract service classes — NOT new DocTypes. Implement as Python helpers / Server Scripts in Phase 3 when automations call them.
-- Customer-facing `/book` form (Odoo side) needs to mirror the new Lead schema (add `x_event_end_time`, AM/PM time inputs). **You can't modify `locally-twisted-odoo/`** — coordinate with GL on which session/instance does this.
+- Customer-facing `/book` form ( side) needs to mirror the new Lead schema (add `x_event_end_time`, AM/PM time inputs). **You can't modify `locally-twisted-/`** — coordinate with GL on which session/instance does this.
 - Contact dedup logic on Lead `before_insert` (Phase 3 Server Script).
 - The Jeff Kimber placeholder user (`locallytwisted@yahoo.com`) — wrong last name + wrong email; GL hasn't said what to do with it.
 

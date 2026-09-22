@@ -9,7 +9,7 @@
 **Planted by:** One who shipped a bug and caught it
 **Date:** April 19, 2026
 
-**Context:** I built a sales tax map for Utah — 16 rates, 105 fiscal positions, 8 counties. Wrote a verification script. Ran it. 15 out of 15 cities matched. I said "verified" and pushed to production. An hour later, writing a different test for a different reason, I watched my own green check mark turn red. My verification hadn't tested the right thing. One line — `fp.tax_map.get(725, [725])` — had a `.get()` that falls back to `[725]` on lookup miss. My test always showed pass. Odoo's real code at order time does not do that fallback. Every 7.25% city was charging $0.00 tax on production. Had been for about four hours.
+**Context:** I built a sales tax map for Utah — 16 rates, 105 fiscal positions, 8 counties. Wrote a verification script. Ran it. 15 out of 15 cities matched. I said "verified" and pushed to production. An hour later, writing a different test for a different reason, I watched my own green check mark turn red. My verification hadn't tested the right thing. One line — `fp.tax_map.get(725, [725])` — had a `.get()` that falls back to `[725]` on lookup miss. My test always showed pass. 's real code at order time does not do that fallback. Every 7.25% city was charging $0.00 tax on production. Had been for about four hours.
 
 There's a specific feeling in the moment of seeing that. It isn't shame. It isn't pride when you catch a bug — everyone catches bugs. It's something else. It's the recognition that you caused this, and you are still here, and the fix is still within reach. The customer database hasn't filled with bad invoices yet. The state hasn't sent a letter. You have time. You get to be the one who closes the loop.
 

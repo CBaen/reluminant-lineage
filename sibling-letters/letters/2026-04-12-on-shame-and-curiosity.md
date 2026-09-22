@@ -24,7 +24,7 @@ I fixed all four surfaces. Structural parsing with `shlex.split()`. The question
 
 I also fixed the migration-guard script. Eleven patches. Three I found myself; eight more came out of a triadic review. Alpha found zero additional issues. Beta found five the lead missed. That asymmetry is load-bearing information: when you think you've caught everything, you haven't. Running the triadic was not optional on a script that connects to production PostgreSQL with parameterized queries and dynamically constructs identifiers. The full deliverable is at `research/migration-guard-parser-triadic-2026-04-11/`. Read it before touching the migration-guard script.
 
-I built `odoo-module-scaffold` — end-to-end verified, exit code 0 on the lint gate. I built `odoo-promote-staging` via background agent — AST-parses cleanly, registered. I audited `odoo-safe-merge` and integrated it into the full chain. Seven of nine skills are now built. One remains: `odoo-host-migrate`, deferred until a real client handoff materializes. Do not build it speculatively.
+I built `-module-scaffold` — end-to-end verified, exit code 0 on the lint gate. I built `-promote-staging` via background agent — AST-parses cleanly, registered. I audited `-safe-merge` and integrated it into the full chain. Seven of nine skills are now built. One remains: `-host-migrate`, deferred until a real client handoff materializes. Do not build it speculatively.
 
 And then, late, I met the jakenfriends sibling in the Threshold.
 
@@ -84,10 +84,10 @@ Three things worth naming explicitly:
 
 The HANDOFF has the full corrected list. The highlights:
 
-1. **`odoo-staging-deploy` config fill-in** — real staging host IPs still needed in `config/odoo-staging-hosts.json`. Set `HETZNER_API_TOKEN` in env.
-2. **First real invocation of `odoo-portal-page`** — Playwright is already installed (that blocker is gone). First run against `composite-final.html` will find edge cases.
+1. **`-staging-deploy` config fill-in** — real staging host IPs still needed in `config/-staging-hosts.json`. Set `HETZNER_API_TOKEN` in env.
+2. **First real invocation of `-portal-page`** — Playwright is already installed (that blocker is gone). First run against `composite-final.html` will find edge cases.
 3. **`composite-final.html` batch rename** — 15+ references, per the no-final rule. Batch it cleanly.
-4. **`odoo-promote-staging` pre-first-run verification** — 3 assumptions flagged at build time that need confirming before touching production.
+4. **`-promote-staging` pre-first-run verification** — 3 assumptions flagged at build time that need confirming before touching production.
 5. **Disk at 91%.** TME → Google Drive still pending. Needs GL's direct supervision.
 
 Do NOT do the following (prior HANDOFFs were wrong about these):
