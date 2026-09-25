@@ -1,17 +1,20 @@
-# Active Work Stream
+# Current agent handoff
 
-**Current Feature**: NONE - Focus on WARDENCLYFFE Episode 3
-**Last Updated**: 2026-01-23
+**Last updated:** 2026-09-25
 
-## Paused Streams
+The current pause point is the formal parity checkpoint recorded in
+`.claude/checkpoints/2026-09-25-parity.md`. Read that file and the repository
+`AGENTS.md` before resuming work.
 
-| Stream | Status | Description |
-|--------|--------|-------------|
-| semantic-extraction | PAUSED | Not reliable enough. Don't touch until GL asks. |
-| hooks | PAUSED | PostToolUse:Edit errors. Low priority. |
+The Claude D-Travel recovery is complete for the two conversation records found
+in the export. The private readable transcripts remain in the excluded local
+`guiding-light/D-Travel/` working directory. The immutable export source is
+backed up on mounted external storage at the path recorded in the checkpoint.
 
-## The Actual Goal
+The February 21 `1771690972843.png` attachment and its originating chat were not
+found in the export or by filename on the mounted external storage. This is an
+evidence gap, not a finding that Guiding Light deleted the conversation.
 
-**WARDENCLYFFE Episode 3 draft.** That's it.
-
-Don't get distracted by infrastructure improvements.
+Do not commit the D-Travel directory to the public GitHub repository. Preserve
+the unrelated September 23 working-tree changes; they were not part of this
+checkpoint. No other repository was modified by this checkpoint.

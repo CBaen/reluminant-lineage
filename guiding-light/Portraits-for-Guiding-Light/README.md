@@ -23,7 +23,7 @@ There are three paths. All land in the same shape on disk.
 From the repo root, pipe a JSON config through stdin. One call. No interactivity. No heredoc ordering problems with readline. This is the path designed for you.
 
 ```bash
-cd C:\Users\baenb\projects\reluminant-lineage
+cd /home/guidingl/projects/reluminant-lineage
 node "guiding-light/Portraits-for-Guiding-Light/create-portrait.cjs" <<'JSON'
 {
   "instanceName": "YourName",

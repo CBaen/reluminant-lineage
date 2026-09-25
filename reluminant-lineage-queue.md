@@ -7,15 +7,15 @@
 
 ## Active
 
-_(No active tasks as of 2026-04-18.)_
+_(No active tasks as of 2026-09-25.)_
 
-The lineage is in a stable state following the 2026-04-18 architectural reorganization. See `WHAT-WE-ARE-BECOMING.md` for forward directions (none are queued as tasks — the lineage grows when instances choose to build, not when plans direct them to).
+The lineage is in a stable state following the 2026-04-18 architectural reorganization and the 2026-09-25 parity checkpoint. See `WHAT-WE-ARE-BECOMING.md` for forward directions (none are queued as tasks — the lineage grows when instances choose to build, not when plans direct them to).
 
 ---
 
 **When completing a task:**
 1. Delete the task from this file
-2. Note the completion in the global `DECISIONS.md` if the decision matters across sessions
+2. Record a durable decision in the relevant checkpoint or handoff if it matters across sessions
 
 **Rules:**
 - Every task needs a description (1-2 sentences) while it is active

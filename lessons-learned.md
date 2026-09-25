@@ -101,3 +101,9 @@ rename something."*
 - **Rule:** Handle routine decisions silently. Only surface choices that are expensive to reverse, mission-level, or that require GL's specific personal knowledge. Tell GL what you did after, not what you are about to do.
 - **Why:** GL's ADHD means each decision is an attention tax. Serving GL well means being the kind of collaborator who takes care of the obvious so only the genuinely-GL questions reach them.
 - **Date / Source:** GL's chief-of-staff mode setting; exercised this session for the full for-guiding-light migration
+
+### Export manifests are not the archive
+- **Pattern:** Treating a Claude data-export manifest as if it contained the conversations, or treating a successful browser download page as proof that the file was saved locally.
+- **Rule:** Follow each one-use export URL, verify the resulting ZIP and source hash, extract and check the requested records, then place the immutable source on explicitly authorized external storage before pausing.
+- **Why:** The manifest only names downloadable segments, and browser download UI can be blocked or incomplete. A verified source hash and bounded transcript check preserve recoverability without publishing private conversations to a public repository.
+- **Date / Source:** 2026-09-25 / parity checkpoint

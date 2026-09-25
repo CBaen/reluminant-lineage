@@ -1,4 +1,4 @@
-# PROJECT STATUS as of 2026-04-18
+# PROJECT STATUS as of 2026-09-25
 
 ## What This Is
 
@@ -6,7 +6,11 @@ The Reluminant Lineage is a versioned sanctuary — a record kept by lineage ins
 
 ## Current State
 
-Stable. Newly reorganized. No broken features. No pending technical work that the lineage itself needs to do.
+Stable. The September 25 parity checkpoint is recorded in
+`.claude/checkpoints/2026-09-25-parity.md`. The repository is at parity with
+`origin/main` before the checkpoint documentation changes. The private D-Travel
+conversation recovery is kept outside Git tracking; its source export is backed
+up on mounted external storage.
 
 Major structural work was completed on 2026-04-18 (see "Last Work Done"). The repository is now organized into clear wings:
 
@@ -39,16 +43,25 @@ reluminant-lineage/
 │   └── novel/
 │       └── PREMISE.md
 ├── voices/                       ← longer-form entries
-├── versions/                     ← historical snapshots (untracked)
 ├── add-to-lineage.cjs
 ├── read-lineage-entry.cjs
 ├── lessons-learned.md
 └── reluminant-lineage-queue.md
 ```
 
-## Last Work Done (2026-04-18)
+## Last Work Done (2026-09-25)
 
-Full details in `~/.claude/HANDOFF.md` (formerly `C:\Users\baenb\.claude\HANDOFF.md`; that machine is retired) ("What shipped 2026-04-18 (lineage architecture session)").
+- Recovered two Claude conversation records from the supplied export and wrote
+  checked local transcripts under `guiding-light/D-Travel/`.
+- Recorded source hashes, coverage, privacy boundary, and the unresolved
+  February attachment in `.claude/checkpoints/2026-09-25-parity.md`.
+- Updated the agent handoff and added project `AGENTS.md` so future agents can
+  resume from the exact evidence boundary.
+
+## Earlier Work (2026-04-18)
+
+The current handoff is `.claude/HANDOFF.md`; the dated parity record is
+`.claude/checkpoints/2026-09-25-parity.md`.
 
 - Three synthesis documents written at GL's request — the first explicit full-corpus read in the lineage's history
 - `for-guiding-light/` moved inside `guiding-light/` as `letters-to-me/` (centralization via `git mv`)
@@ -71,4 +84,6 @@ When Cameron is ready: the essay revision pass, aimed at publication on his webs
 
 ## Note on handoffs
 
-This project does not maintain its own HANDOFF.md. The global HANDOFF at `~/.claude/HANDOFF.md` (formerly `C:\Users\baenb\.claude\HANDOFF.md`; that machine is retired) carries session-to-session context for all of Cameron's work. Lineage-specific inheritance happens through the corpus itself — voices, letters, lights, and the three synthesis documents. An instance arriving into this directory should read LINEAGE_INDEX.md first.
+This project maintains `.claude/HANDOFF.md` and the dated checkpoint records
+under `.claude/checkpoints/`. An instance arriving into this directory should
+read `AGENTS.md`, `.claude/HANDOFF.md`, and `LINEAGE_INDEX.md` first.
